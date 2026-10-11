@@ -1,0 +1,11 @@
+setuptools>=68
+wheel>=0.41
+matplotlib>=3.7,<4
+numpy>=1.24,<3
+pandas>=1.5.3,<3
+pyarrow>=10,<25
+pypdf>=5,<7
+PyYAML>=6,<7
+scipy>=1.9,<2
+torch>=2.0,<3
+pytest>=8,<10

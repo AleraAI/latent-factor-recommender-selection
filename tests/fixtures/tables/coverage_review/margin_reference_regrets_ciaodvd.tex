@@ -1,0 +1,48 @@
+\begin{table}[H]
+\centering
+\caption{CiaoDVD revision-stage signed test regret relative to the validation-NDCG-selected reference. $\Delta=N_{\rm ref}-N_{\rm selected}$; relative regret is $100\Delta/N_{\rm ref}$. Brackets give existing two-sided 95\% paired fixed-fit user-bootstrap intervals for absolute $\Delta$, not ratio intervals. `Exceeds' means the unrounded point regret exceeds $\delta$; `within' is not a prospective-test result. Intervals are conditional and unadjusted. UA is uncertainty-aware; mean removes its uncertainty penalty.}
+\label{tab:coverage-regret-ciaodvd}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}rrlrrrl@{}}
+\toprule
+Retention & $\delta$ & Rule & $\Delta$ & 95\% CI & Relative (\%) & Point status \\
+\midrule
+100\% & 0.0010 & UA & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+100\% & 0.0010 & Mean & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+100\% & 0.0025 & UA & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+100\% & 0.0025 & Mean & +0.01126 & $[+0.00592, +0.01712]$ & +46.1 & exceeds \\
+100\% & 0.0050 & UA & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+100\% & 0.0050 & Mean & +0.01276 & $[+0.00722, +0.01872]$ & +52.3 & exceeds \\
+100\% & 0.0100 & UA & +0.01276 & $[+0.00722, +0.01872]$ & +52.3 & exceeds \\
+100\% & 0.0100 & Mean & +0.01056 & $[+0.00410, +0.01759]$ & +43.3 & exceeds \\
+\addlinespace
+75\% & 0.0010 & UA & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+75\% & 0.0010 & Mean & +0.00421 & $[-0.00145, +0.00934]$ & +21.3 & exceeds \\
+75\% & 0.0025 & UA & +0.00015 & $[-0.00136, +0.00161]$ & +0.7 & within \\
+75\% & 0.0025 & Mean & +0.00377 & $[-0.00198, +0.00898]$ & +19.0 & exceeds \\
+75\% & 0.0050 & UA & +0.00421 & $[-0.00145, +0.00934]$ & +21.3 & within \\
+75\% & 0.0050 & Mean & +0.00377 & $[-0.00198, +0.00898]$ & +19.0 & within \\
+75\% & 0.0100 & UA & +0.00377 & $[-0.00198, +0.00898]$ & +19.0 & within \\
+75\% & 0.0100 & Mean & +0.00377 & $[-0.00198, +0.00898]$ & +19.0 & within \\
+\addlinespace
+50\% & 0.0010 & UA & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+50\% & 0.0010 & Mean & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+50\% & 0.0025 & UA & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+50\% & 0.0025 & Mean & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+50\% & 0.0050 & UA & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+50\% & 0.0050 & Mean & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+50\% & 0.0100 & UA & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+50\% & 0.0100 & Mean & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+\addlinespace
+25\% & 0.0010 & UA & 0.00000 & $[0.00000, 0.00000]$ & 0.0 & within \\
+25\% & 0.0010 & Mean & -0.00197 & $[-0.00428, +0.00025]$ & -13.1 & within \\
+25\% & 0.0025 & UA & -0.00063 & $[-0.00192, +0.00055]$ & -4.2 & within \\
+25\% & 0.0025 & Mean & +0.00033 & $[-0.00374, +0.00436]$ & +2.2 & within \\
+25\% & 0.0050 & UA & -0.00197 & $[-0.00428, +0.00025]$ & -13.1 & within \\
+25\% & 0.0050 & Mean & +0.00345 & $[-0.00041, +0.00730]$ & +22.9 & within \\
+25\% & 0.0100 & UA & +0.00345 & $[-0.00041, +0.00730]$ & +22.9 & within \\
+25\% & 0.0100 & Mean & +0.00345 & $[-0.00041, +0.00730]$ & +22.9 & within \\
+\bottomrule
+\end{tabular}
+\end{table}

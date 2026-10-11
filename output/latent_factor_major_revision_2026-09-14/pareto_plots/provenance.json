@@ -1,0 +1,81 @@
+{
+  "stage": "revision_stage_validation_only",
+  "margin": 0.005,
+  "main_display": "All four datasets at full training retention, not selected by observed results.",
+  "supplementary_display": "Four per-dataset 2x2 figures cover all 16 dataset-retention conditions.",
+  "frontier": "Exact two-objective nondomination: minimize mean global validation RMSE; maximize mean-user validation NDCG@10.",
+  "data_checks": "All 560 candidate coordinates finite; 35 per condition; exact equality of 64 selected metric pairs with landscape lookup; Pareto independently recomputed and compared; no coordinate jitter.",
+  "ua_off_frontier_conditions": [],
+  "inputs": [
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/validation_landscapes.csv",
+      "sha256": "0653ee14815c831caefda29b2c4113468999a715f24cfa9593d8206f6dc6df8a"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/validation_selections.csv",
+      "sha256": "b15ca3659da9bb6f03fbd66928bcb3a5b110e2636c9e03a86e8be2471375baef"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/search_boundary/matched_budget_summary.csv",
+      "sha256": "13d319eaeb5a166bcff40c9821765428bd8c29634f95011a2a332ac407c8edf8"
+    },
+    {
+      "path": "scripts/latent_factor/revision_pareto_plots.py",
+      "sha256": "b7db3a7539b11f988a428f16d0b0643268c6b6eea0929fd5d39d56d7ca778056"
+    },
+    {
+      "path": "src/latent_factor_study/plot_theme.py",
+      "sha256": "02540077e6e06a3dc81f3b7b36c473da7728b5510b005735542389d03070406f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_full_retention.pdf",
+      "sha256": "62afba5b3e1b11fbb4e47fc06c846906a6ee543ae1685c918b1e083eaf3e9727"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_full_retention.png",
+      "sha256": "3dca7dd4da39bccf6d0e364be8ed47886e582d0208f0d92c0e9a9454ed872b74"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_movielens_1m.pdf",
+      "sha256": "8d1181afe63f4722edec38cc3571b5664e1f9e520981dc7a3d18666c190c04d2"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_movielens_1m.png",
+      "sha256": "6e4cae46466832c2b9ca675ac857f877b35b2a88cf87876b08719793bc3d64dd"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_ciaodvd.pdf",
+      "sha256": "bf5f3b208dd3a8a08aa2a1d20b18b2738a627ec777f0fd8972d0a0650ce9fc6a"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_ciaodvd.png",
+      "sha256": "936af3409a5f775f92dc3ac528507640995414f77a39710c06fb45033c920425"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_yelp_tampa_restaurants.pdf",
+      "sha256": "498ae2f9393535e4baa9e979ddfe4f42fb6566c3f0c399c0c0f0f2fd076aacc3"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_yelp_tampa_restaurants.png",
+      "sha256": "93dd572fe09e8bb7c395a6b0118ee3fe1e5c02e7e90e8a0649330be1211896b9"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_epinions.pdf",
+      "sha256": "e1dfc2e9cff44992ca17c38f30e3e3ca3220e203da869097a8fa3cf360cff761"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/figures/generated/review_r1/validation_pareto_epinions.png",
+      "sha256": "204fff8741400aae40fd9c30b3cf37d072ed5ecdd01375b63d4ccb8478e32876"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/generated/review_r1/search_boundary.tex",
+      "sha256": "ac5560e9f3cd04f4e4c6a2661fe939f373442edc5a60356e0c2ae4c05f3ac515"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/pareto_plots/plotted_selector_membership.csv",
+      "sha256": "01b77d118b7b10ff240afb0d3ddcb27f7d6f1a0c5341bc947e231597057a3baa"
+    }
+  ]
+}

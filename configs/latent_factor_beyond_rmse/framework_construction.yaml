@@ -1,0 +1,32 @@
+schema_version: 1
+stage: post_confirmation_framework_construction
+claim_status: exploratory_not_prospective
+
+dataset_config: configs/latent_factor_beyond_rmse/datasets.yaml
+modeling_config: configs/latent_factor_beyond_rmse/modeling.yaml
+confirmation_config: configs/latent_factor_beyond_rmse/confirmation.yaml
+historical_selection_lock: configs/latent_factor_beyond_rmse/selection_lock.yaml
+output_root: outputs/latent_factor_beyond_rmse/framework_construction
+
+selection:
+  practical_ndcg_at_10_regret: 0.005
+  confidence_level: 0.95
+  construction_datasets:
+    - movielens_1m
+    - ciaodvd
+    - yelp_tampa_restaurants
+  retentions: [r100, r075, r050, r025]
+
+confirmation:
+  seeds: [601, 701, 809, 907, 1009]
+  reuse_identical_historical_confirmation_runs: true
+  new_run_stage: post_confirmation_framework_construction
+
+descriptive_inference:
+  user_cluster_bootstrap_resamples: 10000
+  confidence_level: 0.95
+  seed: 8262026
+  interpretation: >-
+    Two-sided intervals describe retrospective construction-dataset behavior.
+    They are not independent validation and do not enter the prospective
+    Epinions decision.

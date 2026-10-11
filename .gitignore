@@ -1,0 +1,37 @@
+.DS_Store
+__MACOSX/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.matplotlib/
+matplotlib-cache/
+cache/
+.venv/
+venv/
+build/
+dist/
+regenerated/
+papers/
+release-artifacts/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# Raw/processed datasets and large experiment runs are excluded from this repository.
+data/raw/
+data/processed/**/*.parquet
+data/splits/**/*.parquet
+# Per-user experimental outputs are private evidence, not public aggregates.
+outputs/**/*.parquet
+output/**/*.parquet
+outputs/latent_factor_beyond_rmse/development/**/d*_lambda*_seed*/
+outputs/latent_factor_beyond_rmse/bpr_development/**/d*_lambda*_seed*/
+outputs/latent_factor_beyond_rmse/baseline_development/**/d*_lambda*_seed*/
+outputs/latent_factor_beyond_rmse/robustness/**/run_*/

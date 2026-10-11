@@ -1,0 +1,88 @@
+{
+  "_public_export": {
+    "not_canonical_original": true,
+    "removed_fields": [
+      "family.repaired_interaction_ids"
+    ],
+    "source_sha256": "bffcbf69088af0365a585b8b7556c6c30a67234bce41b041a6bae2f2c95b0648",
+    "transformation": "Omit repaired interaction hash lists; retain counts, artifact hashes and all other fields."
+  },
+  "conditions": {
+    "r025": {
+      "artifact": {
+        "bytes": 1730013,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260829/yelp_tampa_restaurants/train_r025.parquet",
+        "sha256": "bb5f1ab9b8331393d3220494421d07492db745f27d3b38683eedd2033d24ed9c"
+      },
+      "initial_requested_rows": 18530,
+      "items": 1725,
+      "minimum_realized_user_degree": 3,
+      "realized_retention": 0.282680086356311,
+      "realized_rows": 18593,
+      "repair_rows_propagated": 63,
+      "retention_nominal": 0.25,
+      "seed": 20260829,
+      "users": 3797
+    },
+    "r050": {
+      "artifact": {
+        "bytes": 3052668,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260829/yelp_tampa_restaurants/train_r050.parquet",
+        "sha256": "0eff6abdff168d17b6463ee4f304d3f2f4324fb3e35991991d8d76d9264d3e79"
+      },
+      "initial_requested_rows": 34071,
+      "items": 1725,
+      "minimum_realized_user_degree": 4,
+      "realized_retention": 0.518335512512543,
+      "realized_rows": 34093,
+      "repair_rows_propagated": 22,
+      "retention_nominal": 0.5,
+      "seed": 20260829,
+      "users": 3797
+    },
+    "r075": {
+      "artifact": {
+        "bytes": 4299187,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260829/yelp_tampa_restaurants/train_r075.parquet",
+        "sha256": "c6146467ff99bedcb136bf3e50971d2b9a2931970a878bce86de8527041ab710"
+      },
+      "initial_requested_rows": 49511,
+      "items": 1725,
+      "minimum_realized_user_degree": 5,
+      "realized_retention": 0.7528658740535774,
+      "realized_rows": 49519,
+      "repair_rows_propagated": 8,
+      "retention_nominal": 0.75,
+      "seed": 20260829,
+      "users": 3797
+    },
+    "r100": {
+      "artifact": {
+        "bytes": 5615540,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260829/yelp_tampa_restaurants/train_r100.parquet",
+        "sha256": "42567a7506ba8888a7440a450b05c84aa70d6e542306e302c053571fb092b084"
+      },
+      "initial_requested_rows": 65774,
+      "items": 1725,
+      "minimum_realized_user_degree": 7,
+      "realized_retention": 1.0,
+      "realized_rows": 65774,
+      "repair_rows_propagated": 0,
+      "retention_nominal": 1.0,
+      "seed": 20260829,
+      "users": 3797
+    }
+  },
+  "dataset": "yelp_tampa_restaurants",
+  "family": {
+    "catalog_repair_origin": "r025_then_propagated_upward",
+    "nested": true,
+    "priority_rule": "sha256(seed, interaction_id)",
+    "repaired_interaction_ids_omitted_count": 63,
+    "repaired_items": 63,
+    "seed": 20260829
+  },
+  "protocol_sha256": "f37db83b253bfc966aa64f80450fe9a123171c9191c05f06171426a6e69c83ec",
+  "schema_version": 1,
+  "stage": "post_confirmation_nested_retention"
+}

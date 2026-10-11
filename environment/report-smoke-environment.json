@@ -1,0 +1,17 @@
+{
+  "historical_package_versions_inferred": false,
+  "packages": {
+    "PyYAML": "6.0",
+    "matplotlib": "3.7.0",
+    "numpy": "1.21.5",
+    "pandas": "1.5.3",
+    "pyarrow": "17.0.0",
+    "pytest": "7.1.2",
+    "scipy": "1.10.0",
+    "torch": "2.1.0.dev20230521"
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.10.9",
+  "recorded_utc": "2026-09-19T20:27:00.280279+00:00",
+  "scope": "current coverage report regeneration and archive smoke tests only; not training provenance"
+}

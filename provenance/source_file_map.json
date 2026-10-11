@@ -1,0 +1,1712 @@
+{
+  "scope": "Historical September 14 standalone code-and-aggregate export snapshot, preserved for provenance; not an exact inventory of the current combined Git repository.",
+  "current_repository_inventory": "manifests/release_files_sha256.csv",
+  "exact_copies": [
+    {
+      "path": "LICENSE",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "transformation": "none"
+    },
+    {
+      "path": "NOTICE",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/NOTICE",
+      "sha256": "b1bc902d253cd60b96041c02420f5a960410ca9306c080e6c00b8288c587244d",
+      "transformation": "none"
+    },
+    {
+      "path": "pyproject.toml",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/pyproject.toml",
+      "sha256": "40789a1fc41cd7f169d21691c9161249022f7099b4cfd6a882d3b98286447120",
+      "transformation": "none"
+    },
+    {
+      "path": "requirements-ci.txt",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/requirements-ci.txt",
+      "sha256": "1576d1f2251b1662df4e2c0888272854ac4db25fa43d051c0704b0cc37e67e7b",
+      "transformation": "none"
+    },
+    {
+      "path": ".gitignore",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/.gitignore",
+      "sha256": "c39de78c9297e17dca974b429e098a86e8c6d77d27dd733457c703f092840429",
+      "transformation": "none"
+    },
+    {
+      "path": ".gitattributes",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/.gitattributes",
+      "sha256": "246f56dc5450c606bcc792463dedd17fdbe1636ab43ac6881cda9742b71d4f10",
+      "transformation": "none"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/LICENSES/CC-BY-4.0.txt",
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+      "transformation": "none"
+    },
+    {
+      "path": "environment/declared-results-environment.yml",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/environment/declared-results-environment.yml",
+      "sha256": "b15fd7988de3a482f5e486b3fdd24247b73808f9c0b4ca1a7c60c93e89e0533d",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/__init__.py",
+      "source_path": "src/latent_factor_study/__init__.py",
+      "sha256": "1ba55dde100e186cb0de40c4a4649dc5bd5f8442b4cf1b5c302e94515ef7e05e",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/baseline_confirmation.py",
+      "source_path": "src/latent_factor_study/baseline_confirmation.py",
+      "sha256": "e269964b7045ccf4f6b088e6c4a18ed5e2625760a389cb2f097f14b833b58114",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/baseline_grid.py",
+      "source_path": "src/latent_factor_study/baseline_grid.py",
+      "sha256": "b99103258932dbca04ca773ccf3fa6eaf00e871dc2ee7d4a9ccd88d698484c52",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/baseline_inference.py",
+      "source_path": "src/latent_factor_study/baseline_inference.py",
+      "sha256": "467ac685b0f13863ad759f207f13d27d6671537e8dbea7f00731f4fcada35c30",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/baseline_lock.py",
+      "source_path": "src/latent_factor_study/baseline_lock.py",
+      "sha256": "4b4c634edafbe105dc170bb3b1510ec3e6b00fa1487f8d8a8193a5b4368289ec",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/baselines.py",
+      "source_path": "src/latent_factor_study/baselines.py",
+      "sha256": "9cd5f0fbc9f33f91379e628b19a31d9491676e6e6d4dd2c31b27820ada64173a",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/bpr_confirmation.py",
+      "source_path": "src/latent_factor_study/bpr_confirmation.py",
+      "sha256": "e7d60e11e50c808eb1ce5f443f89273e90d42240800114a66c1e381cca029e05",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/bpr_grid.py",
+      "source_path": "src/latent_factor_study/bpr_grid.py",
+      "sha256": "ba4357e697c3f2c4d6d2e95003b46c02f5fb2c990b4f3bdab7276cf5e111daa1",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/bpr_inference.py",
+      "source_path": "src/latent_factor_study/bpr_inference.py",
+      "sha256": "aca06606227ba939c141b2f3c3844954cd3cba163b99f18a85b7e5f04e7e9e1f",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/bpr_lock.py",
+      "source_path": "src/latent_factor_study/bpr_lock.py",
+      "sha256": "353763148887fe8d6641012ebe494d714acbd5d341c16a723f8dd0b88ce3c650",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/bpr_mf.py",
+      "source_path": "src/latent_factor_study/bpr_mf.py",
+      "sha256": "cfe26e57e464d41b37654b3dabde03a52003db15fca8bca4796b753347750e9f",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/computational_analysis.py",
+      "source_path": "src/latent_factor_study/computational_analysis.py",
+      "sha256": "39a5c278f0e4b8a43629fc4d7f8e1f45e940ee4afd50d835a0eec0be1053b43a",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/confirmation.py",
+      "source_path": "src/latent_factor_study/confirmation.py",
+      "sha256": "c6664c4045624df95403835c9f27be40893d904dd0d4a70a32b7b6e39b21c149",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/data.py",
+      "source_path": "src/latent_factor_study/data.py",
+      "sha256": "53936f11190b3ae441c912596094157239478f60a4fcc60023eacc889c466004",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/development_analysis.py",
+      "source_path": "src/latent_factor_study/development_analysis.py",
+      "sha256": "7d2c2eb0033e4a3d59f35845bf76e96df9a95d9103a42b58f3d661ef24fa323f",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/evaluation.py",
+      "source_path": "src/latent_factor_study/evaluation.py",
+      "sha256": "cddd71e8d4b2e1f2ba08d80ee175f494d11f93e37a36d2ffdfc7a7004a79a257",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/explicit_mf.py",
+      "source_path": "src/latent_factor_study/explicit_mf.py",
+      "sha256": "3cd6164f241deef3d0b78b4506135a355f99113c33ef1652b1535bf908686169",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/five_star_sensitivity.py",
+      "source_path": "src/latent_factor_study/five_star_sensitivity.py",
+      "sha256": "2040ab0db5b86bd431254aeda1fbb3749ef6dd7b4e7097301a98ab7ddb7ac660",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/framework_construction.py",
+      "source_path": "src/latent_factor_study/framework_construction.py",
+      "sha256": "89de4d622d2547b521029922c4cf8d9c2576fc48e1c61b592d0025128cebefee",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/grid.py",
+      "source_path": "src/latent_factor_study/grid.py",
+      "sha256": "855b136f339c3fad0e3d1fc316ce63bf8acc9525c94c67815bb4cf0ab124ad5d",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/inference.py",
+      "source_path": "src/latent_factor_study/inference.py",
+      "sha256": "e95fa38114cd02707ee34f5a9efd14e840ff37fa7cd7962ca9f9d7606d7f3cde",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/major_revision_fits.py",
+      "source_path": "src/latent_factor_study/major_revision_fits.py",
+      "sha256": "4dd980516d693e5bf4329e72c518b7a385546444b4a0ad266416a26746a4e824",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/major_revision_selection.py",
+      "source_path": "src/latent_factor_study/major_revision_selection.py",
+      "sha256": "d77864238e969d40c340a87cbf6af3126ccf782bea9f23b962ce9be7d42df8ef",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/plot_theme.py",
+      "source_path": "src/latent_factor_study/plot_theme.py",
+      "sha256": "02540077e6e06a3dc81f3b7b36c473da7728b5510b005735542389d03070406f",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/plotting.py",
+      "source_path": "src/latent_factor_study/plotting.py",
+      "sha256": "221d0a580c3a6f9e54627a935f9327b71d9732050b782eb7d33c1913007ab759",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/prospective_confirmation.py",
+      "source_path": "src/latent_factor_study/prospective_confirmation.py",
+      "sha256": "f06d882393e2b3c167697f038ab374685ad25a259729348b5cfa20200fbf9333",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/prospective_inference.py",
+      "source_path": "src/latent_factor_study/prospective_inference.py",
+      "sha256": "d6f823a5e101263eb22b6d2fc03465af6ee072843f54454a46843ee028bc8a0c",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/prospective_lock.py",
+      "source_path": "src/latent_factor_study/prospective_lock.py",
+      "sha256": "f479a919906cf3f97518869ffc6f5e605d2a75f0914d29bcb51c057dcc92a93f",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/reporting.py",
+      "source_path": "src/latent_factor_study/reporting.py",
+      "sha256": "cfad3c04a39fa0800b2bea290efee89d8476f0c250b91dfb3b9d0603e1f12173",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/revision_analysis.py",
+      "source_path": "src/latent_factor_study/revision_analysis.py",
+      "sha256": "146f64c76d105fea7444d7d3d63e91264d1710548866e76301fbabe14e690b05",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/robustness_analysis.py",
+      "source_path": "src/latent_factor_study/robustness_analysis.py",
+      "sha256": "da4030a257ca269f7bb03c8049844b5e729357bfea50b63ebc373065288509f8",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/robustness_bpr.py",
+      "source_path": "src/latent_factor_study/robustness_bpr.py",
+      "sha256": "af80855060c641d0970f924fb0feda4a0660dbf88a9dc9b66672dd758f29ed2c",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/robustness_explicit.py",
+      "source_path": "src/latent_factor_study/robustness_explicit.py",
+      "sha256": "3ace9285a3d1d57ac63f68ecb5dcd9d659b3b94e365cb644a1b7084f5e7146a0",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/robustness_explicit_confirmation.py",
+      "source_path": "src/latent_factor_study/robustness_explicit_confirmation.py",
+      "sha256": "e34ec1dd0c64b77e0a0e8fcc12afcc363615883becbb384f13b11c311ba2c37e",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/second_review_analysis.py",
+      "source_path": "src/latent_factor_study/second_review_analysis.py",
+      "sha256": "ccc18580398ad278640ea0ef28670f8c113b1b78b52d92a4af2597333c1f0443",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/secondary_analysis.py",
+      "source_path": "src/latent_factor_study/secondary_analysis.py",
+      "sha256": "493a4b0cc1d99f22023258cdcd6e154429733ed0866f80d40a01dba763f1a282",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/selection_lock.py",
+      "source_path": "src/latent_factor_study/selection_lock.py",
+      "sha256": "542f91e02eb11ac863107a1599313b9acbf0d893bd7cbbf7722f25d9a9f112c8",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/sparsity.py",
+      "source_path": "src/latent_factor_study/sparsity.py",
+      "sha256": "9f6aa134334f2bc4c5d21b5b03e637c0118901c9645c3727f4db8beb0cb58e26",
+      "transformation": "none"
+    },
+    {
+      "path": "src/latent_factor_study/uncertainty_selector.py",
+      "source_path": "src/latent_factor_study/uncertainty_selector.py",
+      "sha256": "dc5637485e5ce1d55180741292c2ee629c1cb23285131dcef6eaed5468b7946a",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/baseline_confirmation.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/baseline_confirmation.yaml",
+      "sha256": "436df55a207f71c7dfc972031c06da1954de45b04ddad5e95e238a3cdb2c6632",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/baseline_modeling.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/baseline_modeling.yaml",
+      "sha256": "74603de19245afb03c4d29f8eb0a56151044e86484c1d2c10b7c6a071e6ee533",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/baseline_selection_lock.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/baseline_selection_lock.yaml",
+      "sha256": "1352fd8887c9e03df29eba868076fcd94b2c266d0e9b4e855b8ff0d1b7e0fabd",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/bpr_confirmation.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/bpr_confirmation.yaml",
+      "sha256": "e20708b3b3c2ebe5f3391203ad85570e06a424c87a10759f681469747f2a7a98",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/bpr_modeling.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/bpr_modeling.yaml",
+      "sha256": "db682c86ce018943acc11899844030f11250faa0beb1577e53382483115c0075",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/bpr_selection_lock.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/bpr_selection_lock.yaml",
+      "sha256": "2522c714608e6605d5ba219f8a8312d9e5e2ef7258267c54e1d1d2276cb5bc5e",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/confirmation.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/confirmation.yaml",
+      "sha256": "052913ebd53e183cf7e9337f0b303b7cd20c4a563c93e971acfe0ac7e3078e2d",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/datasets.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/datasets.yaml",
+      "sha256": "981ca3c135a4ea57666b26275c99570b4d57b2486363e366bba7c6dbb0009abb",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/epinions_prospective_analysis_plan.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/epinions_prospective_analysis_plan.yaml",
+      "sha256": "34a2a158f5f9ab92d8022dbe987e0213a3c830f345eefe300b538a2a1e6a7071",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/epinions_prospective_confirmation.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/epinions_prospective_confirmation.yaml",
+      "sha256": "7857d2123496d3b3deb78cbdef1084c9a38d778c86f50d98100b2eb062ce35ab",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/epinions_prospective_datasets.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/epinions_prospective_datasets.yaml",
+      "sha256": "3aef8e13714ec55dcc577d28b097be47f9e5c1c67f254a5650644cd24e9823e3",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/epinions_prospective_modeling.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/epinions_prospective_modeling.yaml",
+      "sha256": "3fe2c5b6961ff72b11ee071ec89b36bf2ff01f663bb79f659af4931ffb29a51f",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/epinions_prospective_protocol_lock.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/epinions_prospective_protocol_lock.yaml",
+      "sha256": "22ff01635b0ff5ff287ea5df88e1ef9e072a8666d3123d7bd513e49f6a7416eb",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/epinions_prospective_selection_lock.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/epinions_prospective_selection_lock.yaml",
+      "sha256": "1a91a25ec2de506a479d46b56afdb4631fecab9ec609c40cc60ff9ecde9f01fd",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/five_star_sensitivity.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/five_star_sensitivity.yaml",
+      "sha256": "0922bd16f6d30e39564176bbdaa73a9d0b6566e85711b1657a70d505c6df8a11",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/framework_construction.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/framework_construction.yaml",
+      "sha256": "3866fbe61efe08c794fb515e70f13d9d2d733d6cf424ba77beb4aa3032ebae92",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/modeling.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/modeling.yaml",
+      "sha256": "a3410ec6f63a7adc2a061627671d6c1c58b7f7c27db4df57a8ea7ebe56c933f3",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/robustness.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/robustness.yaml",
+      "sha256": "f37db83b253bfc966aa64f80450fe9a123171c9191c05f06171426a6e69c83ec",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/secondary_analysis.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/secondary_analysis.yaml",
+      "sha256": "a7130c6fe73c32e7651d7da0b118f8b499ae899c0aea223e3d039394d83a87dc",
+      "transformation": "none"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/selection_lock.yaml",
+      "source_path": "configs/latent_factor_beyond_rmse/selection_lock.yaml",
+      "sha256": "d608fbefa6021f81ebeac2ce50c038645142ce2ed754939ab9921675a70c90bf",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_major_revision_selection.py",
+      "source_path": "tests/test_latent_factor_major_revision_selection.py",
+      "sha256": "1f4d3b07b87119f3b049bedaa64cc156873eb6b5d0cea8a39fa6927b6cd612a8",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_revision_user_resampling.py",
+      "source_path": "tests/test_latent_factor_revision_user_resampling.py",
+      "sha256": "e618a1ae3e8cfe213e5011677906e1400aa5f79abbd680a43b977f0b6dcb9629",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_baseline_confirmation.py",
+      "source_path": "tests/test_latent_factor_study_baseline_confirmation.py",
+      "sha256": "720406d9ff9cd6b1e46e237e61dd7401c050b197a38abde48ab1d1d4f251f9d4",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_baseline_grid.py",
+      "source_path": "tests/test_latent_factor_study_baseline_grid.py",
+      "sha256": "74c1f77d094e2da26139cf4b2a1a22a6424a8a0b540a6bb855ca42b51c4df4c6",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_baseline_inference.py",
+      "source_path": "tests/test_latent_factor_study_baseline_inference.py",
+      "sha256": "965d6283733462021dade98b0b2f79429822a87c6cd4ff8f2f26e210eb8ee33a",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_baseline_lock.py",
+      "source_path": "tests/test_latent_factor_study_baseline_lock.py",
+      "sha256": "56731db1955f43902ffdefe1fc8fda4d305f32fe35cc12e29732bc493d956540",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_baselines.py",
+      "source_path": "tests/test_latent_factor_study_baselines.py",
+      "sha256": "0961efeff8a09658768da64fcbc8f13c99517774b16dc80870c9aeaef2cb1100",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_bpr_confirmation.py",
+      "source_path": "tests/test_latent_factor_study_bpr_confirmation.py",
+      "sha256": "c8ecf07f6d68a7ad6441154fea51fa34d4cbeda2401bdedbf7ca0894f5ba6edb",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_bpr_grid.py",
+      "source_path": "tests/test_latent_factor_study_bpr_grid.py",
+      "sha256": "624d924dcabd636ac32883e7e17a52f6e44d1d440170ebf7542669de8bd67b3d",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_bpr_inference.py",
+      "source_path": "tests/test_latent_factor_study_bpr_inference.py",
+      "sha256": "76ba6e59fb463da497c94b74087451f0da3ba476a6f76cef6ae75708393249e7",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_bpr_lock.py",
+      "source_path": "tests/test_latent_factor_study_bpr_lock.py",
+      "sha256": "8bd4039cb6e8624320c22990ae2e6ea76ca79e29c7ebc8a588988e6391eae32c",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_bpr_mf.py",
+      "source_path": "tests/test_latent_factor_study_bpr_mf.py",
+      "sha256": "eea9862ac7d3e825192badacca3e658f8f8618d54473e65c9d85d7929761ac22",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_computational_analysis.py",
+      "source_path": "tests/test_latent_factor_study_computational_analysis.py",
+      "sha256": "b28edfb56f4cdb2cae91263bebaad81f3f68311b51b9563adee5933c844e78f8",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_confirmation.py",
+      "source_path": "tests/test_latent_factor_study_confirmation.py",
+      "sha256": "875e20e1541b106a468a7101210890c8f7868b448ed4625468793e594c9fff23",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_data.py",
+      "source_path": "tests/test_latent_factor_study_data.py",
+      "sha256": "4311fb54afbef1733fc60dbabeec2ba7c9928118e972538dd8d0858f4839cfa6",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_development_analysis.py",
+      "source_path": "tests/test_latent_factor_study_development_analysis.py",
+      "sha256": "86d760c24e71fcbe83ad76c4fda9c1af135d974b1ebdbf12b71c7679ca6f66d0",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_explicit_mf.py",
+      "source_path": "tests/test_latent_factor_study_explicit_mf.py",
+      "sha256": "4517880b31824f72bdbbeacac8cb8ab8c3f41134b491f5730827736349238a04",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_five_star_sensitivity.py",
+      "source_path": "tests/test_latent_factor_study_five_star_sensitivity.py",
+      "sha256": "8ee4f4947e19bb563397bac5ca36378595c6b0d1688c10550008b74e7d939129",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_framework_construction.py",
+      "source_path": "tests/test_latent_factor_study_framework_construction.py",
+      "sha256": "2b910ad933f29d987c7a45c5b7cd9193721145b8142a378a8eee7042a049f9c3",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_grid.py",
+      "source_path": "tests/test_latent_factor_study_grid.py",
+      "sha256": "34d9420ed2ba50e4cee22cae96863d082a48a7bda8cfeb62aadd679dad5957f7",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_inference.py",
+      "source_path": "tests/test_latent_factor_study_inference.py",
+      "sha256": "0d5edf73880f2cb9b2e99bc2d12162ecbad24bc214ce3bf6b60e80de92950aa0",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_plotting.py",
+      "source_path": "tests/test_latent_factor_study_plotting.py",
+      "sha256": "029419408f5d3d7598837f497d7fec78fec7660fb7e8122c1ece98978c3ea054",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_prospective_confirmation.py",
+      "source_path": "tests/test_latent_factor_study_prospective_confirmation.py",
+      "sha256": "d71611a32a09e9554833de9471e63ce0cdb06c320047e6d54f50f665f5206edc",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_prospective_inference.py",
+      "source_path": "tests/test_latent_factor_study_prospective_inference.py",
+      "sha256": "c49f8f9a45807362f274b81b194c8584f577b97e712a63ae50558fc425a0edd9",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_prospective_lock.py",
+      "source_path": "tests/test_latent_factor_study_prospective_lock.py",
+      "sha256": "4d82e0f06904a7c823ced2d0eceae09a6c7a1a4cc8151a4ce6275d2711eea726",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_protocol.py",
+      "source_path": "tests/test_latent_factor_study_protocol.py",
+      "sha256": "0d10231da5a6700d6c515fd85b391161148a9e3db27d7c55603349b5ce5af75d",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_reporting.py",
+      "source_path": "tests/test_latent_factor_study_reporting.py",
+      "sha256": "03e4af715dc9e75e02a4820333ef1d8a0e10f9e01aa4a423265ea74a17c32843",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_revision_analysis.py",
+      "source_path": "tests/test_latent_factor_study_revision_analysis.py",
+      "sha256": "6d0ca7b5ea03840f8b363661d42b3f195fb67d7ac5968bfc488ec4b1b6e9419a",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_robustness_analysis.py",
+      "source_path": "tests/test_latent_factor_study_robustness_analysis.py",
+      "sha256": "42fc68230da8226bead3dd8127ba50fca1eb8d5c6e5677e3db953c725f3bd1a4",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_robustness_bpr.py",
+      "source_path": "tests/test_latent_factor_study_robustness_bpr.py",
+      "sha256": "3e0070254a6495f331c81b4736e6c6200e7d3996f0e6c41958ac1e5dd9dd3137",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_robustness_explicit.py",
+      "source_path": "tests/test_latent_factor_study_robustness_explicit.py",
+      "sha256": "659fb3f0c2aedbbb4f8f567fe021d664b14acda93361b86ad2470f7319fe59ab",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_robustness_explicit_confirmation.py",
+      "source_path": "tests/test_latent_factor_study_robustness_explicit_confirmation.py",
+      "sha256": "7814f653774dd36c632639151a7ab542ebfe91ec707656975f22879417d8b78f",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_secondary_analysis.py",
+      "source_path": "tests/test_latent_factor_study_secondary_analysis.py",
+      "sha256": "947dcdca9bd812a2ce3b92bdbb97270dde76a0f716c5a16f8c461f18137a022f",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_selection_lock.py",
+      "source_path": "tests/test_latent_factor_study_selection_lock.py",
+      "sha256": "3fe7a2e9355d3fcdc402b83d92f0c1f5b6910e6e470e081bdf51cce05a58305c",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test_latent_factor_study_uncertainty_selector.py",
+      "source_path": "tests/test_latent_factor_study_uncertainty_selector.py",
+      "sha256": "becc8f43700bd4bd15dd5d3e7ab62a27fbeb9b077b9777350cbbf80f961f3726",
+      "transformation": "none"
+    },
+    {
+      "path": "scripts/latent_factor/revision_report_tables.py",
+      "source_path": "scripts/latent_factor/revision_report_tables.py",
+      "sha256": "2a0e688adc3071011dc9c51e0b9e33a46665fd065bfb7251a9a70a85ca1835f5",
+      "transformation": "none"
+    },
+    {
+      "path": "scripts/latent_factor/revision_pareto_plots.py",
+      "source_path": "scripts/latent_factor/revision_pareto_plots.py",
+      "sha256": "b7db3a7539b11f988a428f16d0b0643268c6b6eea0929fd5d39d56d7ca778056",
+      "transformation": "none"
+    },
+    {
+      "path": "scripts/latent_factor/revision_protocol_audit.py",
+      "source_path": "scripts/latent_factor/revision_protocol_audit.py",
+      "sha256": "5e0616b64d7915d78b07edb1dbf0ca7d5d56018c8a84afc6ac24a2e51227c200",
+      "transformation": "none"
+    },
+    {
+      "path": "scripts/latent_factor/revision_fit_data_audit.py",
+      "source_path": "scripts/latent_factor/revision_fit_data_audit.py",
+      "sha256": "6debe7eeeadd9ea81d5e3c2abc811d5af8606197d73ec89c469c1db0cd5e9297",
+      "transformation": "none"
+    },
+    {
+      "path": "scripts/latent_factor/resume_major_revision_fits_verified.py",
+      "source_path": "scripts/latent_factor/resume_major_revision_fits_verified.py",
+      "sha256": "4796c7b3d49856d60af17e7bb5a3c49a0c7270245a3c91441a0bd4086ead9661",
+      "transformation": "none"
+    },
+    {
+      "path": "scripts/latent_factor/revision_user_resampling.py",
+      "source_path": "scripts/latent_factor/revision_user_resampling.py",
+      "sha256": "07104c8396172dcf45bfa60c4fb68af90f5d51524e4bb0d6ba47b73062311d29",
+      "transformation": "none"
+    },
+    {
+      "path": "scripts/latent_factor/verify_selection_locks.py",
+      "source_path": "scripts/latent_factor/verify_selection_locks.py",
+      "sha256": "6a7523a45c4df49d03c3f69d0ba15ad25bf3e1f3ce8d3482693d8cb19a796c48",
+      "transformation": "none"
+    },
+    {
+      "path": "scripts/latent_factor/regenerate_aggregate_artifacts.py",
+      "source_path": "scripts/latent_factor/regenerate_aggregate_artifacts.py",
+      "sha256": "8e75cfccf9783d03477b9fd45e552a2b0e2c9e115bc4a07965dee34c75e5cd9f",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/search_boundary/analyze_matched_budget.py",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/search_boundary/analyze_matched_budget.py",
+      "sha256": "1b67c08b19f15ea70ee7cc7cd5e15cedc414f4304d67ad580f0d91890b65bd14",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r025/grid_runs.csv",
+      "sha256": "c4fc7479446b0fae329b9223ad8c5f4a19e6b72886fb0eaef6d646ea981d6be9",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r025/selection.json",
+      "sha256": "99706e1cb5045a866840d0521e02ccf4b413c3de7aeb3936acfd321ba54f00f4",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r050/grid_runs.csv",
+      "sha256": "95f4b0c99c695577432f59b4e5406953bbaee9b268025b81f19c763984ef1ad4",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r050/selection.json",
+      "sha256": "ea12e9b0b07d4e830b8b1b0fbb92fff8b1be7c7beede314784303ce001718da0",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r075/grid_runs.csv",
+      "sha256": "88b9818950a1b16378dfdfe9478df18c7a3a6c57bf54846891ed01a90735670e",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r075/selection.json",
+      "sha256": "05ada8b28717f4efd4de7e87b95f07d9b72005376114906313360229bd8a8bc9",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r100/grid_runs.csv",
+      "sha256": "777320759d3eaa06e1183f83fb30d14b8d2d0b19c7cf2c54c01d5037bae0f06e",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r100/selection.json",
+      "sha256": "f2aa4881a71f216461b79798315241e5d3ad1336b8cbddadfcf0332900347e64",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/development_landscape_summary.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/development_landscape_summary.csv",
+      "sha256": "35cd695bad31c5ae2fad96820e27f53478ca2abd4883409943f6cef99595ee3d",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/development_landscape_summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/development_landscape_summary.json",
+      "sha256": "f44397c67368b5760d73c10012a4ee471ea8ea1a1978312e83048095d37071b3",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r025/grid_runs.csv",
+      "sha256": "ad045b1cd6087a26f75f8b496506daf41a69f1efe03d7064c9eb1608f0cd8891",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r025/selection.json",
+      "sha256": "e89babb6bfa25f22c1c63f25986c10f755bb42ff4f1201fac1d7d56518e464e0",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r050/grid_runs.csv",
+      "sha256": "85541042d1dc0d07164d4d027dc8c37f35a4c69bbceaca5bc190ef518e3d78ab",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r050/selection.json",
+      "sha256": "1f17acd7011b404d8b7974c0aa8b77edb027b8924d7a538702f8f27e725894a5",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r075/grid_runs.csv",
+      "sha256": "da586fc688fcfaf0a6be32e65f5f2645f728554d38eb84b1d63daba21eceeb58",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r075/selection.json",
+      "sha256": "69f553ca0bd06683e2401fdc80f221e20eb820e44551f31cacd9aec79730b704",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r100/grid_runs.csv",
+      "sha256": "1a2e2732bbca468584b3ce8edb80b005de80478e7e65ccd9ebc2f7caa642dab0",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r100/selection.json",
+      "sha256": "a0c82e174e37fc3b7cd44a3806b1adc4c5a02298c658d7434d3810eb3dc2df0f",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r025/grid_runs.csv",
+      "sha256": "a9c2145f437d63faa25fa0a85c43f873fa2e2671d1122dd58becc021609b0373",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r025/selection.json",
+      "sha256": "bffee6cc90b96189779275c1c4fa938d9fa7ea511f412c229500089ed6e391cf",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r050/grid_runs.csv",
+      "sha256": "5ca9efb938e14b56e93a350ea895ea22f64dc3cc66a72e635e8a0ffa07de5a91",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r050/selection.json",
+      "sha256": "ad054b1179e01ac3593c6550b6851bd5c0249b03179e6ddcf1c39c936ae740f5",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r075/grid_runs.csv",
+      "sha256": "470313a9764fb40dfc424be1ea8ca6dd5531a20ae0803c3a52b5024327282069",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r075/selection.json",
+      "sha256": "f504acc191825367be9bd01d0f6f4040e3d25950bb3c72f708f8b3fde934b3a2",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r100/grid_runs.csv",
+      "sha256": "44e2582da84639f9fdac65a661396dce9cf2d5662d9421e5ebf0156d22690505",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r100/selection.json",
+      "sha256": "ebabfd4cceaa891c9d1292e986e32a9091d7553b60f7d9ee441ef0995277e145",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r025/grid_runs.csv",
+      "sha256": "63bb24533c8055a45e6aad2d1107eaeef9db9fec78e8854d01d8314d12b6a1ae",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r025/selection.json",
+      "sha256": "9787b779ac6cf6ea20a73dc29b00eb0872334b412d94947e49b854d00ea2fcef",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r050/grid_runs.csv",
+      "sha256": "817d00328959ec2d7d9b29faf1229c251f19ee1373ef35fd44af747b30a27f7c",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r050/selection.json",
+      "sha256": "d81c726b3a6502f13cc56029d22eb647bb7e1118bb7c4159c00c013ce9913261",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r075/grid_runs.csv",
+      "sha256": "adafcee07418aa08baa6079bcf305de16bada2676fc2b4f014fe8d36903218a7",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r075/selection.json",
+      "sha256": "aac5416a8cc1ccdf586a6fc105397be6e25ccd6150a491aa16aa069a04757f34",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r100/grid_runs.csv",
+      "sha256": "33ccae365c72d76545b434f86a921b97b264d818aaeedfea31dfa64df202b78b",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/ciaodvd/r100/selection.json",
+      "sha256": "b502eb92c69700e2da2ebea1fbae30893df7ea30f9dcfdc351a17aa38067a4f9",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r025/grid_runs.csv",
+      "sha256": "27b709a595b43db564fd6efb2c09d635668658fc91b0cb640c2a2646d41dd208",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r025/selection.json",
+      "sha256": "3ab1cf30aa8c4f14475706f512c6fdaddcd16a8cb69f8a422ffe1b54ccad7fc4",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r050/grid_runs.csv",
+      "sha256": "60e1fb05c6448c2ad9690a174e99653170a39a86fdde7e5825ccf9fe383c2e11",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r050/selection.json",
+      "sha256": "444ed805f5be8dc143af9894e6e26c444c9f06eab728456c5e939ff0807f1785",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r075/grid_runs.csv",
+      "sha256": "d3a796dd83470c78efe6760e926e2aeaf9bd6145957b8f9596b091711f68cea1",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r075/selection.json",
+      "sha256": "bc2738c4e09df947a1a1aa88b97824aec74693a024bff2ce65281d9fcc865988",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r100/grid_runs.csv",
+      "sha256": "0ec059ae7fdf8badaf4e0b5aa77cf5fd2c54a7d26577ba5d79acb9dce72d1922",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/movielens_1m/r100/selection.json",
+      "sha256": "2285b78299d297411433e54f93f9df7cc42d4a245d46345d0d3895c912cf6193",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r025/grid_runs.csv",
+      "sha256": "da5a1e3b0a166ba40bb9ff2fa3e557e16c238be5891bcbd1339971ed0a14c037",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r025/selection.json",
+      "sha256": "f6ab1ba100ebc1d0e41976b8563ab3a5464b3d5c8e590da950975dbfbc288757",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r050/grid_runs.csv",
+      "sha256": "6f163eaa78eb0dc766c3ae6634d2c59ccc7674d39734e05ff55b597aec2dbb48",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r050/selection.json",
+      "sha256": "ee412d2c8278a67b09cba309ffbe829122431f101556342867eb9c6226eed695",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r075/grid_runs.csv",
+      "sha256": "7e79897cf946425478595bc9f56e21454136bf51a13d8bf028b79731409cf359",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r075/selection.json",
+      "sha256": "15a41083a4267eb6c3ca1d17bd367510277f4f8f6d930ba48e498cc004b4136b",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r100/grid_runs.csv",
+      "sha256": "5bf47d372b52e71cbf86d5e5e8cf882e92ededf30976a1a30c8350e13f6113ef",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/bpr_development/yelp_tampa_restaurants/r100/selection.json",
+      "sha256": "1f6868ec820f4beda26e0a8e3afe5e8c24f0c7188e18d46f5ca6f9a0d326ef32",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r025/grid_runs.csv",
+      "sha256": "5a3676a073e9703b371430a1343ac891af9e755d186cb7d483b9d936ec4c4408",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r025/selection.json",
+      "sha256": "eae3ba70a741a96e11e0b08116e6dcf54a7ba1353a1dca28e7e8d1d644b245e0",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r050/grid_runs.csv",
+      "sha256": "69e6bbb317709e562e87833e1ef9dcd6b9d24cec71d78d72233670df15e3ae91",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r050/selection.json",
+      "sha256": "572f9994a1fdbaf64d8178cffbab357ae0bd2b158a52d052de618ed92f9aaaa9",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r075/grid_runs.csv",
+      "sha256": "0393002fc0593c338cb7456e4a773d32f40f29317ad7b5d4c48fbd63000fd0b9",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r075/selection.json",
+      "sha256": "648a495df07b41c8e571876561bbd19de5ea43ef15d20a5abe094b6d4163b5fe",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r100/grid_runs.csv",
+      "sha256": "81c20873e0fa5e685feae40125e1a6c39337ecc56a20ca2e0ae754f029a28014",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r100/selection.json",
+      "sha256": "1d685a3a0b9ef0ffcd1669f8b5db2eff313505b98c46f242d56aa55c4e8d5776",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r025/grid_runs.csv",
+      "sha256": "d3b720a303d79a83a4c4deec88ea373d9c8e1699bd6c1f816b793c66231db7c2",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r025/selection.json",
+      "sha256": "0ecd09e6632f20d58f3e0c7103250f286816dcaeb277236471dcf19b7f76eac6",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r050/grid_runs.csv",
+      "sha256": "eb05bbcf2f8c42c0db5401344e976466c017d657bd68e4d509a4ab7369b69831",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r050/selection.json",
+      "sha256": "878453fe565b9a0d64cc9fc9771f3bd336b8a8015439045b3a11356e94554fea",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r075/grid_runs.csv",
+      "sha256": "73f88d8d8d25d3f58323dcb397efbc37ae2f3fb30fa2be1e596adc1bdf9e2c2a",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r075/selection.json",
+      "sha256": "2a0ee09d941b26d7ab6bc8f366eac474b8ebb604696e9a03cda409589ce86a7f",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r100/grid_runs.csv",
+      "sha256": "b14f4df659844b53bcbd2a13814c14371265ae1035e17e826a81a42d8291fbd3",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r100/selection.json",
+      "sha256": "ef647c1eaed73201581fb3edb7e31e50c13c971cd2c3f265add7528d612a0902",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r025/grid_runs.csv",
+      "sha256": "0419b0ec88a4459815afe1eecbc908d8911186e3ac3a16a9864cd54843872638",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r025/selection.json",
+      "sha256": "46b5aa9688a9ed750bead8658c8b85cecd06020ad7e69add5ef166f909f7fc25",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r050/grid_runs.csv",
+      "sha256": "dd3648b3d7741b02f7c0af0df8f9200f4e5cb9fb3dd602784d44558ee43fdfb5",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r050/selection.json",
+      "sha256": "1a1df3edb6dad1e73bafb0c411c888f23d2bcb79be8927f95058f0223a409a5c",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r075/grid_runs.csv",
+      "sha256": "191a6ad042210702f4658667da9ca8701ef3f324f072761be68b9096f1b13c34",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r075/selection.json",
+      "sha256": "3a61fd9bb60feb5d58076848e1c2754bd8065dcbae8187c208c840de6a40f116",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r100/grid_runs.csv",
+      "sha256": "557fadec4af49ef76bb9ab2a0135cffba446451df52ccda4ab2aa76818c239d1",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r100/selection.json",
+      "sha256": "2eaad0134858189128b86a7bca15df2cbba4d3cdb24d16a8616f050b44dc964f",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/ciaodvd/r025/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/ciaodvd/r025/framework_selection.json",
+      "sha256": "d6e05107badcc5088fb4ba8b3fb603f9ecde3458c6ee9aa23f7a902150a0ba0e",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/ciaodvd/r050/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/ciaodvd/r050/framework_selection.json",
+      "sha256": "f3e78329622a07bbb626660a10424e3af7f53738362dfd1a3073b46d07765f14",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/ciaodvd/r075/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/ciaodvd/r075/framework_selection.json",
+      "sha256": "fb46412b33652ee35247df2ffd0e103660731e69ecc13c305d5f38f6a46a9abc",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/ciaodvd/r100/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/ciaodvd/r100/framework_selection.json",
+      "sha256": "c56fba7e5e5c7f00020d87e2d8c63a7fbda8a05175643ea1a3d2481ac6a76b59",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/movielens_1m/r025/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/movielens_1m/r025/framework_selection.json",
+      "sha256": "d57d81ff7b59f6edda5a003aeb82b0171fb8326b92f42c834c3da9f770b14354",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/movielens_1m/r050/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/movielens_1m/r050/framework_selection.json",
+      "sha256": "b949ad255c2575d2614be32ae40aaabb5c55f002553087bfae9be5f8b3467b87",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/movielens_1m/r075/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/movielens_1m/r075/framework_selection.json",
+      "sha256": "cfefc99d751b963a52f0e9890133209f356ef683ba098ec149610170d6fc7dda",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/movielens_1m/r100/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/movielens_1m/r100/framework_selection.json",
+      "sha256": "78d27ef074f927869dc4b6feaa90fb37f24df1e02c9d02f17227d4a8a5b12855",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/yelp_tampa_restaurants/r025/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/yelp_tampa_restaurants/r025/framework_selection.json",
+      "sha256": "bfd1118880d40b8ff501637f4862ca2b8f6259b436d7786d153fdebca624fba9",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/yelp_tampa_restaurants/r050/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/yelp_tampa_restaurants/r050/framework_selection.json",
+      "sha256": "e69df87f5f5596078b1d63598e52e37641143f3026fa212e41e78636271164bf",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/yelp_tampa_restaurants/r075/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/yelp_tampa_restaurants/r075/framework_selection.json",
+      "sha256": "d782a6a5c98bdd4d82e344af8131d524d42841b84608d3a1fd530aed76fbc2d2",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/yelp_tampa_restaurants/r100/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/framework_construction/selections/yelp_tampa_restaurants/r100/framework_selection.json",
+      "sha256": "f4d38c8a3ed49f363c7db93aa64bfac694ccc0de5f7732ed86d2ced7a5653040",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/framework_selection.json",
+      "sha256": "8dc28948197a4c40a662493b2b8d9f40be2ffc5dde43baabd9d9ef92049ad285",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/grid_runs.csv",
+      "sha256": "a7307f0ab0967dbb65c8b1d07b7c46b3c5739196348842fc0ce055675cbc19a3",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/selection.json",
+      "sha256": "44f2a175a57226fdabcb243c00dcd2df615b57638f7a9d756270e3e51b7d67d2",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/framework_selection.json",
+      "sha256": "c7daa4f328ca801e5bce20c8d3113f8653034872ce1bad51ab177cb1a0d8e86a",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/grid_runs.csv",
+      "sha256": "879ce8a9d049a831fda7e3a858958423f2e5b941d799ac91033a6e17e44bb686",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/selection.json",
+      "sha256": "77266dc941e4c3173b212505e4374b686a7e016ce6843e9222af24190f94787d",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/framework_selection.json",
+      "sha256": "c239ab0e5d3e69b543eee20a8d67548ac9781b38ffeb1b0c10ca5567c095393c",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/grid_runs.csv",
+      "sha256": "3573802ab8d8ac9a20af9331f67b05ff668ad5a99d52f905d0c23be27698e0f8",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/selection.json",
+      "sha256": "c3b1090784d3395f02ea4d5dfa0e4a6470dd145a56e63239f0af9c3b411a6dfb",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/framework_selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/framework_selection.json",
+      "sha256": "a0fd855b2a0862a0ab816f9da9dbb203c9e08d81fee216bd5ebb88bcbe8bae67",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/grid_runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/grid_runs.csv",
+      "sha256": "8ebdd981f96583531bfedaa4f249e355a845554c655cac364214663f2f6fd89d",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/selection.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/selection.json",
+      "sha256": "d75a4b18ce89bbe0d08ef1cd3621acdbc98fe2f7606d64bfc9d69da32c200584",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r025/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r025/runs.csv",
+      "sha256": "729a6dc64bd20d6c901146373cf3a989ef96d4d7588dd5627e175e33d6c724cb",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r050/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r050/runs.csv",
+      "sha256": "238661dec1d172d8a60fe84e31fb144f5262e10a3ca918c8512d5697ddcf26b6",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r075/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r075/runs.csv",
+      "sha256": "503e5c5bba6b19bb164d87c7f98b3e21eca99eab5f125b766c1726b783f19789",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r100/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r100/runs.csv",
+      "sha256": "1d3723d7ebc20094c0aac46824468bb4d36fe8c735dec4b5849aee1fea48e372",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r025/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r025/runs.csv",
+      "sha256": "7ca1cc001a45c4fc6b4228f226fb3a67e8a1066e8789a3b80d168767c25d6ccf",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r050/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r050/runs.csv",
+      "sha256": "5840bdb319c8d2e28b01f59154116f6141aa09cc82754115b969dbce69c5df51",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r075/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r075/runs.csv",
+      "sha256": "63b1fdf5cb61eb3628bde1366f97fce483b39d021c2e8814eea630b7f52ecff5",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r100/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r100/runs.csv",
+      "sha256": "d82d513fabd1f6d3d292c02258b6683b71879931e11f26e997a9e4c8bf0ae0b0",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r025/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r025/runs.csv",
+      "sha256": "ece3f38fce528866be0898b3c50580554b88f9b4d55f1ee8f9239b94446d5c5b",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r050/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r050/runs.csv",
+      "sha256": "04b5f642f8a9bfb2bbe8e7776d6af36ea7e369ac4f1d2bd56876ec5eb11b7720",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r075/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r075/runs.csv",
+      "sha256": "c8c55a1d64e96d84c1d8ade06354b858cd7f7912cfa0229371d3e80d97bc8391",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r100/runs.csv",
+      "source_path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r100/runs.csv",
+      "sha256": "737879cfcfc0caecad57a3dcb63e89083402efd8449796573566aba6c2ce61fd",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/validation_selections.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/validation_selections.csv",
+      "sha256": "b15ca3659da9bb6f03fbd66928bcb3a5b110e2636c9e03a86e8be2471375baef",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/validation_selections_labeled.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/validation_selections_labeled.csv",
+      "sha256": "4fc323a50d79dd8b4911a23d9baf4f884b0eb51893b2ba89f2fd62eb2cb80274",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/validation_landscapes.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/validation_landscapes.csv",
+      "sha256": "0653ee14815c831caefda29b2c4113468999a715f24cfa9593d8206f6dc6df8a",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/selection_outcomes.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/selection_outcomes.csv",
+      "sha256": "8db793236540425f6b4fd93913cec20cd0042ecf14af54ae125cf0d58eb09287",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/paired_test_contrasts.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/paired_test_contrasts.csv",
+      "sha256": "9bad1c548ef508fceb0b64961afb4d224f41960e3caa4218a3b688750b97fc5d",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/missing_runs.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/missing_runs.csv",
+      "sha256": "e0a18ea83a848e49f069eb9227943839916d20fa060b1c0748e30c329f20caee",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/original_identity_audit.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/original_identity_audit.json",
+      "sha256": "7fbe77987a9c948da8d2f92107f6a954505c395757f0e7e8edafbc1fc4090dd7",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/selection_freeze.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/selection_freeze.json",
+      "sha256": "2243a190df391b29e42578dc5dcb9ee05d4f5751cc071d3733a98a801bb33315",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/revision_protocol.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/revision_protocol.json",
+      "sha256": "565a89ed2b8d0bcc3b40d33254a0b18f4691314a02f97f2f8564f38ad6b0f66e",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/analysis_summary.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/analysis_summary.json",
+      "sha256": "768bf9f0d6ac5992630361532ade84ff6fbc54fb6b5ebf0a44aa9ba6378a7075",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/reused_test_provenance.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/reused_test_provenance.json",
+      "sha256": "af19022e8a994563a4b6962f6a0f39c1598146750d1b4049ffd54f3d4540b601",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/protocol_audit/configuration_registry.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/protocol_audit/configuration_registry.csv",
+      "sha256": "ce494e3c6404979ecd31da097b50b6aa8d90f10f50c709ece1303a409fdd6708",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/protocol_audit/dataset_summary.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/protocol_audit/dataset_summary.csv",
+      "sha256": "e9c2ade0aaeecef0528fa2f51d1b4551468ef9ea9c53df83cf8970fe61a6721a",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/protocol_audit/retention_counts.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/protocol_audit/retention_counts.csv",
+      "sha256": "149099bf5bed49646e775881ca10d988216138077e45f09bfe9117b4d0a7e54d",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/protocol_audit/protocol_audit.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/protocol_audit/protocol_audit.json",
+      "sha256": "5fb710f90de781638143b55519f586ab6e3f13fd201d608b629602b95ce1b761",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/search_boundary/matched_budget_condition_results.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/search_boundary/matched_budget_condition_results.csv",
+      "sha256": "8d01483d6c4d77a2bbdbb1e9181c02b6b338a6207914f265ed3185bf3d9083a8",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/search_boundary/matched_budget_summary.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/search_boundary/matched_budget_summary.csv",
+      "sha256": "13d319eaeb5a166bcff40c9821765428bd8c29634f95011a2a332ac407c8edf8",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/search_boundary/matched_budget_summary.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/search_boundary/matched_budget_summary.json",
+      "sha256": "f4a35ae0a8ea63802ac2c837b774928f6f356d3b97a2c6a513d4f0dbb1f50499",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/search_boundary/provenance.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/search_boundary/provenance.json",
+      "sha256": "f1cfac0bb40b186795cfcd72438ffaa2cc84effee84df231e23f009b35690352",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/full_cohort_selections.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/user_resampling/full_cohort_selections.csv",
+      "sha256": "c3a06cfc6b063cb6dfebf934b0375705fb818768fd3e7158099e72233ee78dd0",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_stability_summary.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_stability_summary.csv",
+      "sha256": "6ae7f9d1e8a7050cfb4bbae6a26263550bbbd8a5afbe2995a7992a66fd0dd521",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_draws.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_draws.csv",
+      "sha256": "76005f35835ef6cefb3797d2b42fcd4b4b8f8af7985588b5d73b94202f95257b",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/paired_selector_agreement.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/user_resampling/paired_selector_agreement.csv",
+      "sha256": "668fa1972c6bd6a437065a0d4c846d35f975c945f5d789ed114cda4830e44689",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_frequencies.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_frequencies.csv",
+      "sha256": "5b759932810360ffae2452932129620d693c0f1877093d3d68dddbc68b5d8340",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/reference_frequencies.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/user_resampling/reference_frequencies.csv",
+      "sha256": "83ea3d10197ccf3302769161eb0310891f1a3dceca4f6a1a92864156f0b660c7",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/ranking_references.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/report_tables/ranking_references.csv",
+      "sha256": "8ad948eb7b518ab10cb114478ac25573d6bf0df211845a8b91ed0952e00daf9e",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/margin_details.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/report_tables/margin_details.csv",
+      "sha256": "c14645e445128f56245f10ece0fab40df4f2df22cc3783f7c684d47c8b4b4274",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/joint_primary_tradeoff.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/report_tables/joint_primary_tradeoff.csv",
+      "sha256": "b954045df7b1c4f80d310a1b4608f363821fff2f1ceeeee21ed7c656c9438c5e",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/uncertainty_ablation.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/report_tables/uncertainty_ablation.csv",
+      "sha256": "8b45062d3d91bedfe276b4c47770375960ff7a206bee4faef19a10cf0b262156",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/provenance.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/report_tables/provenance.json",
+      "sha256": "c90fdfe18492f556a4305d2537658a31bbaf9085f8559fa6508f589d94976772",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/pareto_plots/plotted_selector_membership.csv",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/pareto_plots/plotted_selector_membership.csv",
+      "sha256": "01b77d118b7b10ff240afb0d3ddcb27f7d6f1a0c5341bc947e231597057a3baa",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/pareto_plots/provenance.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/pareto_plots/provenance.json",
+      "sha256": "511be008eb714bb8e157b958e811e3fc343512193be292c382b188230680216c",
+      "transformation": "none"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/manifest.json",
+      "source_path": "data/processed/latent_factor_beyond_rmse/ciaodvd/manifest.json",
+      "sha256": "2bb8196bd29f6e78a28433351e48f15e24fe56137ff1fa0f4fa946c4afaae064",
+      "transformation": "none"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/manifest.json",
+      "source_path": "data/processed/latent_factor_beyond_rmse/movielens_1m/manifest.json",
+      "sha256": "1cd09aa03b466e5894414c539b1f3c381b68cbcd8e597495a07f6009a8caf8c0",
+      "transformation": "none"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/manifest.json",
+      "source_path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/manifest.json",
+      "sha256": "f5527e5a70a3b4ef92e1ac0bc3cf22e48848543df2f1d0830470da956bbf3e99",
+      "transformation": "none"
+    },
+    {
+      "path": "data/processed/latent_factor_framework_epinions/epinions/manifest.json",
+      "source_path": "data/processed/latent_factor_framework_epinions/epinions/manifest.json",
+      "sha256": "4d9ee0d0e9bed24a7b8c93660448a3a980cca1a5051f7982b10aa03fd9f8bc87",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/data_integrity_audit_final.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/data_integrity_audit_final.json",
+      "sha256": "8458739032d01f54972d0b9e1e507b519f3e403377d8970513e4d7ac50eaaa36",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/confirmation_manifest.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/confirmation_manifest.json",
+      "sha256": "fb2f7cc1f9440edabbae146f2ffa41bdd824984d552e8b3ac93376915790ebbd",
+      "transformation": "none"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/completion.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/completion.json",
+      "sha256": "9480cc4670ea11257ec6bbf69c9825c163690dbb4020f4a40b797241df04603b",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r025/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r025/popularity/summary.json",
+      "sha256": "44ef1c30bcb527b16d1010aa7e62faa4d4f986f309aacf8e85976bd3729c092e",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r050/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r050/popularity/summary.json",
+      "sha256": "2439e68dd1bd4b4ab92bdee74452737dfb8b5ca622698905c8567a7c8432fad6",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r075/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r075/popularity/summary.json",
+      "sha256": "79fc381d9631a66461a261177401d7eadd2ddadec2e0d93a2e8a6f08f371d9be",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r100/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/ciaodvd/r100/popularity/summary.json",
+      "sha256": "0d228f490a06bf3108a88ffdbb824250641d7efad797a9969750f0dae6f486bb",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r025/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r025/popularity/summary.json",
+      "sha256": "704a23958d6020a18f4a68fe689f2ee612f28526f866a3f687457a8ad505948e",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r050/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r050/popularity/summary.json",
+      "sha256": "27612113ddc063e511ebc6b862be238efee320f2dba2e7dc522c788d03556da5",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r075/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r075/popularity/summary.json",
+      "sha256": "acc745b1c8a940a035e1633217dac4c7b9a4a8ec8354332d2780afefd8adbdf5",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r100/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r100/popularity/summary.json",
+      "sha256": "984698dbaab0f829e46db8c5925d813ddedc7cef4eb2fbd5b9c0771144f5a0e2",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r025/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r025/popularity/summary.json",
+      "sha256": "b3c7bb5e5441e9afc7e77ecdd79b1aee234876d3d214ab258a6615d384123573",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r050/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r050/popularity/summary.json",
+      "sha256": "c67ef232d0621089863a2880aa314e9ad69b99882161d89983735dddeaf177af",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r075/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r075/popularity/summary.json",
+      "sha256": "70a8b759ab1db76330f9ae234874a9ddfbf56ad95f9828f6b0ea5a0b13b35473",
+      "transformation": "none"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r100/popularity/summary.json",
+      "source_path": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r100/popularity/summary.json",
+      "sha256": "3c3eabc90dc0dfea190fea9f04f0e94ec01f9ea3288bd6ca993f97e09abd2061",
+      "transformation": "none"
+    }
+  ],
+  "relocated_summaries": [
+    {
+      "path": "provenance/relocated/output/latent_factor_major_revision_2026-09-14/user_resampling/manifest.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/user_resampling/manifest.json",
+      "source_sha256": "5741b4d70fef615f0176e92e9d626451d9bf5cd8084564933e95e50ba40578bd",
+      "exported_sha256": "a8144e6ea28ef71d3a7590ee9f36e13e0f6915d0c0ec78ac847decd38e574f32",
+      "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+    },
+    {
+      "path": "provenance/relocated/output/latent_factor_major_revision_2026-09-14/report_tables/report_summary.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/report_tables/report_summary.json",
+      "source_sha256": "8020522cfd08bad4a1c8716dea226e6825f30ce6c2e11bcfc9e07bce06f26de0",
+      "exported_sha256": "1aa6c2892eb93c848bf4771722e6388f869fd5047757cf3a3e370fdd832996d6",
+      "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+    },
+    {
+      "path": "provenance/relocated/data/splits/latent_factor_beyond_rmse/ciaodvd/sparsity_manifest.json",
+      "source_path": "data/splits/latent_factor_beyond_rmse/ciaodvd/sparsity_manifest.json",
+      "source_sha256": "32c160e5eaf85ec4f260c99e5f502b9cb7d879d8bd79974474cdf4f4007640d8",
+      "exported_sha256": "ac7fb43ba942592597d2993b34d09f6f411069f5ec69f3e315f873e86230d008",
+      "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+    },
+    {
+      "path": "provenance/relocated/data/splits/latent_factor_beyond_rmse/movielens_1m/sparsity_manifest.json",
+      "source_path": "data/splits/latent_factor_beyond_rmse/movielens_1m/sparsity_manifest.json",
+      "source_sha256": "e81ef51f7be8961cc9c3724e06f47eb39149da2b272511d1c2007ece3bfe4690",
+      "exported_sha256": "d588b5a0065e83e76ca5c735e080f9ae61a588e8abd319fb71dada73a0144590",
+      "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+    },
+    {
+      "path": "provenance/relocated/data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json",
+      "source_path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json",
+      "source_sha256": "410e99e3969163e2f611fe347b0bf82f0694914016049566cc101a1d337d4c9d",
+      "exported_sha256": "9c2a2a182060044d36f64b8fb6d913af64c4abec065c55543b916dc24cb58cea",
+      "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+    },
+    {
+      "path": "provenance/relocated/data/splits/latent_factor_framework_epinions/epinions/sparsity_manifest.json",
+      "source_path": "data/splits/latent_factor_framework_epinions/epinions/sparsity_manifest.json",
+      "source_sha256": "758ab0f3d175f60798f322c17897c3057f8d9c1a8e57b0671f2173277a01d98c",
+      "exported_sha256": "b4651827189cd3c72c4b057061b0ee40e5e4f50fdb10b29c748c77318de995ac",
+      "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+    },
+    {
+      "path": "provenance/relocated/output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/fitting_plan.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/fitting_plan.json",
+      "source_sha256": "2099e992818ca8400f892895a8cfc0edc8ce8f8e9ced06fcb4ca0510a56c8ed9",
+      "exported_sha256": "55d85bdb0c6509dcd2505c59aba1d368998b6a250b976cf01e03e1bd89269f6c",
+      "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+    },
+    {
+      "path": "provenance/relocated/output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runtime_replay_gate.json",
+      "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runtime_replay_gate.json",
+      "source_sha256": "170f6db15c4ff48c86853bc5505e77d550c143c7e32d2527b110b2249cbbbfee",
+      "exported_sha256": "217f81f68fcb75381318798e9f9908286944e48d1ffbe0b8a6576ef158fd0a8f",
+      "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+    }
+  ],
+  "adapted_documentation": [
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/THIRD_PARTY_NOTICES.md",
+      "source_sha256": "26f3818640ce17045fd288dc17af68a432963aafe1932725594346ac7be9f3f5",
+      "exported_sha256": "b9e78dd20837dda7a44cf4c0d34dd125a9d3a76f7e939e636cd34270e3c08330",
+      "transformation": "Scope wording adapted to this local code-and-aggregate candidate; third-party terms unchanged"
+    },
+    {
+      "path": "environment/README.md",
+      "source_path": "papers/latent_factor_beyond_rmse/repository/environment/README.md",
+      "source_sha256": "e50cf360293b734323cafd35502fb5a24e40f464ee318a895f3bf02544d1cd98",
+      "exported_sha256": "ad07f8ed17f7750dfbbb9dc850058f969a885e4c5eeb5f3daf74c1a103f93a65",
+      "transformation": "Scope wording adapted to this local code-and-aggregate candidate; third-party terms unchanged"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Confirmation stage fitting time in seconds on the declared single-threaded CPU environment. Each entry is median [interquartile range] over the five fresh seed fits. Explicit MF is shown for both objective-specific selections, and bias and BPR-MF use their NDCG-selected configurations.}
+\label{tab:training-cost}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Dataset & Ret. & Bias & Explicit (RMSE) & Explicit (NDCG) & BPR-MF \\
+\midrule
+MovieLens 1M & 100\% & 3.04 [2.54--3.59] & 8.15 [7.97--8.32] & 11.57 [11.14--11.72] & 13.02 [12.90--13.17] \\
+ & 75\% & 3.07 [2.84--3.27] & 6.40 [6.28--6.48] & 13.79 [13.27--13.93] & 10.41 [10.04--10.44] \\
+ & 50\% & 2.14 [2.14--2.15] & 3.73 [3.66--4.14] & 7.30 [7.25--7.38] & 9.29 [8.86--9.30] \\
+ & 25\% & 1.02 [0.99--1.09] & 1.45 [1.45--1.49] & 3.80 [3.73--4.36] & 4.78 [4.70--4.85] \\
+\addlinespace
+CiaoDVD & 100\% & 0.04 [0.04--0.04] & 0.06 [0.06--0.06] & 0.11 [0.10--0.11] & 0.11 [0.11--0.11] \\
+ & 75\% & 0.03 [0.03--0.04] & 0.05 [0.05--0.05] & 0.08 [0.08--0.09] & 0.07 [0.07--0.07] \\
+ & 50\% & 0.02 [0.02--0.02] & 0.03 [0.03--0.03] & 0.03 [0.03--0.03] & 0.07 [0.07--0.07] \\
+ & 25\% & 0.01 [0.01--0.01] & 0.02 [0.02--0.02] & 0.03 [0.03--0.03] & 0.03 [0.03--0.03] \\
+\addlinespace
+Yelp--Tampa & 100\% & 0.37 [0.37--0.39] & 0.54 [0.54--0.54] & 0.73 [0.72--0.74] & 1.72 [1.63--1.75] \\
+ & 75\% & 0.27 [0.26--0.30] & 0.41 [0.41--0.41] & 0.99 [0.99--0.99] & 1.23 [1.21--1.25] \\
+ & 50\% & 0.20 [0.18--0.20] & 0.70 [0.69--0.70] & 0.39 [0.38--0.39] & 0.45 [0.44--0.46] \\
+ & 25\% & 0.07 [0.07--0.08] & 0.37 [0.37--0.37] & 0.10 [0.10--0.10] & 0.25 [0.25--0.25] \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

@@ -1,0 +1,82 @@
+schema_version: 1
+status: locked_before_test_access
+locked_on: 2026-08-17
+development_conditions: 12
+development_runs: 2100
+selection_seeds: [101, 211, 307, 401, 503]
+confirmation_seeds: [601, 701, 809, 907, 1009]
+minimum_practically_important_ndcg_at_10_difference: 0.005
+minimum_effect_rationale: >-
+  An absolute NDCG@10 difference below 0.005 is treated as operationally
+  negligible even if its confidence interval or randomization test excludes
+  zero. The threshold is fixed before any test metric is computed.
+locked_input_sha256:
+  datasets_yaml: 981ca3c135a4ea57666b26275c99570b4d57b2486363e366bba7c6dbb0009abb
+  modeling_yaml: a3410ec6f63a7adc2a061627671d6c1c58b7f7c27db4df57a8ea7ebe56c933f3
+  confirmation_yaml: 052913ebd53e183cf7e9337f0b303b7cd20c4a563c93e971acfe0ac7e3078e2d
+  development_landscape_summary_csv: 35cd695bad31c5ae2fad96820e27f53478ca2abd4883409943f6cef99595ee3d
+
+selections:
+  movielens_1m:
+    r100:
+      selection_sha256: a0c82e174e37fc3b7cd44a3806b1adc4c5a02298c658d7434d3810eb3dc2df0f
+      rmse_selected: {dimension: 16, regularization: 0.1}
+      ndcg_selected: {dimension: 32, regularization: 0.1}
+      same_configuration: false
+    r075:
+      selection_sha256: 69f553ca0bd06683e2401fdc80f221e20eb820e44551f31cacd9aec79730b704
+      rmse_selected: {dimension: 16, regularization: 0.1}
+      ndcg_selected: {dimension: 64, regularization: 0.1}
+      same_configuration: false
+    r050:
+      selection_sha256: 1f17acd7011b404d8b7974c0aa8b77edb027b8924d7a538702f8f27e725894a5
+      rmse_selected: {dimension: 8, regularization: 0.1}
+      ndcg_selected: {dimension: 64, regularization: 0.1}
+      same_configuration: false
+    r025:
+      selection_sha256: e89babb6bfa25f22c1c63f25986c10f755bb42ff4f1201fac1d7d56518e464e0
+      rmse_selected: {dimension: 1, regularization: 0.1}
+      ndcg_selected: {dimension: 64, regularization: 0.01}
+      same_configuration: false
+  ciaodvd:
+    r100:
+      selection_sha256: f2aa4881a71f216461b79798315241e5d3ad1336b8cbddadfcf0332900347e64
+      rmse_selected: {dimension: 1, regularization: 0.1}
+      ndcg_selected: {dimension: 64, regularization: 0.1}
+      same_configuration: false
+    r075:
+      selection_sha256: 05ada8b28717f4efd4de7e87b95f07d9b72005376114906313360229bd8a8bc9
+      rmse_selected: {dimension: 2, regularization: 0.1}
+      ndcg_selected: {dimension: 64, regularization: 0.001}
+      same_configuration: false
+    r050:
+      selection_sha256: ea12e9b0b07d4e830b8b1b0fbb92fff8b1be7c7beede314784303ce001718da0
+      rmse_selected: {dimension: 1, regularization: 0.1}
+      ndcg_selected: {dimension: 1, regularization: 0.1}
+      same_configuration: true
+    r025:
+      selection_sha256: 99706e1cb5045a866840d0521e02ccf4b413c3de7aeb3936acfd321ba54f00f4
+      rmse_selected: {dimension: 1, regularization: 0.1}
+      ndcg_selected: {dimension: 32, regularization: 0.01}
+      same_configuration: false
+  yelp_tampa_restaurants:
+    r100:
+      selection_sha256: ebabfd4cceaa891c9d1292e986e32a9091d7553b60f7d9ee441ef0995277e145
+      rmse_selected: {dimension: 1, regularization: 0.1}
+      ndcg_selected: {dimension: 64, regularization: 0.0}
+      same_configuration: false
+    r075:
+      selection_sha256: f504acc191825367be9bd01d0f6f4040e3d25950bb3c72f708f8b3fde934b3a2
+      rmse_selected: {dimension: 1, regularization: 0.1}
+      ndcg_selected: {dimension: 64, regularization: 0.0001}
+      same_configuration: false
+    r050:
+      selection_sha256: ad054b1179e01ac3593c6550b6851bd5c0249b03179e6ddcf1c39c936ae740f5
+      rmse_selected: {dimension: 64, regularization: 0.1}
+      ndcg_selected: {dimension: 64, regularization: 0.0}
+      same_configuration: false
+    r025:
+      selection_sha256: bffee6cc90b96189779275c1c4fa938d9fa7ea511f412c229500089ed6e391cf
+      rmse_selected: {dimension: 64, regularization: 0.1}
+      ndcg_selected: {dimension: 4, regularization: 0.0}
+      same_configuration: false

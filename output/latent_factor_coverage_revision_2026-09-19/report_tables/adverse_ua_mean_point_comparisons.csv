@@ -1,0 +1,3 @@
+dataset,retention,margin,ua_minus_mean_ndcg,ua_minus_mean_global_rmse
+ciaodvd,r100,0.01,-0.0022012752150726324,0.0033163097795965157
+ciaodvd,r025,0.001,-0.0019682935094182032,0.0026546261578348496

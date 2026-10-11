@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Revision-stage rerunning of admissibility and selection across declared absolute NDCG@10 margins. Every count is out of 16 dataset--retention conditions, not independent external datasets or a deployment-risk probability. Equality denotes the exact historical RMSE configuration identity; intermediate choices differ from both the RMSE and NDCG choices. \emph{All 35} means every evaluated configuration passes that rule. Mean and UA differ only in the uncertainty term and share their full within-set tie-breaking hierarchy. These are selection changes, not reclassification of fixed test effects.}
+\label{tab:margin-sensitivity}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}rrrrrrrr@{}}
+\toprule
+$\delta$ & UA $\ne$ mean & UA = RMSE & UA intermediate & UA all 35 & Mean = RMSE & Mean intermediate & Mean all 35 \\
+\midrule
+0.0010 & 6 & 1 & 8 & 0 & 3 & 10 & 0 \\
+0.0025 & 4 & 6 & 7 & 1 & 7 & 7 & 2 \\
+0.0050 & 7 & 7 & 7 & 4 & 11 & 4 & 5 \\
+0.0100 & 3 & 12 & 3 & 8 & 15 & 1 & 12 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

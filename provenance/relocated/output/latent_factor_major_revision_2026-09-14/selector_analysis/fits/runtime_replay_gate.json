@@ -1,0 +1,68 @@
+{
+  "changed_fields": [
+    "runtime.executable"
+  ],
+  "metadata": {
+    "checked_utc": "2026-09-14T23:21:02.869278+00:00",
+    "claim_scope": "two fixed-data exact-metric/per-user replay checks; not proof of every historical fit",
+    "data_sha256": {
+      "configs/latent_factor_beyond_rmse/epinions_prospective_datasets.yaml": "3aef8e13714ec55dcc577d28b097be47f9e5c1c67f254a5650644cd24e9823e3",
+      "data/processed/latent_factor_framework_epinions/epinions/test.parquet": "0779f67a26e76aa7f1389c07ee8d0dd3f1f3f4c48b99a9e34059cec5077a068a",
+      "data/processed/latent_factor_framework_epinions/epinions/train.parquet": "5d7d0b898d4bb3d14baf216846e1e42072648cbff7c1fc2f4fe43780995dffcb",
+      "data/processed/latent_factor_framework_epinions/epinions/validation.parquet": "bbffe9343f75e25533b09f01f0c4c5b9e6d54bcedc599d64902c656101bd48be",
+      "data/splits/latent_factor_framework_epinions/epinions/train_r025.parquet": "edce773949c5da5c3a65cf33731a3e8363c1fdb610fcba6e785eca498d58bcbd"
+    },
+    "records": [
+      {
+        "per_user_parity": true,
+        "scalar_differences": {
+          "prediction.clipped.mae": 0.0,
+          "prediction.clipped.rmse": 0.0,
+          "prediction.raw.mae": 0.0,
+          "prediction.raw.rmse": 0.0,
+          "ranking.ndcg@10": 0.0,
+          "ranking.ndcg@20": 0.0,
+          "ranking.recall@10": 0.0,
+          "ranking.recall@20": 0.0
+        },
+        "seed": 101,
+        "stage": "validation"
+      },
+      {
+        "per_user_parity": true,
+        "scalar_differences": {
+          "prediction.clipped.mae": 0.0,
+          "prediction.clipped.rmse": 0.0,
+          "prediction.raw.mae": 0.0,
+          "prediction.raw.rmse": 0.0,
+          "ranking.ndcg@10": 0.0,
+          "ranking.ndcg@20": 0.0,
+          "ranking.recall@10": 0.0,
+          "ranking.recall@20": 0.0
+        },
+        "seed": 601,
+        "stage": "test"
+      }
+    ],
+    "runtime": {
+      "device": "cpu",
+      "executable": "original-runtime-python (machine-specific path omitted)",
+      "numpy": "1.21.5",
+      "pandas": "1.5.3",
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "python": "3.10.9",
+      "torch": "2.1.0.dev20230521",
+      "torch_num_threads": 1
+    },
+    "source_sha256": {
+      "src/latent_factor_study/data.py": "53936f11190b3ae441c912596094157239478f60a4fcc60023eacc889c466004",
+      "src/latent_factor_study/evaluation.py": "cddd71e8d4b2e1f2ba08d80ee175f494d11f93e37a36d2ffdfc7a7004a79a257",
+      "src/latent_factor_study/explicit_mf.py": "3cd6164f241deef3d0b78b4506135a355f99113c33ef1652b1535bf908686169"
+    },
+    "status": "passed"
+  },
+  "not_canonical_original": true,
+  "source_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runtime_replay_gate.json",
+  "source_sha256": "170f6db15c4ff48c86853bc5505e77d550c143c7e32d2527b110b2249cbbbfee",
+  "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+}

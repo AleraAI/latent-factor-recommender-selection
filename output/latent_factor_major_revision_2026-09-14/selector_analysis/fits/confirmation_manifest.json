@@ -1,0 +1,1268 @@
+{
+  "expected_runs": 90,
+  "observed_runs": 90,
+  "runs": [
+    {
+      "dataset": "movielens_1m",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "3d5a0e776ce0c65201f6481781b27e988f14a5d2450e1df167316cbf25eb7475",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed601/summary.json",
+      "summary_sha256": "a676a4841f1225e8241bd59364caa4b4e68418fe591aecf1580a5d835ba45ca3"
+    },
+    {
+      "dataset": "movielens_1m",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "16ca632bf3cf399a062b54f19af3a1db3321895b3bbdb286a6b48719c1942532",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed701/summary.json",
+      "summary_sha256": "1e55305db230e95734f6b4a7ebfae791439879d1244a1a72a8b81a95df941e04"
+    },
+    {
+      "dataset": "movielens_1m",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "bd650a498d69e531bcceac9a794939c7189b7b6378846982a0aa66bfb1ef0cb5",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed809/summary.json",
+      "summary_sha256": "5cff9cc37a24e1c64e28ee4b70b61c9914a8f77a69048bfabba6831b9c2f19c8"
+    },
+    {
+      "dataset": "movielens_1m",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "341a9be4d97aef9d3bbbfebb1bedafa11b2ab299a5f185737526fc645ae8444a",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed907/summary.json",
+      "summary_sha256": "7f2dcb924b19f3ea24bcbf3f78b46b18543ff2a9938c27a9fb5aa9fb2704ca43"
+    },
+    {
+      "dataset": "movielens_1m",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "6d7922bce4287bc013794e71e50101184dfc5446996e5d9637b08b4c935f9932",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "dc7253097a5c5ec5e1412c29ab2121926da217cbd67302ae6a75ad1994a709ab"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed601/test_per_user.parquet",
+      "per_user_sha256": "f5316693891981121ecf3ac8fb9ff9f73546a594e7b68331b3406e7512fc72c6",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed601/summary.json",
+      "summary_sha256": "8acc72bbb3f03724a5663d8baf5353e6544da94157ec0381943849ae8eaf3790"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed701/test_per_user.parquet",
+      "per_user_sha256": "7f006af1f91b3f2e6dea7c7b9a00cd6332bb0ef833399cc2f5e0783525f29e4a",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed701/summary.json",
+      "summary_sha256": "61d3e9729231937127c8a045d73a446e84bcbdb3e553fe7ddbe90a83fc79dd00"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed809/test_per_user.parquet",
+      "per_user_sha256": "06a76e388e2e7f2005132ad4ac1132ba237d60a4c6b5216b0cad71700c18927b",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed809/summary.json",
+      "summary_sha256": "14abf69bafa4bff52f96528cd0519af80ca20cd0bf80db3d144f3e853b432af9"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed907/test_per_user.parquet",
+      "per_user_sha256": "2a251bd6e9c00ca6b40ddde4a28dcf3dee5bdcf053de0428a09a11b4b2c41b39",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed907/summary.json",
+      "summary_sha256": "930b9c67c0fd99b0c8f53667944b142b0e2a1229837443fcc8b1554fa6d8d558"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed1009/test_per_user.parquet",
+      "per_user_sha256": "4956c874047a5e7dc754f546f4ab7201070c81af7e67dc958454b3578596c024",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed1009/summary.json",
+      "summary_sha256": "9ac4c3c9f3a37caf4b3ad7a397026443d29cac72b12b2f25cde3fa58d471f8ae"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "efe5cb5005ac05f6c21a3f4a604aa3d3f4feb68aa1c64d11d35abcc164015a89",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed601/summary.json",
+      "summary_sha256": "ee6ff91f8ce04cd0e01d0f9de2e65eecdd16fbf15142fd0bba5821454142a7a1"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "c2c56ec4e0b6e9bfd7e45a8505c3d1234f7dce89ebb95a42c36ce9ce5f43f179",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed701/summary.json",
+      "summary_sha256": "7049e4ecdeb57bf643fcc23934d960c6c1f891208d836614847cdb57c3df3255"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "8db46c276b444c0056b676f41e98680acdcf399f25d4d396c6f7f55129a29406",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed809/summary.json",
+      "summary_sha256": "60b21a9fcb6181a9216b0f312b6c0d5f01fd1fa881b0ebc6b8e9826c9b369aef"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "56c247077bb5e5bd0109664217dd6a4ad6e10ccc6964c49e31b611b4f01d5b76",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed907/summary.json",
+      "summary_sha256": "63871218bce9390f9b89a59cf474007e177a7e9dab1f9a1eee1add57dd4c3e7e"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "166a3421b6159f151264318a6512b6c345193059495de611cdb54ead81bbb3f1",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "64226355da77bec7cd1583c7c3e102d835392faf46a96aafb7c6d4047cee833e"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed601/test_per_user.parquet",
+      "per_user_sha256": "b373fcbcba5059f421cf5f96f4cdca1fd9ad656b5f84cf60eb6869a73dadc320",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed601/summary.json",
+      "summary_sha256": "1bfd1b29f7182cde039bc839364f32bedf8749bd836d2554a3882a4032d40073"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed701/test_per_user.parquet",
+      "per_user_sha256": "07c66fabdf30342540ddea0e25c35b31cb0feb0d24a328e34a208eb58b8897d6",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed701/summary.json",
+      "summary_sha256": "7dbf4a8babfea38028e9db69f4dbf96e7f3f89fca4e94e7d1a167ceb162b683c"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed809/test_per_user.parquet",
+      "per_user_sha256": "31ad5e406651abc6542726d10845e12c81d1cac5ab8e92edd7630fdc0020247c",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed809/summary.json",
+      "summary_sha256": "ef533bd15643223b64c1be1bd85df3e2d31185992616353904918d79a5937c2b"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed907/test_per_user.parquet",
+      "per_user_sha256": "19a03983fa45cc999ce3caae6f3bfd91bc7961dba38368b93cec27b9a373296e",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed907/summary.json",
+      "summary_sha256": "61e7710549b9a949139c0ee8c850a487d24932dee265e280a507f19380674c22"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed1009/test_per_user.parquet",
+      "per_user_sha256": "db290dfc0915797a2c962101c306b0360d70dfe7ed07702ccd7f1e01cee00878",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed1009/summary.json",
+      "summary_sha256": "8a0d8c81f7aacb006e93ca36e4558fb45b07f434993984993acd6f587dddd7b2"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 2,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed601/test_per_user.parquet",
+      "per_user_sha256": "7e711675e9f9efe2377609b1e7cf23416b0840055d77b44fb759e5730d94483f",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed601/summary.json",
+      "summary_sha256": "9b60058bb0b4a588a5c74e57cf7c532f8161eea9d491059404ed2c840c020ad5"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 2,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed701/test_per_user.parquet",
+      "per_user_sha256": "2169efb3a13a34125c310fb1012ba35c78a369f7c7cff3f2f417ebfca2d2c8bb",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed701/summary.json",
+      "summary_sha256": "0227a8fe954ba0b3c7d097baddc63c5b3495481b676dd59d9a624116a4848895"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 2,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed809/test_per_user.parquet",
+      "per_user_sha256": "6a73b933540bd519d165b8a533abaa7fbead797579276642487a65c8d7ecf37d",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed809/summary.json",
+      "summary_sha256": "98c67a57f57e7d4856bace019ad5bcce0cf3a4ed207d0b3eedcfc9b6ba7a1807"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 2,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed907/test_per_user.parquet",
+      "per_user_sha256": "36101fc7d37961910df3148734240d8992cfab80f506eb4e46040750f53c548d",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed907/summary.json",
+      "summary_sha256": "050cb45df114c05962693e2558716e223da1edc09e2aadee535d6d5327e3265c"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 2,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed1009/test_per_user.parquet",
+      "per_user_sha256": "1b2680bda76931c18c3035ff9d3133e3332f402242a4166f8c069956ef1bc548",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed1009/summary.json",
+      "summary_sha256": "c42737ee8b4bd063b57155df4a9f0b2eeeccfc102ad3f79f74579d745dbd6f62"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed601/test_per_user.parquet",
+      "per_user_sha256": "0e85e6b67830befbb1335002c65ca1da398a27f32c90937d16c376c6b4ca9de3",
+      "regularization": 0.0,
+      "retention": "r025",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed601/summary.json",
+      "summary_sha256": "eedf2dee8afdcbdea4fd956783db367c872366ee6731b89033e542f3c69a0070"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed701/test_per_user.parquet",
+      "per_user_sha256": "e63609fa7d902446c17e49ce5bec6258a7a7c8cf72a8a8d8947b1bc0d83af2cb",
+      "regularization": 0.0,
+      "retention": "r025",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed701/summary.json",
+      "summary_sha256": "fe1f8e8999a425b94383595eb042fe795fdb91e2a82a535ba154dfaed877bb18"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed809/test_per_user.parquet",
+      "per_user_sha256": "673fdd9f022f558b44dd8e051b861d85c43653b97e2af7040282f9467fd61015",
+      "regularization": 0.0,
+      "retention": "r025",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed809/summary.json",
+      "summary_sha256": "0ad8cce7017c59e4610d592b39477da46ed65301ffeb48ad0865e2e6a11022fc"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed907/test_per_user.parquet",
+      "per_user_sha256": "b9147126ccf5586176f0e3b5bb80bfaf431213151b79ee47f1639b7d6794ff0b",
+      "regularization": 0.0,
+      "retention": "r025",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed907/summary.json",
+      "summary_sha256": "f8d906b4e4c4fed81c6217fb8115be0aba8fa4186552136d9d486f1ea812feec"
+    },
+    {
+      "dataset": "ciaodvd",
+      "dimension": 32,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed1009/test_per_user.parquet",
+      "per_user_sha256": "d42cc15348bdb4858d3d3d7ac10ea0f78887cfe227f0949be88916d2643e4256",
+      "regularization": 0.0,
+      "retention": "r025",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed1009/summary.json",
+      "summary_sha256": "bdddce1ddfada11603c765d2b99c372780d6886c010566ec7bb146545bf99c7c"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed601/test_per_user.parquet",
+      "per_user_sha256": "8abf0f2e6c92a76a3b548c254e156246af5173b10e23ebce307fb5729304d3ef",
+      "regularization": 0.001,
+      "retention": "r100",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed601/summary.json",
+      "summary_sha256": "4a6497604d533f05c76b3e128749b79ff3a2e1f287d8234ececb99ac54e526a6"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed701/test_per_user.parquet",
+      "per_user_sha256": "f13294b12ab2d0e30e568e998fbe9fb2a4e7ff48da53e6b5332141cca2f1a5bf",
+      "regularization": 0.001,
+      "retention": "r100",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed701/summary.json",
+      "summary_sha256": "57c0a97d96eaa323245f34844e1e2a9a7dcc0628eb6799bb80af946f8252976d"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed809/test_per_user.parquet",
+      "per_user_sha256": "8a2217d58899c3c5c8ea421314bc527a4e0b73182fc6751b98acf1d1d6c3122b",
+      "regularization": 0.001,
+      "retention": "r100",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed809/summary.json",
+      "summary_sha256": "58c40acebb852b7ff82f86e9a40e6194123ba42a976d0da02d8258e698b612f1"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed907/test_per_user.parquet",
+      "per_user_sha256": "4e2bef6d74641e8a4f45bb459f876f8f9e70e65bbc043e5a7fabee597b4ffd0a",
+      "regularization": 0.001,
+      "retention": "r100",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed907/summary.json",
+      "summary_sha256": "30ce99e0c5d0950be3cbb09a9889afffadc1d6c525cb49278416321e9a05714c"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed1009/test_per_user.parquet",
+      "per_user_sha256": "c1a3fb9e45001925a5ab35bc7dd4720a446a4b93b16e2f2f0b02179e71e27a1b",
+      "regularization": 0.001,
+      "retention": "r100",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed1009/summary.json",
+      "summary_sha256": "c54b6ad4455b9860f3d9b1caffa328864dcd4b549e72348ffa903de342f463ac"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "075ac0ed18e318a1f14e11bab5b6f570ef567658927a6666bb3c9988cf2e27bb",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed601/summary.json",
+      "summary_sha256": "03814766c51407a65eb30499afa29d82033d4fed62feccf9e9281603e5040258"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "9b7a29e98c223452a4f30676b72552429efdc1bea8f570bc8d2bd3330dea5c9e",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed701/summary.json",
+      "summary_sha256": "cce7dd98bdeb752ad17023d59e853178c15645a0e201d26419c27cf75c47db8d"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "d146ccb0c5a13abd17db8a86ae8a898fcb24c2bf7a667ef6b1bec590f6364fd8",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed809/summary.json",
+      "summary_sha256": "893254968aae94e057ae130fa513f055abd0530e1f02e822fd30528ea6a5f58a"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "15d17b8197834233c60db6ad150b4599e1c112f26696763e47bf52759a6b61f8",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed907/summary.json",
+      "summary_sha256": "1a136af10f1078270925a386f8e0d2269a779f10c09532826c9210d73b049eaa"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "a7d190b3f012cc96f7d14cee87160b77ddf7cfa7a346d5986b8b25ffd28e269c",
+      "regularization": 0.1,
+      "retention": "r100",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "c951fe84ecdc4f67b41c7ebcb201ad9f4a770fd50ede5e0e5b949a03ddb2f0b4"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed601/test_per_user.parquet",
+      "per_user_sha256": "49bb90e51dbffc7837dcbfc893a5d5d6fb70780dedebbf10bc162891b7b98054",
+      "regularization": 0.001,
+      "retention": "r075",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed601/summary.json",
+      "summary_sha256": "89a2cf4fca3196917a568ea2f9bbcf75b08adc86a761089772a4288e99f5d8b5"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed701/test_per_user.parquet",
+      "per_user_sha256": "1f5455a5aa2c2d30ba0353ec27f2221f05c86b9e86d95c090ad64d0c4e03bac4",
+      "regularization": 0.001,
+      "retention": "r075",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed701/summary.json",
+      "summary_sha256": "200d6151397d1087e11d249304e8b5485f615a3a5a70df1de41c650ff24b01c4"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed809/test_per_user.parquet",
+      "per_user_sha256": "30cd5f4e600723746dcb9725fc3b6117ce582212beb06acb3693c919112faf6f",
+      "regularization": 0.001,
+      "retention": "r075",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed809/summary.json",
+      "summary_sha256": "3dbfd91ac85880601b386f402f91e97028940792baefe6956a8831682d7b6997"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed907/test_per_user.parquet",
+      "per_user_sha256": "4db850a35a155973449aca0d1f6d4031802e80dc7e1014e28f653f9a64f782a2",
+      "regularization": 0.001,
+      "retention": "r075",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed907/summary.json",
+      "summary_sha256": "b5b52641435af6dd8247e4a3f3e10308f1ce1b1da7d14acfef71063c9e23452a"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed1009/test_per_user.parquet",
+      "per_user_sha256": "1ebf150f792fcab6193c43ce53065453e929769b7d914b62f1f976ec0739b91d",
+      "regularization": 0.001,
+      "retention": "r075",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed1009/summary.json",
+      "summary_sha256": "c8f38c79bc689e275967fd9a929f07697f8c9c3e4fd74f1eebace9ebebfb3b85"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "4e63d8bc1ab61f7d9ab1f9e2379e752edb0dfad9c296761ac125e97251800be8",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed601/summary.json",
+      "summary_sha256": "22897bcef90ffb8ed16ad16eb165c17727eec64db580a91cd59a44e5e0819d81"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "7e32f0fb9006658f737296dd0e82de6f8cc67a2bbb90a42bfc3d3a73096e26e0",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed701/summary.json",
+      "summary_sha256": "ee56766f0cca8227ae1e5fccf3f952aab9d32cc0334ec28dbe384b6d841601d1"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "17060d3af5b818c00f00e55dbf5b674b5d784827d8714e47b0bbf6056455ab98",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed809/summary.json",
+      "summary_sha256": "753dd6cf534b99fdb11dc0eddd1ba572aca78eafb9457062f6daf74e175d8f18"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "18cb8492fdd1e374730e08c6ceff3059ef4e825e12c2566e241d1c1162231373",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed907/summary.json",
+      "summary_sha256": "b7e9800f4c8f7c4fe23b12501b72646a70019ee12866857ae27b200151d8b95b"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "0ce3f880777617e14377550cbe9ee2dcb0902f43fa7fc61ce1a89f7cf9c30c25",
+      "regularization": 0.1,
+      "retention": "r075",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "65832ce09dd40238753d7c9043578fbab224b7bcee2b17d142555af24bea5e1b"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed601/test_per_user.parquet",
+      "per_user_sha256": "06df8129a129c51e834653030047c077bc9784704148a5ec99871dc690f7d081",
+      "regularization": 0.001,
+      "retention": "r050",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed601/summary.json",
+      "summary_sha256": "93a9698740c3fadf9809e259d109556c4f69a77ee2c3b90eddb3eed68fc6840a"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed701/test_per_user.parquet",
+      "per_user_sha256": "00a73961700734ec54ef3b8ec08797328cce5d3227a41971f06b884ae0f9ba3c",
+      "regularization": 0.001,
+      "retention": "r050",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed701/summary.json",
+      "summary_sha256": "3eb79ec683844125075943ee1cc36c652b0f4f32cda95fa6ace4fce13f7828b5"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed809/test_per_user.parquet",
+      "per_user_sha256": "8730a9890ea79675ba98c976343b558a12b1e0b2b15e9b557917c1f753307736",
+      "regularization": 0.001,
+      "retention": "r050",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed809/summary.json",
+      "summary_sha256": "de45acb925d75771cb6e70d54ae38d8c88ab60986197f4bd1897532532c028dc"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed907/test_per_user.parquet",
+      "per_user_sha256": "ad14d0e142a9c2230d4760c5529c3276c16a15fe7402f2b947ae490960d1a9d8",
+      "regularization": 0.001,
+      "retention": "r050",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed907/summary.json",
+      "summary_sha256": "c251cc6be86933f44260c976b71a21f11e9535a7f4b9d7ff257343f4cfec8abd"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed1009/test_per_user.parquet",
+      "per_user_sha256": "4370edcbf333cd67df7b211ea769a74efbb02a12ea4c3010aa61db44660a380e",
+      "regularization": 0.001,
+      "retention": "r050",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed1009/summary.json",
+      "summary_sha256": "ffe0bbbb2eee86d127c6d237f4e17825d0727fbebc20c489d2d1527998e9db9f"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed601/test_per_user.parquet",
+      "per_user_sha256": "1046d0190e8900be519e8ab3b1fea61f10d1eff6e41741b63d80f3dd31fb7799",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed601/summary.json",
+      "summary_sha256": "7798ea4218c86f8582e98e31a63c2cb80fbd2a2664005545c9f611f346d46138"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed701/test_per_user.parquet",
+      "per_user_sha256": "4e8660fac584dc62a62a9060a8a6ebc703487a65ef04d85ab9a7fe84f58e2082",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed701/summary.json",
+      "summary_sha256": "29f29ad5ddf1c7d72c45b94c323e2dfadfdbf39c52e4953a1047243b5b9ce14c"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed809/test_per_user.parquet",
+      "per_user_sha256": "27fb3991229fea20428da39e9512b36d103e2a2f46d643b5fa7d5a7dbaa89e32",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed809/summary.json",
+      "summary_sha256": "dcb966b476ac080dd0ca1f6e51892d1ff262eef40c055d83929d565051c5e5a3"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed907/test_per_user.parquet",
+      "per_user_sha256": "98570d57ddae1132767e8980cc9e3e88010f9f0dc960957913ae6bffd18c295a",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed907/summary.json",
+      "summary_sha256": "d311ad60fa4cbe41ceef3955884d5534361eefba2aa5acdc0fe552f07671663e"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed1009/test_per_user.parquet",
+      "per_user_sha256": "b89d7a036ed090045862e8df1d59ac60d0210b1c2b1ac8863ff37bf3d23c50d5",
+      "regularization": 0.001,
+      "retention": "r025",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed1009/summary.json",
+      "summary_sha256": "5d72a63f5dff4e9da8b1b40425c33f5946b8d014530d6900daab007578a9870a"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed601/test_per_user.parquet",
+      "per_user_sha256": "31165ec5d2f7c2dcdb9284349d64846d9a4d57a465bb126caf1d25b079a2f07d",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed601/summary.json",
+      "summary_sha256": "24a3b4f92c18cec477adba143b95cef9613b861f9584eb81ef691280ff6c69c9"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed701/test_per_user.parquet",
+      "per_user_sha256": "e9c781892dde9f025a6ad8606da69ffaf3dba75ddc523bcb54fa724ffa73c26d",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed701/summary.json",
+      "summary_sha256": "381b1937370ceaeb9c652505082fad4476941d756dea91bf2b2c34ab558e4212"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed809/test_per_user.parquet",
+      "per_user_sha256": "b14745f6be7ae69134ba5eda8683f1d59cba45357dd2be7535c0aca61e6b336b",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed809/summary.json",
+      "summary_sha256": "63099f913cc8d843e57b58e2ae19d81c24a78399f7772fda5dec1a216d9e9644"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed907/test_per_user.parquet",
+      "per_user_sha256": "891cd725dbca479c366266739b757720b2ccf53f5f4789f9cec218146eae1120",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed907/summary.json",
+      "summary_sha256": "91fb06a7dbd9ffa2c7630f5689eea777e092bb7beed0a9c60ba88fa8b7662838"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 4,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed1009/test_per_user.parquet",
+      "per_user_sha256": "f273175c07f4844a7719999e31a5d924b9fb881e4a523ae99df4583172b89abb",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed1009/summary.json",
+      "summary_sha256": "0985c880e62109be7f7f3205003b937c44edbc2fc91e972b394cfe47031fd4d8"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed601/test_per_user.parquet",
+      "per_user_sha256": "b4c8b1968bc491212ec61de307129d0c309f5aa3f4c59fa177ddbf5bad953bd3",
+      "regularization": 0.0001,
+      "retention": "r025",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed601/summary.json",
+      "summary_sha256": "ae5c6ce1847828319ab99da8e85bcb9af3b9fef26f734b1b95b5282007960d95"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed701/test_per_user.parquet",
+      "per_user_sha256": "77ca7e58a15d828fb157a2ac63ee1068c0cfa2c3d6aac4e4ecdd272da76abb9b",
+      "regularization": 0.0001,
+      "retention": "r025",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed701/summary.json",
+      "summary_sha256": "3f1e56c6129a9e551cf3221094b784479aeeb379eb42d3d8eed4863f58f6a31c"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed809/test_per_user.parquet",
+      "per_user_sha256": "9c59206001ed5c2bc583312f6c26aff797e2f0a8e459b4ae186e4c2ba1b7cc55",
+      "regularization": 0.0001,
+      "retention": "r025",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed809/summary.json",
+      "summary_sha256": "69125bc290f00cc11d865b29c8bd5ca60ec9b4670b717e39970b3a2fd0d435e6"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed907/test_per_user.parquet",
+      "per_user_sha256": "76105729a7cf5463da4f0159d7fab4509eaaf9a0eb8f367d862066985e3b6969",
+      "regularization": 0.0001,
+      "retention": "r025",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed907/summary.json",
+      "summary_sha256": "43f8763713a85638c2aa71f1e26fe5291a6d7f5c63a8b12c549e8d4c95587757"
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed1009/test_per_user.parquet",
+      "per_user_sha256": "484989ca96e57036b16ec9ce07117b450b3096af1192952caca6e65e7f01ee49",
+      "regularization": 0.0001,
+      "retention": "r025",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed1009/summary.json",
+      "summary_sha256": "7d3be3dca9f0370c5b652d8938e151020848467aa2e576373863ac25065a2688"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed601/test_per_user.parquet",
+      "per_user_sha256": "40f8a4473c7aa9f35fc09d82843d353fb1e86eb940047f413a4b41e6aa2e2a76",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed601/summary.json",
+      "summary_sha256": "efc25f8792671e217dd508465e498373276fd6c4405509b8d403ce9c18ede3e5"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed701/test_per_user.parquet",
+      "per_user_sha256": "9811917f907b7e19ae1f6f29f74d98f25d3df76105e59e1422fe45a9d1c8fc71",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed701/summary.json",
+      "summary_sha256": "804b66d81c6f778f143a29ffead5c3b155aa46a542b6cb273d51ef5b297695a5"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed809/test_per_user.parquet",
+      "per_user_sha256": "1491ae29b1f891d1de1fd2b774c83130a52311d30879adac4a9b7b0bb4bda962",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed809/summary.json",
+      "summary_sha256": "8ed2ee271ced430454c0dc23e4a70ff1fbc3bc497b77985b1987fe9d51f15412"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed907/test_per_user.parquet",
+      "per_user_sha256": "2c915915f140722cd685d9a20d3b59dda72881137cd57df9af7200b1c8414895",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed907/summary.json",
+      "summary_sha256": "a40b767b265dd6b223dd5766723d0082d11150d83c4e5c0e5bfee4efe6be7d13"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed1009/test_per_user.parquet",
+      "per_user_sha256": "aec9b1bcd71b069bef37c9c923f65144f5cfded4875d76116f99a681a9122605",
+      "regularization": 0.01,
+      "retention": "r100",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed1009/summary.json",
+      "summary_sha256": "22f3c9eb5911ef854fb2f074587ef877160cdd73bc76897854534a139fc99ef1"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed601/test_per_user.parquet",
+      "per_user_sha256": "76cee62ab7ef8c743d7984fc1a40dc41ae4f1daa00535e0dd49497314d3172f8",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed601/summary.json",
+      "summary_sha256": "c79764f8241636ffa990fdbd258f6747cc7ef779457c5fbaa1fdec9b3874bc8d"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed701/test_per_user.parquet",
+      "per_user_sha256": "6d544e0cc143f8b0fbe44603d159243f02c75d63d19362b9bd7dc07fb20c76a8",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed701/summary.json",
+      "summary_sha256": "4fef3358fe3b8ce3bff70e9db2c080681d07e8a2bc914f8b191d3084fe0cc6e5"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed809/test_per_user.parquet",
+      "per_user_sha256": "931b6899a795a023eac323f1f8f829445222632196231f2e9e9efd47993db698",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed809/summary.json",
+      "summary_sha256": "31f1fdb872f686ce31133b1e47cfc61ad9191f15322fbf04e3b861778f526c5c"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed907/test_per_user.parquet",
+      "per_user_sha256": "08356c9723c3e38693f3d25d732d7f6a3a65052ac0391959b54abe5413510882",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed907/summary.json",
+      "summary_sha256": "d2ebcf3dfa67de89da7ff31c90e2df836cf125dbbbf2a37e6491b15e65151929"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed1009/test_per_user.parquet",
+      "per_user_sha256": "741cb05a094a62ce2034f12c5c240ec296e2a1642131fdca80ccd4c9beb08897",
+      "regularization": 0.01,
+      "retention": "r075",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed1009/summary.json",
+      "summary_sha256": "796b67d2eb4c7d8a0bdad7afd3ee016cc76eaf183198f8d4a942da6d84b1ce50"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed601/test_per_user.parquet",
+      "per_user_sha256": "352d4150f60633b74178cc74d2383f0d19159cc26cf0447514e7186f844e5d92",
+      "regularization": 0.01,
+      "retention": "r050",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed601/summary.json",
+      "summary_sha256": "a735364848ad4534fd4f73a2e0b2b370e3e9cb60b4876d286fc22892956a982e"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed701/test_per_user.parquet",
+      "per_user_sha256": "3ba9d4899d795022d0be3484a0415d782c09a2d5ba9928e477c1308b06500ca2",
+      "regularization": 0.01,
+      "retention": "r050",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed701/summary.json",
+      "summary_sha256": "2af31955d07469c486481558fffeb08b995042864535cded42db55a01d5fe9f3"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed809/test_per_user.parquet",
+      "per_user_sha256": "f53e4fbf0b459b1e2820f39b3025e6c0693fdd64b5d199605591c661769a3a46",
+      "regularization": 0.01,
+      "retention": "r050",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed809/summary.json",
+      "summary_sha256": "0bdb89e3f290cbd58fe1b3708ca5147d91d54b00ed51e59c6557816d6c955746"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed907/test_per_user.parquet",
+      "per_user_sha256": "54e620bdc6016da60f7c4a9964540f4770e75a07adba46798443fe0c21254520",
+      "regularization": 0.01,
+      "retention": "r050",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed907/summary.json",
+      "summary_sha256": "b642df707d3d46709c48c3fe5af7251f64ec92a34ddcbb281fccd4a3fb338f78"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed1009/test_per_user.parquet",
+      "per_user_sha256": "649363a767bf3e5cfb62fd2707ab0ae52b41739e4103c7db5d809407afd95403",
+      "regularization": 0.01,
+      "retention": "r050",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed1009/summary.json",
+      "summary_sha256": "d575aef040d905be3ef49c35edaf17b4d37c0a6e94150d3c9da701a9a45ba52c"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed601/test_per_user.parquet",
+      "per_user_sha256": "fe4e948b4704d28d1018fa8f210bbf5ae5fb7ff29c39bca88333ed78df9593da",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 601,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed601/summary.json",
+      "summary_sha256": "93a8efb0b65aca944e723169acb6c920b3628b44514d38347e575931e847ae33"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed701/test_per_user.parquet",
+      "per_user_sha256": "eeba216a3f733c17dc9e01903b1e4ce76901d9c63cd3ea76022604e8367c10c3",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 701,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed701/summary.json",
+      "summary_sha256": "c63fd494e19e645cdc8efa6cbd6c2c5a55eef4e790ae2ae7f62e91db76c2ab37"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed809/test_per_user.parquet",
+      "per_user_sha256": "5e8049146c5930f6659549c23ed8a5657c22cd294354d68f23ef3946ef6d4d81",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 809,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed809/summary.json",
+      "summary_sha256": "0e9789e9c52935cbb79328399208e943cba3f74242d5e495cdce76c53a86829b"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed907/test_per_user.parquet",
+      "per_user_sha256": "a91ed1647665435d75341095fef40dea287b5d2d5f3a69a2ab8a80a5a866763e",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 907,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed907/summary.json",
+      "summary_sha256": "654229ac442391951aae37fa47d934b1438c7c2174f19b31775eaf2225b1b20b"
+    },
+    {
+      "dataset": "epinions",
+      "dimension": 64,
+      "per_user_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed1009/test_per_user.parquet",
+      "per_user_sha256": "878dd1fd28cceef7a2c453207b005ae538cb2f5cd94a4d8b5111c86da4b8c0fe",
+      "regularization": 0.01,
+      "retention": "r025",
+      "seed": 1009,
+      "selection_roles": [
+        "revision_selected"
+      ],
+      "summary_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed1009/summary.json",
+      "summary_sha256": "8dfddc92d68256683e9c7242179a9fb5498a6d666fce9aec13ca5b830fbfb6d5"
+    }
+  ],
+  "runtime_replay_passed": true,
+  "stage": "revision_stage_sensitivity"
+}

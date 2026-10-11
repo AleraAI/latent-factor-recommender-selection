@@ -1,0 +1,137 @@
+{
+  "dataset": "epinions",
+  "expected_runs": 10,
+  "observed_runs": 10,
+  "retention_label": "r100",
+  "runs": [
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "4aab4b584530eecd501ce6980ebac94b2f87aa86e733e4def6e775dc83076ce2",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "rmse_selected",
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed601/summary.json",
+      "summary_sha256": "8980898f428527b83d768279c1958c45ee3ee04d5f5ffa86eeaf05dcbcf21d4a"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "ddb136e77ac29e383c525a2ba41cb1fcac1da2749f42e7d0019e074e4b860c43",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "rmse_selected",
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed701/summary.json",
+      "summary_sha256": "5ddcaad02dedac4af66ac81c37263d109ef78c01660dfc1c84729fbf4017e2cf"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "fb538010142c5f1c798a80e9a759b23e81b1a27538afecdb030be924710d5c05",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "rmse_selected",
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed809/summary.json",
+      "summary_sha256": "7e268fee727b1ee2b99bdd8f4aac68c4cbdfa3d6f513351e278542a5ee7b54eb"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "317fe71e0c100797158b21620c684e9efdfbb65660f22b1b124080ef3352d7cd",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "rmse_selected",
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed907/summary.json",
+      "summary_sha256": "436a9942661de65bfae3fba7199fb0482755508059b71a4230bf9b537f892252"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "83dd1129cfaef79bf81214a13982b924146e8e4c481bb6dfe9d0956fe87c705d",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "rmse_selected",
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "5525f9c42b1941809149d1c8593e863d0999d7f132c158acaae56a8ea6bc5202"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed601/test_per_user.parquet",
+      "per_user_sha256": "1657ccbb560ed0a1c58159d79b8e5c59b442ec27d184868849203f166de5a30a",
+      "regularization": 0.0001,
+      "seed": 601,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed601/summary.json",
+      "summary_sha256": "81adba05423b36e1e23591c6d9efb814bedd4f64214c558c78970851ab54a607"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed701/test_per_user.parquet",
+      "per_user_sha256": "2df40b438c2e6a3c146d7a5a86e4aa5404cbc35f7bc72599f8cbab6fc183d90d",
+      "regularization": 0.0001,
+      "seed": 701,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed701/summary.json",
+      "summary_sha256": "d7727b910ca52dff8820de0f524f4b15fc0122ab0210d0c9b35a0731159b577b"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed809/test_per_user.parquet",
+      "per_user_sha256": "ba0f9012b207dab91012615876de757feb3b768dc0e84b18f0c9ba2823d64c15",
+      "regularization": 0.0001,
+      "seed": 809,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed809/summary.json",
+      "summary_sha256": "a8b9330cfa33169c5d8495e06ddd1fb736fbf6279436e46477377716d6bfdfb4"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed907/test_per_user.parquet",
+      "per_user_sha256": "dc5a34efb53c2b3521c415cdeaf80b4045ecdffa1a8b8fc1a20c35145b976410",
+      "regularization": 0.0001,
+      "seed": 907,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed907/summary.json",
+      "summary_sha256": "8eb0fc12e0030cacd77664185b341166118e610e1b5a7b7ca20f3ed52c0cb07e"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed1009/test_per_user.parquet",
+      "per_user_sha256": "a192c8f2dc3b33a5e9a01eedfb83ba55d52b6054b446194cc3d2ae9a95c1175f",
+      "regularization": 0.0001,
+      "seed": 1009,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/ndcg_selected/d64_lambda0.0001_seed1009/summary.json",
+      "summary_sha256": "0f1f0b014ea798a168e9c1b52ecb23223d6813119579f6776b54bde68eb82ac1"
+    }
+  ],
+  "schema_version": 1,
+  "selection_lock_sha256": "1a91a25ec2de506a479d46b56afdb4631fecab9ec609c40cc60ff9ecde9f01fd",
+  "stage": "prospective_locked_test_confirmation",
+  "unique_selected_configurations": 2
+}

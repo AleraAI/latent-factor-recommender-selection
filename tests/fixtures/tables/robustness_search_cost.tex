@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Measured post-confirmation validation search work. Fit hours sum recorded single-threaded training time and are not elapsed parallel wall time. Checkpoint evaluations count complete validation rankings; candidate scores are exact train-known-catalog score work units. BPR sensitivity and fresh seed test confirmations are excluded because they are not search opportunities.}
+\label{tab:robustness-search-cost}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Stage & Fits & Checkpoint evaluations & Fit h & Candidate scores \\
+\midrule
+Expanded explicit MF & 4,860 & 14,580 & 34.41 & 124,936,646,940 \\
+BPR coarse & 3,600 & 10,800 & 29.38 & 92,545,664,400 \\
+BPR refinement & 540 & 1,620 & 20.88 & 13,881,849,660 \\
+\bottomrule
+\end{tabular}
+\end{table}

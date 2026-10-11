@@ -1,0 +1,24 @@
+{
+  "dataset": "yelp_tampa_restaurants",
+  "model": "popularity",
+  "retention_label": "r100",
+  "schema_version": 1,
+  "stage": "baseline_development_validation_only",
+  "training": {
+    "items": 1725,
+    "rows": 65774,
+    "users": 3797
+  },
+  "validation": {
+    "ranking": {
+      "cold_relevant_events": 17,
+      "ndcg@10": 0.05225918634240433,
+      "ndcg@20": 0.06620638138210315,
+      "recall@10": 0.07812384017316581,
+      "recall@20": 0.12212952923074966,
+      "users_evaluable": 3462,
+      "users_total": 3797,
+      "users_without_eligible_relevant_items": 335
+    }
+  }
+}

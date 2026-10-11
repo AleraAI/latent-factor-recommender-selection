@@ -1,0 +1,110 @@
+schema_version: 1
+status: locked_before_bpr_test_access
+scientific_role: secondary_ranking_native_boundary
+development_conditions: 12
+development_runs: 2100
+configurations_per_condition: 35
+selection_seeds:
+- 101
+- 211
+- 307
+- 401
+- 503
+confirmation_seeds:
+- 601
+- 701
+- 809
+- 907
+- 1009
+locked_input_sha256:
+  datasets_yaml: 981ca3c135a4ea57666b26275c99570b4d57b2486363e366bba7c6dbb0009abb
+  bpr_modeling_yaml: db682c86ce018943acc11899844030f11250faa0beb1577e53382483115c0075
+  bpr_confirmation_yaml: e20708b3b3c2ebe5f3391203ad85570e06a424c87a10759f681469747f2a7a98
+selections:
+  movielens_1m:
+    r100:
+      selection_sha256: 2285b78299d297411433e54f93f9df7cc42d4a245d46345d0d3895c912cf6193
+      bpr_selected:
+        dimension: 32
+        regularization: 0.01
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.09099313084907987
+    r075:
+      selection_sha256: bc2738c4e09df947a1a1aa88b97824aec74693a024bff2ce65281d9fcc865988
+      bpr_selected:
+        dimension: 32
+        regularization: 0.01
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.08624399830324327
+    r050:
+      selection_sha256: 444ed805f5be8dc143af9894e6e26c444c9f06eab728456c5e939ff0807f1785
+      bpr_selected:
+        dimension: 64
+        regularization: 0.01
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.08313522041084703
+    r025:
+      selection_sha256: 3ab1cf30aa8c4f14475706f512c6fdaddcd16a8cb69f8a422ffe1b54ccad7fc4
+      bpr_selected:
+        dimension: 64
+        regularization: 0.01
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.07141276721019596
+  ciaodvd:
+    r100:
+      selection_sha256: b502eb92c69700e2da2ebea1fbae30893df7ea30f9dcfdc351a17aa38067a4f9
+      bpr_selected:
+        dimension: 32
+        regularization: 0.01
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.061225501737005875
+    r075:
+      selection_sha256: aac5416a8cc1ccdf586a6fc105397be6e25ccd6150a491aa16aa069a04757f34
+      bpr_selected:
+        dimension: 16
+        regularization: 0.1
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.04784154740266121
+    r050:
+      selection_sha256: d81c726b3a6502f13cc56029d22eb647bb7e1118bb7c4159c00c013ce9913261
+      bpr_selected:
+        dimension: 64
+        regularization: 0.1
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.052779170555137714
+    r025:
+      selection_sha256: 9787b779ac6cf6ea20a73dc29b00eb0872334b412d94947e49b854d00ea2fcef
+      bpr_selected:
+        dimension: 4
+        regularization: 0.1
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.037791522989115894
+  yelp_tampa_restaurants:
+    r100:
+      selection_sha256: 1f6868ec820f4beda26e0a8e3afe5e8c24f0c7188e18d46f5ca6f9a0d326ef32
+      bpr_selected:
+        dimension: 64
+        regularization: 0.01
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.05264255071667352
+    r075:
+      selection_sha256: 15a41083a4267eb6c3ca1d17bd367510277f4f8f6d930ba48e498cc004b4136b
+      bpr_selected:
+        dimension: 64
+        regularization: 0.1
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.05187986158769482
+    r050:
+      selection_sha256: ee412d2c8278a67b09cba309ffbe829122431f101556342867eb9c6226eed695
+      bpr_selected:
+        dimension: 2
+        regularization: 0.1
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.05187438848321235
+    r025:
+      selection_sha256: f6ab1ba100ebc1d0e41976b8563ab3a5464b3d5c8e590da950975dbfbc288757
+      bpr_selected:
+        dimension: 1
+        regularization: 0.1
+        selection_seed_count: 5
+        mean_validation_ndcg@10: 0.05054183716769005

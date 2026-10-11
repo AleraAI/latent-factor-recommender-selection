@@ -1,0 +1,24 @@
+{
+  "dataset": "ciaodvd",
+  "model": "popularity",
+  "retention_label": "r050",
+  "schema_version": 1,
+  "stage": "baseline_development_validation_only",
+  "training": {
+    "items": 533,
+    "rows": 3489,
+    "users": 442
+  },
+  "validation": {
+    "ranking": {
+      "cold_relevant_events": 0,
+      "ndcg@10": 0.04664782399126993,
+      "ndcg@20": 0.061168618487872944,
+      "recall@10": 0.07699192699192699,
+      "recall@20": 0.12166842166842165,
+      "users_evaluable": 407,
+      "users_total": 442,
+      "users_without_eligible_relevant_items": 35
+    }
+  }
+}

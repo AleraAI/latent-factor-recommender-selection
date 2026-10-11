@@ -1,0 +1,132 @@
+{
+  "dataset": "movielens_1m",
+  "expected_runs": 10,
+  "observed_runs": 10,
+  "relevance_threshold": 5.0,
+  "retention_label": "r100",
+  "runs": [
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "63a1809f4dea94da28f6acba8e069d66ed3baa53e465e06437acaf30bf8fc2a8",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed601/summary.json",
+      "summary_sha256": "d7109d701748a5934b7ef1a0ca77f26ef1f058a440a24a771277851238a6fc8f"
+    },
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "f8d552d1767ef041176b181d906d587d1889ac312f8f1b2c6c67b199d3083bf4",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed701/summary.json",
+      "summary_sha256": "eb900a176c08664faf23bc265c5d4da09e0eac7c6e4e1d9422453496889e2366"
+    },
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "05f94eda3911b87538afa7a10ba2ff7ea0ba203a6894712a6ee88a60bd8469d7",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed809/summary.json",
+      "summary_sha256": "9e0df51a1478d958ef909f98193961dcc6807626db399e33ce63129c505b4ebc"
+    },
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "287ebde7abd7ab9ddd4cdcaf853ab6dc446f28809afa95d63c8976050f31861c",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed907/summary.json",
+      "summary_sha256": "19feda4f97a30400f2c66d621343316b470469e899e0aab5f1d064ade5cd38d2"
+    },
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "1f45873919597918be187a19f5ebc713a3b1ddc33da0165c7d0dbf22d33b175f",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "a47bd711f564137ee74139842c82c5a6106867bfce23f6a39d1e02aceed7721d"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "47bf897eba099712307b8561a37a61bb924d503063ae72454def9c79388f260b",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed601/summary.json",
+      "summary_sha256": "73658fa24dabba905e1fbb5d6b28315df7fde6c7d32a9be627a856b3d72fc444"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "625a5549f847b6cb222f9d67a8d1569f01a5d6e0b49ad600a7cc2db27289e45c",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed701/summary.json",
+      "summary_sha256": "e24fce3bf27631ff04e424314132746315f0ef8ba9a26b568db019401891e5d7"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "b78db0da8741a5df304c8c17faea5e4ca86221fbe3108f9c0296c80ad1ae2885",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed809/summary.json",
+      "summary_sha256": "3f69957f39b24422c685edc9206bebb842aea6c9fed2717fd2f16b16b96e730e"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "f0bdaae27a2aedf3e55599cfc14db55c1e986d16fa7e6eefd30e5bd892fd0569",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed907/summary.json",
+      "summary_sha256": "33fcc721d9d7751b70c25158b3de606bba5394a4773bd651f684195745c0ec39"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "41899872de174770622d666658c348dd8b3142577b2b98e636b36e8a6c61d296",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "5fe934c733d8f4f8792ea066ce570a1059d5bbc6929f157a7c75e1f29c7a8000"
+    }
+  ],
+  "schema_version": 1,
+  "selection_lock_sha256": "d608fbefa6021f81ebeac2ce50c038645142ce2ed754939ab9921675a70c90bf",
+  "stage": "post_confirmation_five_star_relevance_sensitivity"
+}

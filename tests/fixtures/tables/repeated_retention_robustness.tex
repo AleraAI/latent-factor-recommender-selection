@@ -1,0 +1,25 @@
+\begin{table}[H]
+\centering
+\caption{Post-confirmation robustness across three independently prioritized nested retention samples. Each sample reselects from the expanded 100-epoch explicit MF grid with three development seeds and evaluates the two choices with five fresh seeds. Ranking regret is shown as the across-sample mean [minimum, maximum]; SD is the between-sample standard deviation.}
+\label{tab:repeated-retention-robustness}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Dataset & Ret. & Samples & $\Delta_{\rm rank}$ mean [range] & SD & Mean $\Delta_{\rm RMSE}$ \\ 
+\midrule
+MovieLens 1M & 75\% & 3 & +0.0066 [+0.0065, +0.0066] & 0.0001 & +0.1179 \\
+ & 50\% & 3 & +0.0190 [+0.0183, +0.0199] & 0.0008 & +0.0840 \\
+ & 25\% & 3 & +0.0229 [+0.0222, +0.0239] & 0.0008 & +0.0550 \\
+\addlinespace
+CiaoDVD & 75\% & 3 & +0.0105 [+0.0055, +0.0188] & 0.0072 & +0.0400 \\
+ & 50\% & 3 & +0.0064 [+0.0033, +0.0111] & 0.0042 & +0.0339 \\
+ & 25\% & 3 & +0.0066 [+0.0030, +0.0085] & 0.0031 & +0.0196 \\
+\addlinespace
+Yelp--Tampa & 75\% & 3 & +0.0074 [+0.0071, +0.0076] & 0.0002 & +0.0370 \\
+ & 50\% & 3 & +0.0088 [+0.0083, +0.0091] & 0.0004 & +0.0307 \\
+ & 25\% & 3 & +0.0078 [+0.0066, +0.0091] & 0.0012 & +0.0691 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

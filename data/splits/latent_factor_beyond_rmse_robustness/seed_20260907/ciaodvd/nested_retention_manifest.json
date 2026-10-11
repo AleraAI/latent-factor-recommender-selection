@@ -1,0 +1,88 @@
+{
+  "_public_export": {
+    "not_canonical_original": true,
+    "removed_fields": [
+      "family.repaired_interaction_ids"
+    ],
+    "source_sha256": "082cd203fcf9de365620b2f13f768d10e9cb8dc4461409f48ea17f68b6fd50df",
+    "transformation": "Omit repaired interaction hash lists; retain counts, artifact hashes and all other fields."
+  },
+  "conditions": {
+    "r025": {
+      "artifact": {
+        "bytes": 169448,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260907/ciaodvd/train_r025.parquet",
+        "sha256": "b11131b9dc61ac92750ee1c830738dbe28b003eef333c5957d369d106eccb6e5"
+      },
+      "initial_requested_rows": 1927,
+      "items": 533,
+      "minimum_realized_user_degree": 3,
+      "realized_retention": 0.2933532486930545,
+      "realized_rows": 1964,
+      "repair_rows_propagated": 37,
+      "retention_nominal": 0.25,
+      "seed": 20260907,
+      "users": 442
+    },
+    "r050": {
+      "artifact": {
+        "bytes": 287926,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260907/ciaodvd/train_r050.parquet",
+        "sha256": "cc22f241f06252c109b3b4271883f4b2eed55946eb91f0af08266c99916c212d"
+      },
+      "initial_requested_rows": 3486,
+      "items": 533,
+      "minimum_realized_user_degree": 4,
+      "realized_retention": 0.5215832710978342,
+      "realized_rows": 3492,
+      "repair_rows_propagated": 6,
+      "retention_nominal": 0.5,
+      "seed": 20260907,
+      "users": 442
+    },
+    "r075": {
+      "artifact": {
+        "bytes": 416631,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260907/ciaodvd/train_r075.parquet",
+        "sha256": "bac8b83f26619c9c1d9b1250a64203d0e60e3e6861677b849225907e0c02a257"
+      },
+      "initial_requested_rows": 5047,
+      "items": 533,
+      "minimum_realized_user_degree": 5,
+      "realized_retention": 0.7539955190440627,
+      "realized_rows": 5048,
+      "repair_rows_propagated": 1,
+      "retention_nominal": 0.75,
+      "seed": 20260907,
+      "users": 442
+    },
+    "r100": {
+      "artifact": {
+        "bytes": 536606,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260907/ciaodvd/train_r100.parquet",
+        "sha256": "14365be9ea1bef2baa38425813ece649b3522d0a9eec8a925578749a77b20d3d"
+      },
+      "initial_requested_rows": 6695,
+      "items": 533,
+      "minimum_realized_user_degree": 7,
+      "realized_retention": 1.0,
+      "realized_rows": 6695,
+      "repair_rows_propagated": 0,
+      "retention_nominal": 1.0,
+      "seed": 20260907,
+      "users": 442
+    }
+  },
+  "dataset": "ciaodvd",
+  "family": {
+    "catalog_repair_origin": "r025_then_propagated_upward",
+    "nested": true,
+    "priority_rule": "sha256(seed, interaction_id)",
+    "repaired_interaction_ids_omitted_count": 37,
+    "repaired_items": 37,
+    "seed": 20260907
+  },
+  "protocol_sha256": "f37db83b253bfc966aa64f80450fe9a123171c9191c05f06171426a6e69c83ec",
+  "schema_version": 1,
+  "stage": "post_confirmation_nested_retention"
+}

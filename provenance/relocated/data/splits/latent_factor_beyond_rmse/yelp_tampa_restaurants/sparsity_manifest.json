@@ -1,0 +1,110 @@
+{
+  "changed_fields": [
+    "conditions.r025.artifact.path",
+    "conditions.r025.repaired_interaction_ids",
+    "conditions.r050.artifact.path",
+    "conditions.r050.repaired_interaction_ids",
+    "conditions.r075.artifact.path",
+    "conditions.r075.repaired_interaction_ids",
+    "conditions.r100.artifact.path",
+    "conditions.r100.repaired_interaction_ids"
+  ],
+  "metadata": {
+    "conditions": {
+      "r025": {
+        "artifact": {
+          "bytes": 1740326,
+          "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/train_r025.parquet",
+          "sha256": "04539fae424645a14eaafcaf4e7cdfbac33915181909cae0dda434790f56f888"
+        },
+        "full_train_rows": 65774,
+        "full_training_catalog_items": 1725,
+        "initial_requested_rows": 18530,
+        "items": 1725,
+        "minimum_per_user": 3,
+        "minimum_realized_user_degree": 3,
+        "realized_retention": 0.2825888649010247,
+        "realized_rows": 18587,
+        "repair_rows_added": 57,
+        "repaired_interaction_ids_omitted_count": 57,
+        "repaired_items": 57,
+        "retention_nominal": 0.25,
+        "seed": 20260817,
+        "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+        "users": 3797
+      },
+      "r050": {
+        "artifact": {
+          "bytes": 3022310,
+          "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/train_r050.parquet",
+          "sha256": "667a1366cf52bc6504d1f68c248e1569eba5adf4b8ee4533ab5d22596eca3df1"
+        },
+        "full_train_rows": 65774,
+        "full_training_catalog_items": 1725,
+        "initial_requested_rows": 34071,
+        "items": 1725,
+        "minimum_per_user": 3,
+        "minimum_realized_user_degree": 4,
+        "realized_retention": 0.5181378660260894,
+        "realized_rows": 34080,
+        "repair_rows_added": 9,
+        "repaired_interaction_ids_omitted_count": 9,
+        "repaired_items": 9,
+        "retention_nominal": 0.5,
+        "seed": 20260817,
+        "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+        "users": 3797
+      },
+      "r075": {
+        "artifact": {
+          "bytes": 4332179,
+          "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/train_r075.parquet",
+          "sha256": "3fc6aecd46d582140277832c940b8b95eb9e91aa31243aceaf0594b4511664c2"
+        },
+        "full_train_rows": 65774,
+        "full_training_catalog_items": 1725,
+        "initial_requested_rows": 49511,
+        "items": 1725,
+        "minimum_per_user": 3,
+        "minimum_realized_user_degree": 5,
+        "realized_retention": 0.7527746525982911,
+        "realized_rows": 49513,
+        "repair_rows_added": 2,
+        "repaired_interaction_ids_omitted_count": 2,
+        "repaired_items": 2,
+        "retention_nominal": 0.75,
+        "seed": 20260817,
+        "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+        "users": 3797
+      },
+      "r100": {
+        "artifact": {
+          "bytes": 5615540,
+          "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/train_r100.parquet",
+          "sha256": "42567a7506ba8888a7440a450b05c84aa70d6e542306e302c053571fb092b084"
+        },
+        "full_train_rows": 65774,
+        "full_training_catalog_items": 1725,
+        "initial_requested_rows": 65774,
+        "items": 1725,
+        "minimum_per_user": 3,
+        "minimum_realized_user_degree": 7,
+        "realized_retention": 1.0,
+        "realized_rows": 65774,
+        "repair_rows_added": 0,
+        "repaired_interaction_ids_omitted_count": 0,
+        "repaired_items": 0,
+        "retention_nominal": 1.0,
+        "seed": 20260817,
+        "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+        "users": 3797
+      }
+    },
+    "dataset": "yelp_tampa_restaurants",
+    "schema_version": 1
+  },
+  "not_canonical_original": true,
+  "source_path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json",
+  "source_sha256": "410e99e3969163e2f611fe347b0bf82f0694914016049566cc101a1d337d4c9d",
+  "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+}

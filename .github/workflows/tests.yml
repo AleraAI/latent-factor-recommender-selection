@@ -1,0 +1,33 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    env:
+      MPLBACKEND: Agg
+      PYTHONDONTWRITEBYTECODE: "1"
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+    steps:
+      - name: Configure cache directories
+        run: |
+          printf 'MPLCONFIGDIR=%s/latent-factor-matplotlib\nXDG_CACHE_HOME=%s/latent-factor-cache\n' "$RUNNER_TEMP" "$RUNNER_TEMP" >> "$GITHUB_ENV"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -r requirements-ci.txt
+      - run: python -m pip install -e .
+      - run: python scripts/latent_factor/verify_release.py
+      - run: pytest -q -p no:cacheprovider tests/test_latent_factor_*.py
+      - run: python scripts/latent_factor/verify_selection_locks.py
+      - run: python scripts/latent_factor/verify_manuscript_tables.py --check-report
+      - run: python scripts/latent_factor/regenerate_aggregate_artifacts.py --output regenerated
+      - run: python scripts/latent_factor/verify_release.py

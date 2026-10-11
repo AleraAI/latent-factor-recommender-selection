@@ -1,0 +1,15 @@
+name: latent-factor-beyond-rmse-results
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.9
+  - numpy=1.21.5
+  - pandas=1.5.3
+  - pyarrow>=10,<13
+  - pyyaml>=6,<7
+  - scipy>=1.9,<2
+  - matplotlib>=3.7,<4
+  - pip
+  - pip:
+      # Historical development wheel; archive the exact wheel with the DOI deposit.
+      - torch==2.1.0.dev20230521

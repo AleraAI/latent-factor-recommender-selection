@@ -1,0 +1,50 @@
+\begin{table}[H]
+\centering
+\caption{Revision-stage margin sensitivity for CiaoDVD. All 32 retention--margin--rule selections are shown. Test metrics are arithmetic averages across five model-seed evaluations, not predictions averaged into an ensemble. Validation RMSE and test RMSE are global event-weighted measures within a model seed. Configuration aliases are defined in \Cref{tab:config-registry}; $|A|$ denotes admissible candidates. Every displayed test result has all five model seeds. Reference NDCG scores, signed absolute and relative test regrets, and uncertainty intervals are retained in the machine-readable reports.}
+\label{tab:margin-details-ciaodvd}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llccrrrrr@{}}
+\toprule
+Retention & $\delta$ & Rule & ID & $|A|$ & Val. RMSE & Val. NDCG@10 & Test RMSE & Test NDCG@10 \\
+\midrule
+100\% & 0.0010 & Mean & C35 & 1 & 0.98510 & 0.02230 & 0.95648 & 0.02440 \\
+ &  & UA & C35 & 1 & 0.98510 & 0.02230 & 0.95648 & 0.02440 \\
+ & 0.0025 & Mean & C14 & 10 & 0.96337 & 0.01993 & 0.95297 & 0.01315 \\
+ &  & UA & C35 & 1 & 0.98510 & 0.02230 & 0.95648 & 0.02440 \\
+ & 0.0050 & Mean & C15 & 24 & 0.95399 & 0.01867 & 0.94567 & 0.01164 \\
+ &  & UA & C35 & 5 & 0.98510 & 0.02230 & 0.95648 & 0.02440 \\
+ & 0.0100 & Mean & C05 & 35 & 0.95119 & 0.01498 & 0.94235 & 0.01385 \\
+ &  & UA & C15 & 23 & 0.95399 & 0.01867 & 0.94567 & 0.01164 \\
+\addlinespace
+75\% & 0.0010 & Mean & C03 & 20 & 0.96674 & 0.01937 & 0.95492 & 0.01560 \\
+ &  & UA & C33 & 3 & 1.01815 & 0.02031 & 0.99374 & 0.01981 \\
+ & 0.0025 & Mean & C10 & 31 & 0.96498 & 0.01908 & 0.95542 & 0.01604 \\
+ &  & UA & C34 & 4 & 1.01547 & 0.01981 & 0.99106 & 0.01967 \\
+ & 0.0050 & Mean & C10 & 35 & 0.96498 & 0.01908 & 0.95542 & 0.01604 \\
+ &  & UA & C03 & 16 & 0.96674 & 0.01937 & 0.95492 & 0.01560 \\
+ & 0.0100 & Mean & C10 & 35 & 0.96498 & 0.01908 & 0.95542 & 0.01604 \\
+ &  & UA & C10 & 35 & 0.96498 & 0.01908 & 0.95542 & 0.01604 \\
+\addlinespace
+50\% & 0.0010 & Mean & C05 & 8 & 0.99343 & 0.01647 & 0.97580 & 0.01394 \\
+ &  & UA & C05 & 1 & 0.99343 & 0.01647 & 0.97580 & 0.01394 \\
+ & 0.0025 & Mean & C05 & 17 & 0.99343 & 0.01647 & 0.97580 & 0.01394 \\
+ &  & UA & C05 & 1 & 0.99343 & 0.01647 & 0.97580 & 0.01394 \\
+ & 0.0050 & Mean & C05 & 30 & 0.99343 & 0.01647 & 0.97580 & 0.01394 \\
+ &  & UA & C05 & 1 & 0.99343 & 0.01647 & 0.97580 & 0.01394 \\
+ & 0.0100 & Mean & C05 & 35 & 0.99343 & 0.01647 & 0.97580 & 0.01394 \\
+ &  & UA & C05 & 26 & 0.99343 & 0.01647 & 0.97580 & 0.01394 \\
+\addlinespace
+25\% & 0.0010 & Mean & C30 & 3 & 1.03105 & 0.01818 & 1.00894 & 0.01704 \\
+ &  & UA & C29 & 1 & 1.03364 & 0.01876 & 1.01159 & 0.01507 \\
+ & 0.0025 & Mean & C08 & 14 & 1.01341 & 0.01672 & 0.99598 & 0.01474 \\
+ &  & UA & C26 & 2 & 1.03357 & 0.01721 & 1.01214 & 0.01570 \\
+ & 0.0050 & Mean & C05 & 30 & 1.01239 & 0.01531 & 0.99556 & 0.01162 \\
+ &  & UA & C30 & 10 & 1.03105 & 0.01818 & 1.00894 & 0.01704 \\
+ & 0.0100 & Mean & C05 & 35 & 1.01239 & 0.01531 & 0.99556 & 0.01162 \\
+ &  & UA & C05 & 34 & 1.01239 & 0.01531 & 0.99556 & 0.01162 \\
+\bottomrule
+\end{tabular}%
+}
+\par\smallskip\footnotesize The fixed validation-NDCG reference IDs are 100\%: C35; 75\%: C33; 50\%: C05; 25\%: C29. Relative regret uses the corresponding reference test NDCG denominator; a near-zero denominator is flagged rather than replaced with an epsilon.
+\end{table}

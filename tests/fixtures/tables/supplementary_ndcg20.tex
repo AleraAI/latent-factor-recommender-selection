@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{NDCG@20 cutoff sensitivity. Effects are NDCG-selected minus RMSE-selected after averaging five fresh seeds per user. Intervals use 10,000 user-cluster bootstrap resamples; Holm adjustment covers the twelve conditions for this metric.}
+\label{tab:supp-ndcg20}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Dataset & Ret. & Users & RMSE-selected & NDCG-selected & $\Delta$ & 95\% CI & $p_{\rm Holm}$ \\
+\midrule
+MovieLens 1M & 100\% & 5,931 & 0.02550 & 0.02637 & +0.00087 & [+0.00061,+0.00113] & 0.0012 \\
+ & 75\% & 5,931 & 0.02060 & 0.02398 & +0.00338 & [+0.00296,+0.00381] & 0.0012 \\
+ & 50\% & 5,931 & 0.01329 & 0.02275 & +0.00946 & [+0.00863,+0.01031] & 0.0012 \\
+ & 25\% & 5,931 & 0.00107 & 0.02490 & +0.02383 & [+0.02287,+0.02483] & 0.0012 \\
+\addlinespace
+CiaoDVD & 100\% & 428 & 0.02290 & 0.03288 & +0.00998 & [+0.00288,+0.01741] & 0.0236 \\
+ & 75\% & 428 & 0.02305 & 0.02841 & +0.00536 & [-0.00098,+0.01159] & 0.2721 \\
+ & 50\% & 428 & 0.02237 & 0.02237 & +0.00000 & [+0.00000,+0.00000] & 1.0000 \\
+ & 25\% & 428 & 0.01939 & 0.02300 & +0.00361 & [-0.00067,+0.00788] & 0.2721 \\
+\addlinespace
+Yelp--Tampa & 100\% & 3,539 & 0.00599 & 0.01484 & +0.00885 & [+0.00748,+0.01018] & 0.0012 \\
+ & 75\% & 3,539 & 0.00594 & 0.01557 & +0.00963 & [+0.00824,+0.01104] & 0.0012 \\
+ & 50\% & 3,539 & 0.01106 & 0.01545 & +0.00439 & [+0.00319,+0.00557] & 0.0012 \\
+ & 25\% & 3,539 & 0.01345 & 0.01582 & +0.00236 & [+0.00093,+0.00380] & 0.0100 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

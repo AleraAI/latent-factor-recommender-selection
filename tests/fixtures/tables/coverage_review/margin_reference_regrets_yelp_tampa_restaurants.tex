@@ -1,0 +1,48 @@
+\begin{table}[H]
+\centering
+\caption{Yelp--Tampa revision-stage signed test regret relative to the validation-NDCG-selected reference. $\Delta=N_{\rm ref}-N_{\rm selected}$; relative regret is $100\Delta/N_{\rm ref}$. Brackets give existing two-sided 95\% paired fixed-fit user-bootstrap intervals for absolute $\Delta$, not ratio intervals. `Exceeds' means the unrounded point regret exceeds $\delta$; `within' is not a prospective-test result. Intervals are conditional and unadjusted. UA is uncertainty-aware; mean removes its uncertainty penalty.}
+\label{tab:coverage-regret-yelp-tampa-restaurants}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}rrlrrrl@{}}
+\toprule
+Retention & $\delta$ & Rule & $\Delta$ & 95\% CI & Relative (\%) & Point status \\
+\midrule
+100\% & 0.0010 & UA & +0.00027 & $[+0.00005, +0.00050]$ & +2.5 & within \\
+100\% & 0.0010 & Mean & +0.00027 & $[+0.00005, +0.00050]$ & +2.5 & within \\
+100\% & 0.0025 & UA & +0.00115 & $[+0.00058, +0.00174]$ & +10.8 & within \\
+100\% & 0.0025 & Mean & +0.00115 & $[+0.00058, +0.00174]$ & +10.8 & within \\
+100\% & 0.0050 & UA & +0.00115 & $[+0.00058, +0.00174]$ & +10.8 & within \\
+100\% & 0.0050 & Mean & +0.00445 & $[+0.00318, +0.00563]$ & +41.7 & within \\
+100\% & 0.0100 & UA & +0.00735 & $[+0.00615, +0.00854]$ & +68.8 & within \\
+100\% & 0.0100 & Mean & +0.00735 & $[+0.00615, +0.00854]$ & +68.8 & within \\
+\addlinespace
+75\% & 0.0010 & UA & +0.00026 & $[+0.00005, +0.00048]$ & +2.3 & within \\
+75\% & 0.0010 & Mean & +0.00026 & $[+0.00005, +0.00048]$ & +2.3 & within \\
+75\% & 0.0025 & UA & +0.00118 & $[+0.00061, +0.00175]$ & +10.5 & within \\
+75\% & 0.0025 & Mean & +0.00118 & $[+0.00061, +0.00175]$ & +10.5 & within \\
+75\% & 0.0050 & UA & +0.00118 & $[+0.00061, +0.00175]$ & +10.5 & within \\
+75\% & 0.0050 & Mean & +0.00423 & $[+0.00302, +0.00540]$ & +37.6 & within \\
+75\% & 0.0100 & UA & +0.00423 & $[+0.00302, +0.00540]$ & +37.6 & within \\
+75\% & 0.0100 & Mean & +0.00791 & $[+0.00672, +0.00913]$ & +70.3 & within \\
+\addlinespace
+50\% & 0.0010 & UA & +0.00013 & $[-0.00003, +0.00030]$ & +1.2 & within \\
+50\% & 0.0010 & Mean & +0.00013 & $[-0.00003, +0.00030]$ & +1.2 & within \\
+50\% & 0.0025 & UA & +0.00076 & $[+0.00017, +0.00132]$ & +7.0 & within \\
+50\% & 0.0025 & Mean & +0.00076 & $[+0.00017, +0.00132]$ & +7.0 & within \\
+50\% & 0.0050 & UA & +0.00076 & $[+0.00017, +0.00132]$ & +7.0 & within \\
+50\% & 0.0050 & Mean & +0.00353 & $[+0.00244, +0.00463]$ & +32.6 & within \\
+50\% & 0.0100 & UA & +0.00353 & $[+0.00244, +0.00463]$ & +32.6 & within \\
+50\% & 0.0100 & Mean & +0.00353 & $[+0.00244, +0.00463]$ & +32.6 & within \\
+\addlinespace
+25\% & 0.0010 & UA & +0.00003 & $[-0.00010, +0.00017]$ & +0.2 & within \\
+25\% & 0.0010 & Mean & +0.00051 & $[+0.00012, +0.00090]$ & +4.4 & within \\
+25\% & 0.0025 & UA & +0.00102 & $[-0.00017, +0.00220]$ & +8.9 & within \\
+25\% & 0.0025 & Mean & +0.00130 & $[+0.00005, +0.00248]$ & +11.4 & within \\
+25\% & 0.0050 & UA & +0.00130 & $[+0.00005, +0.00248]$ & +11.4 & within \\
+25\% & 0.0050 & Mean & +0.00217 & $[+0.00079, +0.00346]$ & +19.0 & within \\
+25\% & 0.0100 & UA & +0.00217 & $[+0.00079, +0.00346]$ & +19.0 & within \\
+25\% & 0.0100 & Mean & +0.00217 & $[+0.00079, +0.00346]$ & +19.0 & within \\
+\bottomrule
+\end{tabular}
+\end{table}

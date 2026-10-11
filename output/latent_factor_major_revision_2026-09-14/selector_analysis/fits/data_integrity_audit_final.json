@@ -1,0 +1,898 @@
+{
+  "status": "passed",
+  "audit_started_utc": "2026-09-14T23:35:19.480383+00:00",
+  "audit_completed_utc": "2026-09-14T23:35:20.451505+00:00",
+  "chronology": "Independent data-integrity audit introduced after revision fitting had begun; not a prefit declaration.",
+  "fitting_plan_path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/fitting_plan.json",
+  "fitting_plan_sha256": "2099e992818ca8400f892895a8cfc0edc8ce8f8e9ced06fcb4ca0510a56c8ed9",
+  "plan_recorded_utc": "2026-09-14T23:21:14.901198+00:00",
+  "planned_runs": 90,
+  "expected_run_count": 90,
+  "completed_run_count": 90,
+  "confirmation_manifest_sha256": "fb2f7cc1f9440edabbae146f2ffa41bdd824984d552e8b3ac93376915790ebbd",
+  "runtime_replay_gate_sha256": "170f6db15c4ff48c86853bc5505e77d550c143c7e32d2527b110b2249cbbbfee",
+  "unique_data_files": 24,
+  "completed_summary_files_checked": 90,
+  "manifest_snapshot_runs": 90,
+  "all_planned_runs_complete": true,
+  "mismatches": [],
+  "data": [
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/train.parquet",
+      "expected_sha256": "29fa012abcabe52a12475b05e6560e0cf3f7957734773c838330d249e3752d43",
+      "actual_sha256": "29fa012abcabe52a12475b05e6560e0cf3f7957734773c838330d249e3752d43",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_beyond_rmse/movielens_1m/manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/validation.parquet",
+      "expected_sha256": "a2a794f80bd43df109cae60730a7ebbf0b8ef80f99edc26490eeaaa30575c23b",
+      "actual_sha256": "a2a794f80bd43df109cae60730a7ebbf0b8ef80f99edc26490eeaaa30575c23b",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_beyond_rmse/movielens_1m/manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/test.parquet",
+      "expected_sha256": "75e09a2161e60e8160274f1f52fce94aac28860167ff0b3c910b391e2ef61c79",
+      "actual_sha256": "75e09a2161e60e8160274f1f52fce94aac28860167ff0b3c910b391e2ef61c79",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_beyond_rmse/movielens_1m/manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/movielens_1m/train_r075.parquet",
+      "expected_sha256": "a2b0044ae2f05ef5d6c02b209c32d3bba443f5a9d5ee9d64a42e4186c1d3c187",
+      "actual_sha256": "a2b0044ae2f05ef5d6c02b209c32d3bba443f5a9d5ee9d64a42e4186c1d3c187",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_beyond_rmse/movielens_1m/sparsity_manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/train.parquet",
+      "expected_sha256": "14365be9ea1bef2baa38425813ece649b3522d0a9eec8a925578749a77b20d3d",
+      "actual_sha256": "14365be9ea1bef2baa38425813ece649b3522d0a9eec8a925578749a77b20d3d",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_beyond_rmse/ciaodvd/manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/validation.parquet",
+      "expected_sha256": "548914beb9532a2d8a84176ccf6808d067de604c4cdc19d7e0edeae751a42d16",
+      "actual_sha256": "548914beb9532a2d8a84176ccf6808d067de604c4cdc19d7e0edeae751a42d16",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_beyond_rmse/ciaodvd/manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/test.parquet",
+      "expected_sha256": "86e7b890e178f1ea331975b636b3a1eacb0afe805d0aa8e6fd04b24079d3ac70",
+      "actual_sha256": "86e7b890e178f1ea331975b636b3a1eacb0afe805d0aa8e6fd04b24079d3ac70",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_beyond_rmse/ciaodvd/manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/train_r100.parquet",
+      "expected_sha256": "14365be9ea1bef2baa38425813ece649b3522d0a9eec8a925578749a77b20d3d",
+      "actual_sha256": "14365be9ea1bef2baa38425813ece649b3522d0a9eec8a925578749a77b20d3d",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_beyond_rmse/ciaodvd/sparsity_manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/train_r075.parquet",
+      "expected_sha256": "3866b09444584eb9f3c2c287d6ed395eb5fa23c620afb7e9c2490f939acf636b",
+      "actual_sha256": "3866b09444584eb9f3c2c287d6ed395eb5fa23c620afb7e9c2490f939acf636b",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_beyond_rmse/ciaodvd/sparsity_manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/train_r025.parquet",
+      "expected_sha256": "5fb145d6b4be4d838bf2f9118117dc5abaad69f1d98a328751a4c74e16d44e45",
+      "actual_sha256": "5fb145d6b4be4d838bf2f9118117dc5abaad69f1d98a328751a4c74e16d44e45",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_beyond_rmse/ciaodvd/sparsity_manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/train.parquet",
+      "expected_sha256": "42567a7506ba8888a7440a450b05c84aa70d6e542306e302c053571fb092b084",
+      "actual_sha256": "42567a7506ba8888a7440a450b05c84aa70d6e542306e302c053571fb092b084",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/validation.parquet",
+      "expected_sha256": "5a4c060e3f122e254c816c8c872c62bd54526e2e12b0a993541d9664b931337a",
+      "actual_sha256": "5a4c060e3f122e254c816c8c872c62bd54526e2e12b0a993541d9664b931337a",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/test.parquet",
+      "expected_sha256": "2773cef50e9a9da31ec8da67df8ad1e5798c74a84bb63ed126d904acf59d46d3",
+      "actual_sha256": "2773cef50e9a9da31ec8da67df8ad1e5798c74a84bb63ed126d904acf59d46d3",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/train_r100.parquet",
+      "expected_sha256": "42567a7506ba8888a7440a450b05c84aa70d6e542306e302c053571fb092b084",
+      "actual_sha256": "42567a7506ba8888a7440a450b05c84aa70d6e542306e302c053571fb092b084",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/train_r075.parquet",
+      "expected_sha256": "3fc6aecd46d582140277832c940b8b95eb9e91aa31243aceaf0594b4511664c2",
+      "actual_sha256": "3fc6aecd46d582140277832c940b8b95eb9e91aa31243aceaf0594b4511664c2",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/train_r050.parquet",
+      "expected_sha256": "667a1366cf52bc6504d1f68c248e1569eba5adf4b8ee4533ab5d22596eca3df1",
+      "actual_sha256": "667a1366cf52bc6504d1f68c248e1569eba5adf4b8ee4533ab5d22596eca3df1",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/train_r025.parquet",
+      "expected_sha256": "04539fae424645a14eaafcaf4e7cdfbac33915181909cae0dda434790f56f888",
+      "actual_sha256": "04539fae424645a14eaafcaf4e7cdfbac33915181909cae0dda434790f56f888",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_framework_epinions/epinions/train.parquet",
+      "expected_sha256": "5d7d0b898d4bb3d14baf216846e1e42072648cbff7c1fc2f4fe43780995dffcb",
+      "actual_sha256": "5d7d0b898d4bb3d14baf216846e1e42072648cbff7c1fc2f4fe43780995dffcb",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_framework_epinions/epinions/manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_framework_epinions/epinions/validation.parquet",
+      "expected_sha256": "bbffe9343f75e25533b09f01f0c4c5b9e6d54bcedc599d64902c656101bd48be",
+      "actual_sha256": "bbffe9343f75e25533b09f01f0c4c5b9e6d54bcedc599d64902c656101bd48be",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_framework_epinions/epinions/manifest.json"
+    },
+    {
+      "path": "data/processed/latent_factor_framework_epinions/epinions/test.parquet",
+      "expected_sha256": "0779f67a26e76aa7f1389c07ee8d0dd3f1f3f4c48b99a9e34059cec5077a068a",
+      "actual_sha256": "0779f67a26e76aa7f1389c07ee8d0dd3f1f3f4c48b99a9e34059cec5077a068a",
+      "matches": true,
+      "reference_manifest": "data/processed/latent_factor_framework_epinions/epinions/manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_framework_epinions/epinions/train_r100.parquet",
+      "expected_sha256": "5d7d0b898d4bb3d14baf216846e1e42072648cbff7c1fc2f4fe43780995dffcb",
+      "actual_sha256": "5d7d0b898d4bb3d14baf216846e1e42072648cbff7c1fc2f4fe43780995dffcb",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_framework_epinions/epinions/sparsity_manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_framework_epinions/epinions/train_r075.parquet",
+      "expected_sha256": "e6695188b5fe7dff587f85dd543c5ef97630e68ddce3233c857a62fbd5de953d",
+      "actual_sha256": "e6695188b5fe7dff587f85dd543c5ef97630e68ddce3233c857a62fbd5de953d",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_framework_epinions/epinions/sparsity_manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_framework_epinions/epinions/train_r050.parquet",
+      "expected_sha256": "f286f75c5da4fdef868512d40fae6ccf54a067d571791d797a61bd9d90d62ac7",
+      "actual_sha256": "f286f75c5da4fdef868512d40fae6ccf54a067d571791d797a61bd9d90d62ac7",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_framework_epinions/epinions/sparsity_manifest.json"
+    },
+    {
+      "path": "data/splits/latent_factor_framework_epinions/epinions/train_r025.parquet",
+      "expected_sha256": "edce773949c5da5c3a65cf33731a3e8363c1fdb610fcba6e785eca498d58bcbd",
+      "actual_sha256": "edce773949c5da5c3a65cf33731a3e8363c1fdb610fcba6e785eca498d58bcbd",
+      "matches": true,
+      "reference_manifest": "data/splits/latent_factor_framework_epinions/epinions/sparsity_manifest.json"
+    }
+  ],
+  "dataset_configurations": [
+    {
+      "path": "configs/latent_factor_beyond_rmse/datasets.yaml",
+      "expected_sha256": "981ca3c135a4ea57666b26275c99570b4d57b2486363e366bba7c6dbb0009abb",
+      "actual_sha256": "981ca3c135a4ea57666b26275c99570b4d57b2486363e366bba7c6dbb0009abb",
+      "matches": true,
+      "reference_lock": "configs/latent_factor_beyond_rmse/selection_lock.yaml",
+      "reference_lock_sha256": "d608fbefa6021f81ebeac2ce50c038645142ce2ed754939ab9921675a70c90bf"
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/epinions_prospective_datasets.yaml",
+      "expected_sha256": "3aef8e13714ec55dcc577d28b097be47f9e5c1c67f254a5650644cd24e9823e3",
+      "actual_sha256": "3aef8e13714ec55dcc577d28b097be47f9e5c1c67f254a5650644cd24e9823e3",
+      "matches": true,
+      "reference_lock": "configs/latent_factor_beyond_rmse/epinions_prospective_protocol_lock.yaml",
+      "reference_lock_sha256": "22ff01635b0ff5ff287ea5df88e1ef9e072a8666d3123d7bd513e49f6a7416eb"
+    }
+  ],
+  "historical_manifests": [
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/manifest.json",
+      "sha256": "1cd09aa03b466e5894414c539b1f3c381b68cbcd8e597495a07f6009a8caf8c0"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/movielens_1m/sparsity_manifest.json",
+      "sha256": "e81ef51f7be8961cc9c3724e06f47eb39149da2b272511d1c2007ece3bfe4690"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/manifest.json",
+      "sha256": "2bb8196bd29f6e78a28433351e48f15e24fe56137ff1fa0f4fa946c4afaae064"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/sparsity_manifest.json",
+      "sha256": "32c160e5eaf85ec4f260c99e5f502b9cb7d879d8bd79974474cdf4f4007640d8"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/manifest.json",
+      "sha256": "f5527e5a70a3b4ef92e1ac0bc3cf22e48848543df2f1d0830470da956bbf3e99"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json",
+      "sha256": "410e99e3969163e2f611fe347b0bf82f0694914016049566cc101a1d337d4c9d"
+    },
+    {
+      "path": "data/processed/latent_factor_framework_epinions/epinions/manifest.json",
+      "sha256": "4d9ee0d0e9bed24a7b8c93660448a3a980cca1a5051f7982b10aa03fd9f8bc87"
+    },
+    {
+      "path": "data/splits/latent_factor_framework_epinions/epinions/sparsity_manifest.json",
+      "sha256": "758ab0f3d175f60798f322c17897c3057f8d9c1a8e57b0671f2173277a01d98c"
+    }
+  ],
+  "source_checks": [
+    {
+      "path": "src/latent_factor_study/data.py",
+      "replay_gate_sha256": "53936f11190b3ae441c912596094157239478f60a4fcc60023eacc889c466004",
+      "actual_sha256": "53936f11190b3ae441c912596094157239478f60a4fcc60023eacc889c466004",
+      "matches": true
+    },
+    {
+      "path": "src/latent_factor_study/evaluation.py",
+      "replay_gate_sha256": "cddd71e8d4b2e1f2ba08d80ee175f494d11f93e37a36d2ffdfc7a7004a79a257",
+      "actual_sha256": "cddd71e8d4b2e1f2ba08d80ee175f494d11f93e37a36d2ffdfc7a7004a79a257",
+      "matches": true
+    },
+    {
+      "path": "src/latent_factor_study/explicit_mf.py",
+      "replay_gate_sha256": "3cd6164f241deef3d0b78b4506135a355f99113c33ef1652b1535bf908686169",
+      "actual_sha256": "3cd6164f241deef3d0b78b4506135a355f99113c33ef1652b1535bf908686169",
+      "matches": true
+    }
+  ],
+  "summaries": [
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed1009/summary.json",
+      "sha256": "c42737ee8b4bd063b57155df4a9f0b2eeeccfc102ad3f79f74579d745dbd6f62",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed601/summary.json",
+      "sha256": "9b60058bb0b4a588a5c74e57cf7c532f8161eea9d491059404ed2c840c020ad5",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed701/summary.json",
+      "sha256": "0227a8fe954ba0b3c7d097baddc63c5b3495481b676dd59d9a624116a4848895",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed809/summary.json",
+      "sha256": "98c67a57f57e7d4856bace019ad5bcce0cf3a4ed207d0b3eedcfc9b6ba7a1807",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d2_lambda0.001_seed907/summary.json",
+      "sha256": "050cb45df114c05962693e2558716e223da1edc09e2aadee535d6d5327e3265c",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed1009/summary.json",
+      "sha256": "bdddce1ddfada11603c765d2b99c372780d6886c010566ec7bb146545bf99c7c",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed601/summary.json",
+      "sha256": "eedf2dee8afdcbdea4fd956783db367c872366ee6731b89033e542f3c69a0070",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed701/summary.json",
+      "sha256": "fe1f8e8999a425b94383595eb042fe795fdb91e2a82a535ba154dfaed877bb18",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed809/summary.json",
+      "sha256": "0ad8cce7017c59e4610d592b39477da46ed65301ffeb48ad0865e2e6a11022fc",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r025/d32_lambda0_seed907/summary.json",
+      "sha256": "f8d906b4e4c4fed81c6217fb8115be0aba8fa4186552136d9d486f1ea812feec",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed1009/summary.json",
+      "sha256": "8a0d8c81f7aacb006e93ca36e4558fb45b07f434993984993acd6f587dddd7b2",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed601/summary.json",
+      "sha256": "1bfd1b29f7182cde039bc839364f32bedf8749bd836d2554a3882a4032d40073",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed701/summary.json",
+      "sha256": "7dbf4a8babfea38028e9db69f4dbf96e7f3f89fca4e94e7d1a167ceb162b683c",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed809/summary.json",
+      "sha256": "ef533bd15643223b64c1be1bd85df3e2d31185992616353904918d79a5937c2b",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r075/d64_lambda0.01_seed907/summary.json",
+      "sha256": "61e7710549b9a949139c0ee8c850a487d24932dee265e280a507f19380674c22",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed1009/summary.json",
+      "sha256": "9ac4c3c9f3a37caf4b3ad7a397026443d29cac72b12b2f25cde3fa58d471f8ae",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed601/summary.json",
+      "sha256": "8acc72bbb3f03724a5663d8baf5353e6544da94157ec0381943849ae8eaf3790",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed701/summary.json",
+      "sha256": "61d3e9729231937127c8a045d73a446e84bcbdb3e553fe7ddbe90a83fc79dd00",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed809/summary.json",
+      "sha256": "14abf69bafa4bff52f96528cd0519af80ca20cd0bf80db3d144f3e853b432af9",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.01_seed907/summary.json",
+      "sha256": "930b9c67c0fd99b0c8f53667944b142b0e2a1229837443fcc8b1554fa6d8d558",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed1009/summary.json",
+      "sha256": "64226355da77bec7cd1583c7c3e102d835392faf46a96aafb7c6d4047cee833e",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed601/summary.json",
+      "sha256": "ee6ff91f8ce04cd0e01d0f9de2e65eecdd16fbf15142fd0bba5821454142a7a1",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed701/summary.json",
+      "sha256": "7049e4ecdeb57bf643fcc23934d960c6c1f891208d836614847cdb57c3df3255",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed809/summary.json",
+      "sha256": "60b21a9fcb6181a9216b0f312b6c0d5f01fd1fa881b0ebc6b8e9826c9b369aef",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/ciaodvd/r100/d4_lambda0.1_seed907/summary.json",
+      "sha256": "63871218bce9390f9b89a59cf474007e177a7e9dab1f9a1eee1add57dd4c3e7e",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed1009/summary.json",
+      "sha256": "8dfddc92d68256683e9c7242179a9fb5498a6d666fce9aec13ca5b830fbfb6d5",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed601/summary.json",
+      "sha256": "93a8efb0b65aca944e723169acb6c920b3628b44514d38347e575931e847ae33",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed701/summary.json",
+      "sha256": "c63fd494e19e645cdc8efa6cbd6c2c5a55eef4e790ae2ae7f62e91db76c2ab37",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed809/summary.json",
+      "sha256": "0e9789e9c52935cbb79328399208e943cba3f74242d5e495cdce76c53a86829b",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r025/d64_lambda0.01_seed907/summary.json",
+      "sha256": "654229ac442391951aae37fa47d934b1438c7c2174f19b31775eaf2225b1b20b",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed1009/summary.json",
+      "sha256": "d575aef040d905be3ef49c35edaf17b4d37c0a6e94150d3c9da701a9a45ba52c",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed601/summary.json",
+      "sha256": "a735364848ad4534fd4f73a2e0b2b370e3e9cb60b4876d286fc22892956a982e",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed701/summary.json",
+      "sha256": "2af31955d07469c486481558fffeb08b995042864535cded42db55a01d5fe9f3",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed809/summary.json",
+      "sha256": "0bdb89e3f290cbd58fe1b3708ca5147d91d54b00ed51e59c6557816d6c955746",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r050/d64_lambda0.01_seed907/summary.json",
+      "sha256": "b642df707d3d46709c48c3fe5af7251f64ec92a34ddcbb281fccd4a3fb338f78",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed1009/summary.json",
+      "sha256": "796b67d2eb4c7d8a0bdad7afd3ee016cc76eaf183198f8d4a942da6d84b1ce50",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed601/summary.json",
+      "sha256": "c79764f8241636ffa990fdbd258f6747cc7ef779457c5fbaa1fdec9b3874bc8d",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed701/summary.json",
+      "sha256": "4fef3358fe3b8ce3bff70e9db2c080681d07e8a2bc914f8b191d3084fe0cc6e5",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed809/summary.json",
+      "sha256": "31f1fdb872f686ce31133b1e47cfc61ad9191f15322fbf04e3b861778f526c5c",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r075/d64_lambda0.01_seed907/summary.json",
+      "sha256": "d2ebcf3dfa67de89da7ff31c90e2df836cf125dbbbf2a37e6491b15e65151929",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed1009/summary.json",
+      "sha256": "22f3c9eb5911ef854fb2f074587ef877160cdd73bc76897854534a139fc99ef1",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed601/summary.json",
+      "sha256": "efc25f8792671e217dd508465e498373276fd6c4405509b8d403ce9c18ede3e5",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed701/summary.json",
+      "sha256": "804b66d81c6f778f143a29ffead5c3b155aa46a542b6cb273d51ef5b297695a5",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed809/summary.json",
+      "sha256": "8ed2ee271ced430454c0dc23e4a70ff1fbc3bc497b77985b1987fe9d51f15412",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/epinions/r100/d64_lambda0.01_seed907/summary.json",
+      "sha256": "a40b767b265dd6b223dd5766723d0082d11150d83c4e5c0e5bfee4efe6be7d13",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed1009/summary.json",
+      "sha256": "dc7253097a5c5ec5e1412c29ab2121926da217cbd67302ae6a75ad1994a709ab",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed601/summary.json",
+      "sha256": "a676a4841f1225e8241bd59364caa4b4e68418fe591aecf1580a5d835ba45ca3",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed701/summary.json",
+      "sha256": "1e55305db230e95734f6b4a7ebfae791439879d1244a1a72a8b81a95df941e04",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed809/summary.json",
+      "sha256": "5cff9cc37a24e1c64e28ee4b70b61c9914a8f77a69048bfabba6831b9c2f19c8",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/movielens_1m/r075/d32_lambda0.1_seed907/summary.json",
+      "sha256": "7f2dcb924b19f3ea24bcbf3f78b46b18543ff2a9938c27a9fb5aa9fb2704ca43",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed1009/summary.json",
+      "sha256": "5d72a63f5dff4e9da8b1b40425c33f5946b8d014530d6900daab007578a9870a",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed601/summary.json",
+      "sha256": "7798ea4218c86f8582e98e31a63c2cb80fbd2a2664005545c9f611f346d46138",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed701/summary.json",
+      "sha256": "29f29ad5ddf1c7d72c45b94c323e2dfadfdbf39c52e4953a1047243b5b9ce14c",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed809/summary.json",
+      "sha256": "dcb966b476ac080dd0ca1f6e51892d1ff262eef40c055d83929d565051c5e5a3",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.001_seed907/summary.json",
+      "sha256": "d311ad60fa4cbe41ceef3955884d5534361eefba2aa5acdc0fe552f07671663e",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed1009/summary.json",
+      "sha256": "0985c880e62109be7f7f3205003b937c44edbc2fc91e972b394cfe47031fd4d8",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed601/summary.json",
+      "sha256": "24a3b4f92c18cec477adba143b95cef9613b861f9584eb81ef691280ff6c69c9",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed701/summary.json",
+      "sha256": "381b1937370ceaeb9c652505082fad4476941d756dea91bf2b2c34ab558e4212",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed809/summary.json",
+      "sha256": "63099f913cc8d843e57b58e2ae19d81c24a78399f7772fda5dec1a216d9e9644",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d4_lambda0.01_seed907/summary.json",
+      "sha256": "91fb06a7dbd9ffa2c7630f5689eea777e092bb7beed0a9c60ba88fa8b7662838",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed1009/summary.json",
+      "sha256": "7d3be3dca9f0370c5b652d8938e151020848467aa2e576373863ac25065a2688",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed601/summary.json",
+      "sha256": "ae5c6ce1847828319ab99da8e85bcb9af3b9fef26f734b1b95b5282007960d95",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed701/summary.json",
+      "sha256": "3f1e56c6129a9e551cf3221094b784479aeeb379eb42d3d8eed4863f58f6a31c",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed809/summary.json",
+      "sha256": "69125bc290f00cc11d865b29c8bd5ca60ec9b4670b717e39970b3a2fd0d435e6",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r025/d64_lambda0.0001_seed907/summary.json",
+      "sha256": "43f8763713a85638c2aa71f1e26fe5291a6d7f5c63a8b12c549e8d4c95587757",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed1009/summary.json",
+      "sha256": "ffe0bbbb2eee86d127c6d237f4e17825d0727fbebc20c489d2d1527998e9db9f",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed601/summary.json",
+      "sha256": "93a9698740c3fadf9809e259d109556c4f69a77ee2c3b90eddb3eed68fc6840a",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed701/summary.json",
+      "sha256": "3eb79ec683844125075943ee1cc36c652b0f4f32cda95fa6ace4fce13f7828b5",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed809/summary.json",
+      "sha256": "de45acb925d75771cb6e70d54ae38d8c88ab60986197f4bd1897532532c028dc",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r050/d64_lambda0.001_seed907/summary.json",
+      "sha256": "c251cc6be86933f44260c976b71a21f11e9535a7f4b9d7ff257343f4cfec8abd",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed1009/summary.json",
+      "sha256": "c8f38c79bc689e275967fd9a929f07697f8c9c3e4fd74f1eebace9ebebfb3b85",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed601/summary.json",
+      "sha256": "89a2cf4fca3196917a568ea2f9bbcf75b08adc86a761089772a4288e99f5d8b5",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed701/summary.json",
+      "sha256": "200d6151397d1087e11d249304e8b5485f615a3a5a70df1de41c650ff24b01c4",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed809/summary.json",
+      "sha256": "3dbfd91ac85880601b386f402f91e97028940792baefe6956a8831682d7b6997",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.001_seed907/summary.json",
+      "sha256": "b5b52641435af6dd8247e4a3f3e10308f1ce1b1da7d14acfef71063c9e23452a",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed1009/summary.json",
+      "sha256": "65832ce09dd40238753d7c9043578fbab224b7bcee2b17d142555af24bea5e1b",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed601/summary.json",
+      "sha256": "22897bcef90ffb8ed16ad16eb165c17727eec64db580a91cd59a44e5e0819d81",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed701/summary.json",
+      "sha256": "ee56766f0cca8227ae1e5fccf3f952aab9d32cc0334ec28dbe384b6d841601d1",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed809/summary.json",
+      "sha256": "753dd6cf534b99fdb11dc0eddd1ba572aca78eafb9457062f6daf74e175d8f18",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r075/d64_lambda0.1_seed907/summary.json",
+      "sha256": "b7e9800f4c8f7c4fe23b12501b72646a70019ee12866857ae27b200151d8b95b",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed1009/summary.json",
+      "sha256": "c54b6ad4455b9860f3d9b1caffa328864dcd4b549e72348ffa903de342f463ac",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed601/summary.json",
+      "sha256": "4a6497604d533f05c76b3e128749b79ff3a2e1f287d8234ececb99ac54e526a6",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed701/summary.json",
+      "sha256": "57c0a97d96eaa323245f34844e1e2a9a7dcc0628eb6799bb80af946f8252976d",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed809/summary.json",
+      "sha256": "58c40acebb852b7ff82f86e9a40e6194123ba42a976d0da02d8258e698b612f1",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.001_seed907/summary.json",
+      "sha256": "30ce99e0c5d0950be3cbb09a9889afffadc1d6c525cb49278416321e9a05714c",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed1009/summary.json",
+      "sha256": "c951fe84ecdc4f67b41c7ebcb201ad9f4a770fd50ede5e0e5b949a03ddb2f0b4",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed601/summary.json",
+      "sha256": "03814766c51407a65eb30499afa29d82033d4fed62feccf9e9281603e5040258",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed701/summary.json",
+      "sha256": "cce7dd98bdeb752ad17023d59e853178c15645a0e201d26419c27cf75c47db8d",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed809/summary.json",
+      "sha256": "893254968aae94e057ae130fa513f055abd0530e1f02e822fd30528ea6a5f58a",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runs/yelp_tampa_restaurants/r100/d64_lambda0.1_seed907/summary.json",
+      "sha256": "1a136af10f1078270925a386f8e0d2269a779f10c09532826c9210d73b049eaa",
+      "matches": true,
+      "in_manifest_snapshot": true,
+      "errors": []
+    }
+  ],
+  "auditor": {
+    "path": "scripts/latent_factor/revision_fit_data_audit.py",
+    "sha256": "6debe7eeeadd9ea81d5e3c2abc811d5af8606197d73ec89c469c1db0cd5e9297"
+  },
+  "scope": "File integrity and agreement with saved manifests/locked dataset configurations; not proof that every historical trainer source was cryptographically archived."
+}

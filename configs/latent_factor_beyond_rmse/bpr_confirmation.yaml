@@ -1,0 +1,24 @@
+schema_version: 1
+stage: locked_bpr_test_confirmation
+selection_lock: configs/latent_factor_beyond_rmse/bpr_selection_lock.yaml
+output_root: outputs/latent_factor_beyond_rmse/bpr_confirmation
+explicit_confirmation_config: configs/latent_factor_beyond_rmse/confirmation.yaml
+
+test_protocol:
+  train_on: selected_controlled_sparsity_training_artifact_only
+  validation_use: exclude_from_test_candidates_only
+  test_access: only_after_bpr_selection_lock_verification
+  ranking_catalog: exact_train_known_catalog
+  user_history_exclusions:
+    - full_training_history_including_rows_removed_for_sparsity
+    - validation_history
+  naturally_item_cold_events: separate_from_primary_ranking
+
+inference:
+  comparison: bpr_selected_minus_explicit_mf_ndcg_selected
+  user_cluster_bootstrap_resamples: 10000
+  paired_randomization_resamples: 10000
+  seed: 818181
+  confidence_level: 0.95
+  multiplicity_adjustment: holm_across_12_secondary_conditions
+  minimum_practically_important_ndcg_at_10_difference: 0.005

@@ -1,0 +1,37 @@
+schema_version: 1
+stage: post_confirmation_secondary_analysis
+status: fixed_after_primary_confirmation_before_secondary_computation
+confirmation_config: configs/latent_factor_beyond_rmse/confirmation.yaml
+dataset_config: configs/latent_factor_beyond_rmse/datasets.yaml
+output_root: outputs/latent_factor_beyond_rmse/confirmation/secondary_analysis
+
+metrics:
+  - ndcg@20
+  - recall@10
+  - recall@20
+  - prediction_rmse
+  - prediction_raw_rmse
+  - prediction_mae
+  - prediction_raw_mae
+
+training_activity_bins:
+  - label: 3--9
+    lower_inclusive: 3
+    upper_inclusive: 9
+  - label: 10--19
+    lower_inclusive: 10
+    upper_inclusive: 19
+  - label: 20--49
+    lower_inclusive: 20
+    upper_inclusive: 49
+  - label: 50+
+    lower_inclusive: 50
+    upper_inclusive: null
+
+inference:
+  user_cluster_bootstrap_resamples: 10000
+  paired_randomization_resamples: 10000
+  seed: 717171
+  confidence_level: 0.95
+  minimum_users_per_activity_interval: 30
+  multiplicity_adjustment: holm_within_each_secondary_metric_across_12_conditions

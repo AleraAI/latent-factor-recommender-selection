@@ -1,0 +1,31 @@
+\begin{table}[H]
+\centering
+\caption{Exact interaction counts and ranking eligibility for every original condition, taken from frozen preprocessing/retention manifests and recorded evaluations. All retained users occur in both prediction partitions. Ranking includes only users with at least one eligible relevant item in the fixed train-known catalog after history exclusion. The Epinions rows belong to the prospective external protocol.}
+\label{tab:realized-sparsity}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\toprule
+Dataset & Nominal & Realized & Train & Validation & Test & Users & Train items & Rank users V & Rank users T \\
+\midrule
+MovieLens 1M & 100\% & 100.00\% & 696,213 & 149,688 & 152,638 & 6,040 & 3,260 & 5,926 & 5,931 \\
+MovieLens 1M & 75\% & 75.12\% & 522,971 & 149,688 & 152,638 & 6,040 & 3,260 & 5,926 & 5,931 \\
+MovieLens 1M & 50\% & 50.21\% & 349,560 & 149,688 & 152,638 & 6,040 & 3,260 & 5,926 & 5,931 \\
+MovieLens 1M & 25\% & 25.12\% & 174,871 & 149,688 & 152,638 & 6,040 & 3,260 & 5,926 & 5,931 \\
+CiaoDVD & 100\% & 100.00\% & 6,695 & 1,457 & 1,670 & 442 & 533 & 407 & 428 \\
+CiaoDVD & 75\% & 75.38\% & 5,047 & 1,457 & 1,670 & 442 & 533 & 407 & 428 \\
+CiaoDVD & 50\% & 52.11\% & 3,489 & 1,457 & 1,670 & 442 & 533 & 407 & 428 \\
+CiaoDVD & 25\% & 29.40\% & 1,968 & 1,457 & 1,670 & 442 & 533 & 407 & 428 \\
+Yelp--Tampa & 100\% & 100.00\% & 65,774 & 14,305 & 16,110 & 3,797 & 1,725 & 3,462 & 3,539 \\
+Yelp--Tampa & 75\% & 75.28\% & 49,513 & 14,305 & 16,110 & 3,797 & 1,725 & 3,462 & 3,539 \\
+Yelp--Tampa & 50\% & 51.81\% & 34,080 & 14,305 & 16,110 & 3,797 & 1,725 & 3,462 & 3,539 \\
+Yelp--Tampa & 25\% & 28.26\% & 18,587 & 14,305 & 16,110 & 3,797 & 1,725 & 3,462 & 3,539 \\
+Epinions & 100\% & 100.00\% & 241,657 & 52,613 & 58,328 & 12,168 & 11,265 & 11,372 & 11,725 \\
+Epinions & 75\% & 75.36\% & 182,108 & 52,613 & 58,328 & 12,168 & 11,265 & 11,372 & 11,725 \\
+Epinions & 50\% & 51.55\% & 124,581 & 52,613 & 58,328 & 12,168 & 11,265 & 11,372 & 11,725 \\
+Epinions & 25\% & 27.69\% & 66,918 & 52,613 & 58,328 & 12,168 & 11,265 & 11,372 & 11,725 \\
+\bottomrule
+\end{tabular}%
+}
+\par\smallskip\footnotesize The minimum-user-history constraint and item-catalog repair can increase realized retention above nominal retention. Validation and test interaction counts, train-known item catalogs, and ranking-eligibility sets are invariant across retention within a dataset. V and T denote validation and test.
+\end{table}

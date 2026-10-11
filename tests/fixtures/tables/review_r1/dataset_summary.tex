@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Consolidated source-derived dataset statistics. Raw/scoped uses the full rating source except for the predeclared Yelp--Tampa restaurant scope; the last four columns describe the final iterative 10-core. Construction denotes the three datasets later used for retrospective uncertainty-aware rule construction; Epinions was held out prospectively.}
+\label{tab:processed-datasets}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Dataset & Evidence stage & Raw/scoped & Dedup. & Users & Items & 10-core ratings & Density \\
+\midrule
+MovieLens 1M & Construction & 1,000,209 & 1,000,209 & 6,040 & 3,260 & 998,539 & 5.071\% \\
+CiaoDVD & Construction & 72,665 & 72,345 & 442 & 534 & 9,822 & 4.161\% \\
+Yelp--Tampa & Construction & 303,232 & 293,136 & 3,797 & 1,734 & 96,189 & 1.461\% \\
+Epinions & Prospective & 922,267 & 912,441 & 12,168 & 11,283 & 352,598 & 0.257\% \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

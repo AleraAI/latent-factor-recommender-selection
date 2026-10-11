@@ -1,0 +1,18 @@
+{
+  "analysis_plan_sha256": "34a2a158f5f9ab92d8022dbe987e0213a3c830f345eefe300b538a2a1e6a7071",
+  "condition_decisions": {
+    "r025": true,
+    "r050": true,
+    "r075": true,
+    "r100": true
+  },
+  "decision_rule": "Prospective ranking noninferiority is supported only if the one-sided 95% upper bound is no greater than 0.005 in every one of the four retention conditions. This intersection-union decision is the confirmatory external validation claim.",
+  "family_decision": "supports_external_ranking_noninferiority",
+  "inference_code_sha256": "d6f823a5e101263eb22b6d2fc03465af6ee072843f54454a46843ee028bc8a0c",
+  "primary_margin": 0.005,
+  "result_csv": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/analysis/prospective_external_validation.csv",
+  "result_csv_sha256": "c5a80a05c087a5ce23baf5e101bcdf3cc68ff2691f1ce6cae095017664688065",
+  "schema_version": 1,
+  "selection_lock_sha256": "1a91a25ec2de506a479d46b56afdb4631fecab9ec609c40cc60ff9ecde9f01fd",
+  "stage": "prospective_external_validation"
+}

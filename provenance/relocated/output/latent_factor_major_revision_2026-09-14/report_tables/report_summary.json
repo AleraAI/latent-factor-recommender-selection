@@ -1,0 +1,1051 @@
+{
+  "changed_fields": [
+    "margin_transitions.selected_ids"
+  ],
+  "metadata": {
+    "ablation_at_original_margin": {
+      "changed_choices_with_test": 7,
+      "conditions": 16,
+      "conditions_detail": [
+        {
+          "dataset": "movielens_1m",
+          "different_identity": false,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 11,
+          "mean_alias": "C25",
+          "mean_id": "d16_lambda0.1",
+          "retention": "r100",
+          "test_available": true,
+          "ua_admissible": 11,
+          "ua_alias": "C25",
+          "ua_id": "d16_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.0,
+          "ua_minus_mean_test_ndcg": 0.0,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0
+        },
+        {
+          "dataset": "movielens_1m",
+          "different_identity": false,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 4,
+          "mean_alias": "C25",
+          "mean_id": "d16_lambda0.1",
+          "retention": "r075",
+          "test_available": true,
+          "ua_admissible": 4,
+          "ua_alias": "C25",
+          "ua_id": "d16_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.0,
+          "ua_minus_mean_test_ndcg": 0.0,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0
+        },
+        {
+          "dataset": "movielens_1m",
+          "different_identity": false,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 6,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r050",
+          "test_available": true,
+          "ua_admissible": 3,
+          "ua_alias": "C35",
+          "ua_id": "d64_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.0,
+          "ua_minus_mean_test_ndcg": 0.0,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0
+        },
+        {
+          "dataset": "movielens_1m",
+          "different_identity": false,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 5,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r025",
+          "test_available": true,
+          "ua_admissible": 5,
+          "ua_alias": "C35",
+          "ua_id": "d64_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.0,
+          "ua_minus_mean_test_ndcg": 0.0,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0
+        },
+        {
+          "dataset": "ciaodvd",
+          "different_identity": true,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 24,
+          "mean_alias": "C15",
+          "mean_id": "d4_lambda0.1",
+          "retention": "r100",
+          "test_available": true,
+          "ua_admissible": 5,
+          "ua_alias": "C35",
+          "ua_id": "d64_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.01081303268518008,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0197114672799255,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.001790825642004587,
+          "ua_minus_mean_test_ndcg": 0.01275971699921814,
+          "ua_minus_mean_test_ndcg_ci_high": 0.01871674124508653,
+          "ua_minus_mean_test_ndcg_ci_low": 0.00721962243150774
+        },
+        {
+          "dataset": "ciaodvd",
+          "different_identity": true,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 35,
+          "mean_alias": "C10",
+          "mean_id": "d2_lambda0.1",
+          "retention": "r075",
+          "test_available": true,
+          "ua_admissible": 16,
+          "ua_alias": "C03",
+          "ua_id": "d1_lambda0.001",
+          "ua_minus_mean_test_global_rmse": -0.0004950786871900092,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.002019914192827882,
+          "ua_minus_mean_test_global_rmse_ci_low": -0.002699106792304731,
+          "ua_minus_mean_test_ndcg": -0.00044020531895464475,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0029330509122260213,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0035317230713953138
+        },
+        {
+          "dataset": "ciaodvd",
+          "different_identity": false,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 30,
+          "mean_alias": "C05",
+          "mean_id": "d1_lambda0.1",
+          "retention": "r050",
+          "test_available": true,
+          "ua_admissible": 1,
+          "ua_alias": "C05",
+          "ua_id": "d1_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.0,
+          "ua_minus_mean_test_ndcg": 0.0,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0
+        },
+        {
+          "dataset": "ciaodvd",
+          "different_identity": true,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 30,
+          "mean_alias": "C05",
+          "mean_id": "d1_lambda0.1",
+          "retention": "r025",
+          "test_available": true,
+          "ua_admissible": 10,
+          "ua_alias": "C30",
+          "ua_id": "d32_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.013381235128530733,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.017715035857346306,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.00908211120991922,
+          "ua_minus_mean_test_ndcg": 0.00541499543752107,
+          "ua_minus_mean_test_ndcg_ci_high": 0.009687984352651743,
+          "ua_minus_mean_test_ndcg_ci_low": 0.0011313246539897154
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "different_identity": true,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 14,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r100",
+          "test_available": true,
+          "ua_admissible": 11,
+          "ua_alias": "C34",
+          "ua_id": "d64_lambda0.01",
+          "ua_minus_mean_test_global_rmse": 0.05686446662563771,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.06042087125697949,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.05332900181286347,
+          "ua_minus_mean_test_ndcg": 0.003297229871823265,
+          "ua_minus_mean_test_ndcg_ci_high": 0.004430230154994722,
+          "ua_minus_mean_test_ndcg_ci_low": 0.002115887409378677
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "different_identity": true,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 12,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r075",
+          "test_available": true,
+          "ua_admissible": 8,
+          "ua_alias": "C34",
+          "ua_id": "d64_lambda0.01",
+          "ua_minus_mean_test_global_rmse": 0.0458964789720262,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.04880289248640355,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.04288542292518642,
+          "ua_minus_mean_test_ndcg": 0.00304548450570435,
+          "ua_minus_mean_test_ndcg_ci_high": 0.004134296218544817,
+          "ua_minus_mean_test_ndcg_ci_low": 0.001983717546532761
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "different_identity": true,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 21,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r050",
+          "test_available": true,
+          "ua_admissible": 16,
+          "ua_alias": "C34",
+          "ua_id": "d64_lambda0.01",
+          "ua_minus_mean_test_global_rmse": 0.03373088217806686,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.036471041652117446,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.030928148625095343,
+          "ua_minus_mean_test_ndcg": 0.0027674377297766542,
+          "ua_minus_mean_test_ndcg_ci_high": 0.003784323503118242,
+          "ua_minus_mean_test_ndcg_ci_low": 0.001742451229478043
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "different_identity": true,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 31,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r025",
+          "test_available": true,
+          "ua_admissible": 27,
+          "ua_alias": "C34",
+          "ua_id": "d64_lambda0.01",
+          "ua_minus_mean_test_global_rmse": 0.01897784137152847,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.02074620724062843,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.017123169734007283,
+          "ua_minus_mean_test_ndcg": 0.0008719401577426504,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0018020501524835572,
+          "ua_minus_mean_test_ndcg_ci_low": -6.133120470772688e-05
+        },
+        {
+          "dataset": "epinions",
+          "different_identity": false,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 35,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r100",
+          "test_available": true,
+          "ua_admissible": 35,
+          "ua_alias": "C35",
+          "ua_id": "d64_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.0,
+          "ua_minus_mean_test_ndcg": 0.0,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0
+        },
+        {
+          "dataset": "epinions",
+          "different_identity": false,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 35,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r075",
+          "test_available": true,
+          "ua_admissible": 35,
+          "ua_alias": "C35",
+          "ua_id": "d64_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.0,
+          "ua_minus_mean_test_ndcg": 0.0,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0
+        },
+        {
+          "dataset": "epinions",
+          "different_identity": false,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 35,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r050",
+          "test_available": true,
+          "ua_admissible": 35,
+          "ua_alias": "C35",
+          "ua_id": "d64_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.0,
+          "ua_minus_mean_test_ndcg": 0.0,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0
+        },
+        {
+          "dataset": "epinions",
+          "different_identity": false,
+          "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+          "margin": 0.005,
+          "mean_admissible": 35,
+          "mean_alias": "C35",
+          "mean_id": "d64_lambda0.1",
+          "retention": "r025",
+          "test_available": true,
+          "ua_admissible": 35,
+          "ua_alias": "C35",
+          "ua_id": "d64_lambda0.1",
+          "ua_minus_mean_test_global_rmse": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_high": 0.0,
+          "ua_minus_mean_test_global_rmse_ci_low": 0.0,
+          "ua_minus_mean_test_ndcg": 0.0,
+          "ua_minus_mean_test_ndcg_ci_high": 0.0,
+          "ua_minus_mean_test_ndcg_ci_low": -0.0
+        }
+      ],
+      "different_choices": 7,
+      "ndcg_CI_contains_zero": 2,
+      "ndcg_CI_wholly_negative": 0,
+      "ndcg_CI_wholly_positive": 5,
+      "paired_test_available": 16,
+      "paired_test_missing": 0,
+      "ua_minus_mean_global_rmse_signs_changed": {
+        "available": 7,
+        "negative": 1,
+        "positive": 6,
+        "zero": 0
+      },
+      "ua_minus_mean_ndcg_signs_all_available": {
+        "available": 16,
+        "negative": 1,
+        "positive": 6,
+        "zero": 9
+      },
+      "ua_minus_mean_ndcg_signs_changed": {
+        "available": 7,
+        "negative": 1,
+        "positive": 6,
+        "zero": 0
+      }
+    },
+    "all_rule_rows": 128,
+    "available_rule_test_rows": 128,
+    "held_out_table_status": "complete",
+    "inference_boundary": "Revision contrasts use fixed-fit paired user bootstrap. Original primary ranking intervals/Holm tests remain original and are not replaced by this descriptive table. Global and mean-user RMSE are distinct estimands; primary compact tables report global point metrics only.",
+    "margin_selection_summary": [
+      {
+        "conditions": 16,
+        "margin": 0.001,
+        "mean_all35": 0,
+        "mean_equals_ndcg": 4,
+        "mean_equals_rmse": 3,
+        "mean_intermediate": 10,
+        "ua_all35": 0,
+        "ua_differs_mean": 6,
+        "ua_equals_ndcg": 8,
+        "ua_equals_rmse": 1,
+        "ua_intermediate": 8
+      },
+      {
+        "conditions": 16,
+        "margin": 0.0025,
+        "mean_all35": 2,
+        "mean_equals_ndcg": 3,
+        "mean_equals_rmse": 7,
+        "mean_intermediate": 7,
+        "ua_all35": 1,
+        "ua_differs_mean": 4,
+        "ua_equals_ndcg": 4,
+        "ua_equals_rmse": 6,
+        "ua_intermediate": 7
+      },
+      {
+        "conditions": 16,
+        "margin": 0.005,
+        "mean_all35": 5,
+        "mean_equals_ndcg": 2,
+        "mean_equals_rmse": 11,
+        "mean_intermediate": 4,
+        "ua_all35": 4,
+        "ua_differs_mean": 7,
+        "ua_equals_ndcg": 3,
+        "ua_equals_rmse": 7,
+        "ua_intermediate": 7
+      },
+      {
+        "conditions": 16,
+        "margin": 0.01,
+        "mean_all35": 12,
+        "mean_equals_ndcg": 1,
+        "mean_equals_rmse": 15,
+        "mean_intermediate": 1,
+        "ua_all35": 8,
+        "ua_differs_mean": 3,
+        "ua_equals_ndcg": 2,
+        "ua_equals_rmse": 12,
+        "ua_intermediate": 3
+      }
+    ],
+    "margin_transitions": [
+      {
+        "admissible_counts": [
+          3,
+          4,
+          11,
+          17
+        ],
+        "dataset": "movielens_1m",
+        "distinct_choices_on_grid": 1,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": 0.001,
+        "retention": "r100",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          2,
+          4,
+          11,
+          16
+        ],
+        "dataset": "movielens_1m",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": 0.0025,
+        "retention": "r100",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          2,
+          2,
+          4,
+          19
+        ],
+        "dataset": "movielens_1m",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": 0.005,
+        "retention": "r075",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          1,
+          2,
+          4,
+          11
+        ],
+        "dataset": "movielens_1m",
+        "distinct_choices_on_grid": 3,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": 0.005,
+        "retention": "r075",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "dataset": "movielens_1m",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": 0.01,
+        "retention": "r050",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          1,
+          1,
+          3,
+          7
+        ],
+        "dataset": "movielens_1m",
+        "distinct_choices_on_grid": 1,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": null,
+        "retention": "r050",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          4,
+          4,
+          5,
+          10
+        ],
+        "dataset": "movielens_1m",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": null,
+        "retention": "r025",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          1,
+          4,
+          5,
+          10
+        ],
+        "dataset": "movielens_1m",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": null,
+        "retention": "r025",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          1,
+          10,
+          24,
+          35
+        ],
+        "dataset": "ciaodvd",
+        "distinct_choices_on_grid": 4,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.01,
+        "retention": "r100",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          1,
+          1,
+          5,
+          23
+        ],
+        "dataset": "ciaodvd",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": null,
+        "retention": "r100",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          20,
+          31,
+          35,
+          35
+        ],
+        "dataset": "ciaodvd",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": 0.005,
+        "first_grid_margin_equal_rmse": 0.0025,
+        "retention": "r075",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          3,
+          4,
+          16,
+          35
+        ],
+        "dataset": "ciaodvd",
+        "distinct_choices_on_grid": 4,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.01,
+        "retention": "r075",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          8,
+          17,
+          30,
+          35
+        ],
+        "dataset": "ciaodvd",
+        "distinct_choices_on_grid": 1,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.001,
+        "retention": "r050",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          1,
+          1,
+          1,
+          26
+        ],
+        "dataset": "ciaodvd",
+        "distinct_choices_on_grid": 1,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": 0.001,
+        "retention": "r050",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          3,
+          14,
+          30,
+          35
+        ],
+        "dataset": "ciaodvd",
+        "distinct_choices_on_grid": 3,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.005,
+        "retention": "r025",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          1,
+          2,
+          10,
+          34
+        ],
+        "dataset": "ciaodvd",
+        "distinct_choices_on_grid": 4,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": 0.01,
+        "retention": "r025",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          3,
+          8,
+          14,
+          35
+        ],
+        "dataset": "yelp_tampa_restaurants",
+        "distinct_choices_on_grid": 4,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.01,
+        "retention": "r100",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          3,
+          4,
+          11,
+          35
+        ],
+        "dataset": "yelp_tampa_restaurants",
+        "distinct_choices_on_grid": 3,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.01,
+        "retention": "r100",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          3,
+          5,
+          12,
+          35
+        ],
+        "dataset": "yelp_tampa_restaurants",
+        "distinct_choices_on_grid": 4,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.01,
+        "retention": "r075",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          3,
+          4,
+          8,
+          33
+        ],
+        "dataset": "yelp_tampa_restaurants",
+        "distinct_choices_on_grid": 3,
+        "first_grid_margin_all35": null,
+        "first_grid_margin_equal_rmse": null,
+        "retention": "r075",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          3,
+          12,
+          21,
+          35
+        ],
+        "dataset": "yelp_tampa_restaurants",
+        "distinct_choices_on_grid": 3,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.005,
+        "retention": "r050",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          3,
+          4,
+          16,
+          35
+        ],
+        "dataset": "yelp_tampa_restaurants",
+        "distinct_choices_on_grid": 3,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.01,
+        "retention": "r050",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          4,
+          22,
+          31,
+          35
+        ],
+        "dataset": "yelp_tampa_restaurants",
+        "distinct_choices_on_grid": 3,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.005,
+        "retention": "r025",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          3,
+          6,
+          27,
+          35
+        ],
+        "dataset": "yelp_tampa_restaurants",
+        "distinct_choices_on_grid": 4,
+        "first_grid_margin_all35": 0.01,
+        "first_grid_margin_equal_rmse": 0.01,
+        "retention": "r025",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          8,
+          35,
+          35,
+          35
+        ],
+        "dataset": "epinions",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": 0.0025,
+        "first_grid_margin_equal_rmse": 0.0025,
+        "retention": "r100",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          7,
+          35,
+          35,
+          35
+        ],
+        "dataset": "epinions",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": 0.0025,
+        "first_grid_margin_equal_rmse": 0.0025,
+        "retention": "r100",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          8,
+          35,
+          35,
+          35
+        ],
+        "dataset": "epinions",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": 0.0025,
+        "first_grid_margin_equal_rmse": 0.0025,
+        "retention": "r075",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          8,
+          21,
+          35,
+          35
+        ],
+        "dataset": "epinions",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": 0.005,
+        "first_grid_margin_equal_rmse": 0.0025,
+        "retention": "r075",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          11,
+          30,
+          35,
+          35
+        ],
+        "dataset": "epinions",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": 0.005,
+        "first_grid_margin_equal_rmse": 0.0025,
+        "retention": "r050",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          8,
+          19,
+          35,
+          35
+        ],
+        "dataset": "epinions",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": 0.005,
+        "first_grid_margin_equal_rmse": 0.0025,
+        "retention": "r050",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      },
+      {
+        "admissible_counts": [
+          12,
+          28,
+          35,
+          35
+        ],
+        "dataset": "epinions",
+        "distinct_choices_on_grid": 1,
+        "first_grid_margin_all35": 0.005,
+        "first_grid_margin_equal_rmse": 0.001,
+        "retention": "r025",
+        "selected_ids_omitted_count": 4,
+        "selector": "mean"
+      },
+      {
+        "admissible_counts": [
+          7,
+          23,
+          35,
+          35
+        ],
+        "dataset": "epinions",
+        "distinct_choices_on_grid": 2,
+        "first_grid_margin_all35": 0.005,
+        "first_grid_margin_equal_rmse": 0.0025,
+        "retention": "r025",
+        "selected_ids_omitted_count": 4,
+        "selector": "ua"
+      }
+    ],
+    "missing_rule_test_rows": 0,
+    "not_submission_ready_while_evaluations_missing": true,
+    "original_joint_point_summaries": [
+      {
+        "dataset": "movielens_1m",
+        "global_rmse_ndcg_minus_rmse": 0.0006597764162714626,
+        "ndcg_reference_id": "d32_lambda0.1",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 3.584501008597301,
+        "retention": "r100",
+        "rmse_selected_id": "d16_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.0006573686575752635,
+        "test_ndcg_reference": 0.018339195776443853,
+        "test_ndcg_rmse_selected": 0.01768182711886859
+      },
+      {
+        "dataset": "movielens_1m",
+        "global_rmse_ndcg_minus_rmse": 0.0012223571859191207,
+        "ndcg_reference_id": "d64_lambda0.1",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 20.837182049965023,
+        "retention": "r075",
+        "rmse_selected_id": "d16_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.003532812726669856,
+        "test_ndcg_reference": 0.01695436896504816,
+        "test_ndcg_rmse_selected": 0.013421556238378304
+      },
+      {
+        "dataset": "movielens_1m",
+        "global_rmse_ndcg_minus_rmse": 0.0006619833787844254,
+        "ndcg_reference_id": "d64_lambda0.1",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 52.33609396335202,
+        "retention": "r050",
+        "rmse_selected_id": "d8_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.00881013001314301,
+        "test_ndcg_reference": 0.01683375534160467,
+        "test_ndcg_rmse_selected": 0.00802362532846166
+      },
+      {
+        "dataset": "movielens_1m",
+        "global_rmse_ndcg_minus_rmse": 0.13068124405885007,
+        "ndcg_reference_id": "d64_lambda0.01",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 96.83898456538708,
+        "retention": "r025",
+        "rmse_selected_id": "d1_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.019369071580536433,
+        "test_ndcg_reference": 0.02000131627511868,
+        "test_ndcg_rmse_selected": 0.0006322446945822449
+      },
+      {
+        "dataset": "ciaodvd",
+        "global_rmse_ndcg_minus_rmse": 0.014129342464776595,
+        "ndcg_reference_id": "d64_lambda0.1",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 43.26478351435572,
+        "retention": "r100",
+        "rmse_selected_id": "d1_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.010558441784145507,
+        "test_ndcg_reference": 0.024404240415630656,
+        "test_ndcg_rmse_selected": 0.013845798631485148
+      },
+      {
+        "dataset": "ciaodvd",
+        "global_rmse_ndcg_minus_rmse": 0.03832319537390061,
+        "ndcg_reference_id": "d64_lambda0.001",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 19.041393994398724,
+        "retention": "r075",
+        "rmse_selected_id": "d2_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.0037729890585413324,
+        "test_ndcg_reference": 0.019814668293987335,
+        "test_ndcg_rmse_selected": 0.016041679235446003
+      },
+      {
+        "dataset": "ciaodvd",
+        "global_rmse_ndcg_minus_rmse": -0.0,
+        "ndcg_reference_id": "d1_lambda0.1",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": -0.0,
+        "retention": "r050",
+        "rmse_selected_id": "d1_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": -0.0,
+        "test_ndcg_reference": 0.013944863989827585,
+        "test_ndcg_rmse_selected": 0.013944863989827585
+      },
+      {
+        "dataset": "ciaodvd",
+        "global_rmse_ndcg_minus_rmse": 0.016035861286365583,
+        "ndcg_reference_id": "d32_lambda0.01",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 22.870995303355688,
+        "retention": "r025",
+        "rmse_selected_id": "d1_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.003446701928102867,
+        "test_ndcg_reference": 0.015070187730733165,
+        "test_ndcg_rmse_selected": 0.011623485802630298
+      },
+      {
+        "dataset": "yelp_tampa_restaurants",
+        "global_rmse_ndcg_minus_rmse": 0.09374840776794002,
+        "ndcg_reference_id": "d64_lambda0",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 68.81696134014526,
+        "retention": "r100",
+        "rmse_selected_id": "d1_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.007351321624287925,
+        "test_ndcg_reference": 0.010682426949879633,
+        "test_ndcg_rmse_selected": 0.003331105325591708
+      },
+      {
+        "dataset": "yelp_tampa_restaurants",
+        "global_rmse_ndcg_minus_rmse": 0.06754100727370815,
+        "ndcg_reference_id": "d64_lambda0.0001",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 70.26819287275437,
+        "retention": "r075",
+        "rmse_selected_id": "d1_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.007906725939586653,
+        "test_ndcg_reference": 0.011252211870461222,
+        "test_ndcg_rmse_selected": 0.003345485930874569
+      },
+      {
+        "dataset": "yelp_tampa_restaurants",
+        "global_rmse_ndcg_minus_rmse": 0.04606548680258382,
+        "ndcg_reference_id": "d64_lambda0",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 32.58833899729197,
+        "retention": "r050",
+        "rmse_selected_id": "d64_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.0035302518896526405,
+        "test_ndcg_reference": 0.010832868437835992,
+        "test_ndcg_rmse_selected": 0.007302616548183352
+      },
+      {
+        "dataset": "yelp_tampa_restaurants",
+        "global_rmse_ndcg_minus_rmse": 0.07970756980471361,
+        "ndcg_reference_id": "d4_lambda0",
+        "relative_denominator_near_zero": false,
+        "relative_regret_percent_reference_denominator": 18.982965714207936,
+        "retention": "r025",
+        "rmse_selected_id": "d64_lambda0.1",
+        "signed_test_ndcg_reference_minus_rmse": 0.0021733013711145617,
+        "test_ndcg_reference": 0.011448692495335113,
+        "test_ndcg_rmse_selected": 0.009275391124220551
+      }
+    ],
+    "relative_effects_denominator": "Reference configuration test NDCG; no epsilon; near-zero flags copied from audited contrasts.",
+    "stage": "revision_stage_reporting_of_saved_outputs"
+  },
+  "not_canonical_original": true,
+  "source_path": "output/latent_factor_major_revision_2026-09-14/report_tables/report_summary.json",
+  "source_sha256": "8020522cfd08bad4a1c8716dea226e6825f30ce6c2e11bcfc9e07bce06f26de0",
+  "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+}

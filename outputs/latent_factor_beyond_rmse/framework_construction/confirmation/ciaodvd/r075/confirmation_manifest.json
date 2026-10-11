@@ -1,0 +1,78 @@
+{
+  "claim_status": "exploratory_not_prospective",
+  "dataset": "ciaodvd",
+  "expected_runs": 5,
+  "framework_selection_sha256": "fb46412b33652ee35247df2ffd0e103660731e69ecc13c305d5f38f6a46a9abc",
+  "historical_confirmation_manifest_sha256": "2ac3cd6100c53414d42d9f8df56dd698f50c20d5caba8e0d6606c4145582d69e",
+  "observed_runs": 5,
+  "retention_label": "r075",
+  "runs": [
+    {
+      "dimension": 1,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed601/test_per_user.parquet",
+      "per_user_sha256": "338405d70c4716fd33e8c670e90dc4b4e50aed59e8a52b80b387dcc8aaa3e93a",
+      "regularization": 0.001,
+      "seed": 601,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed601/summary.json",
+      "summary_sha256": "91a5e264ad2ffd3a1aeba8b76576ba4fcf283c58e6c251519873210f6203ed13"
+    },
+    {
+      "dimension": 1,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed701/test_per_user.parquet",
+      "per_user_sha256": "33ca8a45ee504bb38f0ad6d15acbb52ac447e5128e269e29efe1e8b5eb8ced03",
+      "regularization": 0.001,
+      "seed": 701,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed701/summary.json",
+      "summary_sha256": "d89675861b2b7a94cb0732d9af18fbd3bd0a538044b83dd39143f9754ba8482d"
+    },
+    {
+      "dimension": 1,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed809/test_per_user.parquet",
+      "per_user_sha256": "a4ce6912b5d47250ce1b378778a3476b4b804ab01f46979f83e9ee3a022ce8d2",
+      "regularization": 0.001,
+      "seed": 809,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed809/summary.json",
+      "summary_sha256": "8bbd208312f63da716bbd802c8c8eac5e90a1dce6aff79264e300f9b9c596d4f"
+    },
+    {
+      "dimension": 1,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed907/test_per_user.parquet",
+      "per_user_sha256": "fb3f4fe95453bad99d3ff872962adbf9cc69975008b787d1823593a752d328f7",
+      "regularization": 0.001,
+      "seed": 907,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed907/summary.json",
+      "summary_sha256": "41b6dc7ea66da3048df2595216ae00e8f50f15c9a33feff22f7674bc62f248ee"
+    },
+    {
+      "dimension": 1,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed1009/test_per_user.parquet",
+      "per_user_sha256": "8b828b40f0ad5cf5638cf63a35acc615675085880fb5d18af19756578e9cc49b",
+      "regularization": 0.001,
+      "seed": 1009,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/ciaodvd/r075/d1_lambda0.001_seed1009/summary.json",
+      "summary_sha256": "7b0f1a6c9cc3df3819c9e03f540a6ed86a7edade8e4ac512b56abe32dec8bb84"
+    }
+  ],
+  "schema_version": 1,
+  "stage": "post_confirmation_framework_construction"
+}

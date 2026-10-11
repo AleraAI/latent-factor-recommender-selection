@@ -1,0 +1,34 @@
+\begin{table}[H]
+\centering
+\caption{Seven changed UA-versus-mean selections at the original margin $\delta=0.005$. Both effects are UA minus mean; positive NDCG@10 and negative global RMSE favor UA. Brackets give the existing two-sided 95\% paired fixed-fit user-bootstrap intervals, conditional on the five fitted seeds and shared evaluation users. Global RMSE is event-weighted within seed before averaging seeds, not mean-user RMSE. These revision-stage intervals are unadjusted, not simultaneous or a new confirmatory family. The nine unchanged choices have exactly zero paired differences and intervals.}
+\label{tab:coverage-ablation-ci}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lllrr@{}}
+\toprule
+Dataset & Retention & Endpoint & UA minus mean & 95\% CI \\
+\midrule
+CiaoDVD & 100\% & NDCG@10 & +0.01276 & $[+0.00722, +0.01872]$ \\
+ & & Global RMSE & +0.01081 & $[+0.00179, +0.01971]$ \\
+\addlinespace
+CiaoDVD & 75\% & NDCG@10 & -0.00044 & $[-0.00353, +0.00293]$ \\
+ & & Global RMSE & -0.00050 & $[-0.00270, +0.00202]$ \\
+\addlinespace
+CiaoDVD & 25\% & NDCG@10 & +0.00541 & $[+0.00113, +0.00969]$ \\
+ & & Global RMSE & +0.01338 & $[+0.00908, +0.01772]$ \\
+\addlinespace
+Yelp--Tampa & 100\% & NDCG@10 & +0.00330 & $[+0.00212, +0.00443]$ \\
+ & & Global RMSE & +0.05686 & $[+0.05333, +0.06042]$ \\
+\addlinespace
+Yelp--Tampa & 75\% & NDCG@10 & +0.00305 & $[+0.00198, +0.00413]$ \\
+ & & Global RMSE & +0.04590 & $[+0.04289, +0.04880]$ \\
+\addlinespace
+Yelp--Tampa & 50\% & NDCG@10 & +0.00277 & $[+0.00174, +0.00378]$ \\
+ & & Global RMSE & +0.03373 & $[+0.03093, +0.03647]$ \\
+\addlinespace
+Yelp--Tampa & 25\% & NDCG@10 & +0.00087 & $[-0.00006, +0.00180]$ \\
+ & & Global RMSE & +0.01898 & $[+0.01712, +0.02075]$ \\
+\addlinespace
+\bottomrule
+\end{tabular}
+\end{table}

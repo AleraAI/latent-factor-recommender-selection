@@ -1,0 +1,13 @@
+dataset,retention_label,users_total,users_ranking_evaluable,candidate_q05,candidate_median,candidate_q95,relevant_median,relevant_q95,cold_relevant_events
+movielens_1m,r100,6040,5931,2788.95,3179.0,3241.0,8.0,42.0,0
+movielens_1m,r075,6040,5931,2788.95,3179.0,3241.0,8.0,42.0,0
+movielens_1m,r050,6040,5931,2788.95,3179.0,3241.0,8.0,42.0,0
+movielens_1m,r025,6040,5931,2788.95,3179.0,3241.0,8.0,42.0,0
+ciaodvd,r100,442,428,484.15,520.0,525.0,2.0,7.0,7
+ciaodvd,r075,442,428,484.15,520.0,525.0,2.0,7.0,7
+ciaodvd,r050,442,428,484.15,520.0,525.0,2.0,7.0,7
+ciaodvd,r025,442,428,484.15,520.0,525.0,2.0,7.0,7
+yelp_tampa_restaurants,r100,3797,3539,1669.0,1712.0,1717.0,2.0,8.0,101
+yelp_tampa_restaurants,r075,3797,3539,1669.0,1712.0,1717.0,2.0,8.0,101
+yelp_tampa_restaurants,r050,3797,3539,1669.0,1712.0,1717.0,2.0,8.0,101
+yelp_tampa_restaurants,r025,3797,3539,1669.0,1712.0,1717.0,2.0,8.0,101

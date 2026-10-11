@@ -1,0 +1,698 @@
+{
+  "stage": "revision_reporting_audit_existing_artifacts",
+  "new_model_fits": 0,
+  "configurations": 35,
+  "conditions": 16,
+  "grids": [
+    {
+      "dataset": "movielens_1m",
+      "retention": "r100",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "movielens_1m",
+      "retention": "r075",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "movielens_1m",
+      "retention": "r050",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "movielens_1m",
+      "retention": "r025",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "ciaodvd",
+      "retention": "r100",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "ciaodvd",
+      "retention": "r075",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "ciaodvd",
+      "retention": "r050",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "ciaodvd",
+      "retention": "r025",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "retention": "r100",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "retention": "r075",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "retention": "r050",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "yelp_tampa_restaurants",
+      "retention": "r025",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": false
+    },
+    {
+      "dataset": "epinions",
+      "retention": "r100",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20",
+            "num_prediction_rows",
+            "prediction_mae",
+            "prediction_raw_mae",
+            "prediction_rmse",
+            "prediction_raw_rmse"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": true
+    },
+    {
+      "dataset": "epinions",
+      "retention": "r075",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20",
+            "num_prediction_rows",
+            "prediction_mae",
+            "prediction_raw_mae",
+            "prediction_rmse",
+            "prediction_raw_rmse"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": true
+    },
+    {
+      "dataset": "epinions",
+      "retention": "r050",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20",
+            "num_prediction_rows",
+            "prediction_mae",
+            "prediction_raw_mae",
+            "prediction_rmse",
+            "prediction_raw_rmse"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": true
+    },
+    {
+      "dataset": "epinions",
+      "retention": "r025",
+      "verified_grid_rows": 175,
+      "schemas": [
+        {
+          "columns": [
+            "user_id",
+            "num_candidates",
+            "num_relevant",
+            "num_cold_relevant",
+            "ndcg@10",
+            "recall@10",
+            "ndcg@20",
+            "recall@20",
+            "num_prediction_rows",
+            "prediction_mae",
+            "prediction_raw_mae",
+            "prediction_rmse",
+            "prediction_raw_rmse"
+          ],
+          "files": 175
+        }
+      ],
+      "supports_end_to_end_user_resampling": true
+    }
+  ],
+  "main_findings": {
+    "chronology": "Per-user timestamp, stable source_row_id, then item_id; floor(.70n), floor(.85n). Invalid short histories raise an error, not silently assigned; final10core satisfies all users.",
+    "deduplication": "Latest timestamp per user-item; largest stable source_row_id wins exact timestamp tie, before full-period iterative10core.",
+    "retention": "round-half-up(q*n) with minimum3 plus deterministic full-training-item repair; original priorities include q and are nonnested.",
+    "candidates": "All configurations/retentions share repaired train catalog and full-training history masks; test additionally excludes validation history. Item-ID score ties are lexicographic strings.",
+    "prediction_inference": "Original global RMSE is event-weighted then averaged across seeds; intervals in prediction_regret.tex target mean-userRMSE differences, not globalRMSE. Existing table correctly separates them.",
+    "seeds": "Manually fixed identifiers, reused across datasets/conditions/configurations; Python/NumPy/PyTorch seeded and epoch permutation uses NumPy default_rng(seed). No evidence of random seed-generation procedure.",
+    "historical_runtime": "Manuscript declares AppleM1Max10core64GB, CPU1thread, Python3.10.9/PyTorch2.1.0.dev20230521/pandas1.5.3/NumPy1.21.5. No contemporaneous exact LF-run SciPy/Matplotlib/PyArrow/PyYAML pins located. Declared environment contains compatibility ranges, not exact historical version evidence.",
+    "release": "Local GitHub-release artifacts and code/configs exist; DOI archive remains planned. Public visibility must be checked independently; a local checkout/remote URL does not establish anonymous access."
+  },
+  "source_locations": {
+    "chronology": "src/latent_factor_study/data.py:168",
+    "retention": "src/latent_factor_study/sparsity.py:28",
+    "prediction_aggregation_and_schema": "src/latent_factor_study/explicit_mf.py:242",
+    "prediction_inference": "src/latent_factor_study/inference.py:180",
+    "training_rng": "src/latent_factor_study/explicit_mf.py:38",
+    "runtime_declaration": "papers/latent_factor_beyond_rmse/sections/materials_methods.tex:464",
+    "runtime_compatibility_ranges": "papers/latent_factor_beyond_rmse/repository/environment/declared-results-environment.yml",
+    "deposit_plan": "papers/latent_factor_beyond_rmse/repository/ARTIFACT_DEPOSIT.md"
+  },
+  "inputs": [
+    {
+      "path": "configs/latent_factor_beyond_rmse/modeling.yaml",
+      "sha256": "a3410ec6f63a7adc2a061627671d6c1c58b7f7c27db4df57a8ea7ebe56c933f3"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/manifest.json",
+      "sha256": "1cd09aa03b466e5894414c539b1f3c381b68cbcd8e597495a07f6009a8caf8c0"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/movielens_1m/sparsity_manifest.json",
+      "sha256": "e81ef51f7be8961cc9c3724e06f47eb39149da2b272511d1c2007ece3bfe4690"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r100/grid_runs.csv",
+      "sha256": "1a2e2732bbca468584b3ce8edb80b005de80478e7e65ccd9ebc2f7caa642dab0"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r100/d1_lambda0_seed101/summary.json",
+      "sha256": "a0067c5957b363432015cef83161d3f5d64ee893117cdffb32c0ae096fb26efa"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/confirmation_manifest.json",
+      "sha256": "ffeaa7c260a2fd13d9fe316f734cd696fad308b69222064685dcd302344f8ea6"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed601/summary.json",
+      "sha256": "ff8f033c6735fe720df7e900ce965f6cc4b3de8f0eb9460a42d0f2e5fd0f29f6"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r075/grid_runs.csv",
+      "sha256": "da586fc688fcfaf0a6be32e65f5f2645f728554d38eb84b1d63daba21eceeb58"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r075/d1_lambda0_seed101/summary.json",
+      "sha256": "22804219a419621ff14d2b969bc3ad76f241e28390a3f48a47eaea8c8ccd673a"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r075/confirmation_manifest.json",
+      "sha256": "3d5e2a7e95bee54c2e14b224a64bbbe900eabd36a24821d23f6c1bcbbef69b22"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r075/rmse_selected/d16_lambda0.1_seed601/summary.json",
+      "sha256": "afff6033d35eea4b7fc3ea1ca005c67acb70185367f2a882373ebec538019967"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r050/grid_runs.csv",
+      "sha256": "85541042d1dc0d07164d4d027dc8c37f35a4c69bbceaca5bc190ef518e3d78ab"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r050/d1_lambda0_seed101/summary.json",
+      "sha256": "8a750df66aeb11f4d57044c9126f98615328bc7f13315d17f886377372a93354"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r050/confirmation_manifest.json",
+      "sha256": "9215fcbab01fd4e35639198a999652291251de4b105b480a820ce2a3127365f5"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r050/rmse_selected/d8_lambda0.1_seed601/summary.json",
+      "sha256": "e5b17e25fd369eb23862ddccd00e9ecdefc2442a81939dc4a7692a2b23e5f442"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r025/grid_runs.csv",
+      "sha256": "ad045b1cd6087a26f75f8b496506daf41a69f1efe03d7064c9eb1608f0cd8891"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/movielens_1m/r025/d1_lambda0_seed101/summary.json",
+      "sha256": "82492fbdf628c57a7ec4989e809c8bf921e65b877eecd4035b8098f798002fed"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r025/confirmation_manifest.json",
+      "sha256": "4eb64be4379af6a6c76a2ccc6ffef433c65cdebf1b058612a29aafdef1523683"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r025/rmse_selected/d1_lambda0.1_seed601/summary.json",
+      "sha256": "295a5fc8ed2a365ef0d75f559696f92de9571121feb6740bc16216ff31e82ff9"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/manifest.json",
+      "sha256": "2bb8196bd29f6e78a28433351e48f15e24fe56137ff1fa0f4fa946c4afaae064"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/sparsity_manifest.json",
+      "sha256": "32c160e5eaf85ec4f260c99e5f502b9cb7d879d8bd79974474cdf4f4007640d8"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r100/grid_runs.csv",
+      "sha256": "777320759d3eaa06e1183f83fb30d14b8d2d0b19c7cf2c54c01d5037bae0f06e"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r100/d1_lambda0_seed101/summary.json",
+      "sha256": "a2788c6ba488773917a17825c5c7a65df18bf0ba03486006b1f59b10e8916f82"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/confirmation_manifest.json",
+      "sha256": "601594c37272f60e9bca42e59b3b05a6fcc2446d6ac4e39fdaa4d2781767f2d6"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed601/summary.json",
+      "sha256": "d334776de39ad9151c6e2f43dc3061f4a00a3171cea3d03bd17664de1f01af7a"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r075/grid_runs.csv",
+      "sha256": "88b9818950a1b16378dfdfe9478df18c7a3a6c57bf54846891ed01a90735670e"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r075/d1_lambda0_seed101/summary.json",
+      "sha256": "4b21cacd0751979715c1edf977579e083e9fde95893f9c978d0f3339051f9c6a"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r075/confirmation_manifest.json",
+      "sha256": "2ac3cd6100c53414d42d9f8df56dd698f50c20d5caba8e0d6606c4145582d69e"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r075/rmse_selected/d2_lambda0.1_seed601/summary.json",
+      "sha256": "8beb5c3ea6c0db42435a7e16d8056c12e7f9d18884cff08ae26304c033934a0c"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r050/grid_runs.csv",
+      "sha256": "95f4b0c99c695577432f59b4e5406953bbaee9b268025b81f19c763984ef1ad4"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r050/d1_lambda0_seed101/summary.json",
+      "sha256": "518bc4bae1913f8c215e498fda581c4f9067bee5ae37e88c85f2ad4b77f1384e"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/confirmation_manifest.json",
+      "sha256": "46d5ec90a0ec661409b8610fac4b59bc728896f47470cbfc52059b8273dae5f4"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed601/summary.json",
+      "sha256": "f4f9557c758721e6759e155428130cceb6912e73fa6a55e2edae046e57da6c22"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r025/grid_runs.csv",
+      "sha256": "c4fc7479446b0fae329b9223ad8c5f4a19e6b72886fb0eaef6d646ea981d6be9"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/ciaodvd/r025/d1_lambda0_seed101/summary.json",
+      "sha256": "591ff38ab73cf70a77b4121af93d26914da646c0dc33ea3e0ec8d3c786321e38"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/confirmation_manifest.json",
+      "sha256": "d4d41862ffa6d5b814115e05758d35e4b047c7892b2bf79d9ae928a0194c4575"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed601/summary.json",
+      "sha256": "9a87837f5a6f2c2a5c1226a9fc7add9e6f786d52b0462585c452347ec4a9da84"
+    },
+    {
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/manifest.json",
+      "sha256": "f5527e5a70a3b4ef92e1ac0bc3cf22e48848543df2f1d0830470da956bbf3e99"
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json",
+      "sha256": "410e99e3969163e2f611fe347b0bf82f0694914016049566cc101a1d337d4c9d"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r100/grid_runs.csv",
+      "sha256": "44e2582da84639f9fdac65a661396dce9cf2d5662d9421e5ebf0156d22690505"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r100/d1_lambda0_seed101/summary.json",
+      "sha256": "544e9501be41d0471bcc7115dc8576ff68615463385b2cc90f213cc87af8ace8"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/yelp_tampa_restaurants/r100/confirmation_manifest.json",
+      "sha256": "0e52e86939b621658ba07efc643ddf412467f77fe76d1e5a0f7fe7ff1379278e"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed601/summary.json",
+      "sha256": "2e9a8725034ca844e6806fcd05c843980e8a39183d0ac400c35eefccce16ec59"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r075/grid_runs.csv",
+      "sha256": "470313a9764fb40dfc424be1ea8ca6dd5531a20ae0803c3a52b5024327282069"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r075/d1_lambda0_seed101/summary.json",
+      "sha256": "10bdb1dd3ce736198e8fc0784b29776b505e2c122546eb71ecc7685ee45b8d03"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/yelp_tampa_restaurants/r075/confirmation_manifest.json",
+      "sha256": "1bdb4f241744401db7db7bcee2c880134636b955571d49097ad34a4c1415e072"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/yelp_tampa_restaurants/r075/rmse_selected/d1_lambda0.1_seed601/summary.json",
+      "sha256": "2152f1af7d431046c5d84072d15b137e1fac93222c91e781654da576fba0373f"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r050/grid_runs.csv",
+      "sha256": "5ca9efb938e14b56e93a350ea895ea22f64dc3cc66a72e635e8a0ffa07de5a91"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r050/d1_lambda0_seed101/summary.json",
+      "sha256": "70d97eb827ffd44cc8bbbad58ec07e819bca66569a0371402939c538cc0b5418"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/yelp_tampa_restaurants/r050/confirmation_manifest.json",
+      "sha256": "5d3cea681ac78d25cd768e0003b19d7977cd05880902d19de141df2587a228d2"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/yelp_tampa_restaurants/r050/rmse_selected/d64_lambda0.1_seed601/summary.json",
+      "sha256": "58fb69db0463e5a74fc7f65d5273ceb50fd6dbb367c67ff80e64a8357b1c8592"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r025/grid_runs.csv",
+      "sha256": "a9c2145f437d63faa25fa0a85c43f873fa2e2671d1122dd58becc021609b0373"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r025/d1_lambda0_seed101/summary.json",
+      "sha256": "815166109492278b364a96f6750e2b12310ea3f583c5402302395f665a94ea30"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/yelp_tampa_restaurants/r025/confirmation_manifest.json",
+      "sha256": "31d8b285895fba59edebc38f47ae025161af57d3781d399a185ea8adb0b6d894"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/confirmation/yelp_tampa_restaurants/r025/rmse_selected/d64_lambda0.1_seed601/summary.json",
+      "sha256": "d61b5a67df79baf8af0300f4521f7102a90d04435c3f3770b5d05e3cd62efcd6"
+    },
+    {
+      "path": "data/processed/latent_factor_framework_epinions/epinions/manifest.json",
+      "sha256": "4d9ee0d0e9bed24a7b8c93660448a3a980cca1a5051f7982b10aa03fd9f8bc87"
+    },
+    {
+      "path": "data/splits/latent_factor_framework_epinions/epinions/sparsity_manifest.json",
+      "sha256": "758ab0f3d175f60798f322c17897c3057f8d9c1a8e57b0671f2173277a01d98c"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/grid_runs.csv",
+      "sha256": "8ebdd981f96583531bfedaa4f249e355a845554c655cac364214663f2f6fd89d"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0_seed101/summary.json",
+      "sha256": "6caec7d4b0cb4e9940a256398b19c32bd8b469e0cc4da0be0acafa5590b5a488"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/confirmation_manifest.json",
+      "sha256": "1ce27d6dd344fbb5cb0e5fb77d60cf9a561c3575b5e88f92f7e1d54143259172"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r100/shared_1/d64_lambda0.1_seed601/summary.json",
+      "sha256": "8980898f428527b83d768279c1958c45ee3ee04d5f5ffa86eeaf05dcbcf21d4a"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/grid_runs.csv",
+      "sha256": "3573802ab8d8ac9a20af9331f67b05ff668ad5a99d52f905d0c23be27698e0f8"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0_seed101/summary.json",
+      "sha256": "469d292c85fe91bc420f78f8006ba0dd83dc1c0a3cb81ec7978f78bfce05fdd8"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r075/confirmation_manifest.json",
+      "sha256": "204678062d5ae2938b727541084fad59a486eb8944c69bbba142536c006db2b9"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r075/shared_1/d64_lambda0.1_seed601/summary.json",
+      "sha256": "b7297c79678fc97a9f4df0752a1175d241db2f71510d4550ef20c29bfd2de7ea"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/grid_runs.csv",
+      "sha256": "879ce8a9d049a831fda7e3a858958423f2e5b941d799ac91033a6e17e44bb686"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0_seed101/summary.json",
+      "sha256": "a5a7b8c158212ed0954246f82e5782198c53e4fe9e1d1f0d99174bbedb0a6978"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r050/confirmation_manifest.json",
+      "sha256": "57e2b164a653aaac9ac3208a183dfdb8ddc992a8a7162d44cc7f8d1ebb3f2412"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r050/shared_1/d64_lambda0.1_seed601/summary.json",
+      "sha256": "268daa0fa17077df4f0d567bbac42a3acea97827533b2b2dc63d60432d2777e6"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/grid_runs.csv",
+      "sha256": "a7307f0ab0967dbb65c8b1d07b7c46b3c5739196348842fc0ce055675cbc19a3"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0_seed101/summary.json",
+      "sha256": "0fae0332ab7e540f0e8e063d4f2aaa071999a1c48f2c56e7492075d990f3f982"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r025/confirmation_manifest.json",
+      "sha256": "51fa194fab11924ee2a32bed3185c7504966abab52ae8c8577987d53e097b96f"
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/epinions/r025/shared_1/d64_lambda0.1_seed601/summary.json",
+      "sha256": "e0bee23cf05b990e9d6e12b2bfb22c0dbcf53a27e04ddecd69b96a05226824cd"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_stability_summary.csv",
+      "sha256": "6ae7f9d1e8a7050cfb4bbae6a26263550bbbd8a5afbe2995a7992a66fd0dd521"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/paired_selector_agreement.csv",
+      "sha256": "668fa1972c6bd6a437065a0d4c846d35f975c945f5d789ed114cda4830e44689"
+    }
+  ],
+  "generator": {
+    "path": "scripts/latent_factor/revision_protocol_audit.py",
+    "sha256": "5e0616b64d7915d78b07edb1dbf0ca7d5d56018c8a84afc6ac24a2e51227c200"
+  },
+  "revision_runtime_versions_not_historical_run_evidence": {
+    "numpy": "1.21.5",
+    "pandas": "1.5.3",
+    "scipy": "1.10.0",
+    "pyarrow": "17.0.0",
+    "PyYAML": "6.0",
+    "matplotlib": "3.7.0"
+  }
+}

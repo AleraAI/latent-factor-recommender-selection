@@ -1,0 +1,28 @@
+\begin{table}[!t]
+\centering
+\caption{Post-confirmation framework construction results. The uncertainty-aware (UA) selector was applied retrospectively to validation grids whose primary test results were already known. These values are exploratory and are not external validation. Match identifies whether UA equals an original single-objective choice, and $|\mathcal{A}|$ is the number of validation configurations admitted by the uncertainty screen. $\Delta_{N}$ is NDCG-selected minus UA test NDCG@10, and $\Delta_{R}$ is UA minus NDCG-selected mean user test RMSE. Brackets are two-sided 95\% user cluster bootstrap intervals after five seed averaging.}
+\label{tab:framework-construction}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Dataset & Ret. & UA choice & Match & $|\mathcal{A}|$ & $\Delta_N$ [95\% CI] & $\Delta_R$ [95\% CI] \\ 
+\midrule
+MovieLens 1M & 100\% & $(16,10^{-1})$ & RMSE & 11 & +0.0007 [+0.0004,+0.0009] & -0.0002 [-0.0005,+0.0002] \\
+ & 75\% & $(16,10^{-1})$ & RMSE & 4 & +0.0035 [+0.0031,+0.0040] & -0.0004 [-0.0012,+0.0003] \\
+ & 50\% & $(64,10^{-1})$ & NDCG & 3 & +0.0000 [+0.0000,+0.0000] & +0.0000 [+0.0000,+0.0000] \\
+ & 25\% & $(64,10^{-1})$ & New & 5 & +0.0039 [+0.0029,+0.0049] & -0.0823 [-0.0848,-0.0798] \\
+\addlinespace
+CiaoDVD & 100\% & $(64,10^{-1})$ & NDCG & 5 & +0.0000 [+0.0000,+0.0000] & +0.0000 [+0.0000,+0.0000] \\
+ & 75\% & $(1,10^{-3})$ & New & 16 & +0.0042 [-0.0013,+0.0096] & -0.0366 [-0.0471,-0.0261] \\
+ & 50\% & $(1,10^{-1})$ & RMSE & 1 & +0.0000 [+0.0000,+0.0000] & +0.0000 [+0.0000,+0.0000] \\
+ & 25\% & $(32,10^{-1})$ & New & 10 & -0.0020 [-0.0042,+0.0003] & -0.0028 [-0.0052,-0.0004] \\
+\addlinespace
+Yelp--Tampa & 100\% & $(64,10^{-2})$ & New & 11 & +0.0012 [+0.0005,+0.0018] & -0.0224 [-0.0237,-0.0210] \\
+ & 75\% & $(64,10^{-2})$ & New & 8 & +0.0012 [+0.0006,+0.0018] & -0.0164 [-0.0175,-0.0153] \\
+ & 50\% & $(64,10^{-2})$ & New & 16 & +0.0008 [+0.0002,+0.0013] & -0.0108 [-0.0116,-0.0100] \\
+ & 25\% & $(64,10^{-2})$ & New & 27 & +0.0013 [+0.0001,+0.0025] & -0.0420 [-0.0480,-0.0360] \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

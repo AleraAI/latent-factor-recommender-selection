@@ -1,0 +1,80 @@
+schema_version: 1
+status: locked_before_epinions_test_access
+locked_on: '2026-08-25'
+dataset: epinions
+development_conditions: 4
+development_runs: 700
+test_metrics_accessed_at_lock: false
+confirmation_seeds:
+- 601
+- 701
+- 809
+- 907
+- 1009
+practical_ndcg_at_10_regret: 0.005
+locked_input_sha256:
+  datasets_yaml: 3aef8e13714ec55dcc577d28b097be47f9e5c1c67f254a5650644cd24e9823e3
+  modeling_yaml: 3fe2c5b6961ff72b11ee071ec89b36bf2ff01f663bb79f659af4931ffb29a51f
+  protocol_lock_yaml: 22ff01635b0ff5ff287ea5df88e1ef9e072a8666d3123d7bd513e49f6a7416eb
+  analysis_plan_yaml: 34a2a158f5f9ab92d8022dbe987e0213a3c830f345eefe300b538a2a1e6a7071
+selections:
+  r100:
+    framework_selection_sha256: a0fd855b2a0862a0ab816f9da9dbb203c9e08d81fee216bd5ebb88bcbe8bae67
+    grid_runs_sha256: 8ebdd981f96583531bfedaa4f249e355a845554c655cac364214663f2f6fd89d
+    rmse_selected:
+      dimension: 64
+      regularization: 0.1
+    ndcg_selected:
+      dimension: 64
+      regularization: 0.0001
+    framework_selected:
+      dimension: 64
+      regularization: 0.1
+    admissible_configurations: 35
+    framework_matches_rmse: true
+    framework_matches_ndcg: false
+  r075:
+    framework_selection_sha256: c239ab0e5d3e69b543eee20a8d67548ac9781b38ffeb1b0c10ca5567c095393c
+    grid_runs_sha256: 3573802ab8d8ac9a20af9331f67b05ff668ad5a99d52f905d0c23be27698e0f8
+    rmse_selected:
+      dimension: 64
+      regularization: 0.1
+    ndcg_selected:
+      dimension: 64
+      regularization: 0.0
+    framework_selected:
+      dimension: 64
+      regularization: 0.1
+    admissible_configurations: 35
+    framework_matches_rmse: true
+    framework_matches_ndcg: false
+  r050:
+    framework_selection_sha256: c7daa4f328ca801e5bce20c8d3113f8653034872ce1bad51ab177cb1a0d8e86a
+    grid_runs_sha256: 879ce8a9d049a831fda7e3a858958423f2e5b941d799ac91033a6e17e44bb686
+    rmse_selected:
+      dimension: 64
+      regularization: 0.1
+    ndcg_selected:
+      dimension: 64
+      regularization: 0.0001
+    framework_selected:
+      dimension: 64
+      regularization: 0.1
+    admissible_configurations: 35
+    framework_matches_rmse: true
+    framework_matches_ndcg: false
+  r025:
+    framework_selection_sha256: 8dc28948197a4c40a662493b2b8d9f40be2ffc5dde43baabd9d9ef92049ad285
+    grid_runs_sha256: a7307f0ab0967dbb65c8b1d07b7c46b3c5739196348842fc0ce055675cbc19a3
+    rmse_selected:
+      dimension: 64
+      regularization: 0.1
+    ndcg_selected:
+      dimension: 64
+      regularization: 0.0001
+    framework_selected:
+      dimension: 64
+      regularization: 0.1
+    admissible_configurations: 35
+    framework_matches_rmse: true
+    framework_matches_ndcg: false

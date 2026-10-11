@@ -1,0 +1,272 @@
+{
+  "artifacts": {
+    "interactions": {
+      "bytes": 8164529,
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/interactions_10core.parquet",
+      "sha256": "5068cb891238ff09496f55f5899c9fa0f7a57178e92120b5cdec0c6ca62a5f4f"
+    },
+    "split_assignments": {
+      "bytes": 6435971,
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/split_assignments.parquet",
+      "sha256": "7e53c67054819f1a2ff0e258c4908f2fb7b3538647f7819a009ba327a24ce3e8"
+    },
+    "test": {
+      "bytes": 1515180,
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/test.parquet",
+      "sha256": "2773cef50e9a9da31ec8da67df8ad1e5798c74a84bb63ed126d904acf59d46d3"
+    },
+    "train": {
+      "bytes": 5615540,
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/train.parquet",
+      "sha256": "42567a7506ba8888a7440a450b05c84aa70d6e542306e302c053571fb092b084"
+    },
+    "validation": {
+      "bytes": 1370285,
+      "path": "data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants/validation.parquet",
+      "sha256": "5a4c060e3f122e254c816c8c872c62bd54526e2e12b0a993541d9664b931337a"
+    }
+  },
+  "core_iterations": [
+    {
+      "items_after": 2508,
+      "iteration": 1,
+      "rows_after": 102810,
+      "rows_before": 293136,
+      "users_after": 4051
+    },
+    {
+      "items_after": 1756,
+      "iteration": 2,
+      "rows_after": 98236,
+      "rows_before": 102810,
+      "users_after": 4010
+    },
+    {
+      "items_after": 1754,
+      "iteration": 3,
+      "rows_after": 96530,
+      "rows_before": 98236,
+      "users_after": 3815
+    },
+    {
+      "items_after": 1735,
+      "iteration": 4,
+      "rows_after": 96333,
+      "rows_before": 96530,
+      "users_after": 3812
+    },
+    {
+      "items_after": 1735,
+      "iteration": 5,
+      "rows_after": 96207,
+      "rows_before": 96333,
+      "users_after": 3798
+    },
+    {
+      "items_after": 1734,
+      "iteration": 6,
+      "rows_after": 96198,
+      "rows_before": 96207,
+      "users_after": 3798
+    },
+    {
+      "items_after": 1734,
+      "iteration": 7,
+      "rows_after": 96189,
+      "rows_before": 96198,
+      "users_after": 3797
+    },
+    {
+      "items_after": 1734,
+      "iteration": 8,
+      "rows_after": 96189,
+      "rows_before": 96189,
+      "users_after": 3797
+    }
+  ],
+  "dataset": "yelp_tampa_restaurants",
+  "deduplicated_statistics": {
+    "density": 0.0008662132848683825,
+    "item_degree_quantiles": {
+      "q00": 5.0,
+      "q100": 3261.0,
+      "q25": 15.0,
+      "q50": 37.0,
+      "q75": 109.0,
+      "q90": 243.0999999999999,
+      "q95": 377.0499999999997,
+      "q99": 801.4299999999967
+    },
+    "items": 2960,
+    "rating_histogram": {
+      "1": 34493,
+      "2": 23082,
+      "3": 32271,
+      "4": 66458,
+      "5": 136832
+    },
+    "rows": 293136,
+    "timestamp_max": 1642621543,
+    "timestamp_min": 1124391321,
+    "user_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 629.0,
+      "q25": 1.0,
+      "q50": 1.0,
+      "q75": 2.0,
+      "q90": 4.0,
+      "q95": 7.0,
+      "q99": 25.0
+    },
+    "users": 114328
+  },
+  "deduplication_rule": "latest timestamp; source_row_id breaks ties",
+  "display_name": "Yelp Open Dataset--Tampa Restaurants",
+  "duplicate_statistics": {
+    "deduplicated_rows": 293136,
+    "duplicate_rows_removed": 10096,
+    "input_rows": 303232
+  },
+  "license_or_terms": "Yelp Dataset License Agreement retained with the local bundle",
+  "processed_statistics": {
+    "density": 0.014609512335817842,
+    "item_degree_quantiles": {
+      "q00": 10.0,
+      "q100": 963.0,
+      "q25": 17.0,
+      "q50": 32.0,
+      "q75": 62.0,
+      "q90": 124.0,
+      "q95": 179.3499999999999,
+      "q99": 329.34000000000015
+    },
+    "items": 1734,
+    "rating_histogram": {
+      "1": 5042,
+      "2": 7203,
+      "3": 15219,
+      "4": 31702,
+      "5": 37023
+    },
+    "rows": 96189,
+    "timestamp_max": 1642616604,
+    "timestamp_min": 1132085858,
+    "user_degree_quantiles": {
+      "q00": 10.0,
+      "q100": 546.0,
+      "q25": 12.0,
+      "q50": 16.0,
+      "q75": 27.0,
+      "q90": 47.0,
+      "q95": 66.0,
+      "q99": 149.0
+    },
+    "users": 3797
+  },
+  "protocol": {
+    "graded_gains": {
+      "4": 1.0,
+      "5": 3.0
+    },
+    "minimum_item_degree": 10,
+    "minimum_user_degree": 10,
+    "primary_relevance_threshold": 4.0,
+    "rating_max": 5.0,
+    "rating_min": 1.0,
+    "test_ratio": 0.15,
+    "train_ratio": 0.7,
+    "validation_ratio": 0.15
+  },
+  "raw_or_scoped_statistics": {
+    "density": 0.0008960468410471909,
+    "item_degree_quantiles": {
+      "q00": 5.0,
+      "q100": 3388.0,
+      "q25": 15.0,
+      "q50": 38.0,
+      "q75": 113.0,
+      "q90": 252.0,
+      "q95": 392.0499999999997,
+      "q99": 835.6899999999987
+    },
+    "items": 2960,
+    "rating_histogram": {
+      "1": 35618,
+      "2": 23932,
+      "3": 33483,
+      "4": 68904,
+      "5": 141295
+    },
+    "rows": 303232,
+    "timestamp_max": 1642621543,
+    "timestamp_min": 1124391321,
+    "user_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 666.0,
+      "q25": 1.0,
+      "q50": 1.0,
+      "q75": 2.0,
+      "q90": 4.0,
+      "q95": 8.0,
+      "q99": 26.0
+    },
+    "users": 114328
+  },
+  "release": "official bundle packaged 2025-01-07",
+  "schema_version": 1,
+  "scope": {
+    "category": "Restaurants",
+    "category_match": "exact comma-separated token",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  "scope_statistics": {
+    "raw_business_rows": 150346,
+    "raw_review_rows": 6990280,
+    "scoped_businesses": 2960,
+    "scoped_review_rows": 303232
+  },
+  "source_files": {
+    "archive": {
+      "bytes": 4345335132,
+      "path": "data/raw/paper3_crr/yelp_open_dataset/Yelp-JSON.zip",
+      "sha256": "47dd6e4d279ac9d8734ddc30bfb3d78e571b9df4bb95923d7acf9a6ef3d8a4ab"
+    },
+    "business_json": {
+      "bytes": 118863795,
+      "path": "data/raw/paper3_crr/yelp_open_dataset/yelp_academic_dataset_business.json"
+    },
+    "review_json": {
+      "bytes": 5341868833,
+      "path": "data/raw/paper3_crr/yelp_open_dataset/yelp_academic_dataset_review.json"
+    }
+  },
+  "source_url": "https://business.yelp.com/data/resources/open-dataset/",
+  "split_boundary_rule": "within user: train_end=floor(train_ratio*n), validation_end=floor((train_ratio+validation_ratio)*n); remainder=test",
+  "split_statistics": {
+    "test": {
+      "item_cold_rows": 117,
+      "items": 1620,
+      "relevant_rows_rating_ge_4": 11696,
+      "rows": 16110,
+      "users": 3797,
+      "users_with_relevant_rows": 3547
+    },
+    "train": {
+      "item_cold_rows": 0,
+      "items": 1725,
+      "relevant_rows_rating_ge_4": 46748,
+      "rows": 65774,
+      "users": 3797,
+      "users_with_relevant_rows": 3790
+    },
+    "validation": {
+      "item_cold_rows": 18,
+      "items": 1639,
+      "relevant_rows_rating_ge_4": 10281,
+      "rows": 14305,
+      "users": 3797,
+      "users_with_relevant_rows": 3463
+    }
+  }
+}

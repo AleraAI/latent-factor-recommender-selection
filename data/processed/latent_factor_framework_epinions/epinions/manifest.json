@@ -1,0 +1,275 @@
+{
+  "artifacts": {
+    "interactions": {
+      "bytes": 26511785,
+      "path": "data/processed/latent_factor_framework_epinions/epinions/interactions_10core.parquet",
+      "sha256": "7ee4a9604bbf7e0ddb7194408f5bfb7b63cf75c10b42fe8b89e0f820d66ef736"
+    },
+    "split_assignments": {
+      "bytes": 23444407,
+      "path": "data/processed/latent_factor_framework_epinions/epinions/split_assignments.parquet",
+      "sha256": "7dc30f5a98202db79870898fdbf2ad979b80860f189f72540476e633ada90bd2"
+    },
+    "test": {
+      "bytes": 4716980,
+      "path": "data/processed/latent_factor_framework_epinions/epinions/test.parquet",
+      "sha256": "0779f67a26e76aa7f1389c07ee8d0dd3f1f3f4c48b99a9e34059cec5077a068a"
+    },
+    "train": {
+      "bytes": 18339098,
+      "path": "data/processed/latent_factor_framework_epinions/epinions/train.parquet",
+      "sha256": "5d7d0b898d4bb3d14baf216846e1e42072648cbff7c1fc2f4fe43780995dffcb"
+    },
+    "validation": {
+      "bytes": 4222582,
+      "path": "data/processed/latent_factor_framework_epinions/epinions/validation.parquet",
+      "sha256": "bbffe9343f75e25533b09f01f0c4c5b9e6d54bcedc599d64902c656101bd48be"
+    }
+  },
+  "core_iterations": [
+    {
+      "items_after": 13887,
+      "iteration": 1,
+      "rows_after": 424420,
+      "rows_before": 912441,
+      "users_after": 21008
+    },
+    {
+      "items_after": 13797,
+      "iteration": 2,
+      "rows_after": 379853,
+      "rows_before": 424420,
+      "users_after": 13012
+    },
+    {
+      "items_after": 11667,
+      "iteration": 3,
+      "rows_after": 362981,
+      "rows_before": 379853,
+      "users_after": 12986
+    },
+    {
+      "items_after": 11660,
+      "iteration": 4,
+      "rows_after": 357102,
+      "rows_before": 362981,
+      "users_after": 12299
+    },
+    {
+      "items_after": 11343,
+      "iteration": 5,
+      "rows_after": 354285,
+      "rows_before": 357102,
+      "users_after": 12297
+    },
+    {
+      "items_after": 11342,
+      "iteration": 6,
+      "rows_after": 353262,
+      "rows_before": 354285,
+      "users_after": 12183
+    },
+    {
+      "items_after": 11290,
+      "iteration": 7,
+      "rows_after": 352796,
+      "rows_before": 353262,
+      "users_after": 12183
+    },
+    {
+      "items_after": 11290,
+      "iteration": 8,
+      "rows_after": 352670,
+      "rows_before": 352796,
+      "users_after": 12169
+    },
+    {
+      "items_after": 11283,
+      "iteration": 9,
+      "rows_after": 352607,
+      "rows_before": 352670,
+      "users_after": 12169
+    },
+    {
+      "items_after": 11283,
+      "iteration": 10,
+      "rows_after": 352598,
+      "rows_before": 352607,
+      "users_after": 12168
+    },
+    {
+      "items_after": 11283,
+      "iteration": 11,
+      "rows_after": 352598,
+      "rows_before": 352598,
+      "users_after": 12168
+    }
+  ],
+  "dataset": "epinions",
+  "deduplicated_statistics": {
+    "density": 0.00013895005142312763,
+    "item_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 1742.0,
+      "q25": 1.0,
+      "q50": 1.0,
+      "q75": 2.0,
+      "q90": 5.0,
+      "q95": 9.0,
+      "q99": 34.0
+    },
+    "items": 296277,
+    "rating_histogram": {
+      "1": 52468,
+      "2": 68151,
+      "3": 118765,
+      "4": 288212,
+      "5": 384845
+    },
+    "rows": 912441,
+    "timestamp_max": 1304924400,
+    "timestamp_min": 931158000,
+    "user_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 5337.0,
+      "q25": 13.0,
+      "q50": 19.0,
+      "q75": 34.0,
+      "q90": 67.0,
+      "q95": 116.0,
+      "q99": 430.0
+    },
+    "users": 22164
+  },
+  "deduplication_rule": "latest timestamp; source_row_id breaks ties",
+  "display_name": "Epinions",
+  "duplicate_statistics": {
+    "deduplicated_rows": 912441,
+    "duplicate_rows_removed": 9826,
+    "input_rows": 922267
+  },
+  "license_or_terms": "Publicly released from the dataset authors' academic page for research; no explicit redistribution license appears on the page or accompanying README. Raw and processed files must not be redistributed by this project.",
+  "processed_statistics": {
+    "density": 0.0025682426588486762,
+    "item_degree_quantiles": {
+      "q00": 10.0,
+      "q100": 1512.0,
+      "q25": 12.0,
+      "q50": 18.0,
+      "q75": 31.0,
+      "q90": 59.0,
+      "q95": 94.0,
+      "q99": 228.1800000000003
+    },
+    "items": 11283,
+    "rating_histogram": {
+      "1": 24665,
+      "2": 30998,
+      "3": 45224,
+      "4": 102725,
+      "5": 148986
+    },
+    "rows": 352598,
+    "timestamp_max": 1304838000,
+    "timestamp_min": 931244400,
+    "user_degree_quantiles": {
+      "q00": 10.0,
+      "q100": 1018.0,
+      "q25": 13.0,
+      "q50": 18.0,
+      "q75": 30.0,
+      "q90": 53.0,
+      "q95": 80.0,
+      "q99": 192.0
+    },
+    "users": 12168
+  },
+  "protocol": {
+    "graded_gains": {
+      "4": 1.0,
+      "5": 3.0
+    },
+    "minimum_item_degree": 10,
+    "minimum_user_degree": 10,
+    "primary_relevance_threshold": 4.0,
+    "rating_max": 5.0,
+    "rating_min": 1.0,
+    "test_ratio": 0.15,
+    "train_ratio": 0.7,
+    "validation_ratio": 0.15
+  },
+  "raw_or_scoped_statistics": {
+    "density": 0.00014044639278140028,
+    "item_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 1834.0,
+      "q25": 1.0,
+      "q50": 1.0,
+      "q75": 2.0,
+      "q90": 5.0,
+      "q95": 9.0,
+      "q99": 35.0
+    },
+    "items": 296277,
+    "rating_histogram": {
+      "1": 52967,
+      "2": 68807,
+      "3": 119763,
+      "4": 290952,
+      "5": 389778
+    },
+    "rows": 922267,
+    "timestamp_max": 1304924400,
+    "timestamp_min": 931158000,
+    "user_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 5357.0,
+      "q25": 13.0,
+      "q50": 19.0,
+      "q75": 34.0,
+      "q90": 68.70000000000073,
+      "q95": 117.0,
+      "q99": 432.0
+    },
+    "users": 22164
+  },
+  "release": "author-maintained timestamped text archive; archive files dated July 2012",
+  "schema_version": 1,
+  "scope": null,
+  "scope_statistics": {},
+  "source_files": {
+    "archive": {
+      "bytes": 17576036,
+      "path": "data/raw/latent_factor_beyond_rmse/epinions_with_rating_timestamp_txt.zip",
+      "sha256": "987c590663ac9c0b0148012530a7a5545fbf5ec44ad1a5524896dab3135714f1"
+    }
+  },
+  "source_url": "https://www.cse.msu.edu/~tangjili/trust.html",
+  "split_boundary_rule": "within user: train_end=floor(train_ratio*n), validation_end=floor((train_ratio+validation_ratio)*n); remainder=test",
+  "split_statistics": {
+    "test": {
+      "item_cold_rows": 187,
+      "items": 10424,
+      "relevant_rows_rating_ge_4": 41661,
+      "rows": 58328,
+      "users": 12168,
+      "users_with_relevant_rows": 11728
+    },
+    "train": {
+      "item_cold_rows": 0,
+      "items": 11265,
+      "relevant_rows_rating_ge_4": 172901,
+      "rows": 241657,
+      "users": 12168,
+      "users_with_relevant_rows": 12162
+    },
+    "validation": {
+      "item_cold_rows": 34,
+      "items": 10364,
+      "relevant_rows_rating_ge_4": 37149,
+      "rows": 52613,
+      "users": 12168,
+      "users_with_relevant_rows": 11373
+    }
+  }
+}

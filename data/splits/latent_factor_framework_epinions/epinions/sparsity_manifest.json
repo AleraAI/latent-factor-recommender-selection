@@ -1,0 +1,105 @@
+{
+  "_public_export": {
+    "not_canonical_original": true,
+    "removed_fields": [
+      "conditions.r025.repaired_interaction_ids",
+      "conditions.r050.repaired_interaction_ids",
+      "conditions.r075.repaired_interaction_ids",
+      "conditions.r100.repaired_interaction_ids"
+    ],
+    "source_sha256": "a8ca959bdfb915c6e11069b3c139584da650f4b9ea496e01b0fb19b018574457",
+    "transformation": "Omit repaired interaction hash lists; retain counts, artifact hashes and all other fields."
+  },
+  "conditions": {
+    "r025": {
+      "artifact": {
+        "bytes": 5383774,
+        "path": "data/splits/latent_factor_framework_epinions/epinions/train_r025.parquet",
+        "sha256": "edce773949c5da5c3a65cf33731a3e8363c1fdb610fcba6e785eca498d58bcbd"
+      },
+      "full_train_rows": 241657,
+      "full_training_catalog_items": 11265,
+      "initial_requested_rows": 66234,
+      "items": 11265,
+      "minimum_per_user": 3,
+      "minimum_realized_user_degree": 3,
+      "realized_retention": 0.2769131454913369,
+      "realized_rows": 66918,
+      "repair_rows_added": 684,
+      "repaired_interaction_ids_omitted_count": 684,
+      "repaired_items": 684,
+      "retention_nominal": 0.25,
+      "seed": 20260825,
+      "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+      "users": 12168
+    },
+    "r050": {
+      "artifact": {
+        "bytes": 9856583,
+        "path": "data/splits/latent_factor_framework_epinions/epinions/train_r050.parquet",
+        "sha256": "f286f75c5da4fdef868512d40fae6ccf54a067d571791d797a61bd9d90d62ac7"
+      },
+      "full_train_rows": 241657,
+      "full_training_catalog_items": 11265,
+      "initial_requested_rows": 124447,
+      "items": 11265,
+      "minimum_per_user": 3,
+      "minimum_realized_user_degree": 4,
+      "realized_retention": 0.51552820733519,
+      "realized_rows": 124581,
+      "repair_rows_added": 134,
+      "repaired_interaction_ids_omitted_count": 134,
+      "repaired_items": 134,
+      "retention_nominal": 0.5,
+      "seed": 20260825,
+      "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+      "users": 12168
+    },
+    "r075": {
+      "artifact": {
+        "bytes": 14034694,
+        "path": "data/splits/latent_factor_framework_epinions/epinions/train_r075.parquet",
+        "sha256": "e6695188b5fe7dff587f85dd543c5ef97630e68ddce3233c857a62fbd5de953d"
+      },
+      "full_train_rows": 241657,
+      "full_training_catalog_items": 11265,
+      "initial_requested_rows": 182083,
+      "items": 11265,
+      "minimum_per_user": 3,
+      "minimum_realized_user_degree": 5,
+      "realized_retention": 0.7535804880471081,
+      "realized_rows": 182108,
+      "repair_rows_added": 25,
+      "repaired_interaction_ids_omitted_count": 25,
+      "repaired_items": 25,
+      "retention_nominal": 0.75,
+      "seed": 20260825,
+      "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+      "users": 12168
+    },
+    "r100": {
+      "artifact": {
+        "bytes": 18339098,
+        "path": "data/splits/latent_factor_framework_epinions/epinions/train_r100.parquet",
+        "sha256": "5d7d0b898d4bb3d14baf216846e1e42072648cbff7c1fc2f4fe43780995dffcb"
+      },
+      "full_train_rows": 241657,
+      "full_training_catalog_items": 11265,
+      "initial_requested_rows": 241657,
+      "items": 11265,
+      "minimum_per_user": 3,
+      "minimum_realized_user_degree": 7,
+      "realized_retention": 1.0,
+      "realized_rows": 241657,
+      "repair_rows_added": 0,
+      "repaired_interaction_ids_omitted_count": 0,
+      "repaired_items": 0,
+      "retention_nominal": 1.0,
+      "seed": 20260825,
+      "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+      "users": 12168
+    }
+  },
+  "dataset": "epinions",
+  "schema_version": 1
+}

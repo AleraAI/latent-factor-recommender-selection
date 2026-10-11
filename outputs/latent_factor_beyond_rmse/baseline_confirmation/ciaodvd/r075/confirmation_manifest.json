@@ -1,0 +1,138 @@
+{
+  "bias_runs": [
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed601/test_per_user.parquet",
+      "per_user_sha256": "0e969cd8122a1a815a8b17a4f861e17270f5d93bd4f81a1b96a7b827843b2297",
+      "regularization": 0.0,
+      "seed": 601,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed601/summary.json",
+      "summary_sha256": "79ca2f609e3378650b20a134515463288d01658aed53935e57ab64e4df6a8a78"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed701/test_per_user.parquet",
+      "per_user_sha256": "0d76f5b2cb23be0b5fc09e6679e1870b7acac45e02c127e8da33232f8e477ed9",
+      "regularization": 0.0,
+      "seed": 701,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed701/summary.json",
+      "summary_sha256": "c9a15f95b1c9bdce41f23028baac66ff0f597a88fb2a548fa0bb25750c74a0b1"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed809/test_per_user.parquet",
+      "per_user_sha256": "663cedb6f150f61040e1727d5de2184d5cb3c60ea433ddf1d6c5dba2d9321292",
+      "regularization": 0.0,
+      "seed": 809,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed809/summary.json",
+      "summary_sha256": "c323d73d6a9a5423a0e77281013526278bd9c04a8e1c998f14370ece268a7036"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed907/test_per_user.parquet",
+      "per_user_sha256": "ddb3fb12655637d14d0fa0a20786d0e68b11aa650939b528b6d518766154e86b",
+      "regularization": 0.0,
+      "seed": 907,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed907/summary.json",
+      "summary_sha256": "48a99557b53b9ac5af5f1f598bc96d07a468086ca26ae74eb6f75a24cd99db82"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed1009/test_per_user.parquet",
+      "per_user_sha256": "21b793186b8c696be2841354ec93005599abfe52a8c8fbf7dcbeaecd64b992f8",
+      "regularization": 0.0,
+      "seed": 1009,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/rmse_selected/lambda0_seed1009/summary.json",
+      "summary_sha256": "e39f1e7991ef419de4c9ec8b975a721097054d1a4867bd5da95c16d079fb73cd"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed601/test_per_user.parquet",
+      "per_user_sha256": "b03aa0626dc713935cf52e2ccdc9f1db87b566bd5352de311d63421087ff6c52",
+      "regularization": 0.001,
+      "seed": 601,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed601/summary.json",
+      "summary_sha256": "166b58b649f472e967e2899808790e5c89fd97666e0a978a3c8a183ed9f2d98d"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed701/test_per_user.parquet",
+      "per_user_sha256": "6e96364095c0e8b15439bf35677dc2908c3cef68901ceceaea9faa0066278223",
+      "regularization": 0.001,
+      "seed": 701,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed701/summary.json",
+      "summary_sha256": "69d5eda4a57aee271ef3c0c279fd8669fb71e97ef9b558b289ad4c05fe81f95d"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed809/test_per_user.parquet",
+      "per_user_sha256": "57810bf7803f23bb49b0960767eb6f866c439f90c04d385744b224eda2741022",
+      "regularization": 0.001,
+      "seed": 809,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed809/summary.json",
+      "summary_sha256": "ff4281c170d6adf04237a07924a91a17e80757f0c669bf581703329a943f6c86"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed907/test_per_user.parquet",
+      "per_user_sha256": "1bc0b47476502313e8263ba3e0159fa3942e97a0d8bf19dcf141d667ba42a684",
+      "regularization": 0.001,
+      "seed": 907,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed907/summary.json",
+      "summary_sha256": "597f5ada3095e8ef31d4f9c3e463eea440e03b582e9c9b350813d2fd3f2088b3"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed1009/test_per_user.parquet",
+      "per_user_sha256": "6a6e7df2ecb44c92efa59ea4e56c077c65f70bcb91146049b2d76d8f9b3575aa",
+      "regularization": 0.001,
+      "seed": 1009,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/bias_only/ndcg_selected/lambda0.001_seed1009/summary.json",
+      "summary_sha256": "77e43d847a3129a6543194eaf8926d201b48b4a64a33ade2e67ad0acd187fef8"
+    }
+  ],
+  "dataset": "ciaodvd",
+  "expected_bias_runs": 10,
+  "observed_bias_runs": 10,
+  "popularity": {
+    "model": "popularity",
+    "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/popularity/test_per_user.parquet",
+    "per_user_sha256": "b5a1ba299552b65eacb6c1e96aacaa6785f01cce74ceb9126273f05b4423e74e",
+    "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r075/popularity/summary.json",
+    "summary_sha256": "703fa41d3b3d9a0d468256e67914c05655829f94c6d6127bbe4a7d54caf8afc3"
+  },
+  "retention_label": "r075",
+  "schema_version": 1,
+  "selection_lock_sha256": "1352fd8887c9e03df29eba868076fcd94b2c266d0e9b4e855b8ff0d1b7e0fabd",
+  "stage": "locked_baseline_test_confirmation"
+}

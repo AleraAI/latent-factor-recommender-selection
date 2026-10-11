@@ -1,0 +1,212 @@
+{
+  "artifacts": {
+    "interactions": {
+      "bytes": 75118433,
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/interactions_10core.parquet",
+      "sha256": "d4e572b1fcf1c4dfdb3be690d9ca2bc7cd0ec6dcc9daa814b6c9811044d89b39"
+    },
+    "split_assignments": {
+      "bytes": 66105625,
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/split_assignments.parquet",
+      "sha256": "01a78662e709434792e840ff6ff4ef493fe0022af2a6087b70ba03450e9bf031"
+    },
+    "test": {
+      "bytes": 12151258,
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/test.parquet",
+      "sha256": "75e09a2161e60e8160274f1f52fce94aac28860167ff0b3c910b391e2ef61c79"
+    },
+    "train": {
+      "bytes": 52866029,
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/train.parquet",
+      "sha256": "29fa012abcabe52a12475b05e6560e0cf3f7957734773c838330d249e3752d43"
+    },
+    "validation": {
+      "bytes": 11903690,
+      "path": "data/processed/latent_factor_beyond_rmse/movielens_1m/validation.parquet",
+      "sha256": "a2a794f80bd43df109cae60730a7ebbf0b8ef80f99edc26490eeaaa30575c23b"
+    }
+  },
+  "core_iterations": [
+    {
+      "items_after": 3260,
+      "iteration": 1,
+      "rows_after": 998539,
+      "rows_before": 1000209,
+      "users_after": 6040
+    },
+    {
+      "items_after": 3260,
+      "iteration": 2,
+      "rows_after": 998539,
+      "rows_before": 998539,
+      "users_after": 6040
+    }
+  ],
+  "dataset": "movielens_1m",
+  "deduplicated_statistics": {
+    "density": 0.044683625622312845,
+    "item_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 3428.0,
+      "q25": 33.0,
+      "q50": 123.5,
+      "q75": 350.0,
+      "q90": 729.5,
+      "q95": 1051.5,
+      "q99": 1784.8999999999996
+    },
+    "items": 3706,
+    "rating_histogram": {
+      "1": 56174,
+      "2": 107557,
+      "3": 261197,
+      "4": 348971,
+      "5": 226310
+    },
+    "rows": 1000209,
+    "timestamp_max": 1046454590,
+    "timestamp_min": 956703932,
+    "user_degree_quantiles": {
+      "q00": 20.0,
+      "q100": 2314.0,
+      "q25": 44.0,
+      "q50": 96.0,
+      "q75": 208.0,
+      "q90": 400.0,
+      "q95": 556.0,
+      "q99": 906.659999999998
+    },
+    "users": 6040
+  },
+  "deduplication_rule": "latest timestamp; source_row_id breaks ties",
+  "display_name": "MovieLens 1M",
+  "duplicate_statistics": {
+    "deduplicated_rows": 1000209,
+    "duplicate_rows_removed": 0,
+    "input_rows": 1000209
+  },
+  "license_or_terms": "GroupLens research-use terms embedded in the archive README",
+  "processed_statistics": {
+    "density": 0.05071197131597124,
+    "item_degree_quantiles": {
+      "q00": 10.0,
+      "q100": 3428.0,
+      "q25": 54.0,
+      "q50": 161.0,
+      "q75": 389.25,
+      "q90": 786.0,
+      "q95": 1110.0999999999995,
+      "q99": 1953.1099999999897
+    },
+    "items": 3260,
+    "rating_histogram": {
+      "1": 55872,
+      "2": 107268,
+      "3": 260759,
+      "4": 348544,
+      "5": 226096
+    },
+    "rows": 998539,
+    "timestamp_max": 1046454590,
+    "timestamp_min": 956703932,
+    "user_degree_quantiles": {
+      "q00": 17.0,
+      "q100": 2233.0,
+      "q25": 44.0,
+      "q50": 96.0,
+      "q75": 207.0,
+      "q90": 399.0,
+      "q95": 555.0500000000002,
+      "q99": 903.0499999999984
+    },
+    "users": 6040
+  },
+  "protocol": {
+    "graded_gains": {
+      "4": 1.0,
+      "5": 3.0
+    },
+    "minimum_item_degree": 10,
+    "minimum_user_degree": 10,
+    "primary_relevance_threshold": 4.0,
+    "rating_max": 5.0,
+    "rating_min": 1.0,
+    "test_ratio": 0.15,
+    "train_ratio": 0.7,
+    "validation_ratio": 0.15
+  },
+  "raw_or_scoped_statistics": {
+    "density": 0.044683625622312845,
+    "item_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 3428.0,
+      "q25": 33.0,
+      "q50": 123.5,
+      "q75": 350.0,
+      "q90": 729.5,
+      "q95": 1051.5,
+      "q99": 1784.8999999999996
+    },
+    "items": 3706,
+    "rating_histogram": {
+      "1": 56174,
+      "2": 107557,
+      "3": 261197,
+      "4": 348971,
+      "5": 226310
+    },
+    "rows": 1000209,
+    "timestamp_max": 1046454590,
+    "timestamp_min": 956703932,
+    "user_degree_quantiles": {
+      "q00": 20.0,
+      "q100": 2314.0,
+      "q25": 44.0,
+      "q50": 96.0,
+      "q75": 208.0,
+      "q90": 400.0,
+      "q95": 556.0,
+      "q99": 906.659999999998
+    },
+    "users": 6040
+  },
+  "release": "ml-1m stable archive; README files dated 2003",
+  "schema_version": 1,
+  "scope": null,
+  "scope_statistics": {},
+  "source_files": {
+    "archive": {
+      "bytes": 5917549,
+      "path": "data/raw/latent_factor_beyond_rmse/ml-1m.zip",
+      "sha256": "a6898adb50b9ca05aa231689da44c217cb524e7ebd39d264c56e2832f2c54e20"
+    }
+  },
+  "source_url": "https://files.grouplens.org/datasets/movielens/ml-1m.zip",
+  "split_boundary_rule": "within user: train_end=floor(train_ratio*n), validation_end=floor((train_ratio+validation_ratio)*n); remainder=test",
+  "split_statistics": {
+    "test": {
+      "item_cold_rows": 0,
+      "items": 3253,
+      "relevant_rows_rating_ge_4": 79479,
+      "rows": 152638,
+      "users": 6040,
+      "users_with_relevant_rows": 5931
+    },
+    "train": {
+      "item_cold_rows": 0,
+      "items": 3260,
+      "relevant_rows_rating_ge_4": 414171,
+      "rows": 696213,
+      "users": 6040,
+      "users_with_relevant_rows": 6038
+    },
+    "validation": {
+      "item_cold_rows": 0,
+      "items": 3229,
+      "relevant_rows_rating_ge_4": 80990,
+      "rows": 149688,
+      "users": 6040,
+      "users_with_relevant_rows": 5926
+    }
+  }
+}

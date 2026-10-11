@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Clipped and raw mean-user prediction-RMSE sensitivity. Positive effects indicate a prediction cost for the NDCG-selected explicit-MF configuration. The clipped columns reproduce the canonical primary paired estimate and interval reported in the main manuscript; the raw columns are the separately versioned secondary sensitivity. Each interval uses 10,000 user-cluster bootstrap resamples after averaging five fresh seeds per user.}
+\label{tab:supp-clipping}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Dataset & Ret. & Users & Clipped $\Delta$ & Clipped 95\% CI & Raw $\Delta$ & Raw 95\% CI \\
+\midrule
+MovieLens 1M & 100\% & 6,040 & +0.00018 & [-0.00017,+0.00055] & +0.00017 & [-0.00019,+0.00052] \\
+ & 75\% & 6,040 & +0.00042 & [-0.00033,+0.00116] & +0.00035 & [-0.00041,+0.00110] \\
+ & 50\% & 6,040 & -0.00267 & [-0.00426,-0.00109] & -0.00302 & [-0.00466,-0.00145] \\
+ & 25\% & 6,040 & +0.08565 & [+0.08191,+0.08948] & +0.08736 & [+0.08342,+0.09126] \\
+\addlinespace
+CiaoDVD & 100\% & 442 & +0.01327 & [+0.00200,+0.02438] & +0.01329 & [+0.00239,+0.02457] \\
+ & 75\% & 442 & +0.03633 & [+0.02622,+0.04670] & +0.03645 & [+0.02644,+0.04659] \\
+ & 50\% & 442 & +0.00000 & [+0.00000,+0.00000] & +0.00000 & [+0.00000,+0.00000] \\
+ & 25\% & 442 & +0.01748 & [+0.01173,+0.02358] & +0.01748 & [+0.01157,+0.02320] \\
+\addlinespace
+Yelp--Tampa & 100\% & 3,797 & +0.09265 & [+0.08567,+0.09970] & +0.09293 & [+0.08594,+0.10007] \\
+ & 75\% & 3,797 & +0.07059 & [+0.06380,+0.07746] & +0.06890 & [+0.06213,+0.07579] \\
+ & 50\% & 3,797 & +0.04659 & [+0.04335,+0.05002] & +0.04684 & [+0.04349,+0.05030] \\
+ & 25\% & 3,797 & +0.06244 & [+0.05724,+0.06761] & +0.06783 & [+0.06263,+0.07306] \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

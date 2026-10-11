@@ -1,0 +1,73 @@
+{
+  "dataset": "yelp_tampa_restaurants",
+  "expected_bias_runs": 25,
+  "observed_bias_runs": 25,
+  "popularity_summary": "outputs/latent_factor_beyond_rmse/baseline_development/yelp_tampa_restaurants/r025/popularity/summary.json",
+  "retention_label": "r025",
+  "schema_version": 1,
+  "selection": {
+    "configuration_table": [
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.0061959866330182755,
+        "mean_validation_rmse": 1.0749054956149071,
+        "regularization": 0.0,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.0012657061672948435,
+        "std_validation_rmse": 0.00023872752893448396
+      },
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.006180065537012433,
+        "mean_validation_rmse": 1.0749031310293806,
+        "regularization": 0.0001,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.001248603355206947,
+        "std_validation_rmse": 0.00023872216079343385
+      },
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.006180065537012433,
+        "mean_validation_rmse": 1.0748818746704436,
+        "regularization": 0.001,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.001248603355206947,
+        "std_validation_rmse": 0.0002386697351032873
+      },
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.00585734928016116,
+        "mean_validation_rmse": 1.0746720473652616,
+        "regularization": 0.01,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.0010627870506362664,
+        "std_validation_rmse": 0.000238148791256474
+      },
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.004505097624391216,
+        "mean_validation_rmse": 1.0728369321284075,
+        "regularization": 0.1,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.0007742319005630068,
+        "std_validation_rmse": 0.0002337077485358209
+      }
+    ],
+    "ndcg_selected": {
+      "dimension": 0,
+      "mean_validation_ndcg@10": 0.0061959866330182755,
+      "mean_validation_rmse": 1.0749054956149071,
+      "regularization": 0.0,
+      "selection_seed_count": 5
+    },
+    "rmse_selected": {
+      "dimension": 0,
+      "mean_validation_ndcg@10": 0.004505097624391216,
+      "mean_validation_rmse": 1.0728369321284075,
+      "regularization": 0.1,
+      "selection_seed_count": 5
+    },
+    "same_configuration": false
+  },
+  "stage": "baseline_development_validation_only"
+}

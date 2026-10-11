@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+\caption{Revision-stage matched-budget validation comparison using the same saved post-confirmation trajectories. The 35-point subgrid restricts the expanded trajectories to the original configuration coordinates; it is not the historical maximum-20-epoch experiment, whose tolerance rule sometimes stopped earlier. Each row independently reselects the RMSE and NDCG configurations at that exact budget using five seeds. Boundary counts use the extreme dimensions or regularization values of each displayed grid; a boundary flag does not establish a missing global optimum. No test outcome enters this diagnostic.}
+\label{tab:matched-search}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Search coordinates & Epochs & Disagreement / 12 & Boundary choices / 24 \\
+\midrule
+Original 35-point subgrid & 20 & 11 & 23 \\
+Expanded 81-point grid & 20 & 12 & 15 \\
+\addlinespace
+Original 35-point subgrid & 50 & 11 & 22 \\
+Expanded 81-point grid & 50 & 12 & 16 \\
+\addlinespace
+Original 35-point subgrid & 100 & 10 & 21 \\
+Expanded 81-point grid & 100 & 12 & 13 \\
+\bottomrule
+\end{tabular}
+\end{table}

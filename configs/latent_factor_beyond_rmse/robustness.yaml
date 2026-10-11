@@ -1,0 +1,85 @@
+schema_version: 1
+stage: post_confirmation_robustness
+frozen_at: "2026-08-20T08:15:00-07:00"
+test_status: >-
+  The original locked test has already been observed. All expanded searches use
+  validation only. Any later test evaluation is explicitly post-confirmation
+  robustness evidence and does not replace the original locked analysis.
+
+output_root: outputs/latent_factor_beyond_rmse/robustness
+nested_retention_root: data/splits/latent_factor_beyond_rmse_robustness
+
+common:
+  datasets: [movielens_1m, ciaodvd, yelp_tampa_restaurants]
+  retentions: [r100, r075, r050, r025]
+  non_full_retentions: [r075, r050, r025]
+  selection_seeds: [101, 211, 307, 401, 503]
+  reduced_selection_seeds: [101, 307, 503]
+  robustness_confirmation_seeds: [1201, 1301, 1409, 1511, 1601]
+  ranking_batch_size: 256
+  batch_size: 4096
+  device: cpu
+  torch_num_threads: 1
+  relevance_threshold: 4.0
+
+explicit_expanded:
+  purpose: >-
+    Localize objective-specific validation optima beyond the original boundary
+    and measure budget sensitivity without altering the original selection lock.
+  dimensions: [1, 2, 4, 8, 16, 32, 64, 128, 256]
+  regularizations: [0.0, 0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 0.3, 1.0]
+  learning_rate: 0.01
+  checkpoint_epochs: [20, 50, 100]
+  convergence_patience: 5
+  convergence_relative_tolerance: 0.00001
+  initialization_std: 0.01
+  selection_rule: mean_validation_metric_across_five_seeds
+  tie_breakers: [smaller_dimension, larger_regularization]
+
+repeated_retention:
+  purpose: >-
+    Quantify interaction-sampling variation separately from model initialization
+    by repeating all non-full retention conditions with nested subsets.
+  retention_seeds: [20260819, 20260829, 20260907]
+  retentions: [1.0, 0.75, 0.50, 0.25]
+  minimum_per_user: 3
+  nested_priority: sha256_of_seed_and_interaction_id
+  repair_rule: >-
+    Repair the 25 percent subset to the full-training item catalog, then propagate
+    every repaired row upward so r025 is a subset of r050, r050 of r075, and
+    r075 of r100.
+  explicit_dimensions: [1, 2, 4, 8, 16, 32, 64, 128, 256]
+  explicit_regularizations: [0.0, 0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 0.3, 1.0]
+  learning_rate: 0.01
+  max_epochs: 100
+  selection_seeds: [101, 307, 503]
+  tie_breakers: [smaller_dimension, larger_regularization]
+
+bpr_independent:
+  purpose: >-
+    Tune BPR-specific learning rate, capacity, regularization, epoch budget, and
+    negative count, then isolate retention-created false negatives.
+  coarse:
+    dimensions: [1, 4, 16, 64, 256]
+    regularizations: [0.0, 0.0001, 0.01, 0.1, 1.0]
+    learning_rates: [0.001, 0.003, 0.01, 0.03]
+    negatives_per_positive: [1]
+    checkpoint_epochs: [20, 50, 100]
+    selection_seeds: [101, 307, 503]
+  refine:
+    top_coarse_configurations: 3
+    negatives_per_positive: [1, 3, 5]
+    checkpoint_epochs: [20, 50, 100]
+    selection_seeds: [101, 211, 307, 401, 503]
+  negative_pool_primary: retained_unobserved
+  sensitivity_modes:
+    - full_training_positive_oracle
+    - retained_explicit_negative
+  sampler_fallback_for_users_without_explicit_negatives: retained_unobserved
+  initialization_std: 0.01
+  tie_breakers:
+    - smaller_epoch
+    - smaller_dimension
+    - larger_regularization
+    - smaller_negative_count
+    - smaller_learning_rate

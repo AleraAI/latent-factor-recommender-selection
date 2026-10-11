@@ -1,0 +1,110 @@
+{
+  "changed_fields": [
+    "conditions.r025.artifact.path",
+    "conditions.r025.repaired_interaction_ids",
+    "conditions.r050.artifact.path",
+    "conditions.r050.repaired_interaction_ids",
+    "conditions.r075.artifact.path",
+    "conditions.r075.repaired_interaction_ids",
+    "conditions.r100.artifact.path",
+    "conditions.r100.repaired_interaction_ids"
+  ],
+  "metadata": {
+    "conditions": {
+      "r025": {
+        "artifact": {
+          "bytes": 170915,
+          "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/train_r025.parquet",
+          "sha256": "5fb145d6b4be4d838bf2f9118117dc5abaad69f1d98a328751a4c74e16d44e45"
+        },
+        "full_train_rows": 6695,
+        "full_training_catalog_items": 533,
+        "initial_requested_rows": 1927,
+        "items": 533,
+        "minimum_per_user": 3,
+        "minimum_realized_user_degree": 3,
+        "realized_retention": 0.29395070948469004,
+        "realized_rows": 1968,
+        "repair_rows_added": 41,
+        "repaired_interaction_ids_omitted_count": 41,
+        "repaired_items": 41,
+        "retention_nominal": 0.25,
+        "seed": 20260817,
+        "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+        "users": 442
+      },
+      "r050": {
+        "artifact": {
+          "bytes": 290699,
+          "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/train_r050.parquet",
+          "sha256": "c427714f3e02f6e5c311093986e5dbe23afefffcde0a6fefbee95330c0637f3c"
+        },
+        "full_train_rows": 6695,
+        "full_training_catalog_items": 533,
+        "initial_requested_rows": 3486,
+        "items": 533,
+        "minimum_per_user": 3,
+        "minimum_realized_user_degree": 4,
+        "realized_retention": 0.5211351755041076,
+        "realized_rows": 3489,
+        "repair_rows_added": 3,
+        "repaired_interaction_ids_omitted_count": 3,
+        "repaired_items": 3,
+        "retention_nominal": 0.5,
+        "seed": 20260817,
+        "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+        "users": 442
+      },
+      "r075": {
+        "artifact": {
+          "bytes": 415445,
+          "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/train_r075.parquet",
+          "sha256": "3866b09444584eb9f3c2c287d6ed395eb5fa23c620afb7e9c2490f939acf636b"
+        },
+        "full_train_rows": 6695,
+        "full_training_catalog_items": 533,
+        "initial_requested_rows": 5047,
+        "items": 533,
+        "minimum_per_user": 3,
+        "minimum_realized_user_degree": 5,
+        "realized_retention": 0.7538461538461538,
+        "realized_rows": 5047,
+        "repair_rows_added": 0,
+        "repaired_interaction_ids_omitted_count": 0,
+        "repaired_items": 0,
+        "retention_nominal": 0.75,
+        "seed": 20260817,
+        "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+        "users": 442
+      },
+      "r100": {
+        "artifact": {
+          "bytes": 536606,
+          "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/train_r100.parquet",
+          "sha256": "14365be9ea1bef2baa38425813ece649b3522d0a9eec8a925578749a77b20d3d"
+        },
+        "full_train_rows": 6695,
+        "full_training_catalog_items": 533,
+        "initial_requested_rows": 6695,
+        "items": 533,
+        "minimum_per_user": 3,
+        "minimum_realized_user_degree": 7,
+        "realized_retention": 1.0,
+        "realized_rows": 6695,
+        "repair_rows_added": 0,
+        "repaired_interaction_ids_omitted_count": 0,
+        "repaired_items": 0,
+        "retention_nominal": 1.0,
+        "seed": 20260817,
+        "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+        "users": 442
+      }
+    },
+    "dataset": "ciaodvd",
+    "schema_version": 1
+  },
+  "not_canonical_original": true,
+  "source_path": "data/splits/latent_factor_beyond_rmse/ciaodvd/sparsity_manifest.json",
+  "source_sha256": "32c160e5eaf85ec4f260c99e5f502b9cb7d879d8bd79974474cdf4f4007640d8",
+  "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+}

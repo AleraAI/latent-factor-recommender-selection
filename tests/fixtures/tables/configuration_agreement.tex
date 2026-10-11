@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering
+\caption{Agreement between validation prediction and ranking objectives across the 35 seed mean MF configurations. Correlations compare negative RMSE with NDCG@10, and Top-3 is the number of configurations shared by the two top-three sets. Configuration tuples are $(d,\lambda)$.}
+\label{tab:configuration-agreement}
+\small
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Dataset & Ret. & $\rho$ & $\tau_b$ & Top-3 & RMSE choice & NDCG choice & Same \\
+\midrule
+MovieLens 1M & 100\% & 0.548 & 0.365 & 2 & $(16,10^{-1})$ & $(32,10^{-1})$ & No \\
+ & 75\% & 0.419 & 0.331 & 1 & $(16,10^{-1})$ & $(64,10^{-1})$ & No \\
+ & 50\% & -0.125 & -0.076 & 1 & $(8,10^{-1})$ & $(64,10^{-1})$ & No \\
+ & 25\% & -0.622 & -0.503 & 0 & $(1,10^{-1})$ & $(64,10^{-2})$ & No \\
+\addlinespace
+CiaoDVD & 100\% & -0.331 & -0.207 & 0 & $(1,10^{-1})$ & $(64,10^{-1})$ & No \\
+ & 75\% & -0.395 & -0.274 & 0 & $(2,10^{-1})$ & $(64,10^{-3})$ & No \\
+ & 50\% & 0.385 & 0.332 & 1 & $(1,10^{-1})$ & $(1,10^{-1})$ & Yes \\
+ & 25\% & -0.436 & -0.259 & 0 & $(1,10^{-1})$ & $(32,10^{-2})$ & No \\
+\addlinespace
+Yelp--Tampa & 100\% & -0.600 & -0.452 & 0 & $(1,10^{-1})$ & $(64,0)$ & No \\
+ & 75\% & -0.582 & -0.449 & 0 & $(1,10^{-1})$ & $(64,10^{-4})$ & No \\
+ & 50\% & -0.531 & -0.408 & 0 & $(64,10^{-1})$ & $(64,0)$ & No \\
+ & 25\% & -0.451 & -0.324 & 0 & $(64,10^{-1})$ & $(4,0)$ & No \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,132 @@
+{
+  "dataset": "yelp_tampa_restaurants",
+  "expected_runs": 10,
+  "observed_runs": 10,
+  "relevance_threshold": 5.0,
+  "retention_label": "r100",
+  "runs": [
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "d0f4879f1f75bce75908c10e45cb4ee24e996790126d57e8c6039b8a1f700fd4",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed601/summary.json",
+      "summary_sha256": "8992f22f30224fb42579a4c578daa562700b6007cb493f6cbedce3b07f71dfa8"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "220978f6c22002a7986062e98f70742206e439f3f5bdf601208c9c152f9e52ea",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed701/summary.json",
+      "summary_sha256": "3c549acf47f4f9a455953e342a56adcf3e67b4ada388b2122e50014aadee25cf"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "b70de8262de713a72e3644e618e9ccdad64ed1a2431e2d6f45ef6c3ad421a095",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed809/summary.json",
+      "summary_sha256": "2bb704a3154ea914e43ab6b7e1454cbf69ce67f8971dda7a799afd6f2086c72f"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "a2605a290979d57a958cea87300644fb0ff97254c10f9a29b7c8cfe85b4a930f",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed907/summary.json",
+      "summary_sha256": "74cc25fd3d1a1d3ca48f4e1d31b16c70a47e13721213c741d13ed3ffdae8433d"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "111af5e9b1bf000f0a68251049372bef6a9799a293346045f0062b7f964db795",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/rmse_selected/d1_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "ed9cea012645dab428e0503efb67bb17c954a3066d56cd603da4ce355a618aab"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed601/test_per_user.parquet",
+      "per_user_sha256": "65f06e31180e47b02b805898265511fe07e0ab421962771198eb6694f80b382a",
+      "regularization": 0.0,
+      "seed": 601,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed601/summary.json",
+      "summary_sha256": "24b9827f6f147a70d1dcdfb4fcfb42fc705dbcc6554cc49e22447584f316cfd8"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed701/test_per_user.parquet",
+      "per_user_sha256": "e3c01ec5ce8173b9af8376227d3fb2945dc19b1d8157375a4f423c8f637cceac",
+      "regularization": 0.0,
+      "seed": 701,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed701/summary.json",
+      "summary_sha256": "2362b9b0c4be1473a81885147f127a92fa1a1d3fcc83773979f131d6cf5593c9"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed809/test_per_user.parquet",
+      "per_user_sha256": "1fd42fe914b6296d9300f814426dcd18d4fee1772883dbdbd062f4b9094c0532",
+      "regularization": 0.0,
+      "seed": 809,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed809/summary.json",
+      "summary_sha256": "3b6951f2401f468b36a058df76589d7d75dc97119fe9977b5fba19e786f23e81"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed907/test_per_user.parquet",
+      "per_user_sha256": "25dcd3e3e77054b8eab0b371076d34286b8d82407e183f24e46172c52320d866",
+      "regularization": 0.0,
+      "seed": 907,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed907/summary.json",
+      "summary_sha256": "ed4a95a57f5fc990da48417754c642a0fa710eac58c5a16f3ad29dfe856324ce"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed1009/test_per_user.parquet",
+      "per_user_sha256": "13f88788073601382f58b73e4b87ebc97429474108d26ccf61733a27e48e5047",
+      "regularization": 0.0,
+      "seed": 1009,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/five_star_sensitivity/yelp_tampa_restaurants/r100/ndcg_selected/d64_lambda0_seed1009/summary.json",
+      "summary_sha256": "9c0fdf9f8116f75c8b98ae89ea1518408433ae7d75a33ea9ac5246f0bc9c9c62"
+    }
+  ],
+  "schema_version": 1,
+  "selection_lock_sha256": "d608fbefa6021f81ebeac2ce50c038645142ce2ed754939ab9921675a70c90bf",
+  "stage": "post_confirmation_five_star_relevance_sensitivity"
+}

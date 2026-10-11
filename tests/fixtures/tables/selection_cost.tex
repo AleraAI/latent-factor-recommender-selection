@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering
+\caption{Complete development-search work recorded by the frozen grids. Fit hours sum measured single-threaded training time over 175 runs per family and condition, and they are not elapsed parallel wall time. Candidate scores are exact validation catalog scoring operations for the explicit grid (the BPR grid has the same condition-level candidate count). Evaluation time and peak memory were not instrumented separately and are therefore not inferred from these work units.}
+\label{tab:selection-cost}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Dataset & Ret. & Explicit fit h & BPR fit h & Explicit candidate scores \\
+\midrule
+MovieLens 1M & 100\% & 0.355 & 1.111 & 3,323,982,725 \\
+ & 75\% & 0.262 & 0.581 & 3,323,982,725 \\
+ & 50\% & 0.175 & 0.356 & 3,323,982,725 \\
+ & 25\% & 0.091 & 0.160 & 3,323,982,725 \\
+\addlinespace
+CiaoDVD & 100\% & 0.003 & 0.006 & 40,055,925 \\
+ & 75\% & 0.003 & 0.004 & 40,055,925 \\
+ & 50\% & 0.002 & 0.003 & 40,055,925 \\
+ & 25\% & 0.001 & 0.001 & 40,055,925 \\
+\addlinespace
+Yelp--Tampa & 100\% & 0.034 & 0.070 & 1,134,708,925 \\
+ & 75\% & 0.026 & 0.055 & 1,134,708,925 \\
+ & 50\% & 0.017 & 0.036 & 1,134,708,925 \\
+ & 25\% & 0.010 & 0.018 & 1,134,708,925 \\
+\bottomrule
+\end{tabular}
+\end{table}

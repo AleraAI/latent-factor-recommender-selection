@@ -1,0 +1,9 @@
+schema_version: 1
+stage: prospective_locked_test_confirmation
+dataset_config: configs/latent_factor_beyond_rmse/epinions_prospective_datasets.yaml
+modeling_config: configs/latent_factor_beyond_rmse/epinions_prospective_modeling.yaml
+protocol_lock: configs/latent_factor_beyond_rmse/epinions_prospective_protocol_lock.yaml
+analysis_plan: configs/latent_factor_beyond_rmse/epinions_prospective_analysis_plan.yaml
+selection_lock: configs/latent_factor_beyond_rmse/epinions_prospective_selection_lock.yaml
+output_root: outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation
+

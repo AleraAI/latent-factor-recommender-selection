@@ -1,0 +1,131 @@
+{
+  "dataset": "movielens_1m",
+  "expected_runs": 10,
+  "observed_runs": 10,
+  "retention_label": "r100",
+  "runs": [
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "6764e4c55c8f37f688ed2c8040c8ef622b779af050f1cc4401ee691ddeb3818f",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed601/summary.json",
+      "summary_sha256": "ff8f033c6735fe720df7e900ce965f6cc4b3de8f0eb9460a42d0f2e5fd0f29f6"
+    },
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "3182f96296c1d9b91da649a02ad349d9083cd567a2567c4f41e085fd9644bef3",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed701/summary.json",
+      "summary_sha256": "8653c3e4ab956aa0f51dad2d99a15c1861c1274bb4931331e4a054835c2e13ca"
+    },
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "0adeb3ba8ae2334d40516814a04f385c41d96288d4c242fb4ef157e7d6478d15",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed809/summary.json",
+      "summary_sha256": "4ffa5a439b2f5843d0cc118155b00cd92fe11c92441fde9e29ba34e7cc94a533"
+    },
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "6a4ac85527759718f53d8b6e27414df91d8834ae90b8cd75f40ecd87cdfc2c7f",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed907/summary.json",
+      "summary_sha256": "e002e486dfbe5b8197d72c5e6116d4f847438eb62692f333685d7f9b03cc57c0"
+    },
+    {
+      "dimension": 16,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "0ad28ebd4955b83c708b1f0e3936bd7231f5a727d59cd58f54f76de0ee289173",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/rmse_selected/d16_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "314444fe36e62e469d9a0550f3a723a0e2a61dabf3a05493c2ebc5d41681fa51"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "77afffb9ef8e4ce2da9aa23529c124322ed90d5ee9d3348b78f3a5175d344368",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed601/summary.json",
+      "summary_sha256": "804970def950a436af2d0cffbf9b700aba3e55a7c387c7257337aa6d07ce8ebd"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "c3d8ba40c50b4b7404abadab096d2fc0284a86dbb3b68d72f4af762778912b9d",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed701/summary.json",
+      "summary_sha256": "db428eecd78a3ac39cb5d28b1d93c9533ea42a9f2f37b5e8be4f549d0f8b6637"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "fe248b1be282bfb05aa1727e853ed3002063f61f2b053a17ac5e4925ae61bc3c",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed809/summary.json",
+      "summary_sha256": "829ce722757edc98964e2bdfc8fff1e2a8cbe991ad08ca26a1f3e76d7a047fe1"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "b0ce1fe0085f75cac917f481716c7be01b3d3cc2d1a5420c43f900f53fe261b6",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed907/summary.json",
+      "summary_sha256": "4d9de7261039fe82c6ca58dbb8c9b038bd633da31a68f534667f475a1df8f74d"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "147c9829dcdc1d56ebb8eacfc25c2c12636c0e31c8bc1a2721aacb4f056808c8",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/movielens_1m/r100/ndcg_selected/d32_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "b0a4dee1092e61c15eb643d14d778757f762c5c7070f239fdfc21494a683a438"
+    }
+  ],
+  "schema_version": 1,
+  "selection_lock_sha256": "d608fbefa6021f81ebeac2ce50c038645142ce2ed754939ab9921675a70c90bf",
+  "stage": "locked_test_confirmation"
+}

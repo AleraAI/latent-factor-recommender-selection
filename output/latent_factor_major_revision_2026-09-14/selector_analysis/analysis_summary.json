@@ -1,0 +1,15 @@
+{
+  "analysis_module_sha256": "d77864238e969d40c340a87cbf6af3126ccf782bea9f23b962ce9be7d42df8ef",
+  "completed_utc": "2026-09-14T23:35:42.594991+00:00",
+  "condition_count": 16,
+  "contrast_rows": 384,
+  "estimated_missing_fit_seconds": 0,
+  "historical_artifacts_modified": false,
+  "missing_distinct_condition_configurations": 0,
+  "missing_runs": 0,
+  "new_fitting_performed": true,
+  "new_revision_runs_used": 90,
+  "protocol_sha256": "565a89ed2b8d0bcc3b40d33254a0b18f4691314a02f97f2f8564f38ad6b0f66e",
+  "selection_rows": 256,
+  "stage": "revision_stage_sensitivity_on_previously_inspected_test_partitions"
+}

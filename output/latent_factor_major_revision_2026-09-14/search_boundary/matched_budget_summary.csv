@@ -1,0 +1,7 @@
+search_scope,epoch,conditions,configurations,seed_count,disagreement_conditions,objective_specific_choices,boundary_choices,rmse_boundary_choices,ndcg_boundary_choices,conditions_with_any_boundary,conditions_with_both_boundaries
+expanded81_grid,20,12,81,5,12,24,15,6,9,10,5
+expanded81_grid,50,12,81,5,12,24,16,8,8,12,4
+expanded81_grid,100,12,81,5,12,24,13,4,9,10,3
+original35_subgrid,20,12,35,5,11,24,23,12,11,12,11
+original35_subgrid,50,12,35,5,11,24,22,12,10,12,10
+original35_subgrid,100,12,35,5,10,24,21,12,9,12,9

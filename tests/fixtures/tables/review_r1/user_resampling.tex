@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Revision-stage Epinions validation-user resampling: 500 shared draws recompute the ranking reference and both selectors over all 35 configurations and five fixed fitted models per configuration. At $\delta=0.001$, the columns give frequencies of retaining the full-cohort NDCG reference, retaining each selector's own full-cohort choice, and the two constrained selectors choosing identically within a draw. At $\delta=0.005$ and $0.010$, both selectors admit all 35 configurations and choose the original RMSE configuration in every draw in every condition. Frequencies describe conditional stability, not confidence guarantees or retraining uncertainty.}
+\label{tab:validation-user-stability}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Retention & Same reference & Same UA choice & Same mean choice & UA = mean \\
+\midrule
+100\% & 54.0\% & 100.0\% & 100.0\% & 100.0\% \\
+75\% & 59.6\% & 95.2\% & 100.0\% & 95.2\% \\
+50\% & 43.2\% & 99.2\% & 98.2\% & 97.8\% \\
+25\% & 60.4\% & 88.8\% & 64.6\% & 30.4\% \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

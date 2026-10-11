@@ -1,0 +1,131 @@
+{
+  "dataset": "ciaodvd",
+  "expected_runs": 10,
+  "observed_runs": 10,
+  "retention_label": "r100",
+  "runs": [
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "9d3fae524aebe22f3ecabd6128808941c31ce9367627c665cbafef638fa121f7",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed601/summary.json",
+      "summary_sha256": "d334776de39ad9151c6e2f43dc3061f4a00a3171cea3d03bd17664de1f01af7a"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "c89dd3c46852c412f4c6fafb237eff9ad86409769e2222d678fe516ca1f460c4",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed701/summary.json",
+      "summary_sha256": "0d54a6f3ded6f86147592c18ee1ced5a6882c9f459d3688ad4ef15c50fd8888c"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "ef92beda8fd2dffbad22abc4f80ef373d3df95682549bb6d95f1efc0ea72c1dc",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed809/summary.json",
+      "summary_sha256": "089d7401b3306c7e490bc0370e0af6fb2d649970ee9ff0ec1798f1a98387bd5f"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "95d1cdeb5f13cbcbdb04377438c613156a42efdf483ce67cadf0da86738e9120",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed907/summary.json",
+      "summary_sha256": "0859e30642356cc2f359448704065013659a26d5d3a779cad3ad968f8f5d8774"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "d3bb824943199a91f20ea7391de96827992d78dbe99f8c96ce50d9f0c2db832b",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/rmse_selected/d1_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "08d4ff08ca9cf0820b05e33b0b048fa0a03caa8d209a7e965658721bbf7e4233"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "2626e5c32d61eb1a76023407644c0cf38386140d43fb925fe0a9b5471c00b56a",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed601/summary.json",
+      "summary_sha256": "906ff55f77c40aaffd2df4c68532b5146562815f12c515a7c3649f6a4e9bb573"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "683e2134c560b4bc8985a350a0ceb23ecef52fdbdb9ccf700446a0dfbc0bc2e3",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed701/summary.json",
+      "summary_sha256": "25277d6f854b5c10df6d78469bb7df5f641d991d46d14c88a3ce49013c812b45"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "7a750108f3303b9d3896a2586bd359ba0890e46af5d58571934ff87768a74185",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed809/summary.json",
+      "summary_sha256": "53e117f9aae3e5e52eccbe3a79cdef94df5517f05149110e40c7a37027e8d561"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "87fb82b16b516fa9dad7443df03168a14c6bfb12f9574b287b8f57d46765b4e4",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed907/summary.json",
+      "summary_sha256": "1c8a7626aead828d697e4fb769ef5128f9cf3feeed2d87f4ae8de563d99448c0"
+    },
+    {
+      "dimension": 64,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "5e5233006d1cd2a052749114da37d9680d4d1a03d8067bc1bc9138a6869cf9fd",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r100/ndcg_selected/d64_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "a21e8d794ecd61cc43065d3765fde7d6cd96fdc525f2eba997b3f54154836545"
+    }
+  ],
+  "schema_version": 1,
+  "selection_lock_sha256": "d608fbefa6021f81ebeac2ce50c038645142ce2ed754939ab9921675a70c90bf",
+  "stage": "locked_test_confirmation"
+}

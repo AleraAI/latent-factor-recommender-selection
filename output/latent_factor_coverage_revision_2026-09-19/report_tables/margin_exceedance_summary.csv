@@ -1,0 +1,5 @@
+margin,conditions_per_rule,ua_point_exceedances,ua_two_sided_95_ci_upper_exceedances,mean_point_exceedances,mean_two_sided_95_ci_upper_exceedances
+0.001,16,0,0,2,3
+0.0025,16,0,0,2,3
+0.005,16,0,1,1,5
+0.01,16,1,1,1,1

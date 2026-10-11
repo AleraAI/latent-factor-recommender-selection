@@ -1,0 +1,482 @@
+[
+  {
+    "activity_bin": "3--9",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": NaN,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 0
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": -0.00014342401097441443,
+    "ci_upper": 0.0021202770784552174,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.0009755892896791189,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 646
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": 0.00038896203878873873,
+    "ci_upper": 0.0013431463879869402,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.0008545544696608421,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 1748
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": 0.00018011959844203723,
+    "ci_upper": 0.0008315827398546043,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.0005017985903248121,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 3537
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.0,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 2
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": 0.0013784712093233523,
+    "ci_upper": 0.0039939924727678405,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.002665834657528876,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 1158
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": 0.002148514714845783,
+    "ci_upper": 0.003802682685534166,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.0029476607547783366,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 1755
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": 0.003565058992688051,
+    "ci_upper": 0.004870548666998243,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.004208531539729661,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 3016
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": 0.001360629153452133,
+    "ci_upper": 0.008119367116383561,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.00446873296085469,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 588
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": 0.004246158454375163,
+    "ci_upper": 0.007785723014234904,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.005975982010377317,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 1317
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": 0.004875935461382711,
+    "ci_upper": 0.007293734378483034,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.006064751803671219,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 1832
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": 0.01244576420935762,
+    "ci_upper": 0.015525665998510352,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.013967307436178715,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 2194
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": 0.011042131172070637,
+    "ci_upper": 0.014130115553641461,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.012537722981343931,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 1870
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": 0.012405985189902578,
+    "ci_upper": 0.01554519739528422,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.013944496494682403,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 1398
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": 0.017276954192224518,
+    "ci_upper": 0.0201840803226333,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.01871760315411328,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 1611
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": 0.036774182620587764,
+    "ci_upper": 0.04264929497303304,
+    "dataset": "movielens_1m",
+    "delta_ndcg@10": 0.03971859010285766,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 1052
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": -0.0007474478871927778,
+    "ci_upper": 0.022898887055006145,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.010704657112807726,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 179
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": 0.0005721984968288761,
+    "ci_upper": 0.020086201074126075,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.010269965994954314,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 169
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": -0.0012277197550777373,
+    "ci_upper": 0.025890901510246794,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.01159190498848177,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 67
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.0069690440804716985,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 13
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": -0.00872105318418267,
+    "ci_upper": 0.005857466769267826,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": -0.0012453992837210665,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 259
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": 0.005668573234678217,
+    "ci_upper": 0.026919801906189592,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.015913213215697802,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 121
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": -0.00700850785153651,
+    "ci_upper": 0.020586501689191638,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.006585658879432199,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 39
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": -0.027215751539760087,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 9
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": 0.0,
+    "ci_upper": 0.0,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.0,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 345
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": 0.0,
+    "ci_upper": 0.0,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.0,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 59
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.0,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 21
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.0,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 3
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": -0.0008706133562564921,
+    "ci_upper": 0.007113881651080352,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.0031289534558978107,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 402
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.008594554495661067,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 19
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": 0.007721800077077837,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 7
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "ciaodvd",
+    "delta_ndcg@10": NaN,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 0
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": 0.0049515545036811605,
+    "ci_upper": 0.009049039798857735,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.006988341526495183,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 1422
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": 0.0050660825434165535,
+    "ci_upper": 0.008709485112628184,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.006923998845283533,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 1271
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": 0.005879958762864899,
+    "ci_upper": 0.01027201331873647,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.008046877972129855,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 675
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": 0.0036850462761995975,
+    "ci_upper": 0.017660228407979612,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.010800353299039668,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r100",
+    "users_paired": 171
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": 0.006366951797946107,
+    "ci_upper": 0.010011046490582608,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.00819459499729959,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 1984
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": 0.005654557119528609,
+    "ci_upper": 0.009503450270046086,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.007552325310489134,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 1016
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": 0.005449974534888378,
+    "ci_upper": 0.010936967236165326,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.008167114548206676,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 445
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": -0.004490398288053745,
+    "ci_upper": 0.012884706886217496,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.00442870357602,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r075",
+    "users_paired": 94
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": 0.002248480988903254,
+    "ci_upper": 0.004935879041254459,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.0036075792529779212,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 2642
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": 0.002626966702318707,
+    "ci_upper": 0.007650508017624886,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.00512333969551343,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 628
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": -0.0021440321898508865,
+    "ci_upper": 0.005303232880551854,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.0015381731015092972,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 226
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": -0.02616225399411464,
+    "ci_upper": -0.002773210686768411,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": -0.014017381363034665,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r050",
+    "users_paired": 43
+  },
+  {
+    "activity_bin": "3--9",
+    "ci_lower": 0.0009046400644518492,
+    "ci_upper": 0.0037369261400020753,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.0023209899756938862,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 3260
+  },
+  {
+    "activity_bin": "10--19",
+    "ci_lower": -0.004892360553496431,
+    "ci_upper": 0.005390825123867733,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.0003808683932730939,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 206
+  },
+  {
+    "activity_bin": "20--49",
+    "ci_lower": -0.013736321101353755,
+    "ci_upper": 0.007272281982296616,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": -0.002557050770957277,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 64
+  },
+  {
+    "activity_bin": "50+",
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "dataset": "yelp_tampa_restaurants",
+    "delta_ndcg@10": 0.023342065771040865,
+    "minimum_users_for_interval": 30,
+    "retention_label": "r025",
+    "users_paired": 9
+  }
+]

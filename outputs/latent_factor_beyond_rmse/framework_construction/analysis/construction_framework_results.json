@@ -1,0 +1,9 @@
+{
+  "claim_status": "exploratory_not_prospective",
+  "conditions": 12,
+  "interpretation": "Two-sided intervals describe retrospective construction-dataset behavior. They are not independent validation and do not enter the prospective Epinions decision.",
+  "result_csv": "outputs/latent_factor_beyond_rmse/framework_construction/analysis/construction_framework_results.csv",
+  "result_csv_sha256": "3523d551ba1478f3e77b5fce5505c6ddf02422a31265728cdf92915a804d1b60",
+  "schema_version": 1,
+  "stage": "post_confirmation_framework_construction"
+}

@@ -1,0 +1,62 @@
+schema_version: 1
+status: frozen_before_epinions_test_access
+frozen_on: 2026-08-25
+prospective_dataset: epinions
+conditions: [r100, r075, r050, r025]
+
+confirmation:
+  configurations:
+    - rmse_selected
+    - ndcg_selected
+    - framework_selected
+  collapse_identical_configurations: true
+  seeds: [601, 701, 809, 907, 1009]
+  train_on: selected_controlled_sparsity_training_artifact_only
+  validation_use: exclude_from_test_candidates_only
+  test_access: only_after_epinions_selection_lock_verification
+  prediction_rows: all_test_ratings
+  ranking_catalog: exact_train_known_catalog
+  user_history_exclusions:
+    - full_training_history_including_rows_removed_for_sparsity
+    - validation_history
+  naturally_item_cold_events: separate_from_primary_ranking
+
+primary_external_validation:
+  estimand: >-
+    Mean user-level NDCG@10 of the NDCG-selected configuration minus that of
+    the uncertainty-aware framework selection, after averaging each user over
+    five fresh confirmation seeds.
+  direction: smaller_is_better
+  noninferiority_margin: 0.005
+  uncertainty: one_sided_95_percent_user_cluster_bootstrap_upper_bound
+  bootstrap_resamples: 10000
+  bootstrap_seed: 8252026
+  decision_rule: >-
+    Prospective ranking noninferiority is supported only if the one-sided 95%
+    upper bound is no greater than 0.005 in every one of the four retention
+    conditions. This intersection-union decision is the confirmatory external
+    validation claim.
+
+secondary_external_outcomes:
+  - framework_minus_ndcg_user_mean_rmse
+  - framework_minus_rmse_user_mean_ndcg_at_10
+  - framework_minus_rmse_user_mean_rmse
+  - selector_configuration_identity
+  - admissible_configuration_count
+  - fit_time_and_completed_epochs
+  - ndcg_at_20
+  - recall_at_10
+  - recall_at_20
+  - mae
+  - raw_unclipped_rmse
+  - item_cold_event_counts
+  - users_without_eligible_relevant_items
+secondary_uncertainty: two_sided_95_percent_user_cluster_bootstrap_interval
+
+interpretive_guards:
+  - No Epinions BPR search is part of the external framework validation.
+  - Epinions trust links, categories, and helpfulness fields are not model inputs.
+  - The development uncertainty screen is not described as simultaneous confidence coverage.
+  - Failure in any retention condition is reported and cannot be replaced by a pooled success claim.
+  - Existing three-dataset locked and post-confirmation results remain unchanged.
+

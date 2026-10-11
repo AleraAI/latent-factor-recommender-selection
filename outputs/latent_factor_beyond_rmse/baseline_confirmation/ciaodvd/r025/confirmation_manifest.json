@@ -1,0 +1,83 @@
+{
+  "bias_runs": [
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "546c53b4b1ae2474cbbfdd537f918ac41b465af97e9b0ad503709f2d4915f4a9",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed601/summary.json",
+      "summary_sha256": "21a6f9903981729a39dede727c280141b0dbe7c33ec45fee648602c18577366e"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "129f23c5f33a971fccf59a51ac2eff2b2317493dce14608c847e9320bbf1872f",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed701/summary.json",
+      "summary_sha256": "1004e82c2ee11ae449e2489fd8ee0eb01760335be3a80bda64ce9d515a08ac89"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "c55088b74f8bf0dc715c923e0f3bf80a11c965bb9eade64f6bc9c1a2933e4d16",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed809/summary.json",
+      "summary_sha256": "76eedcfc017ed31ce4989594a3d01db8921799b94f30635fafa94a214f6bbf33"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "4b0dfa7c307492281d46e6e45db97720c9b5776ea399cbb908f2b4248a91920b",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed907/summary.json",
+      "summary_sha256": "c5ef08358bc6d15e40d403c274641f3921c172bdd99541819eb979504fbbd186"
+    },
+    {
+      "model": "bias_only",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "539a3d060a44034b9619097fe44ddaeeff3bf5b3948630ada5fdb68f4fa3b432",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/bias_only/shared/lambda0.1_seed1009/summary.json",
+      "summary_sha256": "2b04cf3e70b751023d1dac0779505e30409e0dd5555f4e4954c6fc16feb021f3"
+    }
+  ],
+  "dataset": "ciaodvd",
+  "expected_bias_runs": 5,
+  "observed_bias_runs": 5,
+  "popularity": {
+    "model": "popularity",
+    "per_user_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/popularity/test_per_user.parquet",
+    "per_user_sha256": "06968b030301ffa35e322b49d614cd2e70cb9926a5072379a86eae91b7abcf81",
+    "summary_path": "outputs/latent_factor_beyond_rmse/baseline_confirmation/ciaodvd/r025/popularity/summary.json",
+    "summary_sha256": "49f9fe65e89d190600d2060e95d3f8e361657e37345f8160f58898cd3984266a"
+  },
+  "retention_label": "r025",
+  "schema_version": 1,
+  "selection_lock_sha256": "1352fd8887c9e03df29eba868076fcd94b2c266d0e9b4e855b8ff0d1b7e0fabd",
+  "stage": "locked_baseline_test_confirmation"
+}

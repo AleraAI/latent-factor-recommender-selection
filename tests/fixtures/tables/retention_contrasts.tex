@@ -1,0 +1,23 @@
+\begin{table}[H]
+\centering
+\caption{Post-confirmation within-dataset contrasts in ranking regret relative to the frozen 100\% retention condition. Positive values indicate that the NDCG versus RMSE selection advantage increased after retention was reduced. Intervals use paired user cluster bootstrap resampling; Holm adjustment covers the nine contrasts. The primary conditions use retention-specific deterministic priorities and are not a nested path, so these contrasts quantify the declared retained subsets and do not average over alternative thinning realizations.}
+\label{tab:retention-contrasts}
+\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Dataset & Ret. vs. 100\% & Contrast & 95\% CI & $p_{\rm Holm}$ & Users \\
+\midrule
+MovieLens 1M & 75\% & +0.0029 & [+0.0024,+0.0034] & 0.0009 & 5931 \\
+ & 50\% & +0.0082 & [+0.0073,+0.0090] & 0.0009 & 5931 \\
+ & 25\% & +0.0187 & [+0.0177,+0.0197] & 0.0009 & 5931 \\
+\addlinespace
+CiaoDVD & 75\% & -0.0068 & [-0.0139,-0.0000] & 0.1683 & 428 \\
+ & 50\% & -0.0106 & [-0.0174,-0.0041] & 0.0068 & 428 \\
+ & 25\% & -0.0071 & [-0.0144,+0.0002] & 0.1683 & 428 \\
+\addlinespace
+Yelp--Tampa & 75\% & +0.0006 & [-0.0008,+0.0020] & 0.4364 & 3539 \\
+ & 50\% & -0.0038 & [-0.0054,-0.0022] & 0.0009 & 3539 \\
+ & 25\% & -0.0052 & [-0.0069,-0.0034] & 0.0009 & 3539 \\
+\bottomrule
+\end{tabular}
+\end{table}

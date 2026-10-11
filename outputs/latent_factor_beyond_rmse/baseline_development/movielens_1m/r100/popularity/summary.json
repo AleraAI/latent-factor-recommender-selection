@@ -1,0 +1,24 @@
+{
+  "dataset": "movielens_1m",
+  "model": "popularity",
+  "retention_label": "r100",
+  "schema_version": 1,
+  "stage": "baseline_development_validation_only",
+  "training": {
+    "items": 3260,
+    "rows": 696213,
+    "users": 6040
+  },
+  "validation": {
+    "ranking": {
+      "cold_relevant_events": 0,
+      "ndcg@10": 0.0678674568898528,
+      "ndcg@20": 0.08232860991828168,
+      "recall@10": 0.05040083327175376,
+      "recall@20": 0.09501547986794108,
+      "users_evaluable": 5926,
+      "users_total": 6040,
+      "users_without_eligible_relevant_items": 114
+    }
+  }
+}

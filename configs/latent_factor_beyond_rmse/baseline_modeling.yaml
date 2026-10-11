@@ -1,0 +1,42 @@
+schema_version: 1
+stage: baseline_development_validation_only
+test_access: prohibited_until_baseline_selection_lock
+
+development_output_root: outputs/latent_factor_beyond_rmse/baseline_development
+confirmation_output_root: outputs/latent_factor_beyond_rmse/baseline_confirmation
+
+bias_only:
+  dimension: 0
+  regularizations: [0.0, 0.0001, 0.001, 0.01, 0.1]
+  selection_seeds: [101, 211, 307, 401, 503]
+  confirmation_seeds: [601, 701, 809, 907, 1009]
+  learning_rate: 0.01
+  batch_size: 4096
+  max_epochs: 20
+  smoke_epochs: 2
+  convergence_patience: 5
+  convergence_relative_tolerance: 0.00001
+  ranking_batch_size: 256
+  device: cpu
+  torch_num_threads: 1
+
+popularity:
+  score: count_of_retained_training_ratings_at_least_4
+  tie_break: ascending_item_id
+  stochastic: false
+  tuned_hyperparameters: none
+
+selection:
+  prediction_metric: validation.prediction.clipped.rmse
+  ranking_metric: validation.ranking.ndcg@10
+  rule: mean_across_selection_seeds
+  tie_breaker: larger_regularization
+
+ranking:
+  relevance_threshold: 4.0
+  graded_gains:
+    "4": 1.0
+    "5": 3.0
+  cutoffs: [10, 20]
+  candidates: exact_train_known_catalog_minus_user_history
+  score_tie_break: ascending_item_id

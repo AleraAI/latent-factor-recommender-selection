@@ -1,0 +1,2969 @@
+{
+  "changed_fields": [
+    "inputs.path",
+    "outputs.path",
+    "script.path"
+  ],
+  "metadata": {
+    "audits": [
+      {
+        "grid_runs": 175,
+        "max_reconstructed_ndcg_error": 9.936712910829648e-17,
+        "max_reconstructed_rmse_error": 4.440892098500626e-16,
+        "original_identity_and_admissibility_verified": true,
+        "per_user_files": 175,
+        "prediction_events": 52613,
+        "ranking_eligible_users": 11372,
+        "retention": "r100",
+        "users": 12168
+      },
+      {
+        "grid_runs": 175,
+        "max_reconstructed_ndcg_error": 9.974659986866641e-17,
+        "max_reconstructed_rmse_error": 4.440892098500626e-16,
+        "original_identity_and_admissibility_verified": true,
+        "per_user_files": 175,
+        "prediction_events": 52613,
+        "ranking_eligible_users": 11372,
+        "retention": "r075",
+        "users": 12168
+      },
+      {
+        "grid_runs": 175,
+        "max_reconstructed_ndcg_error": 9.952975943416931e-17,
+        "max_reconstructed_rmse_error": 4.440892098500626e-16,
+        "original_identity_and_admissibility_verified": true,
+        "per_user_files": 175,
+        "prediction_events": 52613,
+        "ranking_eligible_users": 11372,
+        "retention": "r050",
+        "users": 12168
+      },
+      {
+        "grid_runs": 175,
+        "max_reconstructed_ndcg_error": 9.974659986866641e-17,
+        "max_reconstructed_rmse_error": 4.440892098500626e-16,
+        "original_identity_and_admissibility_verified": true,
+        "per_user_files": 175,
+        "prediction_events": 52613,
+        "ranking_eligible_users": 11372,
+        "retention": "r025",
+        "users": 12168
+      }
+    ],
+    "construction_datasets_excluded": "Historical validation parquets lack per-user prediction errors and counts.",
+    "counts_interpretation": "conditional frequencies, not confidence guarantees",
+    "created_at_utc": "2026-09-14T23:17:59.449254+00:00",
+    "draws": 500,
+    "inputs": [
+      {
+        "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/PROTOCOL.md",
+        "sha256": "75a425e8476007cc55507c68dc149c9f2e07baa6465ade6ff981e90de7746a14"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/grid_runs.csv",
+        "sha256": "8ebdd981f96583531bfedaa4f249e355a845554c655cac364214663f2f6fd89d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "8e44350acbafd019e54caf730f4de1f53e17c7615b1b05aa86c7b7b7316d4fda"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "00abe64ab18275a66c36cab50d99b21507f69eec56cf75edcc12520a23408496"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "1768fb729f699d95db577b62535482131dce6646eb93d20b844366715d79bfbb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "528b6f8394fb0b905175adfa3823b0052635c104826e8c5c686841b1f52d0bb9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "bdfe987d4ce00d680399db4cb5c95dc270a87888d6bdc5de551f863c4fc196fa"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "d6b48dca6c3c14104d6178dda2c5c54aeb887a7d0e23f0cd367e228661bd4d0b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "8bbb03068b3f338cc3825280d19e4eea4d9529c82c2648b797609379761e2153"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "0356c792e74bfedbe40adc51f9d6801ac58cc0429294f1429e5be59e12d5d107"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "acbc488509dc3b6caa394c641c52d5ea8bd8709bf7acef80b74a12cb68bfb609"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "42e0c65cce446b5a34ac3b4e5cae86bbe96f0c6b68f3d16c3d09187fd5367470"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "615938e2befa2ff7b1456eca733c34f64de5c999d355b218b19a2bacd765fc0e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "ddbe37c76285d27d4a26ea16d3288eebc8b2da377f53045d765616a7b7329720"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "61d2f44560447505f462d773dde217dd1c1f9f5dcba5e5c3c70a04841fd0f58e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "843302ed778ce2819efec665605d774296a8f6c0d9fccdefdabe8849b56b0327"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "4951313eeca93c87a076de80fecdd9ae97498c8fe9f1da06254914ddc4447f1f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "15f2b819fcbdc504680ac0bbc7afd5d05b66805d83bd8c9c57234cd117284ca3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "97576f4df3858c28b4bb3524b7ec6c0587f924753135907603c87f1be22cf00f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "5398f19ce06c3e33c199d8ae7befbfa4e0348d2de124db202dad3a2bb08e94f7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "205f78fc43182b0f1844d9294df86e4dd72fbde2979c3af0d07a8691fc8558d7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "c42f78e9e6a51f2d54c0695e66059464a96263715556a2b9d11b1a2cb7e418a7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "60402af9fcdfdc516205fa41466991ce9686d67cc2d235021a33617ee6aa5634"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "8fe9387860ab426caaf96e709c1eaaf52b5ff75a3dbc423bda66e75294de827a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "8f5063d88bd565d6bd000d37d8493497970e9615cf73b89d99a28d12e533e18c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "d686b75a340a810a259eacd440c8b1618a10bcd333c391f05b5f89a9954c2a98"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d1_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "c960cf1acde5a5e26e4a3ecc26ba18e9f69716b3bdfb7ecb0b7a95c83788c41e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "92006626a210a2cb139d527b4fca0f2070bb990a5866afaa5163eb552abb994e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "2c55ccaf87727209f56d407fad21dbece860ccbb71a88989ae25c160a0af0948"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "a31c393429e7129d9f958546031e7677f367da2d1d5cfda066458f4eac28377a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "effd6c931ea54aeeb2930dc2bb974436380c2f74b0b29397912279bec57ad90b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "d0c2e514f5c4ea0778a5bb875605b7d0d71fd38e618b5f2e690292815fc95a91"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "f95523f099d063bc0df6eee3a202c1f6238528e7aa1b3268b80edbea63f5b91b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "125938d3b6e707472bf17a7a265ed651699d1bb34899de6939ab55277fd9c41c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "9714edea903362b2af68d82cbed6b9228fe77c537ec8e91e8af3e106406a982f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "ddb2c09911a0d77ef9611b874a320997ed0a3e50c22522f51a1f0e81ef48a6eb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "ecf534baf36f59a7c4e0fc250daca975fee4b64a068af8ffd545cb510e5c325f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "6a00589d6a3011d5747ae4f1ef4ce66b3490f7e47c788983989bb368874e62c8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "f06890a3ce1018edb52e3dccba0cafe2bad58f59c2d365faa638b0a087c5a15e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "0f89be6959c9fef1027245198abdf42fcc608c48b1bfa4d4900f859a768ab9a1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "6cd4632dd25371f282054505748cebcc0e730b011013f321748dbec081f5b949"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "36cd421cc66cfebaafd30d4c83d45245d12f800a91ae5f7cd56abb265f54f616"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "e2bcda6c0cb06c04e37cb7f4ce2cdc91e89ed342a8b7c3e70fbf1daf41e965d0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "76830e72b4442596f085e778044bf9d4d4989603a5825e7a84cd642e00c08c4f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "a3e8c5bf08ee0c787a14fe1fbe2c27ce8f8821ade0b8c714f1c9189407fd13a7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "1ed90dd69cf7df42640c716b82d695420745c5a7d6bab5b5ae0676b91703e1b3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "e5af893ca31fff65b50ce0f89ff8fdd018ec38c73fb5e822ffcdfc311a4f63cf"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "e5abe9a0299c6307743cad03b6037634bff1ab2160f96aef9bd3b6a4fd8c2ac8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "86c681e92c51256cc484ca7601716f7948bb9baded581608621c212f675fb1ea"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "2836aa8af8b7f60f0858138d38445fca3cca65e14752d7e7a3089438469beaed"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "d0c33e79f9593107c9f582d1f5186eaf9fd901497dec37ca8d4dba8c531251b6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d2_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "9cf0cad10627d92d50f4892c84b5ae7841feb816567ac6e92017c118ae47841a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "24aabe12850c77916ea2e335de7f5ebb6a4b7e3af416f0c427afce97a8bcad80"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "17c7c85f88c14764d5489c157941f3259824f219751bfaf58190b1cb03dcae44"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "261da1be3d45d5ff3318bb5e5a75c89ea1c5596628d0c3dfef68256524ee7837"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "72270d1db4b4f6586d6fc34f3ccbd8386459632e55fa10af39c727f547b2ae16"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "58d08584da43ec6c3251a82eb0e7d279329f68a7025a687618e4d0a7c6cd7dc1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "89b4706731c934a73c8166796c759fef84827bac698f676696433e8a093851d2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "680157c87b3adf52910f1b8c6f49b73856dbccdfbfba1645015565b7d0892a1d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "904af123865e5785480e3577566d75dcdb591ab48695fa1b11e1510ff9510f67"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "9487fa1d9b429c362dde48cb379ee97d504d02fa0fa86b385c777af010e4c352"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "e4cef160561d30b0a3cf5edcd8f89562c75635c9a2c32a34be2c2c7fdb1b5f76"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "7251b234a15be87eb39871a56d190d84e9256dec6ef374da000e255c560b8235"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "c3ac3560732a0d2e7c84bbfe052eeac293bc97627d37562e1e82c1d0d27d7fde"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "c0ea56ecb9e6d81030e3e7da5196f2f7495cefac94b9e8d2fc9a3919c8323564"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "d73c8fcaf7ed36795f0022f6f1b7d4c084e415d6f357bd93c52a93f721645ba4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "4f15252fd4f0ac7bf575bf7cea1f7568c163fefa4ecfc43ba608cd7bfdb10860"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "1226650bfc48b3f732ba924856de3c71b3a7dd27423b0734b5878a41a87de5f4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "0a3367806402dcdaa85e4baa030e9017033c223e691fea3de1ed1b8f21ac0ddb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "154ad1651744e5cdf5f7991602f6a7e2c7ba94830b83a1d90ddbb014458b4a63"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "3dcba8cdb16770ac74eb4f1ca558ba0de9d9f15db289e20dcf841117a3558a10"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "5356d8f81393b7eac5d9b5e37420766cdd291a5eb5e8e1aac7fda4311db41963"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "21487a720c51f4b877393b65c051104643a45cef85a24a11e5d96e2f85634b1b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "823153839ee6afe324c98049b3cfdfd9b5abb12313922f191b9c8ba3c8a64517"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "e30d3e78ae543f39c547cd731e62bb8e3622bd6be9584534934c54ad2e4a5448"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "b58384a885e86ab5ad76c7ae708ec61ec2072afac00e7184baa04786adceb240"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d4_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "98b4a9c59db15bf664ae8b1cec47226063d8012fa35e8ea6d0e6c3e0e26eca00"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "936867074fd5720952ec26974de85d4725a5d03f01386dfb56dcd4a667dfb07a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "5951289c9b25e867d0dc796e8596d861974478353226c5d7b291eb41de648f02"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "8aa8756f3cd844e725c53fa939f97c2d6b2dfcaa29a2e572de5f9f3c8bee9cb8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "0b6ab0353866ce5fde7c2f7ff09fc6e43d375dde6f845e95573f9913d9cb7092"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "77b851f3d1cbc22d09b7e77c2cebea722553f9d74ca9ee2aaf20ccd5a4acb496"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "bf75856f0491070881d546f2f9717fc5bccf4810ff42473d48e6a8621195d0e8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "4717a9099676037336620bd93e4ffae77c12639881467de9efde515e9497a60b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "8b005533127cdbffddba655a3335e52ec9c83755d1224e8836f2095b5f775767"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "f0d97a5edd908b1fec9d26a5cc88290e964be77bd85ca8ab5560ca5ae22cab8f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "09b98e1fbcc2efedd8fd7cb4db1bb07f656f5d21e6e21a47f4c8ade3e431950e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "37af92eef4e2d83937d331744912300177efe74df491865dbca3d84694a6e6d4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "fc2a07d11ca6be76c83a030880a0c3ddd090c40ab0a21996825deb90d8e3fa2c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "a1f685613de6f8734f178f9af91d0d1bcf87316513dcd3e7e55f726787e5b28f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "166dbe3b42a0ff444cc910a891bab399419d0b0b18d834c225beb7889c92fa63"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "a612011a6b71b3018e2f376b25657c56379b0ed42b29235df2c54d4f302cdb0f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "9936c9561034bdb4dc4ba671356930dd12e20824c28cebb36420c8fdd39c27e2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "ed3e2e7d429ea57639e28e0ee307133da9ed254f48e2d3043e62571ec7a91cba"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "b0a8cbdbf2f146e096ed1d5ed6da6b3418c68a4e3259ebb81691e9c236998f48"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "4e7d99882a5f06e23e7f6f66ea6b0bdb8547c4dd86ed894ba8b2e94404ebf72e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "cf8cec7ffba1dda8fad2d16b4aa200d46ae6caacbf3a860805fe967085b552e3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "73de266211654ad6a8de311d6ac129bf0f195cef38912b67c12eb04b3fc5e0a3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "1c2bfba4b4a8919ca6cb1c72ad14abc92af83a44152148b3d74046e48f62370f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "48e5903269beecd4e530faa88aa8e7b3e69b7e79d42482a7a91b55ed6c6d8cf6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "c4fb58522514ae283d9d39be42c89ab6532a47353b2b9fcb083330d73dff3511"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d8_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "017854f504996b03a5e2e30320dff88d3ee57186efff9b392c4756ddf7d497e6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "97f5c1229a8fb2029f0b19fa55a0a8b9ede4ac679ecfffb12b0c1496d29a2118"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "6b723ec131e37268b980929037794eafa4176651937dd145547cd7179bb8b606"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "3a61339087a2b503f823f1f4e8c0e3fa57ca9c53647a51e33ec34fee73b879fe"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "a42e50afd4c0c2f8347d2aaae9be610126a1df32d46c17386265ea763489b512"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "82e19902127b93f299acc3630a291b89c5ff3d22daa82e1d380430876edf6938"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "df483ae38edc919af86b3bedb889b0bc9f70484f7eadb427033d7ae336cdfec4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "438fd08247b3522e76727d9a24b434308fe4827a20a8e7f7494279b8726a2a3c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "0cefa9a1a1a8cef3041196a613a785116acfc3e486ec3a7cedcb91df031cb7f7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "eb61bb0d8ee38cdec0ef18c70315bfe2bd8184644e2bd1fcd315607b36b09119"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "9299c0564b30bfec55bdfaa844ff985be1e964061f2362a013bac90b2ab6f628"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "2c75e0625d67489a8d14a20871aec9aa9ea8d6469ae376f8a5393ca1ff71899d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "b24c31437b692630a6641025dcb0c1c6d1d41df5d9697a83fdf3d15891c947ca"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "a54f9e262880d85e28f326fd1f5870fc12fcc6636b9ea073313d4efd3e14f487"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "4ec1ef52cc824973f26314c3c2a08b69ee2434b16d8d940e24b0c9267f21a40d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "901e6a5de151a120ac0398b3e070525eec002f79a1bdf801bb8208641d92c201"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "a9d9b568f3225e8f55f5ec85b7467d3b546b9d2ddfa45883e2b759683dfc1386"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "91c72533a9dfa1e9bdd56ce3da07bd12409f39141802009b756c69504cd5b416"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "afdfa721f3944f1b8534f6bbe1641a72c9a056964903a0e317677771be1e2865"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "688ff3db7cf625a7e68a82edde396b5c5d5dbee1a6c72d8a0dd8e41d37ed27bd"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "3908f5d91ea0af1bbf1b539a505c0818ed30c7b41bfda294414bbaac5f81279e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "123d62740054bb49ccb226ac830ea0457a1d551f67c6570d60d9be2674653406"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "22ab81f61926e295c27fdd67f4dcb30c606f36a4a180d9a11e2be9d0a1dd2e68"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "6a9e1f72e4e76bc36e7fc6c2905331ceeec51c74d82bfc8c298800a2c684e120"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "c95b6b770fd7e611abe315c6de4d06fed4d339b1432273aff4ae2d02f248d7f1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d16_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "f15e80bf80f97cf3db0b17fba4eba2d6663bc99b374bf1bdf89c58da45c38d6e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "06b7ceae5ada6693ce4546b77dc093efc8cb3691e2876368ac795737456f41be"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "afaae655ec1bf7f93b917d7e0a374b3379b7a775f7a2d01623ca0f26e4bae393"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "a25f966dee6eaa804f1d398cd1be225f71b3dfb7a42fc021e5e3b61935e34c6d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "a98f216859b62cc3ca09c857975638a4cd7b46cfb267a18925152a1b459d2a5f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "9b89578ea8e2133f4bc02d54548fe0e8e4ae8cc9225072b39e4bf668b9153369"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "caf03621401181d28645e4b799f910ff84e2e2250c0ea60ef064254fa8fc1fb9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "095e6df3befea7b7a6a8b7e2366ca50c5e7f1c08320332796f9ca02dc4569f19"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "bb6e6a0fdacba622e800bc0a16ebc5cb344b99a50d3056b9f0a2d5c7aa0af4d1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "62c145e5ad7747827f2d9906ea0039a027510027610b85f286ac292daaf170f1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "36881a9bed45157465ff584a370437af7cb074eb8ea386d8592d6de26cd5d019"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "9db57a01bd104d138634bc8c6d6f15e5aed6fcd8543017d76f25e57a92ad700e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "694c657b8cf6f1545ab007947100e24cbdda6bc61d43ef342459a3da9ba4b286"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "8759bca214eafcd1670fe9f9c236708f11389cf60c4ed4ec083843b1c537b227"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "51c7c8c63ef4e550fb373d4b9084d029641031a19e436a837cc3d3eca0e57818"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "3c26d9dbad9406eec8d802b2605acf8d8e128acd962feb968abcd142b06e7a6d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "e4e5d14b77a2adef4f987a0a8cff4e3a6a02dcc77c612b4a32d3658042c4979c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "1c86f5d2f965415a7cc58c7554d73a67b2942640bece0ae2493caa19a0fc0dfb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "ad50ee5febe6c82616e6438ccb49c83ef9b7bb4516ce02477d7678e9e922e4fd"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "4c4c4474f388670c4c93e551250054b010dcb1a1c7e32b4abb0d774b3ef9229e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "e7ec1bb8a6d704897dc74f14a1d832370f6b91d94e2cc1bf8c078e808b079f10"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "a3464efd7fa9c8340bcf1dd048468a9000e291d9a2045cd40d454557513ae38b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "7c1968d90ec6bdbb48c7ccca953e517901157e12afe8b792dfbac72b394eb501"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "74ad33f082ddb471e95856338edf2c612b091ef1a5e03e0e13861f92703a536f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "2be36214ce3dd0a5325438d45a7774f7cf74daf023ff200d32944b59617b4993"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d32_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "d05a57972c8cac7234659c4ac84e1efe75b0d01134271dccf2a3f06292c50243"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "1c5333e48429e1b349b64cb124537ba8e2645998594102dbbd848887fa812165"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "2b8e543a9d0a07de27d6bbbe20c250f4a0131dbe00ad7ce3ed249a840a55dda8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "ec731aeb704b583a8fdb3b729511e5b9b7712075971616df13356c4b02af6a37"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "6a07c45c65f64b26b4aae9269ad37cfe11b4abda3c728eda719e9bd53d24f47c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "a17a8747bb64400a99daecc9f31d3422abcb5d033676c63fafd1648531e3ab2e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "0abda5b105c2002417bfd5080fefcd85e650a706167042bf84a8c83377ec54e0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "f4394dc6a8e014e67dd831ab76cca7570a675d76c8d779c2c5ab916b68003ca4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "fdd6c57ebc74faf1a6c7f64ccb57416ffabb34449a83b4f0bb3ff63a39524897"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "e07646477c8bd81a9371edf284a0f3474d52b9d54d20fcffaf8812615fee3946"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "6b793c769ec7c6a1d2f5dd46896fd59a0197397bdc2409921eb088326c058264"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "ee1dd28421f70245b7354a472fdaab90388b133a6beb2ba25cf41e35321e2ffd"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "b5e4876a434a674d890854c43883934dd917acae1fa75b01dcf91a2960db2ed0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "8403e2a8910e8b6d06f9a56e2e881ed1c0d51ad739c75528e908eb02ee3e0464"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "a1f70f33ff2d34bdb7fecade9d91389b59b555b68c83e8fb05d39217e7b1b4b0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "ebca8c87c02cd22a6e37a180831369b3adf743a975e3979a1223f64e76aedab4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "b5fe16988c17f8614d388c4d7a7d2836363b90e517b42878e424e07ef9db1178"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "409bcda00a74ea039fdbabb3eb02118fcdc4b5db733d731e1c239946365d3620"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "577e5d7c41ad780fd5150f3724f763d1d88430c85283b6ea1b62eaccecde5fb5"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "e83776649c812e4a4c324b50ed2121f66a6cfd08d9cac400d89a4a9f97988fea"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "9dbdfe228b32f4efe78d891725d26974fd389f6c4cc89a2c7a7efe50b57cee30"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "4c0aab6f851ad7ecfb991fe1e4534466ea362a6a4203c44ddf31fda197a49dd4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "258e01dc59850179531a32289162ce6b26b3f080c3ffb4f8703d298434c14293"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "698e7086b81860265a269d7acada4aa89d696adbab050472a73467f0c7e314d8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "6b778d6aaa84f15a219ec48851791c9b4b45775851d7aff41f3b6477be398210"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/d64_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "50b1dac49e3a16558c08e02f068758c9d4153c7d122d4d874923afbfb2a70819"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/framework_selection.json",
+        "sha256": "a0fd855b2a0862a0ab816f9da9dbb203c9e08d81fee216bd5ebb88bcbe8bae67"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/grid_runs.csv",
+        "sha256": "3573802ab8d8ac9a20af9331f67b05ff668ad5a99d52f905d0c23be27698e0f8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "9a574e9840bf270044f940bb3cbfc8f10dc4acbfc8fa675b97a394ae039512be"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "2bdec56769576d84629f8637be7905b0870a7af0a354b5dae09271b9d0d1e857"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "a4523a8b271f7b86648454a9e09863144945b9bc6b002b1df4d7bcfe6f8fe508"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "3de033473bcb5bcadcefe4fa0275d3b3be7cc3d05d6b4c073c30b893d729965f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "4530d705ad07dddddd4ecbe6687af2ea79945fcb46b65625b59b1fb0ae799299"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "df0d915f0a2b0c0ce2711af61ee82492ea6bc5620dbd3de204d848f58bde4c61"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "ce1b1420fef549f787632e651b89db044db7a534eca520ee6428147b724dc5fc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "fea9f3ded444d206ceffa6b60a01f4dd584c1acec36ea4afc200e1ac3bff75da"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "070dd0702b8224a0a9fae2d5af85d966c02c9e98dc32974eb543187e7bcd9f5e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "cc6176aea3f4580100bc52579e970e8749a486cd9e2fdc1635b869f257c05e7a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "df03df9cadf11c8430387ae6a079c65d612d1cb6ae7dc962e138fe7916b36f01"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "55c74a4e0cc2859a377678f4466f29846e5ecb448f4df40a8c16e28a9e51a0a1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "6504e3da48b8c45f14e4a3be18ca4304589d84c768e49f378a9e6b16ccf897aa"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "de6c91a29d94fbfa7cca564f0174d70ac71865e91da8b99ce2591359d0e2a2f5"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "fc4b7457ec0baadb8cd684a2a5639b4efea60a1dfd2ba8d0482651a1e8c0abf7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "e450e7698464f173a344c697599d30e8d35ba85525be3c667d911c9f4eb7973e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "7f887a99804b575778678b3570cd0f01e801379e9b6c24d3903674b0578236e2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "55413c0b06efb01d1b55347d7f1f689cded270e858adf153d4961ad1a5746696"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "e99676bc2abbe3a32bc196fc4c38b496e44b68b3eb5e959648eaaa64cabb945f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "b4466d5a018f8f595e59c3a734093a392e0cc9c82bc8d34e75f093a381a9e7d5"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "387642ae190b86df7c6893ad7604fc2904502687f33efd8653d6aa6bd607eaf2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "b93effd3ba81feef7e536e6564f7b65bbff67cda84035d9b26903837cc14370c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "5c2bdc1afb60bcc158909b364f8da3bd37fb2d481423d4dee58dfd1b47d16395"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "861b5823137c36a627e2b70074c09956f4d9b265aa8b67c4cb19c1f5598b79e8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d1_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "fe49329e3284ea20609376f08b94b71c4e35885db0ee31431e90936f00588568"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "85cf140cbaa32f7262cf4db6c9bf97b636368561b8bfbf657958a6b6b7761859"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "443cb74f10202f2c2a89df7442ab8fa23045ef3ac084f546833979fc09e9149d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "2ca766995c43761cfab2afc5398df91675b089415466cbdfc2379ed0ba1f6000"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "c477b6f77811eeed47567461831a1d804936181789f1509aab814dc84af64cd7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "87445d31df5878245ee24821d4662b1f3d939bc42ceaf33084b6962fa45688b6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "9dde52d6bbd682e06a3380c110e2b903ec27f852271f59c0dd58ca13298d13fd"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "9fd1bfff3a11611c1ac10646ffc88fbd578b6c9c72c715469ca43c291e4c4c0b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "d56531c7b7238195c59547ec0364db42142612314b5fa9c5cc5843edd9877ee1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "d304aa26a59a6431892553513994982ac290e577a6cfc85726d94fcd4436028e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "0da422c9cfaf29242b9f78bbce3f878337340ca01939e961ef9e2e011f401228"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "7ca55e5ed957811176dc38708aed285dba83ef57f522583ced5080590154d1b6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "3190a45f19362be0f21b2405d1021945cbd90e5d3b2c5cd460404e07e576e1f3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "8264a2c709ec17c9a1f786dccbe423d1f5ee554a602e2de05eae450e74336de3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "9a797e1b51a7f1ebcffd9b6bda526adecf555b841a2d082b7e210a50e3961fa8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "dfb7c9e21c1aeb4bf766029582c4ae75ef7d54dbecabc91efa94e824b0d6c57b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "c70dfc0caa6ba08c343da84191988424318ff30e21043f71877680170602e496"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "e6ae0115d4deb02aab706c7cf86dd0bf5b95a6a0f06a073fee83915e8a8a8f1c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "9f0592a6e431e9c6765f2de88bce92b99524ea59da002178b66ec7893ebbd3c3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "28cc4d801f5562d9c8ac8d1f3ae629f3e3a51b54701dff1b122d138c43cfc28d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "f72b4c49774a91013849f5093ee9926700d6c9606b1cc1dd4b490100a66dd9d6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "191b0c97f2b2cc2c219920f4dcfab98857e062a5144ecc81ac4df0b95fd52d27"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "e8a626ec47c5a4823ae470d0389de0d47f1ccd32f78f2f0d9d9041d5a9403aea"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "677fc4d1548eae497f4c64c041e7a8c65cd0d4e3fad2976ca2de2117212e9966"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "9ee691470beed39d9270eb1ad1804ab3e55cb65ee35a7d633001062d827e1387"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d2_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "27be908664bf4bca6ecbfb2b5dc55ed5fc2af98139f831f56a9dfa31d88dd2e1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "c1e81f69c9936e3c9cbd2674d5982deceef1049f5a4af0ab56e5f9ad4837378d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "ba6f79578d63d546115f07db11ca08aac753cb38fe226c820e74e9ee82a743a1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "0ff652631f3df428b183a45abf07f3927bc63603617f0d7b05a52e6d802efb6f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "25d1b782dcc5db6f8960681a8af9438c821a063e2e1d8f496f1c183e339d7171"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "be14abc2563432fbd2fe1893aaace4d8cd517ab376b5528864f1c92c11d0cddb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "7d6738888a9aae09d3635c578389f59c8291c063a3149e2d8c877634c75ce173"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "75947b8cef5ebc8a56bca2957d3f17f78d5dd297bd559dc0402cd2f429854f0c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "9ae9f3930ff17e26354178ade9af0632dc151c1ef5123e5115e8073705a856a3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "ea3edfd8ee246afd678e5b7ca55570a035990a031f9f61ddb6c8975f77ff36e6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "d12a78b1611a6eaa69504022d9642ed8376879f43bf23b6661dd2bb9533f2b40"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "65167916609a5f55e9d3b415510d607c065f60d7a0059e67b0d5176b904f5dc4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "4dc009336f9d708d5c9b17f2106c6099d50a33b85a3bf73b3c18aec44aa135c6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "09e0e334f138c4aa5e1230a5d68aa42d2555a001af72695bfcd973905c08d33b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "90675f3368282e22954088f232eaa0ef359d197eb57a612f94e4a02a07ad8978"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "236eacdfdedc271f3a68a9a648de58769083bab5157c35648248a10ac26bab2a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "77de67a90cd1664fc75ca44d9fb0489d5c1b4732ca319dcbbfa9f0f261eaedd3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "a57afb2098ad109aab62bc6bb3ffcb7e08adc0b7378a963520b568d90bc38195"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "84f7a68614cb598461f707d47109713e36d4cb9c8e26ae15b5183c001bf721aa"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "1e2c9e1c215fa42caf4e2fbb1b9b8ac6c49d0ab2a8c889820b8c5c29bc62b4aa"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "0601586266ff9b262e34fde8e07a73bd1bab706a4fa18f95cb46fd7231a55f56"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "f24afe300217ca0903acd53f04666af8fc5b7c38500991db7c7f6537b5852a2a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "c3e088b115028d4cc5b959b5bc9257e1aee92892e29f13ec8337dc663cdf71b9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "4277f309b77348062313cb4de67e5e99f5bd81e98078226925c235cde9f62c31"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "f43a36d215db2dcde97c6a951942b4156e30883faa460247006ed338bd6c7de4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d4_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "8f84ffe1f3796ee6f2fe86c5ce1018f90461696ab2744a927a3e494cecf3b2e1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "5a2d34a78f2f78a7b172f5ed109f1a71864f3f88286c16af935b4268d79b21bd"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "c83c2834a44b5df58bd7891b010f23e4dc8576150a5b4afa9945053a46f2fdf3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "6008b78a7e559b0966970301961659dcc32e0694903cfa2c8654b45edb130236"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "984172984dcc43fa1175ad0cd6cb7b7c7ea4fd341a6223fce512634130644da1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "c5a6d9a6a28b6dcbec634bd80c9c78238c250e26a7fc403c42daa347ed063aba"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "3c938f11d78f2fc637e4a799ebdd0aca15702fdf94380117da4b5e5790e90bf0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "d3b258a982ff4b0c51350ba1fc84226869b4df0a62285fbd784bb5134e040125"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "56ef18e29f04ef18c7cc3d2e9a45fbc77f9b3aaeb9ea08b775afabd028e4495b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "d920232ef3250bdd9726b39e08e02bdcc557fa91c7c9d634fca3027cfa964ba8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "a00eb3bab8ed44158265dbc92e24be4f356feb89183384cc75955b08dfd1519f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "5f48f49fbf9a975ca1d9ed41242da75ba4cc0870031e15e2504f2f832ace05e3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "06830d20d1d377206f9d5d13572ef3bba35d44881307a1ea61e9ba4ff354bc23"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "c89a46b7128db8c7735923b5d8e36a07a920510a20608140d93aad9aa7697064"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "229ce2996368143e2cd78bb673ccfa47f0146cbcf6c8dc21fc9cf07a9f5649ae"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "1969a7cf79a37ccdc0c895006c752d2d94b2efa07434a9e6e5e0640d47c87794"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "5a9113aacceea4cbd09ad2af71cb6f572615572736bd0d36e66fd819dd14c508"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "d202926a68532445c56f8f4897024078bc190ee4f629d7132a8d823d5f22bfce"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "d4d3c86f59befb19d6245eaa43fb86a96a95f3ff97db62d92e0bddc86099eba7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "290cdff682606d1f7f7948ac235753174e84c2ded752ffff16206ed5a687196d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "1dc4f7d2ebb506553f45ba76f2ee848d2e020659d38b1e74fadbef4cab2e27cc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "cd33c650c4787d73ac0bedacf20a510a1a03f100573b514c8eeb2691bf75e44e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "3f8559272bf17bd89637fdccc55d4e39616733956f17e9a2c82dc70a48c25fcc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "c7049b6780211fb1b0c7479996ceda87d5fd18c57ee7b00306d907fa78e7f84b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "b1c01de1b3f8fd42f9bd79a258e0c497b64b76bfa3dc6ebcd25f84f363ba8665"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d8_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "87de6f881fb79d0a4393568ade25c18e59496401b752f02af77ccc1720c5eb40"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "9ec2059a039f9fae9e4103fe2e546643e13c4c8fd607550b7c1246f419455c69"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "2029c759c3f2edb92829926a6ace68059090c80cf8413c01a3ca398f5bc292e3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "29959c023c34ec5090952e0c15870546a3f3ad9cf332d24611212aae9f4ee9d6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "69378f564332330f3219d197f065694db3acfd3832b54f56961c79879074191c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "7f5463d560d98d93ccfe022af0a85c540aec3f826a300626f845e658dd95e2e9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "829313de84242dfe7f648ff915330b6d652dc2b765235da983c3ca3ea0904a58"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "136949fe2614eb840d207a394b7bd2953c3b1a07c0d6ca24e15c65d33538c83a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "7986f94f608c59132bc6574ea1656e143fe7e39b8a4e78508d001ffc77706f6d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "057737e9f3c89e8fba661adb155153385ca605938949a6246e1f000576224413"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "666a4c76f7628edc8b9a24e7c08aaa6c79d842350fa27aeec260eef754ba8c57"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "a7f1d7233b7321c0aec665b11fd3b54dd7f1c30cb0359c237ae09be1b3b30390"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "14ec842f546f8c1dacc79597d83b3c9f3515c5198bfa2a29b86c710f8c9eb40e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "5c687b32fb61c3f9240984bd4583f2ff08d9225b9bc16b02801cbe1c494180d3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "63b3ae9c9fbcf2de337d86a037e456f50ccc24c0c3641502e9ae5f8551f4dcfd"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "88069c63347f1d3dd533770db175a0026cdf30f9086143b71efa3ea33792b24a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "46d0ed1ff4731ecef689132b7421d5b23d0250348f7afd31930b8a3a5543bbac"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "34c28b8c3bed0999da96688ae4b282a9c56c680fd97654f27a8a3cb712148b32"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "7483477d7527decb0903ef600e34b07096b00fc0dae44a9f7ce392f651040c34"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "8b8798ca4f33ffd84d2cb1bddbc967606213662abfb4c466ed55d60c8bf00ee4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "5950c64442c4e0ec232e472027b26972644a660d20d963246e06d8449b8966b0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "67774b1d8fe1a2ca4ce1118c9fabb717bca8026659ee1b47dce37a695e16d15a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "fdbcd5d01949deb4802c6ed6b782be8f7c045b001e222fb4a1d16f74506daa88"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "513581c69bfa47b00447f4dd1acaa420f106f346d021c950b7ab41d48e82bf8c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "fa81acbb5d30da2d5f47e2853eff7cee83beae6ae38efa7b4d462f50b00d40b4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d16_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "6d9f2adf70ce30e04364c9a2c45b04d33ef7f0c6a708ebd9dbcb8f126f38e819"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "5c624849209dfedd99e3213508c4989ec5a18638cc70dbcd4d02aceb62b39248"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "4c1fbd51e62a8f18f5bbf22b51a62203dc2f21dcfb21f4fefbc79f34eb8c795b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "09cb1ff84ac2198fd0fe138bab9d01f592e25fd9ab2045eb5173a765c11e3c97"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "e58995217f3048cbc5bc6e0af0e00f7fb65816be38fe11f80fa8f254ab328bf6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "f714bf5bd668f3f4d84795de7ec27721a34430c1a295b86d16b7c41c3ee7d39d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "b31814d24219b1a49c1d5b0a26f3c4ab803d1dc9425576d5ecf8ed5613730d6f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "56f1df4c66569870689c3335140abd0bcf79481ff1aed6218fd654b15ee16a7b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "5375a554f3372ce52a46fbc298c3cf1e3d11773181e5682141f5b627f33e62d5"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "a5740329f4b0c43907ab1247646e6c4bc51c24410e4ec99c7b7050d74f55b331"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "a9cf71852d39fcf952cf9a6e8cf2436530bd0733c876f0cea17f56ade083b066"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "dfbdd841e7ab7866d35854f2e5b971f9aa0defd1078384363233b5e630261413"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "5c71e05e07b0b865248cf0dd488c6aeca4d27e653fa040f8bb4af08583d57515"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "452b2524f7e7cd488440051f77c65819c65d367da0cea43578977946a6484f93"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "514503052b3840ab0950d1a87bf38bb29fe817e5d5637133634c10ea5311d068"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "611f3575c1bfe0c150e815355309459d01b8b3ad55ef24d1887b877da0062b9b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "a1266bfbc2b18885820d6d5ac3969d3a37dd5751a44161e2a9cd6610e3cb44cd"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "40fd4dd0e6eeea51e9866c389dda56ac1162c0c65220bc7e9850316bf8c318ca"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "4aae61e01a294c2c588425b9782b21c454976a32dbdd1a278f9071c83abc4f40"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "05562a9c01d9c1802c5ea721736bb448f67dbe31affa381c935da4df905c3aea"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "6c6039d4658d3d0704d3eed0462044b0464bcf8e92c04c1c89c3bd5b2a9f39a4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "e493ba7d91657bcdc9ce180298e8a2e01d18fa65ed11bc53e96cd5857be940ae"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "fe865c93339c628bded99b118a1e73d167ee8a5c2f986145fe72c2a1be60ea94"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "577f0c9a4cfe50ab0fe708963fed6fd8662c739012a6d52dc010c7f299abd7a0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "fb4c311aa9780165a29b930f9d4f3a03d0b1d1f705a38a7f0d1d2d0d0cb12cf6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d32_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "98204296452a07f7e55ac9eb86d92072d4b5d191fd5e9435a33b51fc6dc4f1a9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "4f0498f3c1985902f9ef2f796de24dacf304682887d971bd73588d722da32d30"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "60fcfccae44ffe7ae455d3e44af6cd63dc46f154811c4e5c653b04ba6cdb5232"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "efb0ad4d0cc087d9f81ff3c95d9d1e70d64ca6dce87294727e5a19c6b31c7114"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "137fb328807404f5d2ba46a6134b7db5859c1755a7c6ec2f12690d69d841da8c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "61eb9158cb9902e263922472849d8d49d3586bedc0defccc09beeee1d12cec9f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "ce90ad68a14cf8e01c873339c33c18eb35afae940518d6656118d0bd73152c65"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "a22b5d0dbce795a4746ceb12989dd9e46ddcecdd0bce4e0f8ed1daeb3e7f55b6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "9aef007e166c5ba0f1571f10c23e0245b063b3a79ce00392be634e2ba34b8789"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "889659088a06712ee9eb428751634ddf7b8b4bd683bfe7c62c4d8cc0c1b1cc97"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "013f06ef4cf058d11d88303dc05a094c194c83081064091fdccf6b4d002e4257"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "2a5cedd64b5d2db6aea6a1a874564687b3271a50fe84d6d59ac61497294f9e9c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "9399f06d0bc40f31d01889620104aa76832237705df01ea4bdd000c8284f0b20"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "2cd9f3b17894073a9ec3ef13473096b55c42b3b03e592ad7836563a366780898"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "7ca17251695b5a6b97d92e8f83f4bff303a84242cc2f3157ea38b2cadc9db802"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "df7d14b3c99d52bdaadfcbd8055177b0dbd9a55f38f5acdfd20b6d2de74ab870"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "d783576adc2b2dfac7d5e4ae975dc5c21bdf85b7ae2ec00fb8a644b2b5a65722"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "5c8cd84379cdff5a0bf851551e7965ab4761aeb6f1358526fc4358c6c089d2ac"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "deb87a54f3dba06b0e0352ae22dfaad644bf1dd41961acb12aa7d4ebab47e2a6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "833b9b73bd686219fade20991f841aade02aa2f7f6e47c1a57f10a385de98a60"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "d2bd4a0a97286a26f5d1003d90a99c6507c2a05895ee5775942ec53ed8e7bd55"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "4bc15e5764319588a9b7aa362cbebb2f174139c73a8f7b4f16b57cd216413e0c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "1f7df72fb3af56b3f36d78ae1850ea0c67479664343ec7b2bb7f0c64e437228e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "a3f0acdd2defa0210baa7759c7cfc42c57e475f254186f764fef0fa739cb662c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "ff3992dc2f6140f761efffed6c543ee4c74ea392dc1c18d7b672194b6ae3d839"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/d64_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "2c75a91747c8c7556bc50b064e9b83909a8826cc0f81000d877a26addc1cbada"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/framework_selection.json",
+        "sha256": "c239ab0e5d3e69b543eee20a8d67548ac9781b38ffeb1b0c10ca5567c095393c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/grid_runs.csv",
+        "sha256": "879ce8a9d049a831fda7e3a858958423f2e5b941d799ac91033a6e17e44bb686"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "69f2287600a62b87317c783784c62e86f894b52c243ff6200337c9323fd81891"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "d260229eccf93c691d56cae0ac021be711a0547f3a6fa1cb100cee52fb57c13f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "656a44393e2296526513f757e123b43afde9b5ea3f87abe4e8ca54aa53ab18ca"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "eee07767564ab0098edeb99da617f1beb435bbc7cd9abf2efd300f1c184ec3c7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "4db127a911e3a479ab3363b02a6a9ceaea4090bd0a46594182f0979b7931977c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "655d08d8f5630cdf8eb509bbc8de08602d37727ede4eb390080b18b669135e03"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "01ab6fbc33edd16f684c56eed89108b88e733cde337a263fdf7d638c88618beb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "694a601265ed996b2bdc9c7f089e304f824f81ec1b5c4b011616712206baf22a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "89aab525b23532355d69a882f4839eebefd545bce141f34923a133b39a7d8e8c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "ce8fca84c2775eb27f8dc43511eec145a16b27474e18c0ffb28083d2f91ef522"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "22f4941e493db8eb1129dd515281e548abfd82b4789d4544465ed0a5a1253782"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "0e35773e0cf87a3a4042a659f33f62f794a3a372df533cb76a14c33a87f939ff"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "dfff875220fbc1971f0f003bd3826dccdd039248978adeba1455512870cf2d8e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "a78d80c63b27d7e3e0e3300fa4546af9ee4baa1b310391c053b425ab5aa69ef3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "1632961c5c4807942de0ff3062d60b0a6624d23b0a874b05001c0470d5f05ffc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "2766339e7c56b7ff04ccbc6f11b76dc6bfc41faa887cb91421126840f7b0fdc2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "4bb00bbea8e1ab33bb64800b000ce735815c4e1c99cd6d88136757d4fc875576"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "e84983e3fe8f131ddbb151c5a32f3610e44b485e1d479fada520c18668c74076"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "400fd5c35546b83b2b77e3708eb033bb83217c55d59a3662842ebf969506e9f6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "e860386d54d56dd69fff68f210c08bf7285a2ab3222d74dcb7a754d01bd10b92"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "063da8794ecdb1bdc770e80e14b2b3f7fe4fc2e6bacf6f83da37f4b6e315d889"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "4fe45ce5b3e9b6038a7eb885f1de11ac9282d6d368190299183d0a447c2b1838"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "aa53810f723363e87dfebd11a051717ddf8ec4a41049182b469f0e66d0afa32a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "5da2c243780ce768bcaeaa05cfb49789725a7c3e0d30b1e105ebbd0941e35fcc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d1_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "fc581a16e88c2d3f6fd837e175be81f9e6177ce273ba0691638e9e925a8dc8b3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "99ead943458f9643435874e972ed15a5b6644bc7cfd5c597bb7bb07e091b7148"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "3018488736112226b84fa5660dd190e901aae7b66a7b29df6f13948470918061"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "74ab4d5c63e9baae1d36daa6e1b0e9ded5dfde60e808d3fa707e1e2734756457"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "86e1efddaac5bac24b6cb47c7a7fdf5067f054a0e61add04d9c50a69e28462d2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "4dc74515988a41a79b691b97297acbb210f031d10f63c34b72c27ce3d445e18a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "01eb4d266d6288f95323de651f6761c000371e5a57b81a1b0061eb85930d1ac7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "56b132ed0cddd8f2a4feb3d01e404779ed32c92aa702b48f062a50ad11ee24cc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "ee4d6bc8d4fad26874ab182245dd00a84fe0a39e56517b64faf2e8c84e78e36a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "3de819cb7fbddd2bbaa18ea013223f5d3718b83042ace17ce313f9d277954cdc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "2494efb6ad40ff0b3e0db87d816636a99ff7cbf00dbdcaf29272c820181cca2a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "850305e9333b293f805105e5052cd31d8281a27f5849923563f9584a25d0e0bf"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "6c55d4cb2c61741e3fc74cc0be38d95b29bc28ef58906f91c40212b50f8d499b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "48ba87a50b461944f43b72155fd51fdcbc03b634f4d67f9362b772d1f6f6a351"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "59fbd448eec22046f3bda10e99c8f1e4ffcb0d2df7bf2242126e938690073183"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "954c1ae8a0443d8f3bb2cd0fce09b7e765664fe6c4823195f1f97a0511668d91"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "12542795ad5c78a7b037fdb5b09f155996d390a28c742caa0c35762c36fd1b93"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "398ad1eb0820b8fd301257ee9b0f80a215ccee76ecc1bb6a82db4543b9a5a51a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "30244a3ee6fe04f5545ddc05df4a86521daceabc60663321a145c95722af03e2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "c230f9db9a1aec0d0aa83a968575c5c570636488b1e9012f60cb6ef0280dce62"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "f0e332ce67228b532b6724b5e6ef610b940b6a07675adbd5cd6b90beda0504fa"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "0e58087357bf6b1209581f6bdc1992d2a616507e6be1db509622efcd2fa60375"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "bc0c052beb635e8b52bc5df66d857148e99a9d626800ae73f303f809bf5f7421"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "a19908585abf38cfa30f607fdc4ecaf2cce0873f72a9d265a887901567b6e895"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "80abbb149a7178ed7926039380c466162ea8945911ec6d1128563af180a83536"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d2_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "fc01cc728abf04c40295729b2b7dc81c393690250156b0891b0e35125b793d72"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "efc8c953ce93737f421cbfe17443239b4eeee93bf2e3673c462de5ee1d8d7774"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "88c3bb4e3f32d361bc83a0d027ab2d0a1cb097a239bfdc853e68b2683e5cd066"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "40eef77338f19c9b110cfe7936bff00debb859f47bce71f2cd6b9e21db0c1979"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "ed5e770cc902e0296e11796e9b9e9d7cf597d382f776d3efde56eb6916c92434"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "0e844e7e45ff6075b5abaa1ea50b95498e868ea84288debc48b786a3698e1304"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "c2e1cf409f108430ca5bc982a8707f26b234e947b9dbb95e7a7d406729e3bdc2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "3d777887fb33f34947e8432703391d3f0e75ad8259c91909aec0e4256fc7cdb1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "14867a4dca0c73381f96cefd6eebe2c8793f2a274e5d0b00bec4911818aeb71d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "0631cad80c5b946d3480fdd43e625a5e4b433638e74b63a14ba6ea544195ae18"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "3341b19e6a8d3b381a1fe4fe32bdca1d98cc90802d7fb582625736c5b540004f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "dfd72e06de14dd73dfa04c0428e006ff7ae476dc9a73f46734c556075f0c2fd1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "d6178dbdabd6a4730bb45f68db0cfcc63ca66e0a0e1c45a63abbe511163b882e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "31fce309291e23eca374e07da301df7fedc66ca6b7e07949edd2dc6cd63ec2c6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "d3d0599ae71cf94808adffac4b5f75238a7acf5f4f3df85ec27e29c56433f398"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "a781a23dbc35256d01189ac6e78ef71bcc159909b439726b395e22bcb7f5c7e0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "847cecda1c8144f48512e95d818d6a6ad962a380b168d6d4f0d222861d2fb3b3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "c6dc6baadd9c905718d172868db506083e5350849dab747111be9e0a142a5a30"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "0a5e3415411565d0bbb8c8a2120ec87a33ec8a8a9c7e2f84c6d300957e1a4055"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "f1a5935894cb18fb372ada4e0d0246d1fb7918752d67b7dc479c4dc78697867b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "4b904f5a41517a172a6254e483d2ab8cef1a71c00a2731586527764ec9f1ec44"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "1b31d4f00431062a8dce43f84fbd7a47a101f97d60f750f9227e3d3e7774ed5c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "d93f56b53560560f1a548984c110982d73f74704792a7281ec61816117dc3ba0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "906c70fbaec4bffdf6df3eb23b293e19580238f5d4835382fe52f6317d811f95"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "c162e3d411270e893d720baafa2832aab0b9b5681e589058d4f6be9ba06fd08e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d4_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "d5d7ed8a964c8f6c0eae16312978d710dc81d6bc83fcc08982adba7bd5f799f5"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "e22e87553f122b469d5dc103c24f13ba9e05376550d7a849fbd30bb6a2d77a28"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "f2789ffd8b408142d6f70d90aef5f55010dd399057541a3331b1372738d0cc6c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "cbbac743b9bf19e59a2e63d36f4a1c8270fa465a98ac13192d6cee131602496e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "f00aa20390ae503044bfa0d26b645ad5e3d39a5d06aab9c29f6e79198a084496"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "830412196c6bb44ac852a5e2bc690d034dca9d420eb59c005adb8c8c9420f263"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "b166f04d29425044209add5a7aa5fb1e667956bb5c945750bc84b06f3b9d8ba8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "444855f956f49030d8e6ffb7ad310a1ebdc7cb3f2b54f7826c07628587caf6ea"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "72a05dde99bf54517ecfe6df4f3a5cad2cad64fd6b899f0342c0925882dcfb6b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "59ff534eacfbc085bed7308cff1f595a88597f729c66170209e9c9041d25d27e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "044ed58fecd8dc1d7fe48af5cbfff764cef5483f67c7bee623cbbc2165e9ed2a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "0cb86769ca5b8e88104cd0e8e4e5841a6e65f9b44a73b4b3c61ddf403468af2a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "bf59075ce86918dad11eb0ebd4803f4a125de2dc9ce0c74fdb9fd4b30eed5e40"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "85a693e2503381d9d5a45d87635bc4c79c3357bec0e94f8b2f0f6c5d283d0d76"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "fd70287d9d6f121f88e3d9f9a7f32a0ca0093ede395dbe562c890bc53fd29ea6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "83af7306919ed7f4b41f6ffb5513a9a816346a3fd38fdaed158be26f41eb5cce"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "35667be3db56fcc4b94bf5e13518be27251c6bdb5ea1b120098ed15020aa96f3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "4839dc26c17124d7b0c4857b5a5c9880293e967a2d5bc0ddcb481a1b4be9ba2b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "aa4a6e69af46bee8b2e4f5cd111e3dc74767c14ff5aa298078e61db1bc72b981"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "a333a14f69b8121b80a9d2f38cc02971014b66809f06813234fe60eac90ea6a8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "cb5e0a7261cd1d4c78b8feaf069605cde8173f1216866af9e1dc1c4e69daa8e8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "5ece87bf032e10e3e8dbc5307bf154bb811e125fd2ba940ca3ba8928914334a6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "62ad3f0631f04959f7b9086c6abb035be2437f0da858494e64bc770c95bba91c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "c6388aa3352c9c05276fdfd6e352a3a4a67ac930b02b2d0ed4adb1ae9d2cca68"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "e397d4611ddfaec36bef96187a6dd6c2b02f39b21359942bf94cfec626abe7cc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d8_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "9e508d061f81c77f44d10039627a02cb09c4a700fd9294dd701b33a64322d736"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "ffda7a8e690a78e0ad89a5555df36ab7e2398c596bfeacd902f6f95c6d622679"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "e8fab526b0c524a03b90a9278d9ed00f1c319956eaa3db9859c33871bd0ef9bd"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "8ceff15fcec6064a8f1c9ad09c1f214c0f03205bd2b798abee1f61910dfb96e3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "a3dc2193996d93053d1cb4b1ac94e0cf9fc1426a8d4872057867890dfb3b1853"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "681b22d209b3bf732c94ed4e18bbd6d69b31812eb8e3680daffc4d4e3d810be7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "d1977a1c9a12896bdff5b4dc4efa55bce3986ecc8fbffbc0b3a320349cfa84c1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "0a72cdd00f2b6f7a3555a1a04b5b3d346a248952aff93a42ce035685f394edce"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "01a0f08c9ff82f9aecb4e43498c561b9f37f4487bfd4580d803b849d4cd467f7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "96f003ece09cec2166ef71d263b3a083409a156869ada3dac9bfdbb211a8b1d6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "855e1e3c08043118f3d7fdf6f7f78c93ac9ed9ac49cd8ac7806d49161c3402b3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "fc486cf70d54a815f246d97f9a8873cdfb68f5814ada1c6f40eac45e387910c1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "593ea78565b1cfec7f63e3dfc817bff816cc126a5f598d73a2df7595b02f1885"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "1c2312465eb2a73af904de3aaa3fb508b18a2134628e68d288b22f2ee4e64b39"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "79307f1636084ab0d43081b731a9d805b03c7e1add0ac2ec2d2697a3fe09584e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "04a383b503d4885b178d7f35370577a99cc07a388c299993b5dafd895e90b88a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "53e9e78034b220a960051accf742f053a20a093e4ac3d2e4ec676917d01b8d9e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "26e24fd8efe03156b66056fd00711bf750999e3043420ebff1368eb975180a39"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "35979db0b3583001e39007e8f660f1c117d4244a882b3f2bf5c3038f178d6670"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "95de8a57b730bfd712be9beec0f6dc46bd900a425e4e7aef64aa8104871bd0cc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "d9f037822c9492b3cb7a828dfd91c5dd2359cff070c058e35c242fc6bac96230"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "0484b2ab2b266d0c0f60e9afb0aa9864a186cf4e8af0948f3ae2123cacdb6272"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "0789efc02759e5b97799055b087496063d0101771ce1e23a022edcfaf8c8b056"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "4b24dfd3e9f91cec6096a6e3c58539155764a1451f1f0cec4e39bc2e92cf2396"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "ec364dac68af0bf34b8b62f3f60e07d4fef83d746c2dcb4178ff8b811055159f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d16_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "d5640707bfdb3aa54653a5408f794d3925d367d0a30b5cf1eed8ee54fdcab842"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "d655c38210753e0e993faca9a9fd5c01e65fe2473dcadc6c3b845498996b649c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "d88361921af58c15f2c23d0dcbc9a85631f432e8ea34f610fd8249b5457a56f0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "2328c015dd4679c6fb08ba02b65d5d1e158d87e9a5473c760fb9b9a0ccdf944a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "6e8f18d8461c33cd709abb46f39cf1a4d9445465a81e9b8a06cde8f1252db414"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "990eb8df342d2b1b067318b810d671b5e27541d1910c773b9a0175f05fc9a6c8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "7243b4b80304618bd9ca73f13bec6249e10240fb7ce81c108faeccaf381d7f73"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "5f87cd9a967707d03054ec07abfde9474044770df78128aec05f234f9f77ab4c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "160a3fe3af79029046f636a9cbfabf1994529854bda68fc60a54a04de1e3839c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "21d2e1ef64cbe63a471be67a1bb9f2eb8057bb0b1d227ffc630868af6ef56792"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "128cfcfd4e4c109156922d077a47b9a625ef53d4ea3712083b4023b0e913504d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "df410007b1a4f317983a417898983883c7729f1aef10ee323953aa6596f48cc8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "de2eb6e0897ec38df97b3f428a4cced73ecbb17f5237cc3a201ad632bce4ebfd"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "542207f07fa4cf0f3d3a37939ab8ebd2204d7fc75140e463177fb818ba655173"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "afde5ef670e5f9e038f98d3b81a0f731fa818900b24b121cf86f15b39ceba85f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "cb7d50c683dd5c598d98cbf4f7ca20f5a26191ccbd287d6eac79374b68e20a6e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "a54a7ad55116f3ff5cb94c15f58044f988291380766bb805da89cdf33fbf1af4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "c41002d7a50546b86cf2bf7fe812b8a74ce1bbbf3995965a7eac70331965ce28"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "19241522aade1c7f940431c181e154f76625afa13602041dd6fffc41e1c6fcf8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "9ab76ae050921f8fe1348a182a01f31d905da098b315bebd0b92c2eb06732326"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "1dba196931442d5ef6c48e2c9a530b212aaa12d1e51d0d15ee90de6d49374eb6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "179bea87a48b7de7db130e4e9db11e3eb6f0ae9d024d55db9dc18ef95d4e0fa4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "c2a9088c6c44e2dc602382e3ab2dfd9aba714bec7c182f6403aefb399bd6b1d5"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "ef81885318e7405bf864d8d525acac7a87bc3ca52a8fff4a0a9b6215af5b80a8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "1d18fbc979d382770eff2486aac1b05d5ffad5ac2a7baffb74c3d3b1c9a9cbed"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d32_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "d0b9cf9715b5be545a17f10d09a9e2004c3734baa02e23e316f3dabe41e551e8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "ed4ac02049990adafa6e73650e88fab0bad6c34fb15d7964b5d3f73183a31bf9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "ebb156e9346e5c8bb345fbff849677a293e9a535087234701e7f4239491b42be"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "fc82d396369302108e814f54a20a938303ac7f37d03dc5ea85693246a6db1062"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "82403a966f0306560deca474ce9948131dd4ac1b2a707962bfd9153f82a9a993"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "4003f5913b27b016e654a90569a17aa595b6c879af3d86d6f986a0508f483122"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "7b6312edbe0fe78d950f14fc8e1450537809f76fe7c1332c9f02b9ef4ab15b6f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "877873e5c55fed2ec6f992ea2e8664839aaf84eeaa6c9a193624622c6b30cfad"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "eff4c3b9496318c05b3a58df0458e7bdc1f57c1def7031a1d142a217b3121d4f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "2cb45bada946f30b3b0a1420993bcb40294f69b38e584af0bf1666ea7760397e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "be15ccaa73308f0fefa17d18ca39d512ff69201572071e5a81c00eb290a38973"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "cb64d36f383971b41715c91a5c7b34187e0f1e8dced14f60c4f917a628ae8b91"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "10c4d55f3a9b8f12f10580e6fe59313856bf634a93bbece4bbb7a41e27eb106f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "82cbd7867a02d64e535c4e0a5417f1e05a8ce92a5b67c1e72bd9f79f07c5f0b1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "6b71ef77d0ff52dabab182212b0edb6b5fea9d88a348be64cad72e36cb7ba0dc"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "d42a4df2805c263e8939c6b424a812e8364144e03460537e59910760b6d66dc1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "1f117ffd98c1aa8359b633318e9a1febd2de4b2010521b96ddc1053dffa69634"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "673bdb1b6ae6779f5f092d6e218d8a7381feff19ee0c821910a3e2ae4233e4e0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "b59ae9c9996502e54f464ba60d3c36fa89fb054e371ed3cce38b5d4a73fad35a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "3ef72afc9a8a9c7273d631bd916a4f0543792211b47301bbe300186603e68fda"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "440441ef5c1054496116da76d2492547631c97e0f6bec9767e0d5a1e9ff7df8d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "a8090ec4a1eba57fdc12335666743f0f4fcb8838302ed3dbfa2a6e4c93fc0d2f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "b23617bf9c279bf7b01005975c89275b704d9ad3364fe6a68dc7ef6d80700d5b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "3cbbf5a427ffe2a9ba6772b125cf47535f0d372ac69ae75d911eac207c2b9ecf"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "d9bfe38e0c582d45ace2d8a480e241f04e570425aee0c601684f977c773248d2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/d64_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "b92ef7a1847288d665c2b7b3d9a3731b145b1d06c651c12b3ea8a640a818c72c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/framework_selection.json",
+        "sha256": "c7daa4f328ca801e5bce20c8d3113f8653034872ce1bad51ab177cb1a0d8e86a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/grid_runs.csv",
+        "sha256": "a7307f0ab0967dbb65c8b1d07b7c46b3c5739196348842fc0ce055675cbc19a3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "c104e25f0a6be329fea9a6dbe0701308fe70f4dae2b1dbcc0b86ef07c95bbbf0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "59c5cf06ecf4f5463a4539b9f95ee8e9eb65ecc3eb86cccea14201ef716e64a4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "2180d7df9eeb31284ce1604dace99c3e05747fafde4cafcf6d4d9f005b99c275"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "895414f201cdc3a65a719b94f3088eba72f32351dc80fc629b8fed2752121a50"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "c5aeeb6ea7136f06ac416b32fe0d82faf5167da0b95edb5d967b43633fec9e56"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "91865b5c2e9fb573cf1902c254a159887a67372dab2d3c7c3a2c89ca480d19e2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "5a5c2781caff07c3324e354ffda775b8c7a12c6c8d2c195143ccc87146242711"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "5d47f5afe4fae45d2d5c3944d8f45bd22e969ce35be952d9089b01201c4b4f5c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "5d83336ef2f12d7b5f97e1d519160c03f81dd407d965dc5b41eb31366527b9e3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "479a01e34d46bb9cba6a90c46c4b017d11a4c5f4dfed5a2e07cadff4c33c6611"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "63693ee74d90190e721e86900d560b7e756e4c620aed8df69201eddad7f5c896"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "a686f851fa5be653338c72284870ebe3c0ea9d8394e4c594bf838d0ca96c1a1c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "45f10d68b7fd4a60a3597ca43219096ce8f7fbe4ba97ea2527262cc5bf43fb96"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "954ef4f95d9deac27ff9c5841dee1766ba34355e272d9eb9c83d1e27290af735"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "3514d28c8da9efc150f55139b660f17eb9a28f94f224896d74d56312cce1e768"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "28cc3d80478930994bc85f56559f0d650b640bd2b64501cf41342f1f8b9bc33d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "1e23b4f160a5eb8be214987189f5defc63b1f8ba2fe6a165990b9b24fbc0ddb6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "586ca6e205e1b4dd8115aae2672abdfa852028793aa56b6eed1db8e6a2d2340b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "ac86985905a6f67b2e40e6b72e989e87b5113b1da60c032db8ecb9f5853ffd08"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "6209e566bb23ff23190ca69413c833df6ea008a4082e81312b78493c569ca642"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "d3252e09dbcae22478d78a651c19b30aa935a37d65d3b4966c7f76bc9e75b229"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "0d14e3776480bf5caaa20ac429cc12734e91723ba062cc712ebb4c7a831f68eb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "e4bd4b5de66d25cdebe27688cb62096bae025258c6a9eeec842ce15599683392"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "bda662d23a393a6d698a772a02df0a4ac05aff1a74f667e1b46be3030e9f91a8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d1_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "acc5b0e55476cb802fc7a6aaaf469c308b109b4b962fb0b97b8b4bb0a3e932b9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "f98e3bfb86c9673097ff64952d9792a050041026a80347264a629b9858b9e8d9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "2decaa416b4b0483efa4a583843677ca483d1c60260f3ec51013bd28e3297563"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "eed11c224087eac6326f3298a2171a7c2eff3cac88a0cc441ffd3a45b5b221fe"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "4200000e0eb099ceb758bb49927e5ea045a6431a0e9551d194f6a489fd537b8d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "15d68c10ed3ae23d80e8b73f85436fee81a9d1f91e20e09f94112734e284d69e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "1b89190781dc2069ea0cf89d6b074c48453fc2a72cdc48462d113778e3ec87ef"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "87ce837d8d27aaa4bd7e2885480d0e726684986ee69bb88122105634c1e31276"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "6d6d90c464a6f887507f686d80e55673746dce21cad90eb633eaec3771d14625"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "4b69822d5955123ac08d1689ad483f7201432d05ac40072bdd6c996245bb24c2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "97bc3e75f8ed3fd4ddcbbdb1a960283155278f83ba6e410b084dd8883806d411"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "e5740762fa89c0c4013a8a8a1672cc05af638ebd4d6568a04a775691f60eeeb9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "ea8900143cb0bd83e4c2d665ce84ecbc2e149b2798631fc6b99579203d999242"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "33c22639f3cc9c3268fae2492bbd84ac64f70f45dfd9eb22b3cdc0fd311a383d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "f2cb94764edbef4859118faa3ef3cd2e8c3b478f83491e4cab958f12f62b5fc5"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "944acfc109f31589ccb73e33c2446be08a3f4c8abe0d53456d0d087e2533a808"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "d64cd38dbb9fe19b8c6e17a2df842156364a810a11ca21ea985fcab208171960"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "d6cb9e1bb4397745d356137bde99e267d7507a5ebf7bc371114a2bf23dd1cd72"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "20baf0eaba53ee5e8cf24ac515ee699b219f984afdaadb2970f881f0df1346cb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "4ae1b740dc8f70a465014b3da865f2c9020e172c6ed28a41c434a4c448eab2ac"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "11ec659cca3ab0eed2366bd5c0f3c4efc6310a5502984676af3992cbe8b75586"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "d4ae233e0118716597b8aa7fb24cfbe43ec403990cbd61eb818a917b9b239fc7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "570018e7cc6d6204694a2d4d7bbf78b7690bcea5138052bc6fa584a39207ce85"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "8a410d70ded6d93b31cae18989783c42faedd45cdd5d305f02c7d59e9049fb3c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "5a2bf37b637b0613fba23fdca42b6f745b1e0fbe7028be15b5159072f4d08394"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d2_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "a00a0a968f3cda01ac4838da5104ac377d3e10c743761dd3b882f93bd5f45904"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "7407c032d4e28567d6867c762849f40f9ef5c77407bbe45853fda1dc49007e4a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "f30f18d877e8afc527f98627aa85ad0640e93a73d5f028f3d64758c45ffc4c9d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "10e6c54c97a63462a63b83605be8802e405510edebcf9ee3b8ce1c88af75e7da"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "cd11a981a60627e5f394426635ec74460423bbbd4c175fe77951fb655a94b8ee"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "0ea0b3e8bf3c4cfbb0ca6c8d301aabbecc6e42c4b815e0689c28f3895626f71e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "4e4b2e6d3848bc9524b3d70cf3c48c78415f173eb71c01369413bed8c1496409"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "15363d4c192b51dbbf77f787ad0c367f9dc363cec963956f53848dc84d757cae"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "67b71d096e5100e7f0b6595f398e91e77025e17b3050356e5a750bddfd4ef425"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "a822f1876b63523a1a79eadb4d75e8d02e0a979e2d9dcf204e86f2c60f4ccfb1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "8efd788950fa2886c681e821709aa30bb0c5b05652b0b77d891ad28bd817f7f2"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "c50543ab52d5f4891599d4feec1a5173719b46ad85a718602556bfe3fd7dc111"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "fedd4b7578d48e02245fa1fda6a249417ee68b5aaa794fe0c230a4a8791463e6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "2fc4da24f23ac7c8815363df5e02854139a815233ead056441f868b43645bb21"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "9d57311acf7be095f972079706ea95965dbb92ec80c5e4526eb0e0b73e7cac0d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "2a41b1fd93a52c7e582ee984818f8bdd1bde60a990105bdadaf8ef9ea8f63924"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "93a4b50fc2095c03ff67951752c09e549d0657bcb3d8041aebe46641938e6e0b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "20b80ba25808cec997bbe3a10ae25cc1371641d3d36bc18aa2f1fb6481a3e3e8"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "d2516ec8d3579d2713a584a516b718ac4684a01561270a62cba2797cf611fb8e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "e18432fb05b144630edef02e043351978d95f502844bfb36f9019099854bdc23"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "cd88a8fa0f8f9a3f53b5f4e84a2d522a66544991e74b342080f75834e6d523b1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "bfb13e466f91434d753c3e63f9b310ed47d9dbe79f7ce571dfd445e809447780"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "fe827b2afcfe55429fcdb58a88c31cd689d7ae644950289dfe8b8d34cdb35e0f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "9b845c6e9a8185701b27f2c60deed5f09d246d34d9c325e41b624bae50600202"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "49b7cc1a38b44a9eaf2588c83ea7cc6419527fd43f8e913484df50aeb050c440"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d4_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "2aa5d502746bb57862f9bb724cf299ccb30f336634ba64ce0309a0fe05154f71"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "d8c6b5b049e8f230f35c907229ce988e946e23621ac7bdc09a1344419c3511cb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "3243c2fac1ca40823dcb877a35c3306452d4f889e7b89e3aa30365532299579e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "50d02b7e009542261a64080f9c8a083bf13aae2dcc0aed9c93bd00162dca0f68"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "f23794344b57887b390b6c6b51b38a6441b11e0d47d5da611d5f71f5e38ca42a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "90e7ed275117c4959d4d82f9a48f0fc9bca3fa522a3f9171970c1c153e16cf6a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "b59be4dfb2fc12a4f7af724e670fb3195a1879baaa838dd4cee450987c19ff3d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "7051790277cd70db0eb780328443f8f580232973e9abb8ba420bca9807f3ad36"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "46b3d72ea9ee9ed1946f7af4a8062759089fd73da3a2ca6c8c0c462a4f3518ac"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "eef9afa383e41ce294e34b9d09d3cdd6c5779eb17f777eb20b2665ac3bae32e9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "4a9f54f8d975d06df847de99a0ea154b8a17e1e81b5d411a8a6090a376747c9e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "5dea4a6f307bfd08b90a643c9303c0afc7680b804d8f7faf30e0b0eebf0fdb24"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "38113c82fc74a6078f95860af1b1dce7220c71b35436eee403da3250c5afca3f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "f68e1be9047f69c630a6f7c1b8bca6446a8d762a8733b7b540d78e79bbcf7b2a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "d06c896f20d71b0c8d5fdd0218199f4a907ed02d238f2dcd885195bc43e53b82"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "c34d01496a47f66c5c24bfa35bf81a8e4fb25429b4869514c09848d07f5a9d3c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "bb744911b1017b02f0dd071559dfebc572691a6fab9d760734b4bbbbc3ba798e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "d2a32249d09c421d2a69fd605f86859d7ec84387f994463da5326f73f63065a7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "55652138fff5f6714844b58ef698f61858b773cd0b2c690b974aefeb79bf7259"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "44ecef569a46f922417e4e21b00e5dd530737f74b6e7b6dfc790692d4370d43f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "d5350b4a29bdfb4f677a0ae08bdab242a942d5bc697478222bf258476dae5829"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "463439575ec3274c0e17cfac0d2c4977dcf327446e87cdb6b2b67fb73a63313c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "1a250830893e500ae9f6a79b4153972c5f95038530e20fe7f05a6c66680ddb95"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "29efd1a818524b5b95b509242161e2a802eed81346c06daaf399b37de85c7f95"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "1e022ab34494da3fc38661768f62737d5d6ec5318a1046a779441f2382c25c68"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d8_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "0a6b573ab4a882a7af27f52a1d261c138379597ee949e8b3e430c4745f6cf192"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "0d76aa637da5f23b2986446af5a95349059db6d6acc3993768c69a4883bc3191"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "afb9cb5c695721eccb1b0861c69a5a0bb8ec6f50f76819fdbf2f64e16c24f118"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "a4a8b2f5cc2ad0ad77dce6e5ab3592c32469f28036774b991b213ff02242b9fe"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "489cb966b86319da03deb90d87ef004e9bafd9c8e5e000368d3e551946cac618"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "bbf20eae0d269dfb0aaf55b5d5e6878dff9a9f4f82e293ad3b87eb7f4aee3c41"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "87af6933ee73174fd18be5b9222e63ff5ad067ad47977022ac9bec3a3265072f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "b1de50ae42e00551690b7f94a307214deaf9cbf9e5779c8a40e0a42f274b407a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "130068c95a137338a1f3a5f857347a9984f795357536eaba538f0ecad9ec3639"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "f4222487a4f56e8e9f6b73c54d72c535c7cc30d69d3c0f806e0517067d4cb3c1"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "74b48f6e39d6d51d7043d9c4617a06bfee3b5866da0195d31817de1945cda99a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "bbced58945a5591d376ebf4590869e303e20d510b39931fb3f8b24dad1da2daf"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "b1ac7dda33cbe5d3b6f2ab005f60de2f14772df766da71e669c4ddfa7713127d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "01972d2ff34159eb88c35eaa67fdd9cef0e49d566a581b6ad4d06c38ce77a0b9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "e231646533ca1d8b8a23a40d89379476e970e91e6945ab704416601b0ba63e58"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "7771431e36cd4fd370ad1d9d292eed17fe21287db98bd64126b7b436b57d6ab9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "288654f9212384f5e9cd43874f98f1a0aeb4ff9844b75e564ac235ac4b650b58"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "283ab1ddfae4da44464d9ab5c40ceead947f87d863a2e22f2a0b598991e6c6aa"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "36804146d5defd612dec5b771147ca45333bcf9765dff73b3bc5367262d61058"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "efffdc54f6cd0aeeacef7f47a43d3960ac6888aac7c1cef58044ff802e704d26"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "a350aca0dc7ebd534027cbd717519de5b759605e1063ac7494ba23603d3b34c4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "27ba114f4cf8932a09d89a842293aaa4771c445ec043ee75a3d6ec42d4b7b9e7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "98047c86a04a057577045562f5084c2e853fd86af814669e197c4488a85e8c97"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "c5c59d15d4170f54f6aa6c52578c92c931fc04ab13bbf1f7f75c7ee9e2038f44"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "e63850f38d059d1ce3105e5b8effdafbffb945b4625328a5de117696a3eda2ee"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d16_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "983bdbc18db662ffc1b1a3513df5f00064c1c35b38a3165b54ed5d6f6fdab68a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "40b74efc061f4a585ee694ae6466071802951e79a18783cdffa9d02eb62a6e12"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "fa1a7d90eda3ce725ba70df03ce0d949eeba5c562650d1aaaaf9f6f2cea2fec7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "24ab0d5d4d163ce1899b507a49b1a0775ecd1fd311c5e1e324a4ab093e1e96ea"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "6c83308e4554ace5e3d96db54bed9f84c20696a0b3647d6fa5187ccac46d3219"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "79a244ec5fa135aa45c54a0db2c797a641b097fe8c258d418d3177c7ca6619a7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "fcd19befd32ec72fc5dc740330621bec2b084ebebefa625ccd1e7c6abbc60573"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "a9289d7e3be1da6735b4b6ed0937477082287e74b50072185f035b6ff2d2ed79"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "e754a3beeda9b8fd0a168feb1bd9ea381cd90f99f56121458170bd5db37ca867"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "b87109c423c97f5b8339898764c219577cf1718e47bef4c8ba0d07dadb5f7559"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "41757af9d335aa76f176eb6ac8ae511ac7a8b71ac52cf4bdafa97e47449ed0eb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "a59da0551a4f40566f2b1e03c37f787ddcfb34ff8640bd458e782965470f445c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "ce649fe5adbacb2562e5a4d2a3efe5b98d42356613750c64dc6c2fb9ac94ea00"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "049b8d943b87aee84620bf0b3ab1798544fe0e443fa7b2e5ee310ece3d08cd83"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "6c52be7364052aff938c98aee6dabb7af9269a5ffcd52caab412a654bc9d436d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "5e148419103e6dda3808a3fc76c84ba0ad4578b5f1f8643ee360c0e6c8bed7a4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "ce901d0d0e82d47d879079c4455807e99fa2c547106f68d8fe48dfa511f7142c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "3ce2ffb14ca339a6e310b0389fa16d8cb3d82bbc009cae438460b7120864cac3"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "299a542ebba4d3b4efde1768a0f6177343673909b2445aecc96c753e233d01f0"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "335b37e0728799c8493b9a74f0f57030f9de6daa556f59eaad214b62c643603f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "1852ec299621d002428821464a6f760e98d4ae338183a242c9ee2a0922db695c"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "a7808eb20691aab2a27fc75b6af45bad292bb96eb292750a322be74348af37ec"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "7d24a68970be2d88aed4770106e430c837701feb678fa358861087652102d384"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "45a6fe62503d4dc30b7ea7ffc5cd966a4949971ae721405b60c4c5b2a581197e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "e16bfc4450be9ce84854171687852e3d3739185f300815674a731ed687a0f032"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d32_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "0971421330e83311456e8ccf3969fa5546b0ff7ab20c63ce58914ff5a62c8668"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0_seed101/validation_per_user.parquet",
+        "sha256": "5b8a18b113f0a3fa88fd6da0e8916cc75b72e7930fc1ba14fbe08663920c8489"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0_seed211/validation_per_user.parquet",
+        "sha256": "19dc9f789047fd25f14426753c3ad27c474ef6b71a8c6e95fe2f677d2cce2bcb"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0_seed307/validation_per_user.parquet",
+        "sha256": "3ae43433cef4ec5dd2715191edee5b0adb61e45f789cf96c84424f592c538af6"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0_seed401/validation_per_user.parquet",
+        "sha256": "8ba120628d048c09720f909612817ab9aa8dba05ced77a03bde90a3fb5b3fca7"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0_seed503/validation_per_user.parquet",
+        "sha256": "9220869de026a5f3bb6a04c2e07bbfe27403bd49901b510cce8137faeb0b2c86"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.0001_seed101/validation_per_user.parquet",
+        "sha256": "4e18225a1dc5e91dd9fee40d42077044a78a15df99c59f0bcb2fc7caaf2bba3e"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.0001_seed211/validation_per_user.parquet",
+        "sha256": "745beccf065943951c14913a11b279d62ee07fd5e5c6274e1f6f9ca3807da943"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.0001_seed307/validation_per_user.parquet",
+        "sha256": "36fabb8a742627c9d867a7da90d31d77e732c17f49fce2c63bf6debbfebb1a8f"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.0001_seed401/validation_per_user.parquet",
+        "sha256": "7fd4f2c350d76fb74527cbb8d3d783f2548aff432bf840f230ad28d41adb9ea4"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.0001_seed503/validation_per_user.parquet",
+        "sha256": "cd48b03e44982e89c23f9857373806de3cb634b73ea08e950cfb8041ad11d802"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.001_seed101/validation_per_user.parquet",
+        "sha256": "d5b815810776c4fd564b4a8ac86596d9cfda98a09af625daef396fabe7ebc057"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.001_seed211/validation_per_user.parquet",
+        "sha256": "3b6c256f7108202b1c9c2641ab9a821e21085f048cd9c2c0ca0c7cb50bd3f173"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.001_seed307/validation_per_user.parquet",
+        "sha256": "ead1d0c13f23e69bccb55b31711e5738db16f27f1bbf8da1813a3376e607dbb9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.001_seed401/validation_per_user.parquet",
+        "sha256": "c1c8803f6ac80f7b1757ad776e298c169bc55ddbe22bf52200ce6fbb94f6fbd9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.001_seed503/validation_per_user.parquet",
+        "sha256": "ad1cf101852fc3dfb919bfff811a1b58ac1150659a82b6cd6756712672be5601"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.01_seed101/validation_per_user.parquet",
+        "sha256": "8976df323448749ed165b22009fd3ee921613dce22f8b18cc8c877661fb4217b"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.01_seed211/validation_per_user.parquet",
+        "sha256": "56139be1af9904445d772668d6791f8c1583a62716264b9c1bb12c74b10ff62d"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.01_seed307/validation_per_user.parquet",
+        "sha256": "88549f787bbe657374b8459dcfe02515e6469a2ab57e14497f5f98cf1c742ff9"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.01_seed401/validation_per_user.parquet",
+        "sha256": "06e3b2c4a5aae94fc3253e7d33b082542f17b32b7f479c00beb584b7dcfc5f53"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.01_seed503/validation_per_user.parquet",
+        "sha256": "a3d2eb36fc63731808ac7a72bbf390599dea92e5677c627147476b16d5589024"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.1_seed101/validation_per_user.parquet",
+        "sha256": "59c241c32c2c01a483b1019b4da7fee4a8f32883ac3046de7562594e75896447"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.1_seed211/validation_per_user.parquet",
+        "sha256": "7fb2190dbd61a9b482606420949b5218bf25fb9c0ae06c7639a183cab843121a"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.1_seed307/validation_per_user.parquet",
+        "sha256": "901b3f340ad56b0b77eae5f3364c17cf9cfec5b5fa7d8879dfc61314b75660ce"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.1_seed401/validation_per_user.parquet",
+        "sha256": "1b2d119f4e894def51510464789db8c4ec73dd104c9e442044f090467ce58a57"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/d64_lambda0.1_seed503/validation_per_user.parquet",
+        "sha256": "96d1d66623da56a7b3110a796bd092855b28b982e100db8f69ac225c448ebaba"
+      },
+      {
+        "path": "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/framework_selection.json",
+        "sha256": "8dc28948197a4c40a662493b2b8d9f40be2ffc5dde43baabd9d9ef92049ad285"
+      }
+    ],
+    "margins": [
+      0.001,
+      0.0025,
+      0.005,
+      0.01
+    ],
+    "model_fits": 0,
+    "outputs": [
+      {
+        "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/full_cohort_selections.csv",
+        "sha256": "c3a06cfc6b063cb6dfebf934b0375705fb818768fd3e7158099e72233ee78dd0"
+      },
+      {
+        "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/paired_selector_agreement.csv",
+        "sha256": "668fa1972c6bd6a437065a0d4c846d35f975c945f5d789ed114cda4830e44689"
+      },
+      {
+        "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/reference_frequencies.csv",
+        "sha256": "83ea3d10197ccf3302769161eb0310891f1a3dceca4f6a1a92864156f0b660c7"
+      },
+      {
+        "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_draws.csv",
+        "sha256": "76005f35835ef6cefb3797d2b42fcd4b4b8f8af7985588b5d73b94202f95257b"
+      },
+      {
+        "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_frequencies.csv",
+        "sha256": "5b759932810360ffae2452932129620d693c0f1877093d3d68dddbc68b5d8340"
+      },
+      {
+        "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/selection_stability_summary.csv",
+        "sha256": "6ae7f9d1e8a7050cfb4bbae6a26263550bbbd8a5afbe2995a7992a66fd0dd521"
+      },
+      {
+        "path": "output/latent_factor_major_revision_2026-09-14/user_resampling/shared_user_multiplicities.npz",
+        "sha256": "6037db82413049ea4d4d488e1fe5dcc839a8cbfd9b4607073af155c2a0ef8aca"
+      }
+    ],
+    "ranking_reference_reselected_per_draw": true,
+    "retentions": [
+      "r100",
+      "r075",
+      "r050",
+      "r025"
+    ],
+    "revision_environment": {
+      "numpy": "1.21.5",
+      "pandas": "1.5.3",
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "python": "3.10.9 (main, Mar  1 2023, 12:20:14) [Clang 14.0.6 ]",
+      "scipy": "1.10.0"
+    },
+    "same_user_draw_across_configurations_seeds_and_retentions": true,
+    "script": {
+      "path": "scripts/latent_factor/revision_user_resampling.py",
+      "sha256": "07104c8396172dcf45bfa60c4fb68af90f5d51524e4bb0d6ba47b73062311d29"
+    },
+    "seed": 20260914,
+    "seeds_selected_by": "manually fixed in pre-execution revision protocol",
+    "stage": "revision_stage_fixed_model_validation_user_resampling",
+    "test_data_accessed": false,
+    "training_seconds": "original recorded grid values held fixed",
+    "training_seeds": [
+      101,
+      211,
+      307,
+      401,
+      503
+    ]
+  },
+  "not_canonical_original": true,
+  "source_path": "output/latent_factor_major_revision_2026-09-14/user_resampling/manifest.json",
+  "source_sha256": "5741b4d70fef615f0176e92e9d626451d9bf5cd8084564933e95e50ba40578bd",
+  "transformation": "Machine paths relocated/omitted and row-level identifier lists omitted; original locks not rewritten"
+}

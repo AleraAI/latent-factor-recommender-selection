@@ -1,0 +1,82 @@
+{
+  "inputs": [
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/validation_selections.csv",
+      "sha256": "b15ca3659da9bb6f03fbd66928bcb3a5b110e2636c9e03a86e8be2471375baef"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/selection_outcomes.csv",
+      "sha256": "8db793236540425f6b4fd93913cec20cd0042ecf14af54ae125cf0d58eb09287"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/paired_test_contrasts.csv",
+      "sha256": "9bad1c548ef508fceb0b64961afb4d224f41960e3caa4218a3b688750b97fc5d"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/protocol_audit/configuration_registry.csv",
+      "sha256": "ce494e3c6404979ecd31da097b50b6aa8d90f10f50c709ece1303a409fdd6708"
+    }
+  ],
+  "script": {
+    "path": "scripts/latent_factor/revision_report_tables.py",
+    "sha256": "2a0e688adc3071011dc9c51e0b9e33a46665fd065bfb7251a9a70a85ca1835f5"
+  },
+  "outputs": [
+    {
+      "path": "papers/latent_factor_beyond_rmse/generated/review_r1/uncertainty_ablation.tex",
+      "sha256": "92323c4ca159047e1946df5c2ec44c4f5486e5248aaf76bf7f6e650df9893f46"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/uncertainty_ablation.csv",
+      "sha256": "8b45062d3d91bedfe276b4c47770375960ff7a206bee4faef19a10cf0b262156"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/generated/review_r1/margin_summary.tex",
+      "sha256": "bbe2a7bd7b43ff34acb5fef8d0cf8e2c0c4ec19ef508352db5f1f10ac2f69438"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/generated/review_r1/margin_details_movielens_1m.tex",
+      "sha256": "64c669375cf4c4f1a9c58c71708204a7eabe7fd8092d8436c4c1dd7c4447e9df"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/generated/review_r1/margin_details_ciaodvd.tex",
+      "sha256": "ebfb4ed8fbfdf112e8ed99c724e4976fffaf94dece2e0292d3ec39f0bceb7302"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/generated/review_r1/margin_details_yelp_tampa_restaurants.tex",
+      "sha256": "46e19d51b4e61d24b9c780eb0c86ebc9fe9344b3e0c369b049168eeac7da2e79"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/generated/review_r1/margin_details_epinions.tex",
+      "sha256": "d5e777dcfdc8eb0cff036450ede91ee8011e5229358da2958412a3f584c99821"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/margin_details.csv",
+      "sha256": "c14645e445128f56245f10ece0fab40df4f2df22cc3783f7c684d47c8b4b4274"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/ranking_references.csv",
+      "sha256": "8ad948eb7b518ab10cb114478ac25573d6bf0df211845a8b91ed0952e00daf9e"
+    },
+    {
+      "path": "papers/latent_factor_beyond_rmse/generated/review_r1/joint_primary_tradeoff.tex",
+      "sha256": "8f196de8bc602997bdf15b556c6618921c46d2fb0b0e6046ea3e85fb8162113f"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/joint_primary_tradeoff.csv",
+      "sha256": "b954045df7b1c4f80d310a1b4608f363821fff2f1ceeeee21ed7c656c9438c5e"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/report_tables/report_summary.json",
+      "sha256": "8020522cfd08bad4a1c8716dea226e6825f30ce6c2e11bcfc9e07bce06f26de0"
+    }
+  ],
+  "checks": [
+    "All16conditions\u00d74margins\u00d74selector identities preserved; exact aliases checked.",
+    "Outcome keys/identities/admissibility match frozen validation selections.",
+    "Unavailable output displayed as dash; available test rows require5seeds.",
+    "UA-minus-mean NDCG interval sign reversal swaps endpoints.",
+    "Subset sizes nested and selected minimum validation RMSE nonincreasing across margins.",
+    "Input hashes unchanged across report generation."
+  ]
+}

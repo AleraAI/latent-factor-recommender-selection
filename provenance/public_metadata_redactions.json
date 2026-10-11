@@ -1,0 +1,174 @@
+{
+  "scope": "Public projections of preprocessing manifests; frozen configurations and selection locks are unchanged.",
+  "reason": "Exclude row-level interaction hash lists while retaining aggregate protocol metadata. Canonical hashes refer to original local artifacts; original_release hashes identify the previously portable repository copies.",
+  "entries": [
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/ciaodvd/sparsity_manifest.json",
+      "original_release_sha256": "4b45c70d0bb026431c69f01e2b997c847c6f44d9c638f731a1d88ad7eaadc396",
+      "original_release_bytes": 7206,
+      "canonical_sha256": "32c160e5eaf85ec4f260c99e5f502b9cb7d879d8bd79974474cdf4f4007640d8",
+      "canonical_bytes": 7338,
+      "exported_sha256": "e8ee42accdb604434c73093b51ca9745e8cafc4e19bb4cc41ff3c6ce33ae9d35",
+      "exported_bytes": 4400,
+      "removed_fields": [
+        "conditions.r025.repaired_interaction_ids",
+        "conditions.r050.repaired_interaction_ids",
+        "conditions.r075.repaired_interaction_ids",
+        "conditions.r100.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/movielens_1m/sparsity_manifest.json",
+      "original_release_sha256": "11ede182bf874de62c140ec2905576adc5f2395390c7ea7fdfc6003bb98e5b6b",
+      "original_release_bytes": 6438,
+      "canonical_sha256": "e81ef51f7be8961cc9c3724e06f47eb39149da2b272511d1c2007ece3bfe4690",
+      "canonical_bytes": 6570,
+      "exported_sha256": "12ccad661fe5950c2bf7b5113bd64e8a1e8b996f1e1a88e5db72de3edd354c80",
+      "exported_bytes": 4468,
+      "removed_fields": [
+        "conditions.r025.repaired_interaction_ids",
+        "conditions.r050.repaired_interaction_ids",
+        "conditions.r075.repaired_interaction_ids",
+        "conditions.r100.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse/yelp_tampa_restaurants/sparsity_manifest.json",
+      "original_release_sha256": "85eb20b9c9f010c777f90cfee03d2787d0fe6f08b87e275e12f8b5aec3af1d9d",
+      "original_release_bytes": 9138,
+      "canonical_sha256": "410e99e3969163e2f611fe347b0bf82f0694914016049566cc101a1d337d4c9d",
+      "canonical_bytes": 9270,
+      "exported_sha256": "c8547a37d940c9c7513c8c2af8ce92a4b6f7a5fb58a9d1c227cd607c6580d611",
+      "exported_bytes": 4502,
+      "removed_fields": [
+        "conditions.r025.repaired_interaction_ids",
+        "conditions.r050.repaired_interaction_ids",
+        "conditions.r075.repaired_interaction_ids",
+        "conditions.r100.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260819/ciaodvd/nested_retention_manifest.json",
+      "original_release_sha256": "23b2af19f52d706121719e092df6b8fac0bb3b321e888bc2ea603c1e39e00259",
+      "original_release_bytes": 5247,
+      "canonical_sha256": "bc1bc70cb1b6f0347d4a0c8793790d5737422e596d6a9d617a37afd2327c3210",
+      "canonical_bytes": 5379,
+      "exported_sha256": "fd988d5d47ca0ee25fb7a8aec011e44b6367b110d3e814d0516c73142d5c3212",
+      "exported_bytes": 3005,
+      "removed_fields": [
+        "family.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260819/movielens_1m/nested_retention_manifest.json",
+      "original_release_sha256": "67aedb142efbcbea4c6e902b52990ed6a67d8789a2182b9f7f87af36c4ca3bd2",
+      "original_release_bytes": 4786,
+      "canonical_sha256": "77be0b43f8d319d376cbdf72953de49d4b3f62d1874d8bf10f6c7a9581a323bd",
+      "canonical_bytes": 4918,
+      "exported_sha256": "529825302324e695f7bff3eb2237b2e5c92d0f0cd20f9c1f388f65364b040a2f",
+      "exported_bytes": 3062,
+      "removed_fields": [
+        "family.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260819/yelp_tampa_restaurants/nested_retention_manifest.json",
+      "original_release_sha256": "9aa1220f4683ec1291d74c1713ee99e3424543795921828ff23032ae61a13032",
+      "original_release_bytes": 7711,
+      "canonical_sha256": "66ce5d563a9b330e5c4ac0a19c17b3d84586112217934dd090fda23fd5dcc377",
+      "canonical_bytes": 7843,
+      "exported_sha256": "3bccff06d73dbed33bc3ddffd9caec85878464a26340960b524005a0f13bfa89",
+      "exported_bytes": 3101,
+      "removed_fields": [
+        "family.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260829/ciaodvd/nested_retention_manifest.json",
+      "original_release_sha256": "8d6694f3a93fddce93b4604b37ca5311f35b8ceb7d07b0cda48f0e3cd0a00258",
+      "original_release_bytes": 5174,
+      "canonical_sha256": "f33369734ae30eaac5cc8dcea32666837feef16d3f107e151a0b0a39fbcc9da2",
+      "canonical_bytes": 5306,
+      "exported_sha256": "ad1d81736463d2abe9d13775b4f2e09415941c56ebd23e8cc5eb5f91537510c4",
+      "exported_bytes": 3006,
+      "removed_fields": [
+        "family.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260829/movielens_1m/nested_retention_manifest.json",
+      "original_release_sha256": "80576ae8b408b1ef5bc3d2d4b1819ba25d05ad3e346f7c3068ec07f1f1c55bdb",
+      "original_release_bytes": 5009,
+      "canonical_sha256": "4f807583c76e2d48d3f34cfdc2f11246a176a0cb21260d14d5459875ae6d009f",
+      "canonical_bytes": 5141,
+      "exported_sha256": "9f20bd286a8bf947cc4de3e5fb802776674ea10d17c4c4175b1563382a982e2c",
+      "exported_bytes": 3063,
+      "removed_fields": [
+        "family.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260829/yelp_tampa_restaurants/nested_retention_manifest.json",
+      "original_release_sha256": "bffcbf69088af0365a585b8b7556c6c30a67234bce41b041a6bae2f2c95b0648",
+      "original_release_bytes": 7413,
+      "canonical_sha256": "a6eaf4048f49f64bfa09e89f5e152bff1e2d704fc4861162b519ac31fd38386f",
+      "canonical_bytes": 7545,
+      "exported_sha256": "831eb98c411f3508e3a161b37ac611dc5dcee25ab7068fcd59508e9c86be6f2f",
+      "exported_bytes": 3099,
+      "removed_fields": [
+        "family.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260907/ciaodvd/nested_retention_manifest.json",
+      "original_release_sha256": "082cd203fcf9de365620b2f13f768d10e9cb8dc4461409f48ea17f68b6fd50df",
+      "original_release_bytes": 5395,
+      "canonical_sha256": "9c34ef4f4ee5458c27f46f08d7ef74c80e4d714f97dc643197dfb67573da88ec",
+      "canonical_bytes": 5527,
+      "exported_sha256": "e57686a3035f404365b26a5857a9037e0ef90f3f3b889e124d9b5b0838aad863",
+      "exported_bytes": 3005,
+      "removed_fields": [
+        "family.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260907/movielens_1m/nested_retention_manifest.json",
+      "original_release_sha256": "b22b9c29c63c0d01fde6bb7f89ad99b479e01f750cf4e80b79cbd1ac8a073afd",
+      "original_release_bytes": 5673,
+      "canonical_sha256": "301224cb7056a4dff840d098cfeacd7b4417c6101de675f89d5d33e14060b852",
+      "canonical_bytes": 5805,
+      "exported_sha256": "9a51c935ffc1942f417383458c6ca3849c0b84406a83503c7fc1b3c358e3a31f",
+      "exported_bytes": 3061,
+      "removed_fields": [
+        "family.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260907/yelp_tampa_restaurants/nested_retention_manifest.json",
+      "original_release_sha256": "885c9bc94792dd976c6bdd69933819a0d7ae7c88f2c72912332cf34c52086d72",
+      "original_release_bytes": 7342,
+      "canonical_sha256": "f8c170e11e6c369e4f35d66c48506157919fa5ef8ed18f630f4d13271139e1aa",
+      "canonical_bytes": 7474,
+      "exported_sha256": "d06b2bab38ae280140546bea655b803f0e6b544426816a258407dcf824d5592d",
+      "exported_bytes": 3102,
+      "removed_fields": [
+        "family.repaired_interaction_ids"
+      ]
+    },
+    {
+      "path": "data/splits/latent_factor_framework_epinions/epinions/sparsity_manifest.json",
+      "original_release_sha256": "a8ca959bdfb915c6e11069b3c139584da650f4b9ea496e01b0fb19b018574457",
+      "original_release_bytes": 68026,
+      "canonical_sha256": "758ab0f3d175f60798f322c17897c3057f8d9c1a8e57b0671f2173277a01d98c",
+      "canonical_bytes": 68158,
+      "exported_sha256": "f763198f8d45b12efd99e1b17528dccce189c5aeb226e5a6cb51a7dfa9594889",
+      "exported_bytes": 4494,
+      "removed_fields": [
+        "conditions.r025.repaired_interaction_ids",
+        "conditions.r050.repaired_interaction_ids",
+        "conditions.r075.repaired_interaction_ids",
+        "conditions.r100.repaired_interaction_ids"
+      ]
+    }
+  ]
+}

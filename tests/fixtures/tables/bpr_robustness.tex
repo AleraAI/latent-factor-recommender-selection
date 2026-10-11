@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Post-confirmation independent BPR tuning and fixed-configuration negative pool sensitivity. Configuration tuples are $(d,\lambda,\eta,m)$ for dimension, regularization, learning rate, and negatives per positive, and every selected checkpoint is at 100 epochs. The configuration is selected for retained unobserved sampling and then reused, without retuning, for the full training positive oracle (Oracle) and retained explicit negative (Exp.-neg.) pools. Test NDCG@10 is averaged over five fresh seeds. $\Delta_X$ is Unobs. BPR minus the expanded NDCG-selected explicit MF. Withheld $+$ is the sampled negative rate during epoch 100 for Unobs. items that are positives in full training; it is not a cumulative rate across epochs.}
+\label{tab:bpr-robustness}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Dataset & Ret. & BPR configuration & Unobs. & Oracle & Exp.-neg. & $\Delta_X$ & Withheld $+$ \\ 
+\midrule
+MovieLens 1M & 100\% & $(256,10^{-2},10^{-3},5)$ & 0.0887 & 0.0887 & 0.0233 & +0.0657 & 0.00\% \\
+ & 75\% & $(256,10^{-2},10^{-3},3)$ & 0.0879 & 0.0885 & 0.0221 & +0.0634 & 1.32\% \\
+ & 50\% & $(256,10^{-2},10^{-3},5)$ & 0.0854 & 0.0870 & 0.0219 & +0.0594 & 2.56\% \\
+ & 25\% & $(256,10^{-2},10^{-3},5)$ & 0.0775 & 0.0808 & 0.0221 & +0.0509 & 3.67\% \\
+\addlinespace
+CiaoDVD & 100\% & $(256,10^{-2},10^{-2},5)$ & 0.0489 & 0.0489 & 0.0275 & +0.0245 & 0.00\% \\
+ & 75\% & $(256,10^{-2},10^{-2},5)$ & 0.0502 & 0.0516 & 0.0253 & +0.0247 & 1.07\% \\
+ & 50\% & $(256,10^{-1},0.003,3)$ & 0.0446 & 0.0472 & 0.0243 & +0.0249 & 1.98\% \\
+ & 25\% & $(4,10^{-1},10^{-2},1)$ & 0.0294 & 0.0299 & 0.0212 & +0.0103 & 2.63\% \\
+\addlinespace
+Yelp--Tampa & 100\% & $(256,10^{-2},0.003,5)$ & 0.0500 & 0.0500 & 0.0110 & +0.0388 & 0.00\% \\
+ & 75\% & $(256,10^{-2},10^{-3},3)$ & 0.0442 & 0.0450 & 0.0119 & +0.0330 & 0.48\% \\
+ & 50\% & $(1,1,10^{-3},1)$ & 0.0463 & 0.0459 & 0.0117 & +0.0353 & 0.91\% \\
+ & 25\% & $(1,10^{-1},0.003,1)$ & 0.0456 & 0.0453 & 0.0204 & +0.0340 & 1.28\% \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

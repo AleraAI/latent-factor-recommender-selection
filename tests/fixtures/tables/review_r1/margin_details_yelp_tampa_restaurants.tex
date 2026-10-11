@@ -1,0 +1,50 @@
+\begin{table}[H]
+\centering
+\caption{Revision-stage margin sensitivity for Yelp--Tampa. All 32 retention--margin--rule selections are shown. Test metrics are arithmetic averages across five model-seed evaluations, not predictions averaged into an ensemble. Validation RMSE and test RMSE are global event-weighted measures within a model seed. Configuration aliases are defined in \Cref{tab:config-registry}; $|A|$ denotes admissible candidates. Every displayed test result has all five model seeds. Reference NDCG scores, signed absolute and relative test regrets, and uncertainty intervals are retained in the machine-readable reports.}
+\label{tab:margin-details-yelp-tampa-restaurants}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llccrrrrr@{}}
+\toprule
+Retention & $\delta$ & Rule & ID & $|A|$ & Val. RMSE & Val. NDCG@10 & Test RMSE & Test NDCG@10 \\
+\midrule
+100\% & 0.0010 & Mean & C33 & 3 & 1.14849 & 0.00982 & 1.21785 & 0.01042 \\
+ &  & UA & C33 & 3 & 1.14849 & 0.00982 & 1.21785 & 0.01042 \\
+ & 0.0025 & Mean & C34 & 8 & 1.12051 & 0.00866 & 1.19503 & 0.00953 \\
+ &  & UA & C34 & 4 & 1.12051 & 0.00866 & 1.19503 & 0.00953 \\
+ & 0.0050 & Mean & C35 & 14 & 1.05326 & 0.00565 & 1.13817 & 0.00623 \\
+ &  & UA & C34 & 11 & 1.12051 & 0.00866 & 1.19503 & 0.00953 \\
+ & 0.0100 & Mean & C05 & 35 & 1.05039 & 0.00270 & 1.12795 & 0.00333 \\
+ &  & UA & C05 & 35 & 1.05039 & 0.00270 & 1.12795 & 0.00333 \\
+\addlinespace
+75\% & 0.0010 & Mean & C33 & 3 & 1.13992 & 0.01197 & 1.20542 & 0.01099 \\
+ &  & UA & C33 & 3 & 1.13992 & 0.01197 & 1.20542 & 0.01099 \\
+ & 0.0025 & Mean & C34 & 5 & 1.11939 & 0.01054 & 1.18858 & 0.01007 \\
+ &  & UA & C34 & 4 & 1.11939 & 0.01054 & 1.18858 & 0.01007 \\
+ & 0.0050 & Mean & C35 & 12 & 1.06337 & 0.00731 & 1.14268 & 0.00703 \\
+ &  & UA & C34 & 8 & 1.11939 & 0.01054 & 1.18858 & 0.01007 \\
+ & 0.0100 & Mean & C05 & 35 & 1.06074 & 0.00306 & 1.14047 & 0.00335 \\
+ &  & UA & C35 & 33 & 1.06337 & 0.00731 & 1.14268 & 0.00703 \\
+\addlinespace
+50\% & 0.0010 & Mean & C33 & 3 & 1.12555 & 0.01165 & 1.19728 & 0.01070 \\
+ &  & UA & C33 & 3 & 1.12555 & 0.01165 & 1.19728 & 0.01070 \\
+ & 0.0025 & Mean & C34 & 12 & 1.11254 & 0.01034 & 1.18656 & 0.01007 \\
+ &  & UA & C34 & 4 & 1.11254 & 0.01034 & 1.18656 & 0.01007 \\
+ & 0.0050 & Mean & C35 & 21 & 1.07269 & 0.00724 & 1.15283 & 0.00730 \\
+ &  & UA & C34 & 16 & 1.11254 & 0.01034 & 1.18656 & 0.01007 \\
+ & 0.0100 & Mean & C35 & 35 & 1.07269 & 0.00724 & 1.15283 & 0.00730 \\
+ &  & UA & C35 & 35 & 1.07269 & 0.00724 & 1.15283 & 0.00730 \\
+\addlinespace
+25\% & 0.0010 & Mean & C14 & 4 & 1.17344 & 0.01203 & 1.24287 & 0.01094 \\
+ &  & UA & C13 & 3 & 1.17831 & 0.01250 & 1.24727 & 0.01142 \\
+ & 0.0025 & Mean & C34 & 22 & 1.10974 & 0.01019 & 1.18708 & 0.01015 \\
+ &  & UA & C32 & 6 & 1.11558 & 0.01122 & 1.19231 & 0.01043 \\
+ & 0.0050 & Mean & C35 & 31 & 1.08943 & 0.00943 & 1.16811 & 0.00928 \\
+ &  & UA & C34 & 27 & 1.10974 & 0.01019 & 1.18708 & 0.01015 \\
+ & 0.0100 & Mean & C35 & 35 & 1.08943 & 0.00943 & 1.16811 & 0.00928 \\
+ &  & UA & C35 & 35 & 1.08943 & 0.00943 & 1.16811 & 0.00928 \\
+\bottomrule
+\end{tabular}%
+}
+\par\smallskip\footnotesize The fixed validation-NDCG reference IDs are 100\%: C31; 75\%: C32; 50\%: C31; 25\%: C11. Relative regret uses the corresponding reference test NDCG denominator; a near-zero denominator is flagged rather than replaced with an epsilon.
+\end{table}

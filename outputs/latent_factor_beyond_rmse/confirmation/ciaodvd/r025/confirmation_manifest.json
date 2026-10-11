@@ -1,0 +1,131 @@
+{
+  "dataset": "ciaodvd",
+  "expected_runs": 10,
+  "observed_runs": 10,
+  "retention_label": "r025",
+  "runs": [
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "768cd5b28eba75cee4d156e586e8a0a25aa7fbd71e117372cce3e51e6e67696d",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed601/summary.json",
+      "summary_sha256": "9a87837f5a6f2c2a5c1226a9fc7add9e6f786d52b0462585c452347ec4a9da84"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "b9b596049f2306e87f871bd2e47572ecebcd74f866a06f2719168c8a01d0b8cc",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed701/summary.json",
+      "summary_sha256": "46f7b7c4326b3b6d41b4941473efe1bddf604d284e6e97f3683a111f50c15f2a"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "9ff92c5157e3ba60be0724d32a44f2384dfcfd8af5d90a86ced819e46e6b9cc9",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed809/summary.json",
+      "summary_sha256": "f671ad88a3d76211ffac7020a195820c494fda43a1b3d49864a030e473c6c18b"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "7cbd32e802b68736e564929f9eb76fff87c34d20b4c474b3b966a1a349185480",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed907/summary.json",
+      "summary_sha256": "602c1b587c1962589852324f30f809e5f91578a31092107bb207180cc096946e"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "ef40c13cb9171bd758a9f294efdf6790d38fac3d53232b1b7d70a2d8a60f30fa",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "rmse_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/rmse_selected/d1_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "c72db9a72b9644b31e8b5a78681f3c582ac33f78fe547c2fc8275154e9f3b81b"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed601/test_per_user.parquet",
+      "per_user_sha256": "93e5c402ad6fd3e828097d44e7c267c1417231ebae01d7575a958a9cb5f66bac",
+      "regularization": 0.01,
+      "seed": 601,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed601/summary.json",
+      "summary_sha256": "a46f9eeac12fdbd7aae3a43e455d179b5eae752555c870047aef336b6acf1976"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed701/test_per_user.parquet",
+      "per_user_sha256": "5c20cb2658de1bd6e05c90d5b0667df44810f31af58127f6a7d60def0cdd9ef1",
+      "regularization": 0.01,
+      "seed": 701,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed701/summary.json",
+      "summary_sha256": "fa06a51f3f30fdc7bec4015e8212a9fb447e1559e8510e2e6b1efcec73f0d119"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed809/test_per_user.parquet",
+      "per_user_sha256": "32307453fcdd3442dda823233a39ea2ffaaeb7fee3845bbbb076ab321606f6f1",
+      "regularization": 0.01,
+      "seed": 809,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed809/summary.json",
+      "summary_sha256": "ebfa6fe6277c6ee0e0aa27afc0f8c07dc3aa1c15497fa0c0c4b0b1ec154262db"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed907/test_per_user.parquet",
+      "per_user_sha256": "62613d52c0916ce322383acc9230dff4d0145cabf8eb59fc6a10ba5a2e6cbc51",
+      "regularization": 0.01,
+      "seed": 907,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed907/summary.json",
+      "summary_sha256": "e1e3b02de2a6325c6b28079e561873924df2b440496dd06aa3f7089cdac55132"
+    },
+    {
+      "dimension": 32,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed1009/test_per_user.parquet",
+      "per_user_sha256": "26bae541b15f11af31bd769d04807ace586036c5eb2627ec367056b9adf27877",
+      "regularization": 0.01,
+      "seed": 1009,
+      "selection_roles": [
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r025/ndcg_selected/d32_lambda0.01_seed1009/summary.json",
+      "summary_sha256": "33d8ec39651d473512a3cde770c93a334d644a4e84e53c53cde685af1920d013"
+    }
+  ],
+  "schema_version": 1,
+  "selection_lock_sha256": "d608fbefa6021f81ebeac2ce50c038645142ce2ed754939ab9921675a70c90bf",
+  "stage": "locked_test_confirmation"
+}

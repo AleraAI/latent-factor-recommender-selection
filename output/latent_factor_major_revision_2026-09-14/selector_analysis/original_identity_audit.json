@@ -1,0 +1,178 @@
+[
+  {
+    "dataset": "movielens_1m",
+    "framework_artifact_sha256": "78d27ef074f927869dc4b6feaa90fb37f24df1e02c9d02f17227d4a8a5b12855",
+    "grid_sha256": "1a2e2732bbca468584b3ce8edb80b005de80478e7e65ccd9ebc2f7caa642dab0",
+    "original_ndcg": "d32_lambda0.1",
+    "original_rmse": "d16_lambda0.1",
+    "original_ua": "d16_lambda0.1",
+    "original_ua_admissible": 11,
+    "retention": "r100",
+    "rows": 175
+  },
+  {
+    "dataset": "movielens_1m",
+    "framework_artifact_sha256": "cfefc99d751b963a52f0e9890133209f356ef683ba098ec149610170d6fc7dda",
+    "grid_sha256": "da586fc688fcfaf0a6be32e65f5f2645f728554d38eb84b1d63daba21eceeb58",
+    "original_ndcg": "d64_lambda0.1",
+    "original_rmse": "d16_lambda0.1",
+    "original_ua": "d16_lambda0.1",
+    "original_ua_admissible": 4,
+    "retention": "r075",
+    "rows": 175
+  },
+  {
+    "dataset": "movielens_1m",
+    "framework_artifact_sha256": "b949ad255c2575d2614be32ae40aaabb5c55f002553087bfae9be5f8b3467b87",
+    "grid_sha256": "85541042d1dc0d07164d4d027dc8c37f35a4c69bbceaca5bc190ef518e3d78ab",
+    "original_ndcg": "d64_lambda0.1",
+    "original_rmse": "d8_lambda0.1",
+    "original_ua": "d64_lambda0.1",
+    "original_ua_admissible": 3,
+    "retention": "r050",
+    "rows": 175
+  },
+  {
+    "dataset": "movielens_1m",
+    "framework_artifact_sha256": "d57d81ff7b59f6edda5a003aeb82b0171fb8326b92f42c834c3da9f770b14354",
+    "grid_sha256": "ad045b1cd6087a26f75f8b496506daf41a69f1efe03d7064c9eb1608f0cd8891",
+    "original_ndcg": "d64_lambda0.01",
+    "original_rmse": "d1_lambda0.1",
+    "original_ua": "d64_lambda0.1",
+    "original_ua_admissible": 5,
+    "retention": "r025",
+    "rows": 175
+  },
+  {
+    "dataset": "ciaodvd",
+    "framework_artifact_sha256": "c56fba7e5e5c7f00020d87e2d8c63a7fbda8a05175643ea1a3d2481ac6a76b59",
+    "grid_sha256": "777320759d3eaa06e1183f83fb30d14b8d2d0b19c7cf2c54c01d5037bae0f06e",
+    "original_ndcg": "d64_lambda0.1",
+    "original_rmse": "d1_lambda0.1",
+    "original_ua": "d64_lambda0.1",
+    "original_ua_admissible": 5,
+    "retention": "r100",
+    "rows": 175
+  },
+  {
+    "dataset": "ciaodvd",
+    "framework_artifact_sha256": "fb46412b33652ee35247df2ffd0e103660731e69ecc13c305d5f38f6a46a9abc",
+    "grid_sha256": "88b9818950a1b16378dfdfe9478df18c7a3a6c57bf54846891ed01a90735670e",
+    "original_ndcg": "d64_lambda0.001",
+    "original_rmse": "d2_lambda0.1",
+    "original_ua": "d1_lambda0.001",
+    "original_ua_admissible": 16,
+    "retention": "r075",
+    "rows": 175
+  },
+  {
+    "dataset": "ciaodvd",
+    "framework_artifact_sha256": "f3e78329622a07bbb626660a10424e3af7f53738362dfd1a3073b46d07765f14",
+    "grid_sha256": "95f4b0c99c695577432f59b4e5406953bbaee9b268025b81f19c763984ef1ad4",
+    "original_ndcg": "d1_lambda0.1",
+    "original_rmse": "d1_lambda0.1",
+    "original_ua": "d1_lambda0.1",
+    "original_ua_admissible": 1,
+    "retention": "r050",
+    "rows": 175
+  },
+  {
+    "dataset": "ciaodvd",
+    "framework_artifact_sha256": "d6e05107badcc5088fb4ba8b3fb603f9ecde3458c6ee9aa23f7a902150a0ba0e",
+    "grid_sha256": "c4fc7479446b0fae329b9223ad8c5f4a19e6b72886fb0eaef6d646ea981d6be9",
+    "original_ndcg": "d32_lambda0.01",
+    "original_rmse": "d1_lambda0.1",
+    "original_ua": "d32_lambda0.1",
+    "original_ua_admissible": 10,
+    "retention": "r025",
+    "rows": 175
+  },
+  {
+    "dataset": "yelp_tampa_restaurants",
+    "framework_artifact_sha256": "f4d38c8a3ed49f363c7db93aa64bfac694ccc0de5f7732ed86d2ced7a5653040",
+    "grid_sha256": "44e2582da84639f9fdac65a661396dce9cf2d5662d9421e5ebf0156d22690505",
+    "original_ndcg": "d64_lambda0",
+    "original_rmse": "d1_lambda0.1",
+    "original_ua": "d64_lambda0.01",
+    "original_ua_admissible": 11,
+    "retention": "r100",
+    "rows": 175
+  },
+  {
+    "dataset": "yelp_tampa_restaurants",
+    "framework_artifact_sha256": "d782a6a5c98bdd4d82e344af8131d524d42841b84608d3a1fd530aed76fbc2d2",
+    "grid_sha256": "470313a9764fb40dfc424be1ea8ca6dd5531a20ae0803c3a52b5024327282069",
+    "original_ndcg": "d64_lambda0.0001",
+    "original_rmse": "d1_lambda0.1",
+    "original_ua": "d64_lambda0.01",
+    "original_ua_admissible": 8,
+    "retention": "r075",
+    "rows": 175
+  },
+  {
+    "dataset": "yelp_tampa_restaurants",
+    "framework_artifact_sha256": "e69df87f5f5596078b1d63598e52e37641143f3026fa212e41e78636271164bf",
+    "grid_sha256": "5ca9efb938e14b56e93a350ea895ea22f64dc3cc66a72e635e8a0ffa07de5a91",
+    "original_ndcg": "d64_lambda0",
+    "original_rmse": "d64_lambda0.1",
+    "original_ua": "d64_lambda0.01",
+    "original_ua_admissible": 16,
+    "retention": "r050",
+    "rows": 175
+  },
+  {
+    "dataset": "yelp_tampa_restaurants",
+    "framework_artifact_sha256": "bfd1118880d40b8ff501637f4862ca2b8f6259b436d7786d153fdebca624fba9",
+    "grid_sha256": "a9c2145f437d63faa25fa0a85c43f873fa2e2671d1122dd58becc021609b0373",
+    "original_ndcg": "d4_lambda0",
+    "original_rmse": "d64_lambda0.1",
+    "original_ua": "d64_lambda0.01",
+    "original_ua_admissible": 27,
+    "retention": "r025",
+    "rows": 175
+  },
+  {
+    "dataset": "epinions",
+    "framework_artifact_sha256": "a0fd855b2a0862a0ab816f9da9dbb203c9e08d81fee216bd5ebb88bcbe8bae67",
+    "grid_sha256": "8ebdd981f96583531bfedaa4f249e355a845554c655cac364214663f2f6fd89d",
+    "original_ndcg": "d64_lambda0.0001",
+    "original_rmse": "d64_lambda0.1",
+    "original_ua": "d64_lambda0.1",
+    "original_ua_admissible": 35,
+    "retention": "r100",
+    "rows": 175
+  },
+  {
+    "dataset": "epinions",
+    "framework_artifact_sha256": "c239ab0e5d3e69b543eee20a8d67548ac9781b38ffeb1b0c10ca5567c095393c",
+    "grid_sha256": "3573802ab8d8ac9a20af9331f67b05ff668ad5a99d52f905d0c23be27698e0f8",
+    "original_ndcg": "d64_lambda0",
+    "original_rmse": "d64_lambda0.1",
+    "original_ua": "d64_lambda0.1",
+    "original_ua_admissible": 35,
+    "retention": "r075",
+    "rows": 175
+  },
+  {
+    "dataset": "epinions",
+    "framework_artifact_sha256": "c7daa4f328ca801e5bce20c8d3113f8653034872ce1bad51ab177cb1a0d8e86a",
+    "grid_sha256": "879ce8a9d049a831fda7e3a858958423f2e5b941d799ac91033a6e17e44bb686",
+    "original_ndcg": "d64_lambda0.0001",
+    "original_rmse": "d64_lambda0.1",
+    "original_ua": "d64_lambda0.1",
+    "original_ua_admissible": 35,
+    "retention": "r050",
+    "rows": 175
+  },
+  {
+    "dataset": "epinions",
+    "framework_artifact_sha256": "8dc28948197a4c40a662493b2b8d9f40be2ffc5dde43baabd9d9ef92049ad285",
+    "grid_sha256": "a7307f0ab0967dbb65c8b1d07b7c46b3c5739196348842fc0ce055675cbc19a3",
+    "original_ndcg": "d64_lambda0.0001",
+    "original_rmse": "d64_lambda0.1",
+    "original_ua": "d64_lambda0.1",
+    "original_ua_admissible": 35,
+    "retention": "r025",
+    "rows": 175
+  }
+]

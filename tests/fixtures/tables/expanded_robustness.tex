@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Post-confirmation robustness on the expanded explicit MF surface at 100 epochs. Configuration tuples are $(d,\lambda)$. Effects are descriptive means over five fresh robustness seeds. $\Delta_{\rm rank}$ is NDCG-selected minus RMSE-selected test NDCG@10 and $\Delta_{\rm RMSE}$ is the corresponding increase in test RMSE. Edge reports how many of the two selectors remain on a dimension or regularization boundary of the expanded grid.}
+\label{tab:expanded-robustness}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Dataset & Ret. & RMSE choice & NDCG choice & $\Delta_{\rm rank}$ & $\Delta_{\rm RMSE}$ & Edge \\ 
+\midrule
+MovieLens 1M & 100\% & $(64,10^{-1})$ & $(256,10^{-5})$ & +0.0053 & +0.1211 & 1/2 \\
+ & 75\% & $(64,10^{-1})$ & $(256,10^{-5})$ & +0.0083 & +0.0987 & 1/2 \\
+ & 50\% & $(4,10^{-1})$ & $(256,0)$ & +0.0227 & +0.0740 & 1/2 \\
+ & 25\% & $(1,10^{-1})$ & $(256,10^{-5})$ & +0.0260 & +0.0565 & 2/2 \\
+\addlinespace
+CiaoDVD & 100\% & $(32,0.3)$ & $(128,10^{-4})$ & +0.0130 & +0.0585 & 0/2 \\
+ & 75\% & $(16,0.3)$ & $(128,10^{-6})$ & +0.0134 & +0.0501 & 0/2 \\
+ & 50\% & $(1,1)$ & $(256,10^{-1})$ & +0.0114 & +0.0358 & 2/2 \\
+ & 25\% & $(4,1)$ & $(256,10^{-2})$ & +0.0117 & +0.0258 & 2/2 \\
+\addlinespace
+Yelp--Tampa & 100\% & $(64,0.3)$ & $(256,10^{-4})$ & +0.0083 & +0.0582 & 1/2 \\
+ & 75\% & $(128,0.3)$ & $(256,10^{-3})$ & +0.0080 & +0.0618 & 1/2 \\
+ & 50\% & $(64,0.3)$ & $(256,10^{-6})$ & +0.0078 & +0.0310 & 1/2 \\
+ & 25\% & $(1,1)$ & $(128,10^{-5})$ & +0.0093 & +0.0977 & 1/2 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

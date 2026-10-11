@@ -1,0 +1,78 @@
+{
+  "claim_status": "exploratory_not_prospective",
+  "dataset": "movielens_1m",
+  "expected_runs": 5,
+  "framework_selection_sha256": "d57d81ff7b59f6edda5a003aeb82b0171fb8326b92f42c834c3da9f770b14354",
+  "historical_confirmation_manifest_sha256": "4eb64be4379af6a6c76a2ccc6ffef433c65cdebf1b058612a29aafdef1523683",
+  "observed_runs": 5,
+  "retention_label": "r025",
+  "runs": [
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "5d39202d022bbf41e90671dff199e3d3d2c52246487ec87921a573fb73040aec",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed601/summary.json",
+      "summary_sha256": "e7d7003ea05c3f33afde885cab51fb804a9ccdbceec47e252a1234ed2de8ac1a"
+    },
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "1c910ef31dfd3f3e984977fc2c8da7121e68435c4e9a0057be33f853bc3ff4a8",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed701/summary.json",
+      "summary_sha256": "0b1a20022c65cf48730679e2d8b5a130b6eadcf7512eb91acf4073edd0d5e2d2"
+    },
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "94ef1a8881635ac4656e29f30a000e8144312421567c11a0087f3c725ccb4122",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed809/summary.json",
+      "summary_sha256": "77ebf08cd615bbbd81799334b0377c5ee4fc5ba3ffb463bcaa6daddca2566e1d"
+    },
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "64759f5d07da16777c0cb170131768882ef0f088b84b93602f77275dd7767284",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed907/summary.json",
+      "summary_sha256": "bfae673ffad3b8a9bcc4be46c3635ae0215019f2eb596bb07414970bd3a77a3b"
+    },
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "e585801c5841a3ebd727f49fd042658c2b54230fdf7ebf94d7d14a280303e984",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/movielens_1m/r025/d64_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "85568740742593d82e1d26021d89be421255f769f6599f7163b000c69a29b234"
+    }
+  ],
+  "schema_version": 1,
+  "stage": "post_confirmation_framework_construction"
+}

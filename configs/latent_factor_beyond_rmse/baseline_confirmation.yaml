@@ -1,0 +1,27 @@
+schema_version: 1
+stage: locked_baseline_test_confirmation
+selection_lock: configs/latent_factor_beyond_rmse/baseline_selection_lock.yaml
+output_root: outputs/latent_factor_beyond_rmse/baseline_confirmation
+explicit_confirmation_config: configs/latent_factor_beyond_rmse/confirmation.yaml
+
+test_protocol:
+  bias_only: retrain_each_validation_selected_configuration_with_fresh_seeds
+  popularity: deterministic_retained_training_positive_count
+  test_access: only_after_baseline_selection_lock_verification
+  validation_use: exclude_from_test_candidates_only
+  ranking_catalog: exact_train_known_catalog
+  user_history_exclusions:
+    - full_training_history_including_rows_removed_for_sparsity
+    - validation_history
+
+inference:
+  comparisons:
+    - explicit_rmse_selected_minus_bias_rmse_selected_prediction
+    - explicit_ndcg_selected_minus_bias_ndcg_selected_ranking
+    - explicit_ndcg_selected_minus_popularity_ranking
+  user_cluster_bootstrap_resamples: 10000
+  paired_randomization_resamples: 10000
+  seed: 919191
+  confidence_level: 0.95
+  multiplicity_adjustment: holm_within_each_12_condition_comparison_family
+  minimum_practically_important_ndcg_at_10_difference: 0.005

@@ -1,0 +1,49 @@
+study:
+  slug: latent_factor_uncertainty_framework_epinions
+  title: "Prediction–Ranking Trade-offs in Latent-Factor Recommenders: An Uncertainty-Aware Selection Framework"
+  validation_role: prospective_external_validation
+  empirical_independence: >-
+    Epinions is excluded from framework construction. The selection rule,
+    uncertainty level, practical-regret threshold, search space, split rule,
+    sparsity conditions, and confirmation seeds are frozen before any Epinions
+    development metric is inspected.
+
+protocol:
+  rating_min: 1.0
+  rating_max: 5.0
+  minimum_user_degree: 10
+  minimum_item_degree: 10
+  train_ratio: 0.70
+  validation_ratio: 0.15
+  test_ratio: 0.15
+  primary_relevance_threshold: 4.0
+  graded_gains:
+    "4": 1.0
+    "5": 3.0
+
+controlled_sparsity:
+  retentions: [1.00, 0.75, 0.50, 0.25]
+  seed: 20260825
+  minimum_per_user: 3
+  output_root: data/splits/latent_factor_framework_epinions
+
+datasets:
+  epinions:
+    display_name: Epinions
+    loader: epinions_timestamped
+    source_url: https://www.cse.msu.edu/~tangjili/trust.html
+    archive_url: https://www.cse.msu.edu/~tangjili/datasetcode/epinions_with_rating_timestamp_txt.zip
+    readme_url: https://www.cse.msu.edu/~tangjili/datasetcode/README_rating_timestamp.txt
+    release: author-maintained timestamped text archive; archive files dated July 2012
+    license_or_terms: >-
+      Publicly released from the dataset authors' academic page for research;
+      no explicit redistribution license appears on the page or accompanying
+      README. Raw and processed files must not be redistributed by this project.
+    required_citations:
+      - Tang, Gao, and Liu, mTrust, WSDM 2012
+      - Tang, Gao, Liu, and Das Sarma, eTrust, KDD 2012
+    archive_path: data/raw/latent_factor_beyond_rmse/epinions_with_rating_timestamp_txt.zip
+    sha256: 987c590663ac9c0b0148012530a7a5545fbf5ec44ad1a5524896dab3135714f1
+    archive_member: epinion_with_rating_timestamp_txt/rating_with_timestamp.txt
+    output_dir: data/processed/latent_factor_framework_epinions/epinions
+

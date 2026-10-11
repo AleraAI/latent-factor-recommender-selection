@@ -1,0 +1,17 @@
+dataset,display_name,retention,stage,nominal_retention,realized_retention,train_rows,validation_rows,test_rows,users,train_catalog_items,validation_ranking_users,test_ranking_users,validation_item_cold_events,test_item_cold_events,validation_cold_relevant_events,test_cold_relevant_events
+movielens_1m,MovieLens 1M,r100,construction,1.0,1.0,696213,149688,152638,6040,3260,5926,5931,0,0,0,0
+movielens_1m,MovieLens 1M,r075,construction,0.75,0.7511652324791407,522971,149688,152638,6040,3260,5926,5931,0,0,0,0
+movielens_1m,MovieLens 1M,r050,construction,0.5,0.50208772315369,349560,149688,152638,6040,3260,5926,5931,0,0,0,0
+movielens_1m,MovieLens 1M,r025,construction,0.25,0.25117456870239424,174871,149688,152638,6040,3260,5926,5931,0,0,0,0
+ciaodvd,CiaoDVD,r100,construction,1.0,1.0,6695,1457,1670,442,533,407,428,0,10,0,7
+ciaodvd,CiaoDVD,r075,construction,0.75,0.7538461538461538,5047,1457,1670,442,533,407,428,0,10,0,7
+ciaodvd,CiaoDVD,r050,construction,0.5,0.5211351755041076,3489,1457,1670,442,533,407,428,0,10,0,7
+ciaodvd,CiaoDVD,r025,construction,0.25,0.29395070948469004,1968,1457,1670,442,533,407,428,0,10,0,7
+yelp_tampa_restaurants,Yelp--Tampa,r100,construction,1.0,1.0,65774,14305,16110,3797,1725,3462,3539,18,117,17,101
+yelp_tampa_restaurants,Yelp--Tampa,r075,construction,0.75,0.7527746525982911,49513,14305,16110,3797,1725,3462,3539,18,117,17,101
+yelp_tampa_restaurants,Yelp--Tampa,r050,construction,0.5,0.5181378660260894,34080,14305,16110,3797,1725,3462,3539,18,117,17,101
+yelp_tampa_restaurants,Yelp--Tampa,r025,construction,0.25,0.2825888649010247,18587,14305,16110,3797,1725,3462,3539,18,117,17,101
+epinions,Epinions,r100,prospective_external,1.0,1.0,241657,52613,58328,12168,11265,11372,11725,34,187,25,125
+epinions,Epinions,r075,prospective_external,0.75,0.7535804880471081,182108,52613,58328,12168,11265,11372,11725,34,187,25,125
+epinions,Epinions,r050,prospective_external,0.5,0.51552820733519,124581,52613,58328,12168,11265,11372,11725,34,187,25,125
+epinions,Epinions,r025,prospective_external,0.25,0.2769131454913369,66918,52613,58328,12168,11265,11372,11725,34,187,25,125

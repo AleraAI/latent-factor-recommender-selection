@@ -1,0 +1,76 @@
+{
+  "dataset": "ciaodvd",
+  "expected_runs": 5,
+  "observed_runs": 5,
+  "retention_label": "r050",
+  "runs": [
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed601/test_per_user.parquet",
+      "per_user_sha256": "076d4d2b64fad66d1627a6d83d45e2ebf2251801a8dbeb4ef932cda83e57d67d",
+      "regularization": 0.1,
+      "seed": 601,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed601/summary.json",
+      "summary_sha256": "f4f9557c758721e6759e155428130cceb6912e73fa6a55e2edae046e57da6c22"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed701/test_per_user.parquet",
+      "per_user_sha256": "a6a1161e60af4010cba0c382453aefea44df3002970dcac2097a5cc992fb3d2b",
+      "regularization": 0.1,
+      "seed": 701,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed701/summary.json",
+      "summary_sha256": "539353c8234a4532e27daf8de04c9e8a78361cc876ec24e99369b10bcee2a9a0"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed809/test_per_user.parquet",
+      "per_user_sha256": "f32213637acd2cede5698eab647a938a9a819c0a42f337c118cae8639172607a",
+      "regularization": 0.1,
+      "seed": 809,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed809/summary.json",
+      "summary_sha256": "138b716a1679548f68a8bdfc02944a1e430614722385b96959bf9d0bac8a4483"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed907/test_per_user.parquet",
+      "per_user_sha256": "5046f5185e9d8193fd29c3ac445060cbb62878679cd5f3af6796ef7d77232828",
+      "regularization": 0.1,
+      "seed": 907,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed907/summary.json",
+      "summary_sha256": "5634da8d58203c17640cecfa6c3827b2cf434da1e263b687ba7856f90055d076"
+    },
+    {
+      "dimension": 1,
+      "per_user_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed1009/test_per_user.parquet",
+      "per_user_sha256": "2780ba4ee5d8508f19fdddae6c0855afd08e10d1daedc731d610866afc1d75a6",
+      "regularization": 0.1,
+      "seed": 1009,
+      "selection_roles": [
+        "rmse_selected",
+        "ndcg_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/confirmation/ciaodvd/r050/shared/d1_lambda0.1_seed1009/summary.json",
+      "summary_sha256": "86932438220e7896fe0bc7ffafc05205799073a1e12d16e029f90a59fcddd4c2"
+    }
+  ],
+  "schema_version": 1,
+  "selection_lock_sha256": "d608fbefa6021f81ebeac2ce50c038645142ce2ed754939ab9921675a70c90bf",
+  "stage": "locked_test_confirmation"
+}

@@ -1,0 +1,4 @@
+stage,display,fits,checkpoint_evaluations,aggregate_fit_seconds,aggregate_fit_hours,validation_candidate_scores
+explicit_expanded,Expanded explicit MF,4860,14580,123871.01363527426,34.40861489868729,124936646940
+bpr_coarse,BPR coarse,3600,10800,105758.67324719531,29.37740923533203,92545664400
+bpr_refine,BPR refinement,540,1620,75171.53752510576,20.88098264586271,13881849660

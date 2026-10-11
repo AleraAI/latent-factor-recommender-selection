@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Locked test ranking boundary. Values are mean per-user NDCG@10 under the common exact train-known-catalog protocol. $\Delta_E$ and $\Delta_P$ are BPR-MF minus the NDCG-selected explicit MF and popularity, respectively, and brackets give 95\% user-cluster bootstrap intervals. Every BPR explicit comparison has $p_{\rm Holm}=0.0012$, and adjusted BPR popularity outcomes are summarized in the text.}
+\label{tab:model-boundary}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Dataset & Ret. & Explicit & Pop. & BPR & $\Delta_E$ [95\% CI] & $\Delta_P$ [95\% CI] \\
+\midrule
+MovieLens 1M & 100\% & 0.0183 & 0.0655 & 0.0809 & +0.0626 [+0.0596,+0.0656] & +0.0154 [+0.0121,+0.0188] \\
+ & 75\% & 0.0170 & 0.0653 & 0.0785 & +0.0616 [+0.0587,+0.0646] & +0.0132 [+0.0099,+0.0164] \\
+ & 50\% & 0.0168 & 0.0649 & 0.0745 & +0.0577 [+0.0549,+0.0605] & +0.0096 [+0.0064,+0.0127] \\
+ & 25\% & 0.0200 & 0.0647 & 0.0664 & +0.0464 [+0.0440,+0.0488] & +0.0017 [-0.0011,+0.0045] \\
+\addlinespace
+CiaoDVD & 100\% & 0.0244 & 0.0419 & 0.0461 & +0.0217 [+0.0118,+0.0320] & +0.0042 [-0.0040,+0.0123] \\
+ & 75\% & 0.0198 & 0.0426 & 0.0409 & +0.0211 [+0.0112,+0.0316] & -0.0017 [-0.0076,+0.0041] \\
+ & 50\% & 0.0139 & 0.0387 & 0.0425 & +0.0285 [+0.0186,+0.0388] & +0.0038 [-0.0051,+0.0122] \\
+ & 25\% & 0.0151 & 0.0327 & 0.0258 & +0.0107 [+0.0049,+0.0169] & -0.0069 [-0.0151,+0.0004] \\
+\addlinespace
+Yelp--Tampa & 100\% & 0.0107 & 0.0455 & 0.0410 & +0.0303 [+0.0272,+0.0335] & -0.0046 [-0.0081,-0.0012] \\
+ & 75\% & 0.0113 & 0.0459 & 0.0455 & +0.0343 [+0.0301,+0.0384] & -0.0004 [-0.0011,+0.0003] \\
+ & 50\% & 0.0108 & 0.0453 & 0.0464 & +0.0356 [+0.0316,+0.0397] & +0.0011 [+0.0003,+0.0019] \\
+ & 25\% & 0.0114 & 0.0457 & 0.0423 & +0.0309 [+0.0275,+0.0344] & -0.0034 [-0.0047,-0.0021] \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

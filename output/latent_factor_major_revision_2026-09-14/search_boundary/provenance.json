@@ -1,0 +1,97 @@
+{
+  "stage": "revision_stage_existing_output_diagnostic",
+  "inputs": [
+    {
+      "path": "configs/latent_factor_beyond_rmse/modeling.yaml",
+      "sha256": "a3410ec6f63a7adc2a061627671d6c1c58b7f7c27db4df57a8ea7ebe56c933f3",
+      "bytes": 1200
+    },
+    {
+      "path": "configs/latent_factor_beyond_rmse/robustness.yaml",
+      "sha256": "f37db83b253bfc966aa64f80450fe9a123171c9191c05f06171426a6e69c83ec",
+      "bytes": 3282
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/search_boundary/analyze_matched_budget.py",
+      "sha256": "1b67c08b19f15ea70ee7cc7cd5e15cedc414f4304d67ad580f0d91890b65bd14",
+      "bytes": 10496
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r100/runs.csv",
+      "sha256": "d82d513fabd1f6d3d292c02258b6683b71879931e11f26e997a9e4c8bf0ae0b0",
+      "bytes": 143407
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r075/runs.csv",
+      "sha256": "63b1fdf5cb61eb3628bde1366f97fce483b39d021c2e8814eea630b7f52ecff5",
+      "bytes": 143012
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r050/runs.csv",
+      "sha256": "5840bdb319c8d2e28b01f59154116f6141aa09cc82754115b969dbce69c5df51",
+      "bytes": 143968
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/movielens_1m/r025/runs.csv",
+      "sha256": "7ca1cc001a45c4fc6b4228f226fb3a67e8a1066e8789a3b80d168767c25d6ccf",
+      "bytes": 142960
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r100/runs.csv",
+      "sha256": "1d3723d7ebc20094c0aac46824468bb4d36fe8c735dec4b5849aee1fea48e372",
+      "bytes": 134612
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r075/runs.csv",
+      "sha256": "503e5c5bba6b19bb164d87c7f98b3e21eca99eab5f125b766c1726b783f19789",
+      "bytes": 134873
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r050/runs.csv",
+      "sha256": "238661dec1d172d8a60fe84e31fb144f5262e10a3ca918c8512d5697ddcf26b6",
+      "bytes": 134711
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/ciaodvd/r025/runs.csv",
+      "sha256": "729a6dc64bd20d6c901146373cf3a989ef96d4d7588dd5627e175e33d6c724cb",
+      "bytes": 134958
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r100/runs.csv",
+      "sha256": "737879cfcfc0caecad57a3dcb63e89083402efd8449796573566aba6c2ce61fd",
+      "bytes": 154789
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r075/runs.csv",
+      "sha256": "c8c55a1d64e96d84c1d8ade06354b858cd7f7912cfa0229371d3e80d97bc8391",
+      "bytes": 154538
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r050/runs.csv",
+      "sha256": "04b5f642f8a9bfb2bbe8e7776d6af36ea7e369ac4f1d2bd56876ec5eb11b7720",
+      "bytes": 154049
+    },
+    {
+      "path": "outputs/latent_factor_beyond_rmse/robustness/explicit_expanded/yelp_tampa_restaurants/r025/runs.csv",
+      "sha256": "ece3f38fce528866be0898b3c50580554b88f9b4d55f1ee8f9239b94446d5c5b",
+      "bytes": 153801
+    }
+  ],
+  "outputs": [
+    {
+      "path": "matched_budget_condition_results.csv",
+      "sha256": "8d01483d6c4d77a2bbdbb1e9181c02b6b338a6207914f265ed3185bf3d9083a8",
+      "bytes": 18047
+    },
+    {
+      "path": "matched_budget_summary.csv",
+      "sha256": "13d319eaeb5a166bcff40c9821765428bd8c29634f95011a2a332ac407c8edf8",
+      "bytes": 517
+    },
+    {
+      "path": "matched_budget_summary.json",
+      "sha256": "f4a35ae0a8ea63802ac2c837b774928f6f356d3b97a2c6a513d4f0dbb1f50499",
+      "bytes": 17825
+    }
+  ]
+}

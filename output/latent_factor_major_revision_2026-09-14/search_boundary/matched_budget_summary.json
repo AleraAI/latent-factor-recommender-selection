@@ -1,0 +1,690 @@
+{
+  "stage": "revision_stage_existing_output_diagnostic",
+  "revision_environment": {
+    "python": "3.11.1",
+    "pandas": "2.0.1",
+    "numpy": "1.24.3",
+    "pyyaml": "6.0.2"
+  },
+  "source_stage": "post_confirmation_robustness",
+  "data_access": "validation only; no test summaries used in this comparison",
+  "interpretation": "The two grid scopes use exactly the same expanded-run trajectories, paired seeds, validation users, candidate catalog, metric definitions, and epoch budgets. This isolates finite search-scope effects at a fixed recorded training budget, not a global optimum or deployment guarantee.",
+  "original_comparison_boundary": "original35_subgrid is a retrospective restriction of expanded trajectories. It is not the original locked development experiment, whose maximum20-epoch tolerance rule sometimes stopped at18/19epochs.",
+  "averaging": "Arithmetic mean of five per-run global clipped RMSE values and five per-run mean-user NDCG values. No prediction ensembling.",
+  "tie_breaking": "For either objective: best mean validation objective, then smaller dimension, then larger regularization. This is not UA tie-breaking.",
+  "boundary_definition": "Within each displayed grid scope, a choice on the minimum/maximum dimension OR minimum/maximum regularization is a boundary choice. Lambda0 is a natural parameter boundary and its selection alone does not prove missing optimality.",
+  "checkpoint_wording": "robustness_explicit.py records validation metric summaries at20/50/100epochs and100training-objective observations. It does not save model weights or per-user validation outputs. Call these budget evaluations, not available rescorable checkpoints.",
+  "stored_weight_files_found": 0,
+  "input_run_rows": 14580,
+  "underlying_training_trajectories": 4860,
+  "summary": [
+    {
+      "search_scope": "expanded81_grid",
+      "epoch": 20,
+      "conditions": 12,
+      "configurations": 81,
+      "seed_count": 5,
+      "disagreement_conditions": 12,
+      "objective_specific_choices": 24,
+      "boundary_choices": 15,
+      "rmse_boundary_choices": 6,
+      "ndcg_boundary_choices": 9,
+      "conditions_with_any_boundary": 10,
+      "conditions_with_both_boundaries": 5
+    },
+    {
+      "search_scope": "expanded81_grid",
+      "epoch": 50,
+      "conditions": 12,
+      "configurations": 81,
+      "seed_count": 5,
+      "disagreement_conditions": 12,
+      "objective_specific_choices": 24,
+      "boundary_choices": 16,
+      "rmse_boundary_choices": 8,
+      "ndcg_boundary_choices": 8,
+      "conditions_with_any_boundary": 12,
+      "conditions_with_both_boundaries": 4
+    },
+    {
+      "search_scope": "expanded81_grid",
+      "epoch": 100,
+      "conditions": 12,
+      "configurations": 81,
+      "seed_count": 5,
+      "disagreement_conditions": 12,
+      "objective_specific_choices": 24,
+      "boundary_choices": 13,
+      "rmse_boundary_choices": 4,
+      "ndcg_boundary_choices": 9,
+      "conditions_with_any_boundary": 10,
+      "conditions_with_both_boundaries": 3
+    },
+    {
+      "search_scope": "original35_subgrid",
+      "epoch": 20,
+      "conditions": 12,
+      "configurations": 35,
+      "seed_count": 5,
+      "disagreement_conditions": 11,
+      "objective_specific_choices": 24,
+      "boundary_choices": 23,
+      "rmse_boundary_choices": 12,
+      "ndcg_boundary_choices": 11,
+      "conditions_with_any_boundary": 12,
+      "conditions_with_both_boundaries": 11
+    },
+    {
+      "search_scope": "original35_subgrid",
+      "epoch": 50,
+      "conditions": 12,
+      "configurations": 35,
+      "seed_count": 5,
+      "disagreement_conditions": 11,
+      "objective_specific_choices": 24,
+      "boundary_choices": 22,
+      "rmse_boundary_choices": 12,
+      "ndcg_boundary_choices": 10,
+      "conditions_with_any_boundary": 12,
+      "conditions_with_both_boundaries": 10
+    },
+    {
+      "search_scope": "original35_subgrid",
+      "epoch": 100,
+      "conditions": 12,
+      "configurations": 35,
+      "seed_count": 5,
+      "disagreement_conditions": 10,
+      "objective_specific_choices": 24,
+      "boundary_choices": 21,
+      "rmse_boundary_choices": 12,
+      "ndcg_boundary_choices": 9,
+      "conditions_with_any_boundary": 12,
+      "conditions_with_both_boundaries": 9
+    }
+  ],
+  "budget_changes": {
+    "expanded81_grid": {
+      "changed_across_any_budget": 21,
+      "denominator": 24,
+      "changed_conditions": [
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r025",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d256_lambda1",
+            "d256_lambda1",
+            "d4_lambda1"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r025",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d256_lambda0.3",
+            "d128_lambda0.1",
+            "d256_lambda0.01"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r050",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d128_lambda0.3",
+            "d256_lambda1",
+            "d1_lambda1"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r075",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d32_lambda0.3",
+            "d1_lambda0.3",
+            "d16_lambda0.3"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r075",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d128_lambda0.001",
+            "d128_lambda1e-06",
+            "d128_lambda1e-06"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r100",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d32_lambda0.3",
+            "d1_lambda0.3",
+            "d32_lambda0.3"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r100",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d128_lambda0.01",
+            "d128_lambda0.0001",
+            "d128_lambda0.0001"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r025",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d256_lambda0.001",
+            "d256_lambda0",
+            "d256_lambda1e-05"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r050",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d8_lambda0.1",
+            "d4_lambda0.1",
+            "d4_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r050",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d256_lambda0.0001",
+            "d256_lambda0",
+            "d256_lambda0"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r075",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d16_lambda0.1",
+            "d128_lambda0.1",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r075",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d256_lambda0.001",
+            "d256_lambda0.001",
+            "d256_lambda1e-05"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r100",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d16_lambda0.1",
+            "d64_lambda0.1",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r100",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d256_lambda0.001",
+            "d256_lambda1e-05",
+            "d256_lambda1e-05"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r025",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d4_lambda0",
+            "d128_lambda1e-06",
+            "d128_lambda1e-05"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r050",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d1_lambda0.3",
+            "d256_lambda0.3",
+            "d64_lambda0.3"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r050",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d256_lambda0.0001",
+            "d256_lambda0.0001",
+            "d256_lambda1e-06"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r075",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d1_lambda0.3",
+            "d256_lambda0.3",
+            "d128_lambda0.3"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r075",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d128_lambda0.001",
+            "d256_lambda0",
+            "d256_lambda0.001"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r100",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d1_lambda0.3",
+            "d32_lambda0.3",
+            "d64_lambda0.3"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r100",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d256_lambda0.001",
+            "d256_lambda0.0001",
+            "d256_lambda0.0001"
+          ]
+        }
+      ]
+    },
+    "original35_subgrid": {
+      "changed_across_any_budget": 17,
+      "denominator": 24,
+      "changed_conditions": [
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r025",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d1_lambda0.1",
+            "d64_lambda0.1",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r050",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d1_lambda0.1",
+            "d1_lambda0.1",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r050",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d1_lambda0.1",
+            "d64_lambda0.01",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r075",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d2_lambda0.1",
+            "d1_lambda0.1",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r075",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d64_lambda0.001",
+            "d64_lambda0",
+            "d32_lambda0.01"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r100",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d1_lambda0.1",
+            "d1_lambda0.1",
+            "d32_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "ciaodvd",
+          "retention_label": "r100",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d64_lambda0.1",
+            "d64_lambda0",
+            "d64_lambda0"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r025",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d64_lambda0.01",
+            "d64_lambda0.01",
+            "d64_lambda0.0001"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r050",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d8_lambda0.1",
+            "d4_lambda0.1",
+            "d4_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r050",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d64_lambda0.1",
+            "d64_lambda0.01",
+            "d64_lambda0.01"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r075",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d16_lambda0.1",
+            "d64_lambda0.1",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "movielens_1m",
+          "retention_label": "r100",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d16_lambda0.1",
+            "d64_lambda0.1",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r025",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d4_lambda0",
+            "d32_lambda0.0001",
+            "d64_lambda0"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r075",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d1_lambda0.1",
+            "d64_lambda0.1",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r075",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d64_lambda0.0001",
+            "d64_lambda0",
+            "d64_lambda0"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r100",
+          "selector": "rmse",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d1_lambda0.1",
+            "d64_lambda0.1",
+            "d64_lambda0.1"
+          ]
+        },
+        {
+          "dataset": "yelp_tampa_restaurants",
+          "retention_label": "r100",
+          "selector": "ndcg",
+          "ordered_budgets": [
+            20,
+            50,
+            100
+          ],
+          "ordered_choices": [
+            "d64_lambda0",
+            "d64_lambda0",
+            "d32_lambda0.001"
+          ]
+        }
+      ]
+    }
+  }
+}

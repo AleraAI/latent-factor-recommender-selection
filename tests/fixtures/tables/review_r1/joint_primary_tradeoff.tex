@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Joint prediction--ranking consequences of the original locked RMSE and NDCG selections on the 12 construction conditions, consolidated from saved historical outcomes. $N$ denotes the validation-NDCG reference and $R$ the validation-RMSE choice. NDCG regret is $N-R$; its relative value is $100(N-R)/N$ using reference test NDCG, not a business-utility scale. Prediction cost is global test RMSE of $N$ minus that of $R$. All values are averages of five per-seed metrics. Original paired ranking intervals and Holm-adjusted inference remain in \Cref{tab:mf-selection-regret}; this descriptive consolidation does not replace that inference or attach mean-user RMSE intervals to a global RMSE difference.}
+\label{tab:joint-primary-tradeoff}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+Dataset & Retention & NDCG$_N$ & NDCG$_R$ & $\Delta$ NDCG & Loss / $N$ (\%) & $\Delta$ global RMSE \\
+\midrule
+MovieLens 1M & 100\% & 0.01834 & 0.01768 & +0.00066 & +3.6 & +0.00066 \\
+ & 75\% & 0.01695 & 0.01342 & +0.00353 & +20.8 & +0.00122 \\
+ & 50\% & 0.01683 & 0.00802 & +0.00881 & +52.3 & +0.00066 \\
+ & 25\% & 0.02000 & 0.00063 & +0.01937 & +96.8 & +0.13068 \\
+\addlinespace
+CiaoDVD & 100\% & 0.02440 & 0.01385 & +0.01056 & +43.3 & +0.01413 \\
+ & 75\% & 0.01981 & 0.01604 & +0.00377 & +19.0 & +0.03832 \\
+ & 50\% & 0.01394 & 0.01394 & 0.00000 & 0.0 & 0.00000 \\
+ & 25\% & 0.01507 & 0.01162 & +0.00345 & +22.9 & +0.01604 \\
+\addlinespace
+Yelp--Tampa & 100\% & 0.01068 & 0.00333 & +0.00735 & +68.8 & +0.09375 \\
+ & 75\% & 0.01125 & 0.00335 & +0.00791 & +70.3 & +0.06754 \\
+ & 50\% & 0.01083 & 0.00730 & +0.00353 & +32.6 & +0.04607 \\
+ & 25\% & 0.01145 & 0.00928 & +0.00217 & +19.0 & +0.07971 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

@@ -1,0 +1,78 @@
+{
+  "all_recorded_runtimes_agree": true,
+  "evidence_kind": "projection of saved September 14 records; not a current environment query",
+  "fitting_plan_created_utc": "2026-09-14T23:21:14.901198+00:00",
+  "not_canonical_original": true,
+  "recorded_runtime": {
+    "device": "cpu",
+    "numpy": "1.21.5",
+    "pandas": "1.5.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.9",
+    "torch": "2.1.0.dev20230521",
+    "torch_num_threads": 1
+  },
+  "replay_check_scope": "two fixed-data exact-metric/per-user replay checks; not proof of every historical fit",
+  "replay_check_status": "passed",
+  "replay_gate_checked_utc": "2026-09-14T23:21:02.869278+00:00",
+  "replay_records": [
+    {
+      "per_user_parity": true,
+      "scalar_differences": {
+        "prediction.clipped.mae": 0.0,
+        "prediction.clipped.rmse": 0.0,
+        "prediction.raw.mae": 0.0,
+        "prediction.raw.rmse": 0.0,
+        "ranking.ndcg@10": 0.0,
+        "ranking.ndcg@20": 0.0,
+        "ranking.recall@10": 0.0,
+        "ranking.recall@20": 0.0
+      },
+      "seed": 101,
+      "stage": "validation"
+    },
+    {
+      "per_user_parity": true,
+      "scalar_differences": {
+        "prediction.clipped.mae": 0.0,
+        "prediction.clipped.rmse": 0.0,
+        "prediction.raw.mae": 0.0,
+        "prediction.raw.rmse": 0.0,
+        "ranking.ndcg@10": 0.0,
+        "ranking.ndcg@20": 0.0,
+        "ranking.recall@10": 0.0,
+        "ranking.recall@20": 0.0
+      },
+      "seed": 601,
+      "stage": "test"
+    }
+  ],
+  "revision_fit_count": 90,
+  "source_compatibility_ranges_are_historical_pins": false,
+  "source_records": [
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/fitting_plan.json",
+      "sha256": "2099e992818ca8400f892895a8cfc0edc8ce8f8e9ced06fcb4ca0510a56c8ed9"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/runtime_replay_gate.json",
+      "sha256": "170f6db15c4ff48c86853bc5505e77d550c143c7e32d2527b110b2249cbbbfee"
+    },
+    {
+      "path": "output/latent_factor_major_revision_2026-09-14/selector_analysis/fits/confirmation_manifest.json",
+      "sha256": "fb2f7cc1f9440edabbae146f2ffa41bdd824984d552e8b3ac93376915790ebbd"
+    }
+  ],
+  "source_sha256": {
+    "src/latent_factor_study/data.py": "53936f11190b3ae441c912596094157239478f60a4fcc60023eacc889c466004",
+    "src/latent_factor_study/evaluation.py": "cddd71e8d4b2e1f2ba08d80ee175f494d11f93e37a36d2ffdfc7a7004a79a257",
+    "src/latent_factor_study/explicit_mf.py": "3cd6164f241deef3d0b78b4506135a355f99113c33ef1652b1535bf908686169"
+  },
+  "transformation": "Only recorded runtime fields and provenance keys retained; machine-specific executable paths omitted; no runtime values inferred or changed",
+  "unrecorded_exact_dependency_versions": [
+    "scipy",
+    "matplotlib",
+    "pyarrow",
+    "PyYAML"
+  ]
+}

@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Post-confirmation configuration selection diagnostics on the frozen 35-point development grid. Gaps compare the seed mean winner with the second best configuration in the selector's metric. Win/5 is the number of development seeds on which the seed mean winner also wins. Boundary marks the RMSE (R) and/or NDCG (N) winner. One-SE columns give the number of configurations within one standard error of the seed mean winner. Material disagreement requires exact disagreement and failure of at least one cross-objective choice to lie in the other selector's one-SE set.}
+\label{tab:configuration-stability}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\toprule
+Dataset & Ret. & RMSE gap & Win/5 & NDCG gap & Win/5 & Boundary & RMSE 1-SE & NDCG 1-SE & Material \\
+\midrule
+MovieLens 1M & 100\% & 0.00026 & 3/5 & 0.00034 & 4/5 & R/N & 1 & 1 & Yes \\
+ & 75\% & 0.00025 & 2/5 & 0.00090 & 5/5 & R/N & 1 & 1 & Yes \\
+ & 50\% & 0.00027 & 3/5 & 0.00144 & 4/5 & R/N & 1 & 1 & Yes \\
+ & 25\% & 0.00781 & 5/5 & 0.00091 & 4/5 & R/N & 1 & 1 & Yes \\
+\addlinespace
+CiaoDVD & 100\% & 0.00167 & 3/5 & 0.00115 & 1/5 & R/N & 2 & 6 & Yes \\
+ & 75\% & 0.00131 & 1/5 & 0.00043 & 0/5 & R/N & 1 & 29 & Yes \\
+ & 50\% & 0.00023 & 2/5 & 0.00028 & 2/5 & R/N & 3 & 17 & No \\
+ & 25\% & 0.00011 & 2/5 & 0.00042 & 1/5 & R & 5 & 7 & Yes \\
+\addlinespace
+Yelp--Tampa & 100\% & 0.00287 & 5/5 & 0.00004 & 3/5 & R/N & 1 & 2 & Yes \\
+ & 75\% & 0.00263 & 4/5 & 0.00002 & 3/5 & R/N & 1 & 3 & Yes \\
+ & 50\% & 0.00096 & 4/5 & 0.00000 & 2/5 & R/N & 1 & 2 & Yes \\
+ & 25\% & 0.00844 & 5/5 & 0.00002 & 2/5 & R/N & 1 & 4 & Yes \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

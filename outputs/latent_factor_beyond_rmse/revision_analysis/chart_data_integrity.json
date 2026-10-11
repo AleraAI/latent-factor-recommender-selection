@@ -1,0 +1,106 @@
+{
+  "captured_at_utc": "2026-08-26T04:55:05.450153+00:00",
+  "data_sources": {
+    "outputs/latent_factor_beyond_rmse/baseline_confirmation/analysis/baseline_comparison.csv": {
+      "bytes": 7060,
+      "sha256": "1151b31031396df4d1203b1155e2c6683def9b982e04f0b1ec38ec2be7f0bc8d"
+    },
+    "outputs/latent_factor_beyond_rmse/bpr_confirmation/analysis/bpr_boundary_comparison.csv": {
+      "bytes": 5851,
+      "sha256": "da9ac6d67aec9abdfc300c7f3941c10c624e378c4e3aee399b7b654b195fbd39"
+    },
+    "outputs/latent_factor_beyond_rmse/confirmation/analysis/mf_selection_regret.csv": {
+      "bytes": 7175,
+      "sha256": "62aa857dff19ec08f219d0bf64b863c64b1859fc510aa4da7a539e7a9ed61037"
+    },
+    "outputs/latent_factor_beyond_rmse/development/ciaodvd/r025/grid_runs.csv": {
+      "bytes": 29557,
+      "sha256": "c4fc7479446b0fae329b9223ad8c5f4a19e6b72886fb0eaef6d646ea981d6be9"
+    },
+    "outputs/latent_factor_beyond_rmse/development/ciaodvd/r050/grid_runs.csv": {
+      "bytes": 29587,
+      "sha256": "95f4b0c99c695577432f59b4e5406953bbaee9b268025b81f19c763984ef1ad4"
+    },
+    "outputs/latent_factor_beyond_rmse/development/ciaodvd/r075/grid_runs.csv": {
+      "bytes": 29499,
+      "sha256": "88b9818950a1b16378dfdfe9478df18c7a3a6c57bf54846891ed01a90735670e"
+    },
+    "outputs/latent_factor_beyond_rmse/development/ciaodvd/r100/grid_runs.csv": {
+      "bytes": 29460,
+      "sha256": "777320759d3eaa06e1183f83fb30d14b8d2d0b19c7cf2c54c01d5037bae0f06e"
+    },
+    "outputs/latent_factor_beyond_rmse/development/movielens_1m/r025/grid_runs.csv": {
+      "bytes": 30578,
+      "sha256": "ad045b1cd6087a26f75f8b496506daf41a69f1efe03d7064c9eb1608f0cd8891"
+    },
+    "outputs/latent_factor_beyond_rmse/development/movielens_1m/r050/grid_runs.csv": {
+      "bytes": 30495,
+      "sha256": "85541042d1dc0d07164d4d027dc8c37f35a4c69bbceaca5bc190ef518e3d78ab"
+    },
+    "outputs/latent_factor_beyond_rmse/development/movielens_1m/r075/grid_runs.csv": {
+      "bytes": 30410,
+      "sha256": "da586fc688fcfaf0a6be32e65f5f2645f728554d38eb84b1d63daba21eceeb58"
+    },
+    "outputs/latent_factor_beyond_rmse/development/movielens_1m/r100/grid_runs.csv": {
+      "bytes": 30343,
+      "sha256": "1a2e2732bbca468584b3ce8edb80b005de80478e7e65ccd9ebc2f7caa642dab0"
+    },
+    "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r025/grid_runs.csv": {
+      "bytes": 32155,
+      "sha256": "a9c2145f437d63faa25fa0a85c43f873fa2e2671d1122dd58becc021609b0373"
+    },
+    "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r050/grid_runs.csv": {
+      "bytes": 32193,
+      "sha256": "5ca9efb938e14b56e93a350ea895ea22f64dc3cc66a72e635e8a0ffa07de5a91"
+    },
+    "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r075/grid_runs.csv": {
+      "bytes": 32195,
+      "sha256": "470313a9764fb40dfc424be1ea8ca6dd5531a20ae0803c3a52b5024327282069"
+    },
+    "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r100/grid_runs.csv": {
+      "bytes": 32238,
+      "sha256": "44e2582da84639f9fdac65a661396dce9cf2d5662d9421e5ebf0156d22690505"
+    },
+    "outputs/latent_factor_beyond_rmse/framework_construction/analysis/construction_framework_results.csv": {
+      "bytes": 3512,
+      "sha256": "3523d551ba1478f3e77b5fce5505c6ddf02422a31265728cdf92915a804d1b60"
+    },
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/confirmation/analysis/prospective_external_validation.csv": {
+      "bytes": 10349,
+      "sha256": "c5a80a05c087a5ce23baf5e101bcdf3cc68ff2691f1ce6cae095017664688065"
+    },
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/framework_selection.json": {
+      "bytes": 19015,
+      "sha256": "8dc28948197a4c40a662493b2b8d9f40be2ffc5dde43baabd9d9ef92049ad285"
+    },
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/grid_runs.csv": {
+      "bytes": 30105,
+      "sha256": "a7307f0ab0967dbb65c8b1d07b7c46b3c5739196348842fc0ce055675cbc19a3"
+    },
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/framework_selection.json": {
+      "bytes": 18994,
+      "sha256": "c7daa4f328ca801e5bce20c8d3113f8653034872ce1bad51ab177cb1a0d8e86a"
+    },
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/grid_runs.csv": {
+      "bytes": 30196,
+      "sha256": "879ce8a9d049a831fda7e3a858958423f2e5b941d799ac91033a6e17e44bb686"
+    },
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/framework_selection.json": {
+      "bytes": 18992,
+      "sha256": "c239ab0e5d3e69b543eee20a8d67548ac9781b38ffeb1b0c10ca5567c095393c"
+    },
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/grid_runs.csv": {
+      "bytes": 30297,
+      "sha256": "3573802ab8d8ac9a20af9331f67b05ff668ad5a99d52f905d0c23be27698e0f8"
+    },
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/framework_selection.json": {
+      "bytes": 18979,
+      "sha256": "a0fd855b2a0862a0ab816f9da9dbb203c9e08d81fee216bd5ebb88bcbe8bae67"
+    },
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/grid_runs.csv": {
+      "bytes": 30302,
+      "sha256": "8ebdd981f96583531bfedaa4f249e355a845554c655cac364214663f2f6fd89d"
+    }
+  },
+  "status": "baseline_captured"
+}

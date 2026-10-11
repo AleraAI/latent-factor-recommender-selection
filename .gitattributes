@@ -1,0 +1,12 @@
+*.pdf binary
+*.pptx binary
+*.parquet binary
+*.npz binary
+*.png binary
+*.zip binary
+*.sh text eol=lf
+*.py text eol=lf
+*.tex text eol=lf
+*.yaml text eol=lf
+# Preserve recorded CSV bytes, including standard CRLF record separators.
+*.csv -text whitespace=cr-at-eol

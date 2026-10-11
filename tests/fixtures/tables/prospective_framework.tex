@@ -1,0 +1,31 @@
+\begin{table}[H]
+\centering
+\caption{Prospectively locked external validation on Epinions. Configuration tuples are $(d,\lambda)$ and $|\mathcal{A}|$ is the validation admissible set size. $N_U$ and $N_N$ are the uncertainty-aware (UA) and NDCG-selected mean test NDCG@10; $\Delta_N=N_N-N_U$. $U_{0.95}$ is its predeclared one-sided 95\% user cluster bootstrap upper bound. A condition satisfies the predeclared absolute margin criterion when $U_{0.95}\leq0.005$; the family claim requires all four conditions to pass. Relative loss is the descriptive ratio $100\Delta_N/N_N$ and does not replace the frozen absolute margin endpoint. $\Delta_R$ is UA minus NDCG-selected mean-user test RMSE with a two-sided 95\% interval.}
+\label{tab:prospective-framework}
+\small
+\textit{Panel A: selections}\par\smallskip
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Ret. & RMSE choice & NDCG choice & UA choice & $|\mathcal{A}|$ \\
+\midrule
+100\% & $(64,10^{-1})$ & $(64,10^{-4})$ & $(64,10^{-1})$ & 35 \\
+75\% & $(64,10^{-1})$ & $(64,0)$ & $(64,10^{-1})$ & 35 \\
+50\% & $(64,10^{-1})$ & $(64,10^{-4})$ & $(64,10^{-1})$ & 35 \\
+25\% & $(64,10^{-1})$ & $(64,10^{-4})$ & $(64,10^{-1})$ & 35 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\textit{Panel B: test outcomes}\par\smallskip
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Ret. & $N_U$ & $N_N$ & $\Delta_N$ & $U_{0.95}$ & Rel. loss & $\Delta_R$ [95\% CI] & Decision \\
+\midrule
+100\% & 0.00083 & 0.00219 & +0.00136 & +0.00159 & 62.2\% & -0.0715 [-0.0743,-0.0686] & Pass \\
+75\% & 0.00103 & 0.00224 & +0.00121 & +0.00144 & 54.0\% & -0.0610 [-0.0638,-0.0583] & Pass \\
+50\% & 0.00138 & 0.00243 & +0.00104 & +0.00131 & 43.0\% & -0.0555 [-0.0581,-0.0530] & Pass \\
+25\% & 0.00192 & 0.00267 & +0.00075 & +0.00105 & 28.2\% & -0.0404 [-0.0425,-0.0383] & Pass \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

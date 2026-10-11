@@ -1,0 +1,52 @@
+\begin{table}[H]
+\centering
+\caption{Complete bias-only boundary. Panel (a) reports ranking-selected explicit MF minus ranking-selected bias-only NDCG@10, so positive $\Delta$ favors explicit MF. Panel (b) reports bias-only minus explicit-MF mean-user RMSE under RMSE selection, so positive $\Delta$ favors explicit MF. Intervals are paired user-cluster bootstrap intervals and $p_{\rm Holm}$ adjusts the twelve conditions within each comparison family.}
+\label{tab:supp-bias-only}
+\scriptsize
+\textbf{(a) Ranking boundary}\par\smallskip
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Dataset & Ret. & Users & Bias NDCG & Explicit NDCG & $\Delta$ & 95\% CI & $p_{\rm Holm}$ \\
+\midrule
+MovieLens 1M & 100\% & 5,931 & 0.00604 & 0.01834 & +0.01230 & [+0.01124,+0.01338] & 0.0012 \\
+ & 75\% & 5,931 & 0.00615 & 0.01695 & +0.01081 & [+0.00982,+0.01182] & 0.0012 \\
+ & 50\% & 5,931 & 0.00084 & 0.01683 & +0.01599 & [+0.01486,+0.01717] & 0.0012 \\
+ & 25\% & 5,931 & 0.00096 & 0.02000 & +0.01904 & [+0.01810,+0.02000] & 0.0012 \\
+\addlinespace
+CiaoDVD & 100\% & 428 & 0.01626 & 0.02440 & +0.00814 & [+0.00060,+0.01552] & 0.1011 \\
+ & 75\% & 428 & 0.02167 & 0.01981 & -0.00186 & [-0.00976,+0.00550] & 1.0000 \\
+ & 50\% & 428 & 0.00616 & 0.01394 & +0.00778 & [+0.00459,+0.01106] & 0.0012 \\
+ & 25\% & 428 & 0.01577 & 0.01507 & -0.00070 & [-0.00700,+0.00528] & 1.0000 \\
+\addlinespace
+Yelp--Tampa & 100\% & 3,539 & 0.00348 & 0.01068 & +0.00721 & [+0.00593,+0.00847] & 0.0012 \\
+ & 75\% & 3,539 & 0.00293 & 0.01125 & +0.00832 & [+0.00699,+0.00966] & 0.0012 \\
+ & 50\% & 3,539 & 0.00418 & 0.01083 & +0.00665 & [+0.00534,+0.00795] & 0.0012 \\
+ & 25\% & 3,539 & 0.00567 & 0.01145 & +0.00578 & [+0.00437,+0.00717] & 0.0012 \\
+\bottomrule
+\end{tabular}%
+}
+\par\medskip\textbf{(b) Prediction boundary}\par\smallskip
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Dataset & Ret. & Users & Bias RMSE & Explicit RMSE & $\Delta$ & 95\% CI & $p_{\rm Holm}$ \\
+\midrule
+MovieLens 1M & 100\% & 6,040 & 0.91112 & 0.87869 & +0.03243 & [+0.03011,+0.03471] & 0.0012 \\
+ & 75\% & 6,040 & 0.91573 & 0.88758 & +0.02815 & [+0.02569,+0.03062] & 0.0012 \\
+ & 50\% & 6,040 & 0.92208 & 0.91048 & +0.01160 & [+0.00889,+0.01439] & 0.0012 \\
+ & 25\% & 6,040 & 0.93619 & 0.93659 & -0.00039 & [-0.00274,+0.00198] & 0.7897 \\
+\addlinespace
+CiaoDVD & 100\% & 442 & 0.83783 & 0.84001 & -0.00218 & [-0.00391,-0.00042] & 0.0710 \\
+ & 75\% & 442 & 0.84936 & 0.85152 & -0.00216 & [-0.00405,-0.00029] & 0.0988 \\
+ & 50\% & 442 & 0.87146 & 0.87179 & -0.00034 & [-0.00111,+0.00044] & 0.7897 \\
+ & 25\% & 442 & 0.88911 & 0.88995 & -0.00083 & [-0.00159,-0.00008] & 0.1098 \\
+\addlinespace
+Yelp--Tampa & 100\% & 3,797 & 1.02282 & 1.04527 & -0.02246 & [-0.02507,-0.01982] & 0.0012 \\
+ & 75\% & 3,797 & 1.03468 & 1.06086 & -0.02617 & [-0.02878,-0.02351] & 0.0012 \\
+ & 50\% & 3,797 & 1.04489 & 1.08186 & -0.03697 & [-0.04211,-0.03188] & 0.0012 \\
+ & 25\% & 3,797 & 1.07541 & 1.10438 & -0.02898 & [-0.03353,-0.02438] & 0.0012 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

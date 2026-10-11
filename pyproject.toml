@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latent-factor-recommender-selection"
+version = "1.0.0"
+description = "Uncertainty-aware prediction-ranking selection for latent-factor recommenders"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Mohamed Elrfaey"},
+  {name = "T. Aaron Gulliver"},
+]
+dependencies = [
+  "matplotlib>=3.7,<4",
+  "numpy>=1.21.5,<3",
+  "pandas>=1.5.3,<3",
+  "pyarrow>=10,<25",
+  "pypdf>=5,<7",
+  "PyYAML>=6,<7",
+  "scipy>=1.9,<2",
+  "torch>=2.0,<3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src.latent_factor_study*"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["."]
+testpaths = ["tests"]

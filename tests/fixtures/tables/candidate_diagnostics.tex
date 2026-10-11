@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Locked test candidate diagnostics under the exact retained training catalog contract. Candidate counts are the 5th percentile/median/95th percentile over all evaluated users, and relevant counts are the median/95th percentile among ranking evaluable users. Item-cold relevant events are excluded from primary ranking and retained for the declared prediction fallback.}
+\label{tab:candidate-diagnostics}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Dataset & Ret. & Evaluable users & Candidates $q_{.05}$/med./$q_{.95}$ & Relevant med./$q_{.95}$ & Cold relevant \\
+\midrule
+MovieLens 1M & 100\% & 5,931 & 2,788/3,179/3,241 & 8/42 & 0 \\
+ & 75\% & 5,931 & 2,788/3,179/3,241 & 8/42 & 0 \\
+ & 50\% & 5,931 & 2,788/3,179/3,241 & 8/42 & 0 \\
+ & 25\% & 5,931 & 2,788/3,179/3,241 & 8/42 & 0 \\
+\addlinespace
+CiaoDVD & 100\% & 428 & 484/520/525 & 2/7 & 7 \\
+ & 75\% & 428 & 484/520/525 & 2/7 & 7 \\
+ & 50\% & 428 & 484/520/525 & 2/7 & 7 \\
+ & 25\% & 428 & 484/520/525 & 2/7 & 7 \\
+\addlinespace
+Yelp--Tampa & 100\% & 3,539 & 1,669/1,712/1,717 & 2/8 & 101 \\
+ & 75\% & 3,539 & 1,669/1,712/1,717 & 2/8 & 101 \\
+ & 50\% & 3,539 & 1,669/1,712/1,717 & 2/8 & 101 \\
+ & 25\% & 3,539 & 1,669/1,712/1,717 & 2/8 & 101 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

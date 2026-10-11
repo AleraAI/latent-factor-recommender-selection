@@ -1,0 +1,105 @@
+{
+  "_public_export": {
+    "not_canonical_original": true,
+    "removed_fields": [
+      "conditions.r025.repaired_interaction_ids",
+      "conditions.r050.repaired_interaction_ids",
+      "conditions.r075.repaired_interaction_ids",
+      "conditions.r100.repaired_interaction_ids"
+    ],
+    "source_sha256": "11ede182bf874de62c140ec2905576adc5f2395390c7ea7fdfc6003bb98e5b6b",
+    "transformation": "Omit repaired interaction hash lists; retain counts, artifact hashes and all other fields."
+  },
+  "conditions": {
+    "r025": {
+      "artifact": {
+        "bytes": 14232806,
+        "path": "data/splits/latent_factor_beyond_rmse/movielens_1m/train_r025.parquet",
+        "sha256": "ba1dd2b98bcb2207914ffbdf503d9af556e9d3591179f62590ce4f20d93cdead"
+      },
+      "full_train_rows": 696213,
+      "full_training_catalog_items": 3260,
+      "initial_requested_rows": 174842,
+      "items": 3260,
+      "minimum_per_user": 3,
+      "minimum_realized_user_degree": 3,
+      "realized_retention": 0.25117456870239424,
+      "realized_rows": 174871,
+      "repair_rows_added": 29,
+      "repaired_interaction_ids_omitted_count": 29,
+      "repaired_items": 29,
+      "retention_nominal": 0.25,
+      "seed": 20260817,
+      "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+      "users": 6040
+    },
+    "r050": {
+      "artifact": {
+        "bytes": 27417097,
+        "path": "data/splits/latent_factor_beyond_rmse/movielens_1m/train_r050.parquet",
+        "sha256": "30a6167be94a355c48b02e31af6cb8c783cacf92a3812eab65001bc202240344"
+      },
+      "full_train_rows": 696213,
+      "full_training_catalog_items": 3260,
+      "initial_requested_rows": 349556,
+      "items": 3260,
+      "minimum_per_user": 3,
+      "minimum_realized_user_degree": 6,
+      "realized_retention": 0.50208772315369,
+      "realized_rows": 349560,
+      "repair_rows_added": 4,
+      "repaired_interaction_ids_omitted_count": 4,
+      "repaired_items": 4,
+      "retention_nominal": 0.5,
+      "seed": 20260817,
+      "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+      "users": 6040
+    },
+    "r075": {
+      "artifact": {
+        "bytes": 40445977,
+        "path": "data/splits/latent_factor_beyond_rmse/movielens_1m/train_r075.parquet",
+        "sha256": "a2b0044ae2f05ef5d6c02b209c32d3bba443f5a9d5ee9d64a42e4186c1d3c187"
+      },
+      "full_train_rows": 696213,
+      "full_training_catalog_items": 3260,
+      "initial_requested_rows": 522971,
+      "items": 3260,
+      "minimum_per_user": 3,
+      "minimum_realized_user_degree": 8,
+      "realized_retention": 0.7511652324791407,
+      "realized_rows": 522971,
+      "repair_rows_added": 0,
+      "repaired_interaction_ids_omitted_count": 0,
+      "repaired_items": 0,
+      "retention_nominal": 0.75,
+      "seed": 20260817,
+      "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+      "users": 6040
+    },
+    "r100": {
+      "artifact": {
+        "bytes": 52866029,
+        "path": "data/splits/latent_factor_beyond_rmse/movielens_1m/train_r100.parquet",
+        "sha256": "29fa012abcabe52a12475b05e6560e0cf3f7957734773c838330d249e3752d43"
+      },
+      "full_train_rows": 696213,
+      "full_training_catalog_items": 3260,
+      "initial_requested_rows": 696213,
+      "items": 3260,
+      "minimum_per_user": 3,
+      "minimum_realized_user_degree": 11,
+      "realized_retention": 1.0,
+      "realized_rows": 696213,
+      "repair_rows_added": 0,
+      "repaired_interaction_ids_omitted_count": 0,
+      "repaired_items": 0,
+      "retention_nominal": 1.0,
+      "seed": 20260817,
+      "selection_rule": "per user, retain max(minimum, floor(retention*n+0.5)) rows by SHA-256(seed, retention, interaction_id), then add one row for each otherwise-lost item in the full-training catalog; held-out identities are not used by the sampler",
+      "users": 6040
+    }
+  },
+  "dataset": "movielens_1m",
+  "schema_version": 1
+}

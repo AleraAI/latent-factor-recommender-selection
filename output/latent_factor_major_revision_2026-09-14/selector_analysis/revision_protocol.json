@@ -1,0 +1,96 @@
+{
+  "analysis_module_sha256_at_recording": "c9fbffa102cdb4995b14ca5e237e222e80b10786f64523c1744b7f4b11306bb6",
+  "bootstrap": {
+    "confidence": 0.95,
+    "resamples": 2000,
+    "seed": 20260914,
+    "target": "conditional fixed-fit user-sampling diagnostic, not seed/split/retraining uncertainty or simultaneous coverage",
+    "unit": "all evaluated users, same draws across configurations/seeds; ranking averages eligible sampled users"
+  },
+  "datasets": [
+    "movielens_1m",
+    "ciaodvd",
+    "yelp_tampa_restaurants",
+    "epinions"
+  ],
+  "development_seeds": [
+    101,
+    211,
+    307,
+    401,
+    503
+  ],
+  "environment": {
+    "numpy": "1.24.3",
+    "pandas": "2.0.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.11.1",
+    "scipy": "1.10.1"
+  },
+  "evaluation_seeds": [
+    601,
+    701,
+    809,
+    907,
+    1009
+  ],
+  "historical_single_objective_ties": [
+    "objective",
+    "smaller_dimension",
+    "larger_regularization"
+  ],
+  "input_sha256": {
+    "configs/latent_factor_beyond_rmse/epinions_prospective_modeling.yaml": "3fe2c5b6961ff72b11ee071ec89b36bf2ff01f663bb79f659af4931ffb29a51f",
+    "configs/latent_factor_beyond_rmse/epinions_prospective_protocol_lock.yaml": "22ff01635b0ff5ff287ea5df88e1ef9e072a8666d3123d7bd513e49f6a7416eb",
+    "configs/latent_factor_beyond_rmse/epinions_prospective_selection_lock.yaml": "1a91a25ec2de506a479d46b56afdb4631fecab9ec609c40cc60ff9ecde9f01fd",
+    "configs/latent_factor_beyond_rmse/modeling.yaml": "a3410ec6f63a7adc2a061627671d6c1c58b7f7c27db4df57a8ea7ebe56c933f3",
+    "configs/latent_factor_beyond_rmse/selection_lock.yaml": "d608fbefa6021f81ebeac2ce50c038645142ce2ed754939ab9921675a70c90bf",
+    "outputs/latent_factor_beyond_rmse/development/ciaodvd/r025/grid_runs.csv": "c4fc7479446b0fae329b9223ad8c5f4a19e6b72886fb0eaef6d646ea981d6be9",
+    "outputs/latent_factor_beyond_rmse/development/ciaodvd/r050/grid_runs.csv": "95f4b0c99c695577432f59b4e5406953bbaee9b268025b81f19c763984ef1ad4",
+    "outputs/latent_factor_beyond_rmse/development/ciaodvd/r075/grid_runs.csv": "88b9818950a1b16378dfdfe9478df18c7a3a6c57bf54846891ed01a90735670e",
+    "outputs/latent_factor_beyond_rmse/development/ciaodvd/r100/grid_runs.csv": "777320759d3eaa06e1183f83fb30d14b8d2d0b19c7cf2c54c01d5037bae0f06e",
+    "outputs/latent_factor_beyond_rmse/development/movielens_1m/r025/grid_runs.csv": "ad045b1cd6087a26f75f8b496506daf41a69f1efe03d7064c9eb1608f0cd8891",
+    "outputs/latent_factor_beyond_rmse/development/movielens_1m/r050/grid_runs.csv": "85541042d1dc0d07164d4d027dc8c37f35a4c69bbceaca5bc190ef518e3d78ab",
+    "outputs/latent_factor_beyond_rmse/development/movielens_1m/r075/grid_runs.csv": "da586fc688fcfaf0a6be32e65f5f2645f728554d38eb84b1d63daba21eceeb58",
+    "outputs/latent_factor_beyond_rmse/development/movielens_1m/r100/grid_runs.csv": "1a2e2732bbca468584b3ce8edb80b005de80478e7e65ccd9ebc2f7caa642dab0",
+    "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r025/grid_runs.csv": "a9c2145f437d63faa25fa0a85c43f873fa2e2671d1122dd58becc021609b0373",
+    "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r050/grid_runs.csv": "5ca9efb938e14b56e93a350ea895ea22f64dc3cc66a72e635e8a0ffa07de5a91",
+    "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r075/grid_runs.csv": "470313a9764fb40dfc424be1ea8ca6dd5531a20ae0803c3a52b5024327282069",
+    "outputs/latent_factor_beyond_rmse/development/yelp_tampa_restaurants/r100/grid_runs.csv": "44e2582da84639f9fdac65a661396dce9cf2d5662d9421e5ebf0156d22690505",
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r025/grid_runs.csv": "a7307f0ab0967dbb65c8b1d07b7c46b3c5739196348842fc0ce055675cbc19a3",
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r050/grid_runs.csv": "879ce8a9d049a831fda7e3a858958423f2e5b941d799ac91033a6e17e44bb686",
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r075/grid_runs.csv": "3573802ab8d8ac9a20af9331f67b05ff668ad5a99d52f905d0c23be27698e0f8",
+    "outputs/latent_factor_beyond_rmse/prospective_epinions/development/epinions/r100/grid_runs.csv": "8ebdd981f96583531bfedaa4f249e355a845554c655cac364214663f2f6fd89d",
+    "src/latent_factor_study/evaluation.py": "cddd71e8d4b2e1f2ba08d80ee175f494d11f93e37a36d2ffdfc7a7004a79a257",
+    "src/latent_factor_study/explicit_mf.py": "3cd6164f241deef3d0b78b4506135a355f99113c33ef1652b1535bf908686169",
+    "src/latent_factor_study/grid.py": "855b136f339c3fad0e3d1fc316ce63bf8acc9525c94c67815bb4cf0ab124ad5d",
+    "src/latent_factor_study/uncertainty_selector.py": "dc5637485e5ce1d55180741292c2ee629c1cb23285131dcef6eaed5468b7946a"
+  },
+  "margins": [
+    0.001,
+    0.0025,
+    0.005,
+    0.01
+  ],
+  "mean_ablation": "remove only Student-t uncertainty adjustment; retain complete UA tie hierarchy",
+  "missing_policy": "report missing runs; no partial-seed point estimates; no invented fallback",
+  "new_test_summaries_accessed_before_recording": false,
+  "original_margin": 0.005,
+  "prediction_estimand": "mean across seeds of event-weighted global clipped RMSE; separately mean-user RMSE",
+  "recorded_utc": "2026-09-14T23:17:28.737389+00:00",
+  "relative_regret": "100*(reference NDCG-selected minus selected)/reference; flag denominator <= 1e-8, never substitute epsilon",
+  "retentions": [
+    "r100",
+    "r075",
+    "r050",
+    "r025"
+  ],
+  "stage": "revision_stage_sensitivity_on_previously_inspected_test_partitions",
+  "test_reuse": "identical configuration/seed/run settings and primary data contract; no ensembles; no new fitting",
+  "ua_ties": [
+    "lower_mean_validation_rmse",
+    "lower_recorded_mean_training_seconds",
+    "smaller_dimension",
+    "larger_regularization"
+  ]
+}

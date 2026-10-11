@@ -1,0 +1,88 @@
+{
+  "_public_export": {
+    "not_canonical_original": true,
+    "removed_fields": [
+      "family.repaired_interaction_ids"
+    ],
+    "source_sha256": "67aedb142efbcbea4c6e902b52990ed6a67d8789a2182b9f7f87af36c4ca3bd2",
+    "transformation": "Omit repaired interaction hash lists; retain counts, artifact hashes and all other fields."
+  },
+  "conditions": {
+    "r025": {
+      "artifact": {
+        "bytes": 14172298,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260819/movielens_1m/train_r025.parquet",
+        "sha256": "52eae277cae402e96111630981f63b3afb29bcae7ea4f02049d1f54c425c9439"
+      },
+      "initial_requested_rows": 174842,
+      "items": 3260,
+      "minimum_realized_user_degree": 3,
+      "realized_retention": 0.2511731323603552,
+      "realized_rows": 174870,
+      "repair_rows_propagated": 28,
+      "retention_nominal": 0.25,
+      "seed": 20260819,
+      "users": 6040
+    },
+    "r050": {
+      "artifact": {
+        "bytes": 27433517,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260819/movielens_1m/train_r050.parquet",
+        "sha256": "712e566d1575e17556690e05e98765d7a1296f8a29ccc4fb626db97a42333ebd"
+      },
+      "initial_requested_rows": 349556,
+      "items": 3260,
+      "minimum_realized_user_degree": 6,
+      "realized_retention": 0.502086286811651,
+      "realized_rows": 349559,
+      "repair_rows_propagated": 3,
+      "retention_nominal": 0.5,
+      "seed": 20260819,
+      "users": 6040
+    },
+    "r075": {
+      "artifact": {
+        "bytes": 40377241,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260819/movielens_1m/train_r075.parquet",
+        "sha256": "910f3d3f5557aebbb173f285b663be38a9c892b0bbd93ee87a147d41b827fac9"
+      },
+      "initial_requested_rows": 522971,
+      "items": 3260,
+      "minimum_realized_user_degree": 8,
+      "realized_retention": 0.7511652324791407,
+      "realized_rows": 522971,
+      "repair_rows_propagated": 0,
+      "retention_nominal": 0.75,
+      "seed": 20260819,
+      "users": 6040
+    },
+    "r100": {
+      "artifact": {
+        "bytes": 52866029,
+        "path": "data/splits/latent_factor_beyond_rmse_robustness/seed_20260819/movielens_1m/train_r100.parquet",
+        "sha256": "29fa012abcabe52a12475b05e6560e0cf3f7957734773c838330d249e3752d43"
+      },
+      "initial_requested_rows": 696213,
+      "items": 3260,
+      "minimum_realized_user_degree": 11,
+      "realized_retention": 1.0,
+      "realized_rows": 696213,
+      "repair_rows_propagated": 0,
+      "retention_nominal": 1.0,
+      "seed": 20260819,
+      "users": 6040
+    }
+  },
+  "dataset": "movielens_1m",
+  "family": {
+    "catalog_repair_origin": "r025_then_propagated_upward",
+    "nested": true,
+    "priority_rule": "sha256(seed, interaction_id)",
+    "repaired_interaction_ids_omitted_count": 28,
+    "repaired_items": 28,
+    "seed": 20260819
+  },
+  "protocol_sha256": "f37db83b253bfc966aa64f80450fe9a123171c9191c05f06171426a6e69c83ec",
+  "schema_version": 1,
+  "stage": "post_confirmation_nested_retention"
+}

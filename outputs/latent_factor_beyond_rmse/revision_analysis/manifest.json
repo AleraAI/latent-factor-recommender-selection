@@ -1,0 +1,32 @@
+{
+  "analysis_status": "post_confirmation",
+  "manuscript_artifacts": [
+    "papers/latent_factor_beyond_rmse/generated/configuration_stability.tex",
+    "papers/latent_factor_beyond_rmse/generated/prediction_regret.tex",
+    "papers/latent_factor_beyond_rmse/generated/retention_contrasts.tex",
+    "papers/latent_factor_beyond_rmse/generated/candidate_diagnostics.tex",
+    "papers/latent_factor_beyond_rmse/generated/selection_cost.tex",
+    "papers/latent_factor_beyond_rmse/generated/popularity_diagnostics.tex",
+    "papers/latent_factor_beyond_rmse/figures/generated/configuration_landscape_movielens_1m.pdf",
+    "papers/latent_factor_beyond_rmse/figures/generated/configuration_landscape_movielens_1m.png",
+    "papers/latent_factor_beyond_rmse/figures/generated/configuration_landscape_ciaodvd.pdf",
+    "papers/latent_factor_beyond_rmse/figures/generated/configuration_landscape_ciaodvd.png",
+    "papers/latent_factor_beyond_rmse/figures/generated/configuration_landscape_yelp_tampa_restaurants.pdf",
+    "papers/latent_factor_beyond_rmse/figures/generated/configuration_landscape_yelp_tampa_restaurants.png",
+    "papers/latent_factor_beyond_rmse/figures/generated/configuration_rank_displacement.pdf",
+    "papers/latent_factor_beyond_rmse/figures/generated/configuration_rank_displacement.png"
+  ],
+  "outputs": [
+    "outputs/latent_factor_beyond_rmse/revision_analysis/bpr_selection_diagnostics.csv",
+    "outputs/latent_factor_beyond_rmse/revision_analysis/candidate_diagnostics.csv",
+    "outputs/latent_factor_beyond_rmse/revision_analysis/configuration_diagnostics.csv",
+    "outputs/latent_factor_beyond_rmse/revision_analysis/pareto_configurations.csv",
+    "outputs/latent_factor_beyond_rmse/revision_analysis/popularity_diagnostics.csv",
+    "outputs/latent_factor_beyond_rmse/revision_analysis/practical_evidence.csv",
+    "outputs/latent_factor_beyond_rmse/revision_analysis/prediction_regret.csv",
+    "outputs/latent_factor_beyond_rmse/revision_analysis/retention_contrasts.csv",
+    "outputs/latent_factor_beyond_rmse/revision_analysis/selection_cost.csv"
+  ],
+  "primary_selection_locks_modified": false,
+  "schema_version": 1
+}

@@ -1,0 +1,63 @@
+study:
+  slug: latent_factor_beyond_rmse
+  title: "Selecting Latent-Factor Recommenders Beyond RMSE: Prediction–Ranking Trade-offs under Controlled Sparsity"
+  empirical_independence: >-
+    No Amazon Books files, IEEE-study splits, parameters, code paths, or
+    numerical outputs are inputs to this study.
+
+protocol:
+  rating_min: 1.0
+  rating_max: 5.0
+  minimum_user_degree: 10
+  minimum_item_degree: 10
+  train_ratio: 0.70
+  validation_ratio: 0.15
+  test_ratio: 0.15
+  primary_relevance_threshold: 4.0
+  graded_gains:
+    "4": 1.0
+    "5": 3.0
+
+controlled_sparsity:
+  retentions: [1.00, 0.75, 0.50, 0.25]
+  seed: 20260817
+  minimum_per_user: 3
+  output_root: data/splits/latent_factor_beyond_rmse
+
+datasets:
+  movielens_1m:
+    display_name: MovieLens 1M
+    loader: movielens_1m
+    source_url: https://files.grouplens.org/datasets/movielens/ml-1m.zip
+    release: ml-1m stable archive; README files dated 2003
+    license_or_terms: GroupLens research-use terms embedded in the archive README
+    archive_path: data/raw/latent_factor_beyond_rmse/ml-1m.zip
+    sha256: a6898adb50b9ca05aa231689da44c217cb524e7ebd39d264c56e2832f2c54e20
+    output_dir: data/processed/latent_factor_beyond_rmse/movielens_1m
+
+  ciaodvd:
+    display_name: CiaoDVD
+    loader: ciaodvd
+    source_url: https://www.librec.net/datasets.html
+    release: collected November--December 2013; archive README dated 2014
+    license_or_terms: research dataset distributed by LibRec; source README retained in archive
+    archive_path: data/raw/latent_factor_beyond_rmse/CiaoDVD.zip
+    sha256: e36e06034dcf767f0f5cac120b03f262caef68cba86690e451571c13fa3236dd
+    output_dir: data/processed/latent_factor_beyond_rmse/ciaodvd
+
+  yelp_tampa_restaurants:
+    display_name: Yelp Open Dataset--Tampa Restaurants
+    loader: yelp_scope
+    source_url: https://business.yelp.com/data/resources/open-dataset/
+    release: official bundle packaged 2025-01-07
+    license_or_terms: Yelp Dataset License Agreement retained with the local bundle
+    archive_path: data/raw/paper3_crr/yelp_open_dataset/Yelp-JSON.zip
+    sha256: 47dd6e4d279ac9d8734ddc30bfb3d78e571b9df4bb95923d7acf9a6ef3d8a4ab
+    business_path: data/raw/paper3_crr/yelp_open_dataset/yelp_academic_dataset_business.json
+    review_path: data/raw/paper3_crr/yelp_open_dataset/yelp_academic_dataset_review.json
+    scope:
+      city: Tampa
+      state: FL
+      category: Restaurants
+      category_match: exact comma-separated token
+    output_dir: data/processed/latent_factor_beyond_rmse/yelp_tampa_restaurants

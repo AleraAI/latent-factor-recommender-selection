@@ -1,0 +1,296 @@
+{
+  "artifacts": {
+    "interactions": {
+      "bytes": 788829,
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/interactions_10core.parquet",
+      "sha256": "1e652f9b956a1837d097aae69dce17f904e448cfbb470f18d189be0bf792c976"
+    },
+    "split_assignments": {
+      "bytes": 679879,
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/split_assignments.parquet",
+      "sha256": "d0aabee3bf46ee7c3f9a4bf5cf5d971205670d925cdc47c380e5a0fda08e93ae"
+    },
+    "test": {
+      "bytes": 147369,
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/test.parquet",
+      "sha256": "86e7b890e178f1ea331975b636b3a1eacb0afe805d0aa8e6fd04b24079d3ac70"
+    },
+    "train": {
+      "bytes": 536606,
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/train.parquet",
+      "sha256": "14365be9ea1bef2baa38425813ece649b3522d0a9eec8a925578749a77b20d3d"
+    },
+    "validation": {
+      "bytes": 129676,
+      "path": "data/processed/latent_factor_beyond_rmse/ciaodvd/validation.parquet",
+      "sha256": "548914beb9532a2d8a84176ccf6808d067de604c4cdc19d7e0edeae751a42d16"
+    }
+  },
+  "core_iterations": [
+    {
+      "items_after": 1492,
+      "iteration": 1,
+      "rows_after": 20077,
+      "rows_before": 72345,
+      "users_after": 1103
+    },
+    {
+      "items_after": 828,
+      "iteration": 2,
+      "rows_after": 14252,
+      "rows_before": 20077,
+      "users_after": 698
+    },
+    {
+      "items_after": 705,
+      "iteration": 3,
+      "rows_after": 12175,
+      "rows_before": 14252,
+      "users_after": 548
+    },
+    {
+      "items_after": 615,
+      "iteration": 4,
+      "rows_after": 11086,
+      "rows_before": 12175,
+      "users_after": 506
+    },
+    {
+      "items_after": 584,
+      "iteration": 5,
+      "rows_after": 10538,
+      "rows_before": 11086,
+      "users_after": 473
+    },
+    {
+      "items_after": 563,
+      "iteration": 6,
+      "rows_after": 10270,
+      "rows_before": 10538,
+      "users_after": 463
+    },
+    {
+      "items_after": 553,
+      "iteration": 7,
+      "rows_after": 10091,
+      "rows_before": 10270,
+      "users_after": 453
+    },
+    {
+      "items_after": 544,
+      "iteration": 8,
+      "rows_after": 9974,
+      "rows_before": 10091,
+      "users_after": 449
+    },
+    {
+      "items_after": 541,
+      "iteration": 9,
+      "rows_after": 9930,
+      "rows_before": 9974,
+      "users_after": 447
+    },
+    {
+      "items_after": 538,
+      "iteration": 10,
+      "rows_after": 9894,
+      "rows_before": 9930,
+      "users_after": 446
+    },
+    {
+      "items_after": 537,
+      "iteration": 11,
+      "rows_after": 9876,
+      "rows_before": 9894,
+      "users_after": 445
+    },
+    {
+      "items_after": 536,
+      "iteration": 12,
+      "rows_after": 9849,
+      "rows_before": 9876,
+      "users_after": 443
+    },
+    {
+      "items_after": 534,
+      "iteration": 13,
+      "rows_after": 9822,
+      "rows_before": 9849,
+      "users_after": 442
+    },
+    {
+      "items_after": 534,
+      "iteration": 14,
+      "rows_after": 9822,
+      "rows_before": 9822,
+      "users_after": 442
+    }
+  ],
+  "dataset": "ciaodvd",
+  "deduplicated_statistics": {
+    "density": 0.0002547615576025495,
+    "item_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 424.0,
+      "q25": 1.0,
+      "q50": 1.0,
+      "q75": 3.0,
+      "q90": 9.0,
+      "q95": 17.0,
+      "q99": 52.0
+    },
+    "items": 16121,
+    "rating_histogram": {
+      "1": 2641,
+      "2": 4667,
+      "3": 10053,
+      "4": 22483,
+      "5": 32501
+    },
+    "rows": 72345,
+    "timestamp_max": 1385596800,
+    "timestamp_min": 959731200,
+    "user_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 1106.0,
+      "q25": 1.0,
+      "q50": 1.0,
+      "q75": 3.0,
+      "q90": 6.0,
+      "q95": 12.0,
+      "q99": 43.0
+    },
+    "users": 17615
+  },
+  "deduplication_rule": "latest timestamp; source_row_id breaks ties",
+  "display_name": "CiaoDVD",
+  "duplicate_statistics": {
+    "deduplicated_rows": 72345,
+    "duplicate_rows_removed": 320,
+    "input_rows": 72665
+  },
+  "license_or_terms": "research dataset distributed by LibRec; source README retained in archive",
+  "processed_statistics": {
+    "density": 0.04161370684834003,
+    "item_degree_quantiles": {
+      "q00": 10.0,
+      "q100": 98.0,
+      "q25": 11.0,
+      "q50": 15.0,
+      "q75": 21.0,
+      "q90": 29.69999999999999,
+      "q95": 39.69999999999993,
+      "q99": 63.33999999999992
+    },
+    "items": 534,
+    "rating_histogram": {
+      "1": 330,
+      "2": 596,
+      "3": 1495,
+      "4": 3400,
+      "5": 4001
+    },
+    "rows": 9822,
+    "timestamp_max": 1385251200,
+    "timestamp_min": 960336000,
+    "user_degree_quantiles": {
+      "q00": 10.0,
+      "q100": 185.0,
+      "q25": 12.0,
+      "q50": 16.0,
+      "q75": 23.0,
+      "q90": 38.0,
+      "q95": 57.849999999999966,
+      "q99": 132.94999999999987
+    },
+    "users": 442
+  },
+  "protocol": {
+    "graded_gains": {
+      "4": 1.0,
+      "5": 3.0
+    },
+    "minimum_item_degree": 10,
+    "minimum_user_degree": 10,
+    "primary_relevance_threshold": 4.0,
+    "rating_max": 5.0,
+    "rating_min": 1.0,
+    "test_ratio": 0.15,
+    "train_ratio": 0.7,
+    "validation_ratio": 0.15
+  },
+  "raw_or_scoped_statistics": {
+    "density": 0.0002558884315873835,
+    "item_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 433.0,
+      "q25": 1.0,
+      "q50": 1.0,
+      "q75": 3.0,
+      "q90": 9.0,
+      "q95": 17.0,
+      "q99": 52.79999999999927
+    },
+    "items": 16121,
+    "rating_histogram": {
+      "1": 2651,
+      "2": 4685,
+      "3": 10074,
+      "4": 22560,
+      "5": 32695
+    },
+    "rows": 72665,
+    "timestamp_max": 1385596800,
+    "timestamp_min": 959731200,
+    "user_degree_quantiles": {
+      "q00": 1.0,
+      "q100": 1106.0,
+      "q25": 1.0,
+      "q50": 1.0,
+      "q75": 3.0,
+      "q90": 7.0,
+      "q95": 12.0,
+      "q99": 43.0
+    },
+    "users": 17615
+  },
+  "release": "collected November--December 2013; archive README dated 2014",
+  "schema_version": 1,
+  "scope": null,
+  "scope_statistics": {},
+  "source_files": {
+    "archive": {
+      "bytes": 5814757,
+      "path": "data/raw/latent_factor_beyond_rmse/CiaoDVD.zip",
+      "sha256": "e36e06034dcf767f0f5cac120b03f262caef68cba86690e451571c13fa3236dd"
+    }
+  },
+  "source_url": "https://www.librec.net/datasets.html",
+  "split_boundary_rule": "within user: train_end=floor(train_ratio*n), validation_end=floor((train_ratio+validation_ratio)*n); remainder=test",
+  "split_statistics": {
+    "test": {
+      "item_cold_rows": 10,
+      "items": 496,
+      "relevant_rows_rating_ge_4": 1235,
+      "rows": 1670,
+      "users": 442,
+      "users_with_relevant_rows": 428
+    },
+    "train": {
+      "item_cold_rows": 0,
+      "items": 533,
+      "relevant_rows_rating_ge_4": 5094,
+      "rows": 6695,
+      "users": 442,
+      "users_with_relevant_rows": 442
+    },
+    "validation": {
+      "item_cold_rows": 0,
+      "items": 491,
+      "relevant_rows_rating_ge_4": 1072,
+      "rows": 1457,
+      "users": 442,
+      "users_with_relevant_rows": 407
+    }
+  }
+}

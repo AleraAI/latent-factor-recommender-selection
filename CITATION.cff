@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or artifact, please cite the accompanying article."
+title: "Prediction–Ranking Trade-Offs in Latent-Factor Recommenders: An Uncertainty-Aware Selection Framework — Reproducibility Artifact"
+type: software
+version: 1.0.0
+date-released: 2026-08-25
+license: Apache-2.0
+repository-code: "https://github.com/AleraAI/latent-factor-recommender-selection"
+authors:
+  - family-names: Elrfaey
+    given-names: Mohamed
+  - family-names: Gulliver
+    given-names: Thomas Aaron
+preferred-citation:
+  type: article
+  title: "Prediction–Ranking Trade-Offs in Latent-Factor Recommenders: An Uncertainty-Aware Selection Framework"
+  authors:
+    - family-names: Elrfaey
+      given-names: Mohamed
+    - family-names: Gulliver
+      given-names: Thomas Aaron
+  year: 2026
+  month: 10
+  journal: Computers
+  volume: "15"
+  issue: "10"
+  start: "703"
+  doi: "10.3390/computers15100703"
+  url: "https://www.mdpi.com/2073-431X/15/10/703"
+  date-published: 2026-10-11

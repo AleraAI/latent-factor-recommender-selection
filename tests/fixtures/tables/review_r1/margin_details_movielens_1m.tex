@@ -1,0 +1,50 @@
+\begin{table}[H]
+\centering
+\caption{Revision-stage margin sensitivity for MovieLens 1M. All 32 retention--margin--rule selections are shown. Test metrics are arithmetic averages across five model-seed evaluations, not predictions averaged into an ensemble. Validation RMSE and test RMSE are global event-weighted measures within a model seed. Configuration aliases are defined in \Cref{tab:config-registry}; $|A|$ denotes admissible candidates. Every displayed test result has all five model seeds. Reference NDCG scores, signed absolute and relative test regrets, and uncertainty intervals are retained in the machine-readable reports.}
+\label{tab:margin-details-movielens-1m}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llccrrrrr@{}}
+\toprule
+Retention & $\delta$ & Rule & ID & $|A|$ & Val. RMSE & Val. NDCG@10 & Test RMSE & Test NDCG@10 \\
+\midrule
+100\% & 0.0010 & Mean & C25 & 3 & 0.87760 & 0.01731 & 0.89542 & 0.01768 \\
+ &  & UA & C30 & 2 & 0.87812 & 0.01807 & 0.89608 & 0.01834 \\
+ & 0.0025 & Mean & C25 & 4 & 0.87760 & 0.01731 & 0.89542 & 0.01768 \\
+ &  & UA & C25 & 4 & 0.87760 & 0.01731 & 0.89542 & 0.01768 \\
+ & 0.0050 & Mean & C25 & 11 & 0.87760 & 0.01731 & 0.89542 & 0.01768 \\
+ &  & UA & C25 & 11 & 0.87760 & 0.01731 & 0.89542 & 0.01768 \\
+ & 0.0100 & Mean & C25 & 17 & 0.87760 & 0.01731 & 0.89542 & 0.01768 \\
+ &  & UA & C25 & 16 & 0.87760 & 0.01731 & 0.89542 & 0.01768 \\
+\addlinespace
+75\% & 0.0010 & Mean & C30 & 2 & 0.88398 & 0.01620 & 0.90302 & 0.01545 \\
+ &  & UA & C35 & 1 & 0.88480 & 0.01710 & 0.90342 & 0.01695 \\
+ & 0.0025 & Mean & C30 & 2 & 0.88398 & 0.01620 & 0.90302 & 0.01545 \\
+ &  & UA & C30 & 2 & 0.88398 & 0.01620 & 0.90302 & 0.01545 \\
+ & 0.0050 & Mean & C25 & 4 & 0.88363 & 0.01355 & 0.90220 & 0.01342 \\
+ &  & UA & C25 & 4 & 0.88363 & 0.01355 & 0.90220 & 0.01342 \\
+ & 0.0100 & Mean & C25 & 19 & 0.88363 & 0.01355 & 0.90220 & 0.01342 \\
+ &  & UA & C25 & 11 & 0.88363 & 0.01355 & 0.90220 & 0.01342 \\
+\addlinespace
+50\% & 0.0010 & Mean & C35 & 1 & 0.90051 & 0.01797 & 0.92011 & 0.01683 \\
+ &  & UA & C35 & 1 & 0.90051 & 0.01797 & 0.92011 & 0.01683 \\
+ & 0.0025 & Mean & C35 & 2 & 0.90051 & 0.01797 & 0.92011 & 0.01683 \\
+ &  & UA & C35 & 1 & 0.90051 & 0.01797 & 0.92011 & 0.01683 \\
+ & 0.0050 & Mean & C35 & 6 & 0.90051 & 0.01797 & 0.92011 & 0.01683 \\
+ &  & UA & C35 & 3 & 0.90051 & 0.01797 & 0.92011 & 0.01683 \\
+ & 0.0100 & Mean & C20 & 8 & 0.89941 & 0.00800 & 0.91945 & 0.00802 \\
+ &  & UA & C35 & 7 & 0.90051 & 0.01797 & 0.92011 & 0.01683 \\
+\addlinespace
+25\% & 0.0010 & Mean & C34 & 4 & 1.05792 & 0.02032 & 1.07672 & 0.02000 \\
+ &  & UA & C34 & 1 & 1.05792 & 0.02032 & 1.07672 & 0.02000 \\
+ & 0.0025 & Mean & C34 & 4 & 1.05792 & 0.02032 & 1.07672 & 0.02000 \\
+ &  & UA & C34 & 4 & 1.05792 & 0.02032 & 1.07672 & 0.02000 \\
+ & 0.0050 & Mean & C35 & 5 & 0.93641 & 0.01757 & 0.95873 & 0.01613 \\
+ &  & UA & C35 & 5 & 0.93641 & 0.01757 & 0.95873 & 0.01613 \\
+ & 0.0100 & Mean & C35 & 10 & 0.93641 & 0.01757 & 0.95873 & 0.01613 \\
+ &  & UA & C35 & 10 & 0.93641 & 0.01757 & 0.95873 & 0.01613 \\
+\bottomrule
+\end{tabular}%
+}
+\par\smallskip\footnotesize The fixed validation-NDCG reference IDs are 100\%: C30; 75\%: C35; 50\%: C35; 25\%: C34. Relative regret uses the corresponding reference test NDCG denominator; a near-zero denominator is flagged rather than replaced with an epsilon.
+\end{table}

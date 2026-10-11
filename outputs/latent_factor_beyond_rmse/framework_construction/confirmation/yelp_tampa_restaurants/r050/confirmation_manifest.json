@@ -1,0 +1,78 @@
+{
+  "claim_status": "exploratory_not_prospective",
+  "dataset": "yelp_tampa_restaurants",
+  "expected_runs": 5,
+  "framework_selection_sha256": "e69df87f5f5596078b1d63598e52e37641143f3026fa212e41e78636271164bf",
+  "historical_confirmation_manifest_sha256": "5d3cea681ac78d25cd768e0003b19d7977cd05880902d19de141df2587a228d2",
+  "observed_runs": 5,
+  "retention_label": "r050",
+  "runs": [
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed601/test_per_user.parquet",
+      "per_user_sha256": "66b760f549f1b176c53a8aa7dff2a579d50fcaed2975f3f69bf23bdc80ff664a",
+      "regularization": 0.01,
+      "seed": 601,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed601/summary.json",
+      "summary_sha256": "bcc6a705055ceb01d696535d28aebafc41055e7dcc9c24ea67a10a9f1d5619b6"
+    },
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed701/test_per_user.parquet",
+      "per_user_sha256": "81b3165d25269de7f40ca96eeb44d63d88ff0d7b28b47e037866f6f4c2de4f06",
+      "regularization": 0.01,
+      "seed": 701,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed701/summary.json",
+      "summary_sha256": "e370988f4674542c5615caf7b2b54a6e3504d9745df1e9d3a41136d07145df2a"
+    },
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed809/test_per_user.parquet",
+      "per_user_sha256": "cb7f2d861b8b122168aed12698afe20e8368ed7badacba569149214a0e244b26",
+      "regularization": 0.01,
+      "seed": 809,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed809/summary.json",
+      "summary_sha256": "3864fb4ec6c506eef4b64c5d9fe27af4be370be6cf1c8561e3e2a9134c7db520"
+    },
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed907/test_per_user.parquet",
+      "per_user_sha256": "70b96b7a4accb4e0c96a384b1325d8bd85b95b296cc97e4c55b354f720284462",
+      "regularization": 0.01,
+      "seed": 907,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed907/summary.json",
+      "summary_sha256": "caedaa2bbd9fc29298a81eedb318842b9dacadc1dbc5ef7f17ce58fc204e86ba"
+    },
+    {
+      "dimension": 64,
+      "evidence_source": "new_post_confirmation_fit",
+      "per_user_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed1009/test_per_user.parquet",
+      "per_user_sha256": "a2d56b78031e3454a3264e3b860b50b297af677da80e9f4e8322eae8a7fc6f74",
+      "regularization": 0.01,
+      "seed": 1009,
+      "selection_roles": [
+        "framework_selected"
+      ],
+      "summary_path": "outputs/latent_factor_beyond_rmse/framework_construction/confirmation/yelp_tampa_restaurants/r050/d64_lambda0.01_seed1009/summary.json",
+      "summary_sha256": "d8513adf6a13c56e62f9ec61314ea8207adfafca318692386e7520aaaee2cc85"
+    }
+  ],
+  "schema_version": 1,
+  "stage": "post_confirmation_framework_construction"
+}

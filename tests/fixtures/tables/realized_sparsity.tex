@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering
+\caption{Realized controlled sparsity conditions. Repair rows preserve the full training item catalog without inspecting held-out identities.}
+\label{tab:realized-sparsity}
+\small
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Dataset & Nominal & Train rows & Realized & Items & Repair rows & Min. user degree \\
+\midrule
+MovieLens 1M & 100\% & 696,213 & 100\% & 3,260 & 0 & 11 \\
+ & 75\% & 522,971 & 75.12\% & 3,260 & 0 & 8 \\
+ & 50\% & 349,560 & 50.21\% & 3,260 & 4 & 6 \\
+ & 25\% & 174,871 & 25.12\% & 3,260 & 29 & 3 \\
+\addlinespace
+CiaoDVD & 100\% & 6,695 & 100\% & 533 & 0 & 7 \\
+ & 75\% & 5,047 & 75.38\% & 533 & 0 & 5 \\
+ & 50\% & 3,489 & 52.11\% & 533 & 3 & 4 \\
+ & 25\% & 1,968 & 29.40\% & 533 & 41 & 3 \\
+\addlinespace
+Yelp--Tampa & 100\% & 65,774 & 100\% & 1,725 & 0 & 7 \\
+ & 75\% & 49,513 & 75.28\% & 1,725 & 2 & 5 \\
+ & 50\% & 34,080 & 51.81\% & 1,725 & 9 & 4 \\
+ & 25\% & 18,587 & 28.26\% & 1,725 & 57 & 3 \\
+\bottomrule
+\end{tabular}
+\end{table}

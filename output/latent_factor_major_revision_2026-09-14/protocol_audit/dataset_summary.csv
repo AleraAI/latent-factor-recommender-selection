@@ -1,0 +1,5 @@
+dataset,display_name,stage,raw_or_scoped_rows,deduplicated_rows,processed_rows,processed_users,processed_items,processed_density
+movielens_1m,MovieLens 1M,construction,1000209,1000209,998539,6040,3260,0.05071197131597124
+ciaodvd,CiaoDVD,construction,72665,72345,9822,442,534,0.04161370684834003
+yelp_tampa_restaurants,Yelp--Tampa,construction,303232,293136,96189,3797,1734,0.014609512335817842
+epinions,Epinions,prospective_external,922267,912441,352598,12168,11283,0.0025682426588486762

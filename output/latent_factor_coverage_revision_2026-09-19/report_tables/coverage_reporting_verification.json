@@ -1,0 +1,89 @@
+{
+  "source_sha256": {
+    "selection_outcomes.csv": "8db793236540425f6b4fd93913cec20cd0042ecf14af54ae125cf0d58eb09287",
+    "paired_test_contrasts.csv": "9bad1c548ef508fceb0b64961afb4d224f41960e3caa4218a3b688750b97fc5d"
+  },
+  "source_rows": {
+    "selection_outcomes": 256,
+    "paired_test_contrasts": 384
+  },
+  "derived_rows": {
+    "reference_regrets": 128,
+    "ablation_intervals": 7,
+    "adverse_point_comparisons": 2
+  },
+  "source_inputs_unchanged": true,
+  "fits_run": 0,
+  "bootstraps_run": 0,
+  "epinions_ua_margin_001_ndcg_range_unrounded": [
+    0.002064704907250157,
+    0.0025241607071049737
+  ],
+  "epinions_ua_margin_001_ndcg_range_five_decimals": [
+    "0.00206",
+    "0.00252"
+  ],
+  "ciao_full_retention_margin_010_ua": {
+    "dataset": "ciaodvd",
+    "retention": "r100",
+    "margin": 0.01,
+    "selector": "ua",
+    "configuration_id": "d4_lambda0.1",
+    "reference_id": "d64_lambda0.1",
+    "admissible_count": 23,
+    "validation_mean_regret": 0.0036274025948717,
+    "validation_uncertainty_penalty": 0.0041312629468575,
+    "validation_upper_regret": 0.0077586655417292,
+    "test_ndcg": 0.011644523416412516,
+    "reference_test_ndcg": 0.024404240415630656,
+    "test_global_rmse": 0.9456699843347607,
+    "reference_test_global_rmse": 0.9564830170199408,
+    "test_ndcg_regret_reference_minus_selected": 0.01275971699921814,
+    "test_ndcg_regret_ci_low": 0.00721962243150774,
+    "test_ndcg_regret_ci_high": 0.018716741245086516,
+    "relative_ndcg_regret_percent": 52.284835675711825,
+    "point_regret_exceeds_margin": true,
+    "two_sided_95_ci_upper_exceeds_margin": true,
+    "global_rmse_selected_minus_reference": -0.01081303268518008,
+    "global_rmse_selected_minus_reference_ci_low": -0.019711467279925503,
+    "global_rmse_selected_minus_reference_ci_high": -0.0017908256420045927,
+    "interval_target": "fixed-fit paired user bootstrap, not simultaneous or retraining uncertainty",
+    "evidence_stage": "revision_stage_sensitivity"
+  },
+  "exceedance_counts": [
+    {
+      "margin": 0.001,
+      "conditions_per_rule": 16,
+      "ua_point_exceedances": 0,
+      "ua_two_sided_95_ci_upper_exceedances": 0,
+      "mean_point_exceedances": 2,
+      "mean_two_sided_95_ci_upper_exceedances": 3
+    },
+    {
+      "margin": 0.0025,
+      "conditions_per_rule": 16,
+      "ua_point_exceedances": 0,
+      "ua_two_sided_95_ci_upper_exceedances": 0,
+      "mean_point_exceedances": 2,
+      "mean_two_sided_95_ci_upper_exceedances": 3
+    },
+    {
+      "margin": 0.005,
+      "conditions_per_rule": 16,
+      "ua_point_exceedances": 0,
+      "ua_two_sided_95_ci_upper_exceedances": 1,
+      "mean_point_exceedances": 1,
+      "mean_two_sided_95_ci_upper_exceedances": 5
+    },
+    {
+      "margin": 0.01,
+      "conditions_per_rule": 16,
+      "ua_point_exceedances": 1,
+      "ua_two_sided_95_ci_upper_exceedances": 1,
+      "mean_point_exceedances": 1,
+      "mean_two_sided_95_ci_upper_exceedances": 1
+    }
+  ],
+  "interval_provenance": "Stored two-sided .025/.975 percentile endpoints copied from paired_test_contrasts.csv; NDCG endpoints reversed only when negating comparator-minus-UA to UA-minus-mean.",
+  "relative_effect_definition": "100 * (NDCG-selected reference test NDCG - selected test NDCG) / reference test NDCG; signed point ratio, no new ratio inference."
+}

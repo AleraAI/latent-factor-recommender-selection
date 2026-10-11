@@ -1,0 +1,73 @@
+{
+  "dataset": "movielens_1m",
+  "expected_bias_runs": 25,
+  "observed_bias_runs": 25,
+  "popularity_summary": "outputs/latent_factor_beyond_rmse/baseline_development/movielens_1m/r050/popularity/summary.json",
+  "retention_label": "r050",
+  "schema_version": 1,
+  "selection": {
+    "configuration_table": [
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.0011490008639307649,
+        "mean_validation_rmse": 0.9205869868761717,
+        "regularization": 0.0,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.001244129812706576,
+        "std_validation_rmse": 8.5169266620732e-05
+      },
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.0011490008639307649,
+        "mean_validation_rmse": 0.9205845544385325,
+        "regularization": 0.0001,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.001244129812706576,
+        "std_validation_rmse": 8.514925010894592e-05
+      },
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.0006798063690534862,
+        "mean_validation_rmse": 0.920562947433662,
+        "regularization": 0.001,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.0003489217717559096,
+        "std_validation_rmse": 8.49713303695158e-05
+      },
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.000667902192492101,
+        "mean_validation_rmse": 0.9203744357711325,
+        "regularization": 0.01,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.00033812863361162106,
+        "std_validation_rmse": 8.321830468025954e-05
+      },
+      {
+        "dimension": 0,
+        "mean_validation_ndcg_at_10": 0.0009223659122175072,
+        "mean_validation_rmse": 0.9206938333523998,
+        "regularization": 0.1,
+        "seeds": 5,
+        "std_validation_ndcg_at_10": 0.0010796515523164418,
+        "std_validation_rmse": 7.187091097649135e-05
+      }
+    ],
+    "ndcg_selected": {
+      "dimension": 0,
+      "mean_validation_ndcg@10": 0.0011490008639307649,
+      "mean_validation_rmse": 0.9205845544385325,
+      "regularization": 0.0001,
+      "selection_seed_count": 5
+    },
+    "rmse_selected": {
+      "dimension": 0,
+      "mean_validation_ndcg@10": 0.000667902192492101,
+      "mean_validation_rmse": 0.9203744357711325,
+      "regularization": 0.01,
+      "selection_seed_count": 5
+    },
+    "same_configuration": false
+  },
+  "stage": "baseline_development_validation_only"
+}

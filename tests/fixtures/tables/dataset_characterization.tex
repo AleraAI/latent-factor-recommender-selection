@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\caption{Machine-generated preprocessing and chronological split statistics. Raw denotes the full source for MovieLens and CiaoDVD and the predeclared Tampa restaurant scope for Yelp. Density is computed after iterative 10-core filtering.}
+\label{tab:processed-datasets}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\toprule
+Dataset & Raw & Dedup. & Users & Items & 10-core & Density & Train & Valid. & Test \\
+\midrule
+MovieLens 1M & 1,000,209 & 1,000,209 & 6,040 & 3,260 & 998,539 & 5.071\% & 696,213 & 149,688 & 152,638 \\
+CiaoDVD & 72,665 & 72,345 & 442 & 534 & 9,822 & 4.161\% & 6,695 & 1,457 & 1,670 \\
+Yelp--Tampa & 303,232 & 293,136 & 3,797 & 1,734 & 96,189 & 1.461\% & 65,774 & 14,305 & 16,110 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

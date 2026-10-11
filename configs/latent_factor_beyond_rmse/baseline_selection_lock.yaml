@@ -1,0 +1,174 @@
+schema_version: 1
+status: locked_before_baseline_test_access
+scientific_role: non_latent_reference_baselines
+development_conditions: 12
+development_bias_runs: 300
+selection_seeds:
+- 101
+- 211
+- 307
+- 401
+- 503
+confirmation_seeds:
+- 601
+- 701
+- 809
+- 907
+- 1009
+popularity_rule:
+  score: count_of_retained_training_ratings_at_least_4
+  tie_break: ascending_item_id
+  stochastic: false
+  tuned_hyperparameters: none
+locked_input_sha256:
+  datasets_yaml: 981ca3c135a4ea57666b26275c99570b4d57b2486363e366bba7c6dbb0009abb
+  baseline_modeling_yaml: 74603de19245afb03c4d29f8eb0a56151044e86484c1d2c10b7c6a071e6ee533
+  baseline_confirmation_yaml: 436df55a207f71c7dfc972031c06da1954de45b04ddad5e95e238a3cdb2c6632
+selections:
+  movielens_1m:
+    r100:
+      selection_sha256: ef647c1eaed73201581fb3edb7e31e50c13c971cd2c3f265add7528d612a0902
+      popularity_validation_summary_sha256: 984698dbaab0f829e46db8c5925d813ddedc7cef4eb2fbd5b9c0771144f5a0e2
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.01
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+    r075:
+      selection_sha256: 2a0ee09d941b26d7ab6bc8f366eac474b8ebb604696e9a03cda409589ce86a7f
+      popularity_validation_summary_sha256: acc745b1c8a940a035e1633217dac4c7b9a4a8ec8354332d2780afefd8adbdf5
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.01
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+    r050:
+      selection_sha256: 878453fe565b9a0d64cc9fc9771f3bd336b8a8015439045b3a11356e94554fea
+      popularity_validation_summary_sha256: 27612113ddc063e511ebc6b862be238efee320f2dba2e7dc522c788d03556da5
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.01
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.0001
+        selection_seed_count: 5
+    r025:
+      selection_sha256: 0ecd09e6632f20d58f3e0c7103250f286816dcaeb277236471dcf19b7f76eac6
+      popularity_validation_summary_sha256: 704a23958d6020a18f4a68fe689f2ee612f28526f866a3f687457a8ad505948e
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.0001
+        selection_seed_count: 5
+  ciaodvd:
+    r100:
+      selection_sha256: 1d685a3a0b9ef0ffcd1669f8b5db2eff313505b98c46f242d56aa55c4e8d5776
+      popularity_validation_summary_sha256: 0d228f490a06bf3108a88ffdbb824250641d7efad797a9969750f0dae6f486bb
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.0
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.01
+        selection_seed_count: 5
+    r075:
+      selection_sha256: 648a495df07b41c8e571876561bbd19de5ea43ef15d20a5abe094b6d4163b5fe
+      popularity_validation_summary_sha256: 79fc381d9631a66461a261177401d7eadd2ddadec2e0d93a2e8a6f08f371d9be
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.0
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.001
+        selection_seed_count: 5
+    r050:
+      selection_sha256: 572f9994a1fdbaf64d8178cffbab357ae0bd2b158a52d052de618ed92f9aaaa9
+      popularity_validation_summary_sha256: 2439e68dd1bd4b4ab92bdee74452737dfb8b5ca622698905c8567a7c8432fad6
+      same_configuration: true
+      rmse_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+    r025:
+      selection_sha256: eae3ba70a741a96e11e0b08116e6dcf54a7ba1353a1dca28e7e8d1d644b245e0
+      popularity_validation_summary_sha256: 44ef1c30bcb527b16d1010aa7e62faa4d4f986f309aacf8e85976bd3729c092e
+      same_configuration: true
+      rmse_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+  yelp_tampa_restaurants:
+    r100:
+      selection_sha256: 2eaad0134858189128b86a7bca15df2cbba4d3cdb24d16a8616f050b44dc964f
+      popularity_validation_summary_sha256: 3c3eabc90dc0dfea190fea9f04f0e94ec01f9ea3288bd6ca993f97e09abd2061
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.01
+        selection_seed_count: 5
+    r075:
+      selection_sha256: 3a61fd9bb60feb5d58076848e1c2754bd8065dcbae8187c208c840de6a40f116
+      popularity_validation_summary_sha256: 70a8b759ab1db76330f9ae234874a9ddfbf56ad95f9828f6b0ea5a0b13b35473
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.001
+        selection_seed_count: 5
+    r050:
+      selection_sha256: 1a1df3edb6dad1e73bafb0c411c888f23d2bcb79be8927f95058f0223a409a5c
+      popularity_validation_summary_sha256: c67ef232d0621089863a2880aa314e9ad69b99882161d89983735dddeaf177af
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.0001
+        selection_seed_count: 5
+    r025:
+      selection_sha256: 46b5aa9688a9ed750bead8658c8b85cecd06020ad7e69add5ef166f909f7fc25
+      popularity_validation_summary_sha256: b3c7bb5e5441e9afc7e77ecdd79b1aee234876d3d214ab258a6615d384123573
+      same_configuration: false
+      rmse_selected:
+        dimension: 0
+        regularization: 0.1
+        selection_seed_count: 5
+      ndcg_selected:
+        dimension: 0
+        regularization: 0.0
+        selection_seed_count: 5

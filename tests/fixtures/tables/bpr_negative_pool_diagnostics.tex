@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Post-confirmation diagnostics for the fixed configuration retained explicit negative sensitivity. Pool size is the median [5th,95th percentile] number of distinct retained ratings below four among positive training users with at least one such item. Users without an explicit negative pool fall back to retained unobserved sampling. Fallback triplet weights those users by their number of positive training events. Sampling is with replacement; expected unique is the expectation over the selected 100-epoch sampling schedule, not a separately logged realized count.}
+\label{tab:bpr-negative-pool-diagnostics}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Dataset & Ret. & Pool med. [$q_{.05},q_{.95}$] & Fallback users & Fallback triplets & Expected unique & $m$ \\
+\midrule
+MovieLens 1M & 100\% & 21 [4,182] & 0.3\% & 0.1\% & 21.0 & 5 \\
+ & 75\% & 16 [3,137] & 0.6\% & 0.2\% & 16.0 & 3 \\
+ & 50\% & 11 [2,92] & 1.2\% & 0.5\% & 11.0 & 5 \\
+ & 25\% & 6 [1,47] & 5.3\% & 2.2\% & 6.0 & 5 \\
+\addlinespace
+CiaoDVD & 100\% & 3 [1,14] & 16.1\% & 13.6\% & 3.0 & 5 \\
+ & 75\% & 2 [1,12] & 23.1\% & 19.3\% & 2.0 & 5 \\
+ & 50\% & 2 [1,7] & 28.9\% & 27.5\% & 2.0 & 3 \\
+ & 25\% & 1 [1,4] & 44.1\% & 44.7\% & 1.0 & 1 \\
+\addlinespace
+Yelp--Tampa & 100\% & 4 [1,16] & 11.0\% & 8.7\% & 4.0 & 5 \\
+ & 75\% & 3 [1,12] & 14.7\% & 11.6\% & 3.0 & 3 \\
+ & 50\% & 2 [1,9] & 22.0\% & 18.8\% & 2.0 & 1 \\
+ & 25\% & 1 [1,5] & 35.3\% & 35.6\% & 1.0 & 1 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

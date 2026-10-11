@@ -1,0 +1,33 @@
+\begin{table}[H]
+\centering
+\caption{Revision-stage uncertainty ablation at the original absolute margin $\delta=0.005$. Mean and UA use identical RMSE objectives and tie-breaking; only UA adds the paired-seed uncertainty penalty. Configuration aliases follow Supplementary Section 5; $|A|$ is the admissible-set size. Test differences are UA minus mean-constrained selection, averaged over five per-model-seed metrics. Positive NDCG and negative global RMSE differences favor UA on their respective endpoints; these need not agree. Global RMSE is event-weighted within each seed, not mean-user RMSE. All 16 paired comparisons have complete five-seed held-out evaluations. Corresponding paired fixed-model user-bootstrap 95\% intervals and all identities are in the full CSV report.}
+\label{tab:uncertainty-ablation}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llccrrrr@{}}
+\toprule
+Dataset & Retention & Mean ID & UA ID & $|A_{\rm mean}|$ & $|A_{\rm UA}|$ & $\Delta$ NDCG@10 & $\Delta$ global RMSE \\
+\midrule
+MovieLens 1M & 100\% & C25 & C25 & 11 & 11 & 0.00000 & 0.00000 \\
+ & 75\% & C25 & C25 & 4 & 4 & 0.00000 & 0.00000 \\
+ & 50\% & C35 & C35 & 6 & 3 & 0.00000 & 0.00000 \\
+ & 25\% & C35 & C35 & 5 & 5 & 0.00000 & 0.00000 \\
+\addlinespace
+CiaoDVD & 100\% & C15 & C35 & 24 & 5 & +0.01276 & +0.01081 \\
+ & 75\% & C10 & C03 & 35 & 16 & -0.00044 & -0.00050 \\
+ & 50\% & C05 & C05 & 30 & 1 & 0.00000 & 0.00000 \\
+ & 25\% & C05 & C30 & 30 & 10 & +0.00541 & +0.01338 \\
+\addlinespace
+Yelp--Tampa & 100\% & C35 & C34 & 14 & 11 & +0.00330 & +0.05686 \\
+ & 75\% & C35 & C34 & 12 & 8 & +0.00305 & +0.04590 \\
+ & 50\% & C35 & C34 & 21 & 16 & +0.00277 & +0.03373 \\
+ & 25\% & C35 & C34 & 31 & 27 & +0.00087 & +0.01898 \\
+\addlinespace
+Epinions & 100\% & C35 & C35 & 35 & 35 & 0.00000 & 0.00000 \\
+ & 75\% & C35 & C35 & 35 & 35 & 0.00000 & 0.00000 \\
+ & 50\% & C35 & C35 & 35 & 35 & 0.00000 & 0.00000 \\
+ & 25\% & C35 & C35 & 35 & 35 & 0.00000 & 0.00000 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
